@@ -1,0 +1,8 @@
+.sectionPadding {
+    padding: 100px 0px;
+    scroll-margin-top: 100px;
+  
+    @media (max-width: 1200px) {
+      padding: 80px 0px;
+    }
+  }
