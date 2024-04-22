@@ -1,3 +1,5 @@
+import BorderBtn from '@/common/borderBtn'
+import PrimeBtn from '@/common/primeBtn'
 import Image from 'next/image'
 import React from 'react'
 
@@ -15,10 +17,10 @@ const HomeSection1 = () => {
             </h2>
             <p>Remove unwanted online content quickly and efficiently.
               If we {"don't"} succeed, you {"don't"} pay.</p>
-              <div className=''>
-              <button>Get a free qoute</button>
-              <button className='border_btn ms-3'>Request a call</button>
-              </div>
+            <div className='mt-5'>
+              <PrimeBtn btnName="Get a free qoute" />
+              <BorderBtn btnName={"Request a call"}/>
+            </div>
           </div>
         </div>
       </div>
