@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import "../assets/style/customStyle.scss"
+import "./../../public/assets/style/customStyle.scss"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import HeaderNavbar from "./header/header";
 import Footer from "./footer/footer";
@@ -20,6 +20,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
+
     <html>
       <body>
         <HeaderNavbar />

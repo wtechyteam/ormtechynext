@@ -1,5 +1,7 @@
 import Image from 'next/image'
-import React from 'react'
+import React from 'react';
+import banner from "./../../../public/images/Hero-Image.webp";
+
 
 const HomeSection1 = () => {
   return (
@@ -7,7 +9,11 @@ const HomeSection1 = () => {
       <div className="container">
         <div className={`row align-items-center flex-row-reverse`}>
           <div className="col-md-6 mb-5 mb-md-0 text-center">
-            <Image width={610} height={600} src={"/images/Hero-Image.webp"} alt='side-img' />
+            <Image 
+              loading='lazy'
+              src={banner} 
+              alt='side-img' 
+            />
           </div>
           <div className="col-md-6 hero_heading">
             <h2 className='title-xl fw-bold '>
