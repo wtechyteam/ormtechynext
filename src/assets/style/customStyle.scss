@@ -31,7 +31,7 @@
   max-width: 1000px !important;
 }
 
-.bg_white {
+.bg_gray {
   background-color: var(--bg-color2);
 }
 
@@ -41,6 +41,22 @@
 
 .white_font {
   color: #fff;
+}
+
+.dark_font {
+  color: var(--text-color-dark) !important;
+}
+
+.font_700 {
+  font-weight: 700 !important;
+}
+
+.text_20 {
+  font-size: 20px !important;
+}
+
+.text_24 {
+  font-size: 24px ;
 }
 
 .title_section {
@@ -120,7 +136,7 @@
   }
 
   .img_row {
-    padding: 20px 10px;
+    padding: 29px 10px;
   }
 
   .marquee_img {
@@ -131,6 +147,7 @@
     max-height: 60px;
   }
 }
+
 .marquee_card {
   background: #fff;
   width: 360px;
@@ -138,13 +155,22 @@
   border-radius: 4px;
   box-shadow: 0px 10px 60px rgba(3, 17, 44, .15);
   padding: 20px;
+  margin: 0 10px;
   color: var(--text-color-dark);
   height: 100%;
+
+  .card_profile_img {
+    max-width: 40px;
+    height: 40px;
+    background-position: center;
+    object-fit: cover;
+    border-radius: 100px;
+  }
 
   h5 {
     font-size: 16px;
     font-weight: 700;
-    margin-bottom: 4px;
+    margin-bottom: 10px;
   }
 
   span {
@@ -180,13 +206,14 @@
   border-radius: 5px;
   margin: 10px;
   font-size: 18px;
+  text-transform: capitalize;
   font-weight: 600;
   border: 1px solid #fff;
-  transition: all ease-in-out 0.3s;
+  transition: all 0.3s;
 
   &:hover {
-    background-color: #fff;
-    color: #052c47;
+    background-image: var(--bg-color1);
+    color: var(--bg-color3);
   }
 }
 
@@ -197,3 +224,41 @@
 }
 
 // ********************end**************************
+.info_wrap_content h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--text-color-dark);
+  line-height: 62.5px;
+  margin-bottom: 30px;
+}
+
+.info_wrap_content p {
+  color: var(--text-color-dark);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  -webkit-font-smoothing: antialiased;
+  font-family: "DM Sans", "Noto Sans", helvetica, arial, sans-serif;
+}
+
+.divider {
+  background-color: var(--bg-color2);
+  width: 2px;
+  height: 40px;
+  margin: 5px 20px;
+  opacity: 0.8;
+}
+
+// ***********************blur-bacground****************************
+.image_bg {
+  background-image: url("/images/fixed-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.content_bg { 
+  backdrop-filter: blur(10px);
+}  
+  
+
+// *****************************************************************

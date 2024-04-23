@@ -7,6 +7,7 @@ import HomeSection3 from './homeSection3'
 import HomeSection4 from './homeSection4'
 import HomeSection5 from './homeSection5'
 import HomeSection6 from './homeSection6'
+import HomeSection7 from './homeSection7'
 
 const HomePage = () => {
   return (
@@ -17,6 +18,7 @@ const HomePage = () => {
       <HomeSection4 />
       <HomeSection5 />
       <HomeSection6 />
+      <HomeSection7 />
     </>
   )
 }
