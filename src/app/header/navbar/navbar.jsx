@@ -17,20 +17,21 @@ const HeaderInner = () => {
   return (
     <div className="navWrap" >
       <nav className={isMenuOpen && 'xxxxxxxxxxxxxxx'}>
-        <ul >
+        <ul className="navList">
           <li className={pathname == "/" ? "active" : ""} >
-            <Link href="/" replace scroll={true}>Home </Link>
+            <Link className="navLink" href="/" replace scroll={true}>Home </Link>
           </li>
           <li className={pathname == "/about" ? "active" : ""} >
-            <Link href="/about" replace> About</Link>
+            <Link className="navLink" href="/about" replace> About</Link>
           </li>
-          <li>
-            <Link href="/services">Services
-            </Link>
+          <li className={pathname == "/services" ? "active" : ""}>
+            <Link className="navLink" href="/services">Services</Link>
           </li>
-          <li>
-            <Link href="/contact">Contact
-            </Link>
+          <li className={pathname == "/contact" ? "active" : ""}>
+            <Link className="navLink" href="/contact">Contact</Link>
+          </li>
+          <li className={pathname == "/contact" ? "active" : ""}>
+            <Link className="navButton" href="/contact">Get a Quote</Link>
           </li>
         </ul>
       </nav>

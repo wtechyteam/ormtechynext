@@ -53,19 +53,41 @@
     }
 }
 
-.navWrap ul{
-    display: flex;
-    align-items: center;
-    list-style: none;
-    padding: 0;
-    grid-gap: 50px;
-    font-weight: 500;
-    margin: 0;
-}
+.navWrap{
+    .navList{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+        grid-gap: 50px;
+        font-weight: 500;
+        margin: 0;
+        .navLink{
+            text-decoration: none;
+            font-weight: 600;
+            color: #fff;
+        }
+        .navButton{
+            background-color: var(--secondary);
+            color: #fff;
+            padding: 15px 25px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+    }
+} 
 
 
 .siteHeader {
     position: fixed;
     width: 100vw;
     padding: 25px 0px;
+    transition: all ease-in-out .3s;
+    z-index: 100;
+    &.sticky{
+        background: var(--primary);
+        padding: 15px 0px;
+    }
 }
+
