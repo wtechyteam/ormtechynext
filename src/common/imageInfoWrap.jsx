@@ -3,9 +3,8 @@ import PrimeBtn from './primeBtn'
 import Image from 'next/image'
 import BorderBtn from './borderBtn'
 
-const ImageInfoWrap = ({ title, description, imageUrl, isReverse, showPrimeBtn, customClass,primeBtnName,borderBtnName, subTitle, darkButton }) => {
+const ImageInfoWrap = ({ title, description, imageUrl, isReverse, showPrimeBtn ,primeBtnName,borderBtnName, subTitle, darkButton }) => {
     return (
-        <section className={`sectionPadding ${customClass}`}>
             <div className="container">
                 <div className={`row align-items-center ${isReverse && 'flex-row-reverse'}`}>
                     <div className="col-md-6 mb-5 mb-md-0 text-center">
@@ -25,7 +24,6 @@ const ImageInfoWrap = ({ title, description, imageUrl, isReverse, showPrimeBtn, 
                     </div>
                 </div>
             </div>
-        </section>
     )
 }
 

@@ -4,12 +4,12 @@ import Marquee from 'react-fast-marquee'
 
 const Marquees = ({ mapData, dataType, mSpeed, title, pauseOnHover }) => {
     return (
-        <div className='image_bg d-flex'>
+            <div className=' d-flex'>
             {title === true && <p className='d-flex align-items-center justify-content-center'>Featured In</p>}
             <Marquee speed={mSpeed} pauseOnHover={pauseOnHover === true ? true : false}>
                 {mapData && mapData?.map((item, index) => {
                     return (
-                        <div className='img_row content_bg' key={index}>
+                        <div className='img_row ' key={index}>
                             {dataType === "image" && <Image className='marquee_img' width={"100"} height={"100"} src={item.img} alt='img' />}
                             {dataType === "card" &&
                                 <div className='marquee_card'>
@@ -32,7 +32,8 @@ const Marquees = ({ mapData, dataType, mSpeed, title, pauseOnHover }) => {
                 })}
 
             </Marquee>
-        </div>
+            </div>
+           
     )
 }
 

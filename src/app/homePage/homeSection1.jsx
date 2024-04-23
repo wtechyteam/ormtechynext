@@ -12,7 +12,7 @@ const HomeSection1 = () => {
         <div className={`row align-items-center flex-row-reverse`}>
           <div className="col-md-6 mb-5 mb-md-0 text-center">
             <Image 
-            className='hero_img'
+            className='hero_img fluid-img'
               loading='lazy'
               src={banner} 
               alt='side-img' 

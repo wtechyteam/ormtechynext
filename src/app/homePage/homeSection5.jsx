@@ -10,7 +10,7 @@ import BorderBtn from '@/common/borderBtn';
 
 const HomeSection5 = () => {
     return (
-        <section className='sectionPadding'>
+        <section className='sectionPadding bg_white'>
             <Container>
                 <Row>
                     <Col md={12} className='center_content'>

@@ -8,7 +8,7 @@ import { brandBoxData } from '../data/brandBox'
 
 const HomeSection3 = () => {
     return (
-        <section className='sectionPadding bg_gray'>
+        <section className='sectionPadding bg_white'>
             <Container>
                 <Row>
                     <Col md={12}>
