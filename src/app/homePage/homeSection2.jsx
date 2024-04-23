@@ -1,8 +1,14 @@
 import React from 'react'
+import { marqueeImages } from '../data/marqueeData'
+import Marquees from '../marquee'
 
 const HomeSection2 = () => {
   return (
-    <div>HomeSection2</div>
+    <>
+      <section className='white_bg'>
+      <Marquees title={true} mapData={marqueeImages} dataType="image" />
+      </section>
+    </>
   )
 }
 
