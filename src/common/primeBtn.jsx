@@ -1,8 +1,11 @@
 import React from 'react'
+import { FaArrowRight } from "react-icons/fa";
 
 const PrimeBtn = ({btnName}) => {
   return (
-    <button className='prime_btn'>{btnName}</button>
+    <button className='prime_btn text-18'>
+      {btnName}<FaArrowRight className='ms-2' />
+    </button>
   )
 }
 

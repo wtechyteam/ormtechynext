@@ -5,15 +5,15 @@ const HomeSection7 = () => {
     return (
         <section className='sectionPadding bg_gray'>
             <ImageInfoWrap
-            title={'An Experienced Team'}
-            subTitle={'Trust in our proven combination of the most experienced team and cutting-edge technology.'}
-            imageUrl={"/images/side-img-2.webp"}
-            showPrimeBtn={true}
-            primeBtnName={"about us"}
-            borderBtnName={"faq"}
-            darkButton="dark_btn"
-            description={'<p> If you’re suffering from unwanted online content and feeling powerless to fight back, you’re not alone. Everyone with a phone or laptop has been given the power to post damaging reviews, articles, images and videos to the internet unchecked.</p><p>The technology for sharing content has advanced so quickly that even a child can do it – whereas the ability to remove online content simply hasn’t developed at the same pace.</p><p>Equipped with the experience of removing thousands of pieces of content and empowered by our unique artificial intelligence platform, we can effectively remove unwanted online content with a simple but powerful promise: if we don’t succeed, you don’t pay.</p>'}
-        />
+                title={'What Sets ORM Techies Apart?'}
+                subTitle={'At ORM Techies, we pride ourselves on offering complete Online Reputation Management services that go beyond mere monitoring.'}
+                imageUrl={"/images/side-img-2.webp"}
+                showPrimeBtn={true}
+                primeBtnName={"about us"}
+                borderBtnName={"faq"}
+                darkButton="dark_btn"
+                description={"<p>Our team of experts is dedicated to crafting personalized strategies that address the specific needs of each client. Whether you're an individual seeking to improve your personal brand or a business aiming to safeguard its reputation, ORM Techies has got you covered.</p><p>Our dedication to excellence has earned us recognition and awards within the industry. As leaders in the field of ORM, we continually strive to set new standards of excellence and innovation.</p>"}
+            />
         </section>
     )
 }

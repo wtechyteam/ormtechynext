@@ -1,42 +1,35 @@
 export const brandBoxData = [
     {
         logo: "/images/Google-logo.png",
-        name: "Google"
+        name: "Glassdoor"
     },
     {
         logo: "/images/Google-logo.png",
-        name: "Dell"
+        name: "Google My"
     },
     {
         logo: "/images/Google-logo.png",
-        name: "Google"
+        name: "Mouthshut"
     },
     {
         logo: "/images/Google-logo.png",
-        name: "dell"
+        name: "Trustpilot"
     },
     {
         logo: "/images/Google-logo.png",
-        name: "Google"
+        name: "Quora"
     },
     {
         logo: "/images/Google-logo.png",
-        name: "dell"
+        name: "Indeed"
     },
     {
         logo: "/images/Google-logo.png",
-        name: "Google"
+        name: "AmbitionBox"
     },
     {
         logo: "/images/Google-logo.png",
-        name: "Google"
+        name: "TimesJob"
     },
-    {
-        logo: "/images/Google-logo.png",
-        name: "dell"
-    },
-    {
-        logo: "/images/Google-logo.png",
-        name: "Google"
-    },
+    
 ]
