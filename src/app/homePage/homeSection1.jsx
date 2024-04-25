@@ -13,7 +13,7 @@ const HomeSection1 = () => {
         <div className={`row align-items-center flex-row-reverse`}>
           <div className="col-lg-6 mb-5 mb-md-5 text-center ">
             <Image
-              className='responsive_img padding_img'
+              className='responsive_img padding_hero_img'
               loading='lazy'
               src={banner}
               alt='side-img'

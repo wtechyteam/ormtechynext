@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { brandBoxData } from '../data/brandBox';
-import Image from 'next/image';
+import Image from "next/image";
 
 
 const Dashboard = () => {

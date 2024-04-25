@@ -16,6 +16,10 @@
   @media (max-width: 1200px) {
     padding: 80px 0px;
   }
+
+  @media (max-width: 767.98px) {
+    padding: 60px 0px;
+  }
 }
 
 .top_padding {
@@ -82,6 +86,7 @@
       font-size: 14px;
     }
   }
+
   &-18 {
     font-size: 18px;
 
@@ -105,7 +110,8 @@
       font-size: 16px;
     }
   }
-  &-24{
+
+  &-24 {
     font-size: 24px;
 
     @media (max-width: 1400px) {
@@ -205,8 +211,18 @@
     margin-bottom: 30px;
   }
 }
-.padding_img{
+
+.padding_hero_img {
   padding: 40px;
+}
+
+.padding_img {
+  padding: 30px;
+
+  @media (max-width: 1200px) {
+    padding: 0%;
+
+  }
 }
 
 // *****************************end***********************************
@@ -304,13 +320,30 @@
 .marquee_card {
   background: #fff;
   width: 360px;
-  height: auto;
+  height: 190px;
   border-radius: 4px;
   box-shadow: 0px 10px 60px rgba(3, 17, 44, .15);
   padding: 20px;
   margin: 0 10px;
   color: var(--text-color-dark);
   max-height: 100%;
+  transition: height 0.7s ease-out;
+  -moz-transition: height 0.7s ease-out;
+  /* Firefox 4 */
+  -webkit-transition: height 0.7s ease-out;
+  /* Safari 和 Chrome */
+  -o-transition: height 0.7s ease-out;
+  /* Opera */
+
+  &:hover {
+    height: 300px;
+    transition: height 0.7s ease-out;
+  }
+
+  &:hover span {
+    -webkit-line-clamp: initial;
+    transition: height 0.7s ease-out;
+  }
 
   .card_profile_img {
     max-width: 40px;
@@ -327,6 +360,12 @@
   span {
     font-size: 14px;
     margin-bottom: 0;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    transition: all ease-in-out 0.4s;
+
   }
 }
 
@@ -346,8 +385,12 @@
   &:hover {
     background-color: #ee3326;
   }
+
   @media (max-width: 1200px) {
     padding: 10px 18px;
+  }
+  @media (max-width: 767.98px) {
+    padding: 6px 12px;
   }
 }
 
@@ -362,9 +405,10 @@
   transition: all 0.4s;
 
   &:hover {
-    background-color:#053247;
+    background-color: #053247;
     color: var(--bg-color3);
   }
+
   @media (max-width: 1200px) {
     padding: 10px 18px;
   }
@@ -472,19 +516,27 @@
   justify-content: center;
   align-items: center;
 }
-.time_icon{
+
+.time_icon {
   width: 40px;
   height: 40px;
   background-color: #3fa757;
   padding: 2px;
   color: #fff;
   border-radius: 100px;
- margin-right: 15px;
+  margin-right: 15px;
+
+  @media (max-width: 767.98px) {
+    width: 30px;
+    height: 30px;
+  }
 }
-.close_icon{
+
+.close_icon {
   background-color: #e84f4f;
 }
-.v_line{
+
+.v_line {
   width: 1px;
   height: 70px;
   background-color: #cecfcf;

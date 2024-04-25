@@ -10,17 +10,17 @@ const HomeSection8 = () => {
               <h2 className='title-xl text-center dark_font font_700 mb-5'>Case Studies</h2>
                 <Tabs aria-label="Basic tabs" defaultValue={0}>
                     <TabList className="tab_list item_center pt-0 pb-0">
-                        <Tab className="tab_name">
+                        <Tab className="tab_name text-18">
                             <Image className='tab_img' width={100} height={100} src={"/images/Google_Maps_icon_2020.png"} alt='icon' />
-                            google maps
+                            <span className='text-center'>google maps</span>
                         </Tab>
-                        <Tab className="tab_name">
+                        <Tab className="tab_name text-18">
                             <Image className='tab_img' width={100} height={100} src={"/images/Glassdoor.png"} alt='icon' />
-                            glassdoor
+                            <span className='text-center'>glassdoor</span>
                         </Tab>
-                        <Tab className="tab_name right_border">
+                        <Tab className="tab_name text-18 right_border">
                             <Image className='tab_img' width={100} height={100} src={"/images/product-icon.png"} alt='icon' />
-                            product review
+                            <span className='text-center'>product review</span>
                         </Tab>
                     </TabList>
                     <TabPanel value={0}>

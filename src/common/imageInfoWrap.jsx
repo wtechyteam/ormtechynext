@@ -12,7 +12,7 @@ const ImageInfoWrap = ({ title, description, imageUrl, isReverse, showPrimeBtn, 
                 <div className="col-lg-6 mb-5 mb-md-5 text-center">
                     <Image
                         width={610} height={600}
-                        className='responsive_img padding_img'
+                        className='responsive_img padding_img '
                         loading='lazy'
                         src={imageUrl}
                         alt='side-img'
@@ -31,7 +31,7 @@ const ImageInfoWrap = ({ title, description, imageUrl, isReverse, showPrimeBtn, 
                         </div>
                     )}
                     {iconData === true && (
-                        <div className='mt-5 d-flex gap-3'>
+                        <div className='mt-5 d-flex flex-wrap gap-3'>
                             <div className='d-flex '>
                                 <IoIosTimer className='time_icon' />
                                 <div>
