@@ -11,7 +11,8 @@ const Marquees = ({ mapData, dataType, mSpeed, title, pauseOnHover }) => {
                     return (
                         <div className='img_row ' key={index}>
                             {/* *************************image-logo-marquee*********************** */}
-                            {dataType === "image" && <Image className='marquee_img' width={100} height={100} src={item.imgLogo} alt='img' />}
+                            {dataType === "image" && <Image style={{ width: "auto", height: "auto" }} className='marquee_img' 
+                            width={100} height={100} src={item.imgLogo} alt='img' />}
                             {/* -------------------------------------------------------------------- */}
 
                             {/* *************************card-marquee*************************** */}

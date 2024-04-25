@@ -13,6 +13,8 @@ const HomeSection1 = () => {
         <div className={`row align-items-center flex-row-reverse`}>
           <div className="col-lg-6 mb-5 mb-md-5 text-center ">
             <Image
+            width={1000}
+            height={1000}
               className='responsive_img padding_hero_img'
               loading='lazy'
               src={banner}
@@ -29,7 +31,7 @@ const HomeSection1 = () => {
               <BorderBtn btnName={"Request a call"} />
             </div>
             <div className='d-flex flex-wrap gap-3 my-5'>
-              <Image className='add_img' src={addImage1} alt='add' />
+              <Image width={1000} height={1000} className='add_img' src={addImage1} alt='add' />
               <Image className='add_img' src={addImage1} alt='add' />
             </div>
           </div>

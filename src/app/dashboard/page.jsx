@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { brandBoxData } from '../data/brandBox';
+import  brandBoxData from '../data/brandBox';
 import Image from "next/image";
 
 

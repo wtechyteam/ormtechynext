@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation';
 import { Drawer } from "@mui/material";
 import { IoIosArrowDown } from "react-icons/io";
 import { HiOutlineMenuAlt1 } from "react-icons/hi";
-import { headerData } from "@/app/data/headerData";
+import { headerData } from "../../data/headerData";
 import Image from "next/image";
 
 const HeaderInner = () => {
@@ -46,7 +46,7 @@ const HeaderInner = () => {
             return (
               <>
                 <li
-                  key={index}
+                  key={item.id}
                   className={(pathname == item.link) ? "active" : ""}
                   onMouseEnter={() => handleParentNavHover(index)}
                   onMouseLeave={handleParentNavLeave}
@@ -60,7 +60,7 @@ const HeaderInner = () => {
                       <div className="megaMenuWrapper position-relative">
                         {item.subMenu.map((menuItem, index) => (
                           <>
-                            <div key={index} className="hover_box_layout">
+                            <div key={menuItem.id} className="hover_box_layout">
                               <div className=" tab_box_col" lg={4}>
                                 <div
                                   className="child_hover_btn "
@@ -100,7 +100,6 @@ const HeaderInner = () => {
           })}
         </ul>
       </nav>
-
 
       {/* ******************toggle-menu******************** */}
       <div onClick={toggleMenu}><HiOutlineMenuAlt1 className="menu_toggle_btn" /></div>
