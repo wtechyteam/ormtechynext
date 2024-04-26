@@ -5,8 +5,8 @@ import { usePathname } from 'next/navigation';
 import { Drawer } from "@mui/material";
 import { IoIosArrowDown } from "react-icons/io";
 import { HiOutlineMenuAlt1 } from "react-icons/hi";
-import { headerData } from "../../data/headerData";
 import Image from "next/image";
+import { headerData } from "@/app/data/headerData";
 
 const HeaderInner = () => {
 
@@ -24,14 +24,14 @@ const HeaderInner = () => {
   const handleParentNavHover = (index) => {
     setActiveLink(index);
   };
-
   const handleParentNavLeave = () => {
     setActiveLink(null);
   };
+
+
   const handleChildNavHover = (index) => {
     setActiveSubHover(index);
   };
-
   const handleChildNavLeave = () => {
     setActiveSubHover(null);
   };
@@ -39,7 +39,6 @@ const HeaderInner = () => {
 
   return (
     <div className="navWrap item_center position-relative" >
-
       <nav className="nav_items">
         <ul className="navList">
           {headerData && headerData?.map((item, index) => {
@@ -93,18 +92,16 @@ const HeaderInner = () => {
                     </div>
                   )}
                   {/* ----------------------------------------------------------- */}
-
                 </li>
               </>
             )
           })}
         </ul>
       </nav>
-
       {/* ******************toggle-menu******************** */}
       <div onClick={toggleMenu}><HiOutlineMenuAlt1 className="menu_toggle_btn" /></div>
       <Drawer open={isMenuOpen} onClose={toggleMenu}>
-        hello
+        hellog gs gssdg g 
       </Drawer>
       {/*------------------------------------------------------*/}
     </div>

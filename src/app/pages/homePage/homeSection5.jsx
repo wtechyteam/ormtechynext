@@ -113,19 +113,19 @@ const HomeSection5 = () => {
                         <Col lg={6} md={12} className='margin_top_992'>
                             <TabPanel className='px-0' value={0}>
                                 <div className='text-center'>
-                                    <Image className='responsive_img' width={610} height={400} src={"/images/tab-image1.webp"} alt='icon' />
+                                    <Image style={{ width: "auto", height: "auto" }} className='responsive_img' width={610} height={400} src={"/images/tab-image1.webp"} alt='icon' />
                                     <PrimeBtn btnName={"remove content"} />
                                 </div>
                             </TabPanel>
                             <TabPanel className='px-0' value={1}>
                                 <div className='text-center'>
-                                    <Image className='responsive_img' width={610} height={400} src={"/images/tab-image2.webp"} alt='icon' />
+                                    <Image style={{ width: "auto", height: "auto" }} className='responsive_img' width={610} height={400} src={"/images/tab-image2.webp"} alt='icon' />
                                     <BorderBtn darkBtn={"dark_btn"} btnName={"about amplify"} />
                                 </div>
                             </TabPanel>
                             <TabPanel className='px-0' value={2}>
                                 <div className='text-center'>
-                                <Image className='responsive_img' width={610} height={400} src={"/images/tab-image1.webp"} alt='icon' />
+                                <Image style={{ width: "auto", height: "auto" }} className='responsive_img' width={610} height={400} src={"/images/tab-image1.webp"} alt='icon' />
                                 <PrimeBtn btnName={"learn more"} />
                                 </div>
                             </TabPanel>
