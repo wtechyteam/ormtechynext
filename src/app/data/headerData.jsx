@@ -28,28 +28,28 @@ export const headerData = [
                 info:"Remove & suppress negative search results",
                 subLinks: [
                     {
-                        id: 1,
+                        id: 100,
                         icon:"/images/Google-logo.png",
                         title: "search engine ",
                         subtitle:"search optimization",
                         link: "service/search-engine-optimization"
                     },
                     {
-                        id: 2,
+                        id: 200,
                         icon:"/images/Google-logo.png",
                         title: "social media ",
                         subtitle:"engine-optimization",
                         link: "service/social-media-optimization"
                     },
                     {
-                        id: 3,
+                        id: 300,
                         icon:"/images/Google-logo.png",
                         title: "google ads ",
                         subtitle:"search-engine",
                         link: "service/google-ads-management"
                     },
                     {
-                        id: 4,
+                        id: 400,
                         icon:"/images/Google-logo.png",
                         title: "content ",
                         subtitle:"search-optimization",
@@ -64,28 +64,28 @@ export const headerData = [
                 info:"Remove & suppress negative results",
                 subLinks: [
                     {
-                        id: 7,
+                        id: 700,
                         icon:"/images/Google-logo.png",
                         title: "Amazon Store ",
                         subtitle:"search-optimization",
                         link: "service/amazon-store-management"
                     },
                     {
-                        id: 8,
+                        id: 800,
                         icon:"/images/Google-logo.png",
                         title: "Ebay Store ",
                         subtitle:"engine-optimization",
                         link: "service/ebay-store-management"
                     },
                     {
-                        id: 9,
+                        id: 900,
                         icon:"/images/Google-logo.png",
                         title: "Shopify Store ",
                         subtitle:"search-engine",
                         link: "service/shopify-store-management"
                     },
                     {
-                        id: 10,
+                        id: 1000,
                         icon:"/images/Google-logo.png",
                         title: "Custom E-Commerce Store ",
                         subtitle:"search optimization",

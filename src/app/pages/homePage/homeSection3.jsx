@@ -1,10 +1,9 @@
+import { brandBoxData } from '@/app/data/brandBox'
 import BorderBtn from '@/app/pages/common/borderBtn'
 import PrimeBtn from '@/app/pages/common/primeBtn'
-import { Box } from '@mui/material'
 import Image from 'next/image'
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import { brandBoxData } from '../../data/brandBox'
 
 const HomeSection3 = () => {
     return (

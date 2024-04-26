@@ -13,7 +13,7 @@ const HomeSection9 = () => {
                     <PrimeBtn btnName={"get a free quote"} />
                     <BorderBtn btnName={"request a call"} />
                 </div>
-                <BgCard/>
+                <BgCard />
             </Container>
 
         </section>
