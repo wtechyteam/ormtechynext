@@ -2,7 +2,7 @@ import React from 'react'
 
 const BorderBtn = ({btnName, darkBtn}) => {
   return (
-    <button className={`border_btn ${darkBtn}`}>{btnName}</button>
+    <button className={`border_btn text-18 ${darkBtn}`}>{btnName}</button>
   )
 }
 

@@ -1,11 +1,9 @@
-import AboutPage from "./aboutPage";
-import HomePage from "./homePage";
+import HomePage from "./pages/homePage";
 
 export default function Home() {
   return (
     <>
       <HomePage />
-      <AboutPage />
     </>
   );
 }
