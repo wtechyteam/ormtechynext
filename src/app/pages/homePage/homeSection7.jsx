@@ -1,4 +1,4 @@
-import ImageInfoWrap from '@/common/imageInfoWrap'
+import ImageInfoWrap from '@/app/pages/common/imageInfoWrap'
 import React from 'react'
 
 const HomeSection7 = () => {

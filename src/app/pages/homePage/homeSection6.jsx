@@ -1,6 +1,6 @@
 import React from 'react'
 import Marquees from '../marquee'
-import { marqueeCardData } from '../data/marqueeData'
+import { marqueeCardData } from '../../data/marqueeData'
 import Image from 'next/image'
 
 const HomeSection6 = () => {

@@ -1,9 +1,9 @@
-import BorderBtn from '@/common/borderBtn'
-import PrimeBtn from '@/common/primeBtn'
+import BorderBtn from '@/app/pages/common/borderBtn'
+import PrimeBtn from '@/app/pages/common/primeBtn'
 import Image from 'next/image'
 import React from 'react';
-import banner from "./../../../public/images/Hero-Image.webp";
-import addImage1 from "./../../../public/images/add-img-1.png";
+import banner from "../../../../public/images/Hero-Image.webp";
+import addImage1 from "../../../../public/images/add-img-1.png";
 
 
 const HomeSection1 = () => {

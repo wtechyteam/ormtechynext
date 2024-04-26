@@ -5,8 +5,8 @@ import Tab from '@mui/joy/Tab';
 import TabPanel from '@mui/joy/TabPanel';
 import Image from 'next/image';
 import { Col, Container, Row } from 'react-bootstrap';
-import PrimeBtn from '@/common/primeBtn';
-import BorderBtn from '@/common/borderBtn';
+import PrimeBtn from '@/app/pages/common/primeBtn';
+import BorderBtn from '@/app/pages/common/borderBtn';
 import { Tooltip } from '@mui/joy';
 import { Box } from '@mui/material';
 
