@@ -1,7 +1,7 @@
 export const headerData = [
     {
         id: 1,
-        title: "home",
+        title: "Home",
         link: "/",
         metaTitle: 'WTechy: Digital Marketing Agency | Website Development, SEO',
         metaDescription: 'We maximize your business potential',
@@ -9,14 +9,14 @@ export const headerData = [
     {
         id: 2,
         title: "About",
-        link: "about-agency",
+        link: "/pages/aboutPage",
         metaTitle: 'About Agency - WTechy',
         metaDescription: 'We maximize your business potential'
     },
     {
         id: 3,
         title: "Services",
-        link: "/service",
+        link: "/pages/service",
         ServiceClass: "active_service",
         menuType: "submenu",
         metaTitle: 'service df',
@@ -197,7 +197,7 @@ export const headerData = [
     {
         id: 4,
         title: "Contact",
-        link: "contact",
+        link: "/pages/contact",
     },
     {
         id: 5,

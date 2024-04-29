@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "prebuild": "node build-utilities/generate-robots.js",
+    "build": "node build-utilities/generate-sitemap.js && next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -19,8 +20,11 @@
     "react-bootstrap": "^2.10.2",
     "react-dom": "^18",
     "react-fast-marquee": "^1.6.4",
+    "react-helmet": "^6.1.0",
     "react-icons": "^5.1.0",
-    "sass": "^1.75.0"
+    "sass": "^1.75.0",
+    "sharp": "^0.33.3",
+    "sitemap": "^7.1.1"
   },
   "devDependencies": {
     "eslint": "^8",

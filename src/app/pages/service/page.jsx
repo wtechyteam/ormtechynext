@@ -1,11 +1,11 @@
-import React from "react"
+import * as React from 'react';
 
-const AboutPage = () => {
+const ServicePage = () => {
     return (
         <div className='banner_top sectionPadding item_center title-xl white_font'>
-            About Page Data
+         ServicePage
         </div>
     )
 }
 
-export default AboutPage
+export default ServicePage
