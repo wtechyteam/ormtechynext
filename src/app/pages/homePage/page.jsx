@@ -1,4 +1,5 @@
-import React from 'react'
+ "use client"
+ import React from 'react'
 import "./homePageStyle.scss"
 import HomeSection1 from './homeSection1'
 import HomeSection2 from './homeSection2'
