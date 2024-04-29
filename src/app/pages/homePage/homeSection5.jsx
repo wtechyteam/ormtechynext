@@ -25,6 +25,7 @@ const HomeSection5 = () => {
                 <Tabs
                     aria-label="Vertical tabs"
                     orientation="vertical"
+                    className='side_custom_tabs'
                 >
                     <Row>
                         <Col lg={6} md={12}>

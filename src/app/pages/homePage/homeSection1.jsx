@@ -15,6 +15,8 @@ const HomeSection1 = () => {
             <Image
               width={640}
               height={640}
+              placeholder='blur'
+              quality={100}
               className='responsive_img padding_hero_img'
               src={banner}
               alt='side-img'
@@ -31,8 +33,8 @@ const HomeSection1 = () => {
               <BorderBtn btnName={"Request a call"} />
             </div>
             <div className='d-flex flex-wrap gap-3 my-5'>
-              <Image width={1000} height={1000} className='add_img' src={addImage1} alt='add' />
-              <Image className='add_img' src={addImage1} alt='add' />
+              <Image placeholder='blur' quality={100} width={1000} height={1000} className='add_img' src={addImage1} alt='add' />
+              <Image placeholder='blur' quality={100} className='add_img' src={addImage1} alt='add' />
             </div>
           </div>
         </div>
