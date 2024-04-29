@@ -2,7 +2,7 @@ const fs = require('fs');
 const Sitemap = require('sitemap');
 const { getAllPosts } = require('./allPosts');
 
-const baseUrl = 'https://yourwebsite.com';
+const baseUrl = 'http://localhost:3000/';
 
 const generateSitemap = async () => {
     const posts = await getAllPosts(); // Implement this function to get all your posts/pages

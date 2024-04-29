@@ -11,7 +11,6 @@ import { headerData } from "@/app/data/headerData";
 const HeaderInner = () => {
 
   const pathname = usePathname();
-  console.log(pathname, "pathname")
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeLink, setActiveLink] = useState();
