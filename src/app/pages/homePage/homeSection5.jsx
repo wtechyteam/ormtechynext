@@ -121,7 +121,7 @@ const HomeSection5 = () => {
                             <TabPanel className='px-0' value={1}>
                                 <div className='text-center'>
                                     <Image style={{ width: "auto", height: "auto" }} className='responsive_img' width={610} height={400} src={"/images/tab-image2.webp"} alt='icon' title='Reputation Repair' />
-                                    <BorderBtn darkBtn={"dark_btn"} btnName={"about amplify"} />
+                                    <BorderBtn darkBtn={"dark_btn"} btnName={"about ORM Techies"} />
                                 </div>
                             </TabPanel>
                             <TabPanel className='px-0' value={2}>

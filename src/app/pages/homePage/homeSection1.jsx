@@ -8,7 +8,7 @@ import addImage1 from "../../../../public/images/add-img-1.png";
 
 const HomeSection1 = () => {
   return (
-    <section className={`sectionPadding2 pb-1 hero_banner`}>
+    <section className={`sectionPadding  hero_banner`}>
       <div className="container top_padding">
         <div className={`row align-items-center flex-row-reverse`}>
           <div className="col-lg-6 mb-5 mb-md-5 text-center ">
