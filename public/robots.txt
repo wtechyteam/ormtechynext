@@ -1,9 +1,0 @@
-user-agent:*
-     Disallow: /secret-page
-
-     # Allow crawler access
-User-agent: *
-Allow: /home
-
-User-agent: *
-Allow: /products
