@@ -2,7 +2,7 @@ export const headerData = [
     {
         id: 1,
         title: "Home",
-        link: "/",
+        link: "",
         metaTitle: 'WTechy: Digital Marketing Agency | Website Development, SEO',
         metaDescription: 'We maximize your business potential',
     },

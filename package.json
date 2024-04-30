@@ -2,10 +2,11 @@
   "name": "wtechy-next",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "build": "next build && mkdir out && cp -r .next out && cp -r public out/public",
+    "start": "NODE_ENV=production node server.js",
     "lint": "next lint"
   },
   "dependencies": {
@@ -14,16 +15,13 @@
     "@mui/joy": "^5.0.0-beta.32",
     "@mui/material": "^5.15.15",
     "bootstrap": "^5.3.3",
-    "next": "^14.2.3",
+    "next": "14.2.1",
     "react": "^18",
     "react-bootstrap": "^2.10.2",
     "react-dom": "^18",
     "react-fast-marquee": "^1.6.4",
-    "react-helmet-async": "^2.0.4",
     "react-icons": "^5.1.0",
-    "sass": "^1.75.0",
-    "sharp": "^0.33.3",
-    "sitemap": "^7.1.1"
+    "sass": "^1.75.0"
   },
   "devDependencies": {
     "eslint": "^8",

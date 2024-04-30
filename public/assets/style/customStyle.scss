@@ -9,6 +9,16 @@
   --bg-color3: #fff;
 }
 
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
 .sectionPadding {
   padding: 100px 0px;
   scroll-margin-top: 100px;
