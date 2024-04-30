@@ -1,9 +1,10 @@
 import React from "react"
+import InnerTopBanner from "../common/innerTopBanner"
 
 const AboutPage = () => {
     return (
-        <div className='image_bg d-flex'>
-            About Page Data
+        <div>
+            <InnerTopBanner/>
         </div>
     )
 }

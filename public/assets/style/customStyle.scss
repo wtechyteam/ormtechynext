@@ -585,8 +585,9 @@ img {
 
   &-title {
     position: absolute;
-    bottom: 60px;
-    left: 20px;
+    top: -45px;
+    left: 0px;
+    text-transform: capitalize;
   }
 
   &-profile_img {
@@ -624,3 +625,24 @@ img {
 }
 
 // ---------------------------------bg-card-end----------------------------
+.banner_top{
+  background-image: var(--bg-color1);
+  height: 400px;
+  width: 100%;
+}
+
+.fixed{
+  &-background{
+    background-image: url(/images/top-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    max-width: 100%;
+  }
+  &-content{
+    height: 400px;
+    backdrop-filter: blur(1px);
+    // background-color: rgba(5, 50, 71, 0.4156862745);
+    max-width: 100%;
+  }
+}

@@ -87,7 +87,7 @@
 
 .css-1q8wenp-JoyTab-root::after,
 .css-1mad5hb-JoyTab-root::after {
-    background-color: transparent;
+    background-color: transparent !important;
 }
 
 .css-64esqk-JoyTabPanel-root {
@@ -95,12 +95,12 @@
 }
 
 .css-6zeqf7-JoyTabs-root {
-    background-color: transparent;
+    background-color: transparent !important;
 }
 
 
 .custom_tab_design .css-d3v7oa-JoyTabs-root {
-    background-color: transparent;
+    background-color: transparent !important;
 }
 .custom_tab_design .css-64esqk-JoyTabPanel-root{
     @media (max-width: 1200px) {

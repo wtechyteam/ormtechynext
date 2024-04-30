@@ -12,22 +12,22 @@ const Marquees = ({ mapData, dataType, mSpeed, title, pauseOnHover }) => {
                         <div className='img_row ' key={index}>
                             {/* *************************image-logo-marquee*********************** */}
                             {dataType === "image" && <Image style={{ width: "auto", height: "auto" }} className='marquee_img' 
-                            width={100} height={100} src={item.imgLogo} alt='img' />}
+                            width={100} height={100} src={item.imgLogo} alt='company logo' title='company logo' />}
                             {/* -------------------------------------------------------------------- */}
 
                             {/* *************************card-marquee*************************** */}
                             {dataType === "card" &&
                                 <div className='marquee_card'>
                                     <h5 className='text-16 font_700'>
-                                        <Image className='card_profile_img me-3' width={100} height={100} src={item?.profileImage} alt='profile' />
+                                        <Image className='card_profile_img me-3' width={100} height={100} src={item?.profileImage} alt={item.title} title={item.title} />
                                         {item.title}
                                     </h5>
                                     <div className='mb-2 d-flex gap-2'>
-                                        <Image width={15} height={15} src={item.rating} alt='star' />
-                                        <Image width={15} height={15} src={item.rating} alt='star' />
-                                        <Image width={15} height={15} src={item.rating} alt='star' />
-                                        <Image width={15} height={15} src={item.rating} alt='star' />
-                                        <Image width={15} height={15} src={item.rating} alt='star' />
+                                        <Image width={15} height={15} src={item.rating} alt='star' title='star rating' />
+                                        <Image width={15} height={15} src={item.rating} alt='star' title='star rating' />
+                                        <Image width={15} height={15} src={item.rating} alt='star' title='star rating' />
+                                        <Image width={15} height={15} src={item.rating} alt='star' title='star rating' />
+                                        <Image width={15} height={15} src={item.rating} alt='star' title='star rating' />
                                     </div>
                                     <span>{item.textContent}</span>
                                 </div>
