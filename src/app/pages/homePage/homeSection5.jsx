@@ -31,7 +31,7 @@ const HomeSection5 = () => {
                         <Col lg={6} md={12}>
                             <TabList className="tab_list">
                                 <Tab className="tab_btns">
-                                    <Image width={40} height={40} src={"/images/hp.png"} alt='icon' />
+                                    <Image width={40} height={40} src={"/images/hp.png"} alt='icon' title='Personal Branding' />
                                     <div className='ms-2'>
                                         <h2>Personal Branding</h2>
                                         <Tooltip
@@ -114,20 +114,20 @@ const HomeSection5 = () => {
                         <Col lg={6} md={12} className='margin_top_992'>
                             <TabPanel className='px-0' value={0}>
                                 <div className='text-center'>
-                                    <Image style={{ width: "auto", height: "auto" }} className='responsive_img' width={610} height={400} src={"/images/tab-image1.webp"} alt='icon' />
+                                    <Image style={{ width: "auto", height: "auto" }} className='responsive_img' width={610} height={400} src={"/images/tab-image1.webp"} alt='icon' title='Personal Branding' />
                                     <PrimeBtn btnName={"remove content"} />
                                 </div>
                             </TabPanel>
                             <TabPanel className='px-0' value={1}>
                                 <div className='text-center'>
-                                    <Image style={{ width: "auto", height: "auto" }} className='responsive_img' width={610} height={400} src={"/images/tab-image2.webp"} alt='icon' />
+                                    <Image style={{ width: "auto", height: "auto" }} className='responsive_img' width={610} height={400} src={"/images/tab-image2.webp"} alt='icon' title='Reputation Repair' />
                                     <BorderBtn darkBtn={"dark_btn"} btnName={"about amplify"} />
                                 </div>
                             </TabPanel>
                             <TabPanel className='px-0' value={2}>
                                 <div className='text-center'>
-                                <Image style={{ width: "auto", height: "auto" }} className='responsive_img' width={610} height={400} src={"/images/tab-image1.webp"} alt='icon' />
-                                <PrimeBtn btnName={"learn more"} />
+                                    <Image style={{ width: "auto", height: "auto" }} className='responsive_img' width={610} height={400} src={"/images/tab-image1.webp"} alt='icon' title='Reputation Management' />
+                                    <PrimeBtn btnName={"learn more"} />
                                 </div>
                             </TabPanel>
                         </Col>

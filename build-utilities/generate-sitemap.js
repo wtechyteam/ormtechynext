@@ -2,13 +2,13 @@ const fs = require('fs');
 const Sitemap = require('sitemap');
 const { getAllPosts } = require('./allPosts');
 
-const baseUrl = 'http://localhost:3000/';
+const baseUrl = 'http://localhost:3000';
 
 const generateSitemap = async () => {
     const posts = await getAllPosts(); // Implement this function to get all your posts/pages
 
     const urls = posts.map(post => ({
-        url: `${baseUrl}/post/${post.id}`, // Customize the URL as per your project structure
+        url: `${baseUrl}/post/${post.id}`, // Assuming the posts have an 'id' property
         changefreq: 'weekly',
         priority: 0.7,
     }));

@@ -21,12 +21,10 @@ const HomeSection3 = () => {
                             <div className='d-flex flex-wrap brand_box_container justify-content-center'>
                                 {brandBoxData && brandBoxData?.map((item, index) => {
                                     return (
-                                        <>
-                                            <div key={index} className="brand_box">
-                                                <Image className=' brand_logo' width={60} height={60} src={item.logo} alt="png" />
-                                                <p>{item.name}</p>
-                                            </div>
-                                        </>
+                                        <div key={index} className="brand_box">
+                                            <Image className=' brand_logo' width={60} height={60} src={item.logo} alt={item.name} title={item.name} />
+                                            <p>{item.name}</p>
+                                        </div>
                                     )
                                 })}
                             </div>

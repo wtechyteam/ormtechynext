@@ -1,9 +1,10 @@
 import React from "react"
+import InnerTopBanner from "../common/innerTopBanner"
 
 const AboutPage = () => {
     return (
-        <div className='banner_top sectionPadding item_center title-xl white_font'>
-            About Page Data
+        <div>
+            <InnerTopBanner/>
         </div>
     )
 }

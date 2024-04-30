@@ -203,7 +203,7 @@ export const headerData = [
         id: 5,
         btnClass:"navButton",
         title: "Get a Quote",
-        link: "get-a-quote"
+        link: "/pages/getAQuote"
     }
 
 ]

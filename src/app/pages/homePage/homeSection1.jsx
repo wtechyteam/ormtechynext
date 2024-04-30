@@ -19,7 +19,8 @@ const HomeSection1 = () => {
               quality={100}
               className='responsive_img padding_hero_img'
               src={banner}
-              alt='side-img'
+              alt='Reputation Management Image'
+              title='Reputation Management Image'
               style={{ width: "auto", height: "auto" }}
             />
           </div>
@@ -33,8 +34,8 @@ const HomeSection1 = () => {
               <BorderBtn btnName={"Request a call"} />
             </div>
             <div className='d-flex flex-wrap gap-3 my-5'>
-              <Image placeholder='blur' quality={100} width={1000} height={1000} className='add_img' src={addImage1} alt='add' />
-              <Image placeholder='blur' quality={100} className='add_img' src={addImage1} alt='add' />
+              <Image placeholder='blur' quality={100} width={1000} height={1000} className='add_img' src={addImage1} alt='add' title='trending company' />
+              <Image placeholder='blur' quality={100} className='add_img' src={addImage1} alt='add' title='trending company' />
             </div>
           </div>
         </div>

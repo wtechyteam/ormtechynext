@@ -1,5 +1,7 @@
 const fs = require('fs');
 const path = require('path');
+// You may need to import a Markdown parser like 'gray-matter' if you want to parse front matter
+// const matter = require('gray-matter');
 
 const postsDirectory = path.join(process.cwd(), 'posts');
 
@@ -16,14 +18,12 @@ const getAllPosts = () => {
         const fullPath = path.join(postsDirectory, fileName);
         const fileContents = fs.readFileSync(fullPath, 'utf8');
 
-        // Parse fileContents to extract relevant data (e.g., title, content)
-        // Example: parse front matter if present in Markdown files
-        // const { data, content } = matter(fileContents);
-        
-        // Return an object with relevant data
         return {
             id: fileName.replace(/\.md$/, ''), // Assuming your file names are unique identifiers
             // Add other properties as needed (e.g., title, content, date)
+            // title: data.title,
+            // content: content,
+            // date: data.date,
         };
     });
 

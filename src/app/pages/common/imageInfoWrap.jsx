@@ -13,8 +13,8 @@ const ImageInfoWrap = ({ title, description, imageUrl, isReverse, showPrimeBtn, 
                     <Image
                         width={610} height={600}
                         className='responsive_img padding_img '
-                        loading='lazy'
                         src={imageUrl}
+                        title={title}
                         alt='side-img'
                     />
                 </div>
