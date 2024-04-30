@@ -615,24 +615,53 @@
 }
 
 // ---------------------------------bg-card-end----------------------------
-.banner_top{
+.banner_top {
   background-image: var(--bg-color1);
   height: 400px;
   width: 100%;
 }
 
-.fixed{
-  &-background{
-    background-image: url(/images/top-banner.jpg);
+.fixed {
+  &-background {
+    background-image: url(/images/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     max-width: 100%;
   }
-  &-content{
+
+  &-content {
     height: 400px;
     backdrop-filter: blur(1px);
     // background-color: rgba(5, 50, 71, 0.4156862745);
     max-width: 100%;
   }
 }
+
+// *******************inner-banner-start*********************
+.banner {
+  &-parent {
+    width: 100%;
+    height: 400px;
+    background-image: var(--bg-color1);
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  &-img_box {
+    width: 640px;
+    height: 400px;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 59% 100%, 0% 100%);
+    background-image: linear-gradient(to right, rgba(16, 137, 217, 0.355), rgba(33, 30, 38, 0.609)), url(/images/banner-1.jpg);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
+
+  &-content_max_width {
+    max-width: 51%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+// ---------------------------inner-banner-end-------------------------------
