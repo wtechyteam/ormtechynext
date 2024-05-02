@@ -1,18 +1,24 @@
 import React from 'react'
-import { Image } from 'react-bootstrap'
+import { Col, Row } from 'react-bootstrap'
 
-const InnerTopBanner = ({title, info}) => {
+const InnerTopBanner = ({ title, info }) => {
   return (
-    // <div className='fixed-background  '>
-    //     <div className='fixed-content sectionPadding item_center title-xl white_font'>hello</div>
-    // </div>
-    <div className='banner-parent'>
-      <div className='banner-img_box'></div>
-      <div className='sectionPadding banner-content_max_width '>
-        <h1 className='title-xl white_font font_700 mb-4 pt-4'>{title}</h1>
-        <p className='text-20 white_font'>{info}</p>
+
+    <section className='banner-parent position-relative'>
+      <div className='container'>
+        <div className='banner-img_box'></div>
+        <Row>
+          <Col xl={3} lg={0}></Col>
+          <Col xl={9} lg={12}>
+            <div className='sectionPadding banner-z_index position-relative'>
+              <h1 className='title-xl white_font font_700 mb-4 pt-4'>{title}</h1>
+              <p className='text-20 white_font'>{info}</p>
+            </div>
+          </Col>
+        </Row>
+
       </div>
-    </div>
+    </section>
   )
 }
 

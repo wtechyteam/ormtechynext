@@ -1,3 +1,5 @@
+import { Tooltip } from '@mui/joy'
+import { Box } from '@mui/material'
 import Image from 'next/image'
 import React from 'react'
 import Marquee from 'react-fast-marquee'
@@ -11,8 +13,8 @@ const Marquees = ({ mapData, dataType, mSpeed, title, pauseOnHover }) => {
                     return (
                         <div className='img_row ' key={index}>
                             {/* *************************image-logo-marquee*********************** */}
-                            {dataType === "image" && <Image style={{ width: "auto", height: "auto" }} className='marquee_img' 
-                            width={100} height={100} src={item.imgLogo} alt='company logo' title='company logo' />}
+                            {dataType === "image" && <Image style={{ width: "auto", height: "auto" }} className='marquee_img'
+                                width={100} height={100} src={item.imgLogo} alt='company logo' title='company logo' />}
                             {/* -------------------------------------------------------------------- */}
 
                             {/* *************************card-marquee*************************** */}
@@ -29,7 +31,27 @@ const Marquees = ({ mapData, dataType, mSpeed, title, pauseOnHover }) => {
                                         <Image width={15} height={15} src={item.rating} alt='star' title='star rating' />
                                         <Image width={15} height={15} src={item.rating} alt='star' title='star rating' />
                                     </div>
-                                    <span>{item.textContent}</span>
+
+                                    <Tooltip
+                                        placement="bottom-end"
+                                        variant="outlined"
+                                        arrow
+                                        title={
+                                            <Box
+                                                sx={{
+                                                    display: 'flex',
+                                                    flexDirection: 'column',
+                                                    maxWidth: 320,
+                                                    justifyContent: 'center',
+                                                    p: 1,
+                                                }}
+                                            >
+                                                {item.textContent}
+                                            </Box>
+                                        }
+                                    >
+                                        <span>{item.textContent}</span>
+                                    </Tooltip>
                                 </div>
                             }
                             {/* ------------------------------------------------------------------------ */}
