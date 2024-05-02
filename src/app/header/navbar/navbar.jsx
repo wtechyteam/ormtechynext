@@ -8,17 +8,33 @@ import { HiOutlineMenuAlt1 } from "react-icons/hi";
 import Image from "next/image";
 import { headerData } from "@/app/data/headerData";
 import { IoClose } from "react-icons/io5";
+import { Accordion, Dropdown, Offcanvas } from "react-bootstrap";
+import { FaArrowLeft } from "react-icons/fa6";
 
 const HeaderInner = () => {
 
   const pathname = usePathname();
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [serviceMenuOpen, setServiceMenuOpen] = useState(false);
   const [activeLink, setActiveLink] = useState();
+  const [serviceLink, setServiceLink] = useState();
   const [activeSubHover, setActiveSubHover] = useState(0);
+
+  const handleCloseAll=()=>{
+
+  }
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+    setServiceMenuOpen(false);
+  };
+  const serviceToggleMenuOpen = (id) => {
+    setServiceMenuOpen(true);
+    setServiceLink(id)
+  };
+  const serviceToggleMenuClose = () => {
+    setServiceMenuOpen(false);
   };
 
   //  ********************hover-function**********************
@@ -96,10 +112,12 @@ const HeaderInner = () => {
           })}
         </ul>
       </nav>
+
       {/* ******************toggle-menu******************** */}
-      <div onClick={toggleMenu}><HiOutlineMenuAlt1 className="menu_toggle_btn" /></div>
-      <Drawer open={isMenuOpen} onClose={toggleMenu}>
-        <span className="close_button"><IoClose onClick={toggleMenu} /></span>
+
+      <div onClick={()=>toggleMenu()}><HiOutlineMenuAlt1 className="menu_toggle_btn" /></div>
+      <Drawer open={isMenuOpen} onClose={()=>toggleMenu()}>
+        <span className="close_button"><IoClose onClick={()=>toggleMenu()} /></span>
         <nav className="mobile-menu">
           <ul className="mobile-nav_list">
             {headerData && headerData?.map((item, index) => {
@@ -107,16 +125,70 @@ const HeaderInner = () => {
                 <li
                   key={item.id}
                   className={(pathname == item.link) ? "mobile-active_menu" : ""}
-                  onMouseEnter={() => handleParentNavHover(index)}
-                  onMouseLeave={handleParentNavLeave}
+               
                 >
-                  <Link className={"nav_link"} href={item.link} replace scroll={true}>
-                    <span className="icon">{item.icon}</span>
-                    {item.title}
-                    {item.menuType ? <IoIosArrowDown className="ms-1" /> : null}
-                  </Link>
+
                   {/* ***********************hover-service-menu***************** */}
-                  {item.subMenu && activeLink === index && (
+                  {item.menuType ?
+                    <Accordion className="mobile-accordion_menu ">
+                      <Accordion.Item eventKey="0">
+                        <Accordion.Header><span className="mobile-icon mb-2">{item.icon}</span>{item.title}</Accordion.Header>
+                        <Accordion.Body>
+                          {item.subMenu.map((menuItem, index) => (
+                            <div key={menuItem.id} className="hover_box_layout">
+                              <div onClick={() => serviceToggleMenuOpen(menuItem.id)} className="">
+                                <h6 className="text-16 fw-semibold m-0">{menuItem.subTitle}</h6>
+                                <p className="text-16 ">{menuItem.info}</p>
+                              </div>
+
+                              {serviceLink === menuItem.id &&
+                                // <Drawer anchor={'top'} open={serviceMenuOpen} onClose={serviceToggleMenuClose}>
+                                //     <div onClick={serviceToggleMenuClose}>close</div>
+                                //     <>
+                                //       {menuItem.subLinks.map((item) => (
+                                //         <div className="child_hover_data" key={item.id}>
+                                //           <Image className="me-2" width={40} height={40} title={item.title} src={item.icon} alt={item.title} />
+                                //           <div>
+                                //             <h6 className="text-16 fw-semibold ">{item.title}</h6>
+                                //             <p className="text-16 mb-0">{item.subtitle}</p>
+                                //           </div>
+                                //         </div>
+                                //       ))}
+                                //     </>
+                                // </Drawer>
+                                <Offcanvas className="mobile-offcanvas" placement={'top'} show={serviceMenuOpen} onHide={serviceToggleMenuClose}>
+
+                                  <Offcanvas.Body className="p-2 pt-0">
+                                    <div className="close_bar d-flex align-items-center justify-content-between sticky-top mb-3">
+                                    <div className="green_text" onClick={serviceToggleMenuClose}><FaArrowLeft /> Back</div>
+                                    <span className="close_button"><IoClose onClick={()=>toggleMenu()} /></span>
+                                    </div>
+                                    <div className="d-flex flex-wrap gap-4 px-2 over_flow">
+                                      {menuItem.subLinks.map((item) => (
+                                        <div className="d-flex" key={item.id}>
+                                          <Image className="me-2" width={40} height={40} title={item.title} src={item.icon} alt={item.title} />
+                                          <div>
+                                            <h6 className="text-16 fw-semibold m-0">{item.title}</h6>
+                                            <p className="text-16 mb-0">{item.subtitle}</p>
+                                          </div>
+                                        </div>
+                                      ))}
+                                    </div>
+                                  </Offcanvas.Body>
+                                </Offcanvas>
+                              }
+
+                            </div>
+                          ))}
+                        </Accordion.Body>
+                      </Accordion.Item>
+                    </Accordion> :
+                    <Link className={"nav_link"} href={item.link} replace scroll={true}>
+                      <span className="mobile-icon">{item.icon}</span>
+                      {item.title}
+                    </Link>
+                  }
+                  {/* {item.subMenu && activeLink === index && (
                     <div className="hover_pouse_box">
                       <div className="megaMenuWrapper position-relative">
                         {item.subMenu.map((menuItem, index) => (
@@ -152,7 +224,7 @@ const HeaderInner = () => {
                         ))}
                       </div>
                     </div>
-                  )}
+                  )} */}
                   {/* ----------------------------------------------------------- */}
                 </li>
               )
