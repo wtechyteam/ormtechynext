@@ -52,19 +52,7 @@
 }
 
 .siteLogo {
-    background-color: #fff;
-    color: rgb(23, 77, 94);
-    padding: 14px 16px;
-    font-size: 20px;
-    font-weight: 700;
-    display: flex;
-    line-height: 16px;
-    flex-direction: column;
 
-    span {
-        font-size: 14px;
-        font-weight: 400;
-    }
 }
 
 .navWrap {
@@ -109,14 +97,14 @@
 .siteHeader {
     position: fixed;
     width: 100vw;
-    padding: 25px 0px;
+    padding: 10px 0px;
     transition: all ease-in-out .3s;
     z-index: 100;
-
+    background: #ffffff85;
     &.sticky {
         backdrop-filter: blur(8px);
-        background-image: linear-gradient(126.85deg, #1c05478a -36.13%, #027c9484 98.05%);
-        padding: 15px 0px;
+        background: #ffffff95;
+        padding: 10px 0px;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
 }
