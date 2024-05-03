@@ -93,19 +93,21 @@
     }
 }
 
-
+.orm_logo{
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
 .siteHeader {
     position: fixed;
     width: 100vw;
-    padding: 10px 0px;
+    padding: 25px 0px;
     transition: all ease-in-out .3s;
     z-index: 100;
-    background: #ffffff85;
     &.sticky {
         backdrop-filter: blur(8px);
-        background: #ffffff95;
-        padding: 10px 0px;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-image: linear-gradient(126.85deg, rgba(28, 5, 71, 0.5411764706) -36.13%, rgba(2, 124, 148, 0.5176470588) 98.05%);
+    padding: 15px 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
 }
 
@@ -188,7 +190,7 @@
         border-radius: 10px;
         display: flex;
         flex-wrap: wrap;
-        gap: 12px;
+        gap: 10px;
         overflow: auto;
         // background-color: var(--bg-color3);
 
@@ -226,12 +228,18 @@
     }
 
     .child_hover_data {
-        padding: 4px 12px;
+        padding: 6px 10px;
         // background-color: #026494;
         width: 230px;
+        border-radius: 6px;
         display: flex;
+        margin-left: 10px;
         align-items: center;
+        text-decoration: none;
         cursor: pointer;
+        &:hover{
+            background-color: var(--bg-color2);
+        }
 
         h6 {
             font-weight: 600;
@@ -254,6 +262,10 @@
             opacity: 0.6;
             line-height: 20px;
             margin: 0;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            width: 160px;
         }
 
     }
@@ -342,9 +354,33 @@
         }
         
     }
+    &-service_data_link{
+        width: 200px;
+        padding: 8px;
+        border-radius: 6px;
+        transition: all 0.3s;
+        &:hover{
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        }
+    }
+}
+.active_service_tab{
+    h6{
+        text-decoration: underline;
+    }
+    p{
+        text-decoration: underline;
+    }
 }
 .over_flow{
     overflow-y: auto;
+    padding: 16px 0;
+}
+.max_text_200{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 140px;
 }
 
 .close_button {

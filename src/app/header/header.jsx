@@ -28,7 +28,7 @@ const HeaderNavbar = ({ activeTab, setActiveTab }) => {
     <header className={`siteHeader ${isSticky ? 'sticky' : ''}`}>
       <div className="container d-flex justify-content-between align-items-center">
           <Link  className="siteLogo" href="/">
-            <Image width={150} src={siteLogo} title="ORM Techies" alt="ORM Techies" />
+            <Image className='orm_logo' width={100} src={siteLogo} title="ORM Techies" alt="ORM Techies" />
           </Link>
           <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
       </div>

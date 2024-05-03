@@ -11,7 +11,7 @@ export const brandBoxData = [
     },
     {
         id: 23,
-        logo: "/images/Google-logo.png",
+        logo: "/images/mouthshut-logo.png",
         name: "Mouthshut"
     },
     {
@@ -31,7 +31,7 @@ export const brandBoxData = [
     },
     {
         id: 27,
-        logo: "/images/ab-brand.png",
+        logo: "/images/ab-brand.svg",
         name: "AmbitionBox"
     },
     {
