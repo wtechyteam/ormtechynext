@@ -3,6 +3,9 @@ import React, { useEffect, useState } from 'react'
 import Navbar from './navbar/navbar'
 import "./headerStyle.scss";
 import Link from 'next/link';
+import siteLogo from "../../../public/images/ormLogo.svg";
+import Image from "next/image";
+
 
 const HeaderNavbar = ({ activeTab, setActiveTab }) => {
 
@@ -24,12 +27,10 @@ const HeaderNavbar = ({ activeTab, setActiveTab }) => {
 
     <header className={`siteHeader ${isSticky ? 'sticky' : ''}`}>
       <div className="container d-flex justify-content-between align-items-center">
-        <div className="siteLogo">
-          <Link href="/">
-            ORM <span>Techies</span>
+          <Link  className="siteLogo" href="/">
+            <Image width={150} src={siteLogo} title="ORM Techies" alt="ORM Techies" />
           </Link>
-        </div>
-        <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
+          <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
       </div>
 
     </header>
