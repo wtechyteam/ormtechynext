@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import Navbar from './navbar/navbar'
 import "./headerStyle.scss";
 import Link from 'next/link';
-import siteLogo from "../../../public/images/ormLogo.svg";
+import siteLogo from "../../../public/images/ORMLogoNew.svg";
 import Image from "next/image";
 
 

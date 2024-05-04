@@ -2,9 +2,8 @@ import BorderBtn from '@/app/pages/common/borderBtn'
 import PrimeBtn from '@/app/pages/common/primeBtn'
 import Image from 'next/image'
 import React from 'react';
-import banner from "../../../../public/images/Hero-Image.webp";
+import banner from "../../../../public/images/homepage/Hero-Image.png";
 import addImage1 from "../../../../public/images/add-img-1.png";
-
 
 const HomeSection1 = () => {
   return (
@@ -25,10 +24,10 @@ const HomeSection1 = () => {
             />
           </div>
           <div className="col-lg-6 hero_heading">
-            <h2 className='title-xxl fw-bold white_font'>
+            <h2 className='title-xxl fw-bold text-white'>
               Your Trusted Partner in Online Reputation Management
             </h2>
-            <p className='title-sm white_font margin_bottom_40'> Take control of your online reputation. We offer customized ORM services for individuals and businesses. Shape your digital narrative now!</p>
+            <p className='title-sm text-white margin_bottom_40'> Take control of your online reputation. We offer customized ORM services for individuals and businesses. Shape your digital narrative now!</p>
             <div className='d-flex flex-wrap gap-3'>
               <PrimeBtn btnName="Get a free qoute" />
               <BorderBtn btnName={"Request a call"} />
