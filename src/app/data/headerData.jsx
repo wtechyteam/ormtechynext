@@ -41,28 +41,28 @@ export const headerData = [
                         icon: "/images/Google-logo.png",
                         title: "search engine ",
                         subtitle: "search optimization",
-                        link: "service/search-engine-optimization"
+                        slug: "/search-engine-optimization"
                     },
                     {
                         id: 200,
                         icon: "/images/Google-logo.png",
                         title: "social media ",
                         subtitle: "engine-optimization",
-                        link: "service/social-media-optimization"
+                        slug: "/social-media-optimization"
                     },
                     {
                         id: 300,
                         icon: "/images/Google-logo.png",
                         title: "google ads ",
                         subtitle: "search-engine",
-                        link: "service/google-ads-management"
+                        slug: "/google-ads-management"
                     },
                     {
                         id: 400,
                         icon: "/images/Google-logo.png",
                         title: "content ",
                         subtitle: "search-optimization",
-                        link: "service/content-marketing"
+                        slug: "/content-marketing"
                     }
                 ]
             },
@@ -77,91 +77,91 @@ export const headerData = [
                         icon: "/images/Google-logo.png",
                         title: "Amazon Store ",
                         subtitle: "search-optimization",
-                        link: "service/amazon-store-management"
+                        slug: "/amazon-strerore-management"
                     },
                     {
                         id: 800,
                         icon: "/images/Google-logo.png",
                         title: "Ebay Store ",
                         subtitle: "engine-optimization",
-                        link: "service/ebay-store-management"
+                        slug: "/ebay-store-manmhagement"
                     },
                     {
                         id: 900,
                         icon: "/images/Google-logo.png",
                         title: "Shopify Store ",
                         subtitle: "search-engine",
-                        link: "service/shopify-store-management"
+                        slug: "/shopify-stsdfore-management"
                     },
                     {
                         id: 1000,
                         icon: "/images/Google-logo.png",
                         title: "Custom E-Commerce Store ",
                         subtitle: "search optimization",
-                        link: "service/custom-e-commerce-store-management-2"
+                        slug: "/custom-e-comjgjmerce-store-management-2"
                     },
                     {
                         id: 71,
                         icon: "/images/Google-logo.png",
                         title: "Amazon Store ",
                         subtitle: "search-optimization",
-                        link: "service/amazon-store-management"
+                        slug: "/amazon-store-manjjagement"
                     },
                     {
                         id: 81,
                         icon: "/images/Google-logo.png",
                         title: "Ebay Store ",
                         subtitle: "engine-optimization",
-                        link: "service/ebay-store-management"
+                        slug: "/ebay-stsdore-management"
                     },
                     {
                         id: 91,
                         icon: "/images/Google-logo.png",
                         title: "Shopify Store ",
                         subtitle: "search-engine",
-                        link: "service/shopify-store-management"
+                        slug: "/shopify-sthgore-management"
                     },
                     {
                         id: 101,
                         icon: "/images/Google-logo.png",
                         title: "Custom E-Commerce Store ",
                         subtitle: "search optimization",
-                        link: "service/custom-e-commerce-store-management-2"
+                        slug: "/custom-e-commerce-stoghre-management-2"
                     },
                     {
                         id: 10001,
                         icon: "/images/Google-logo.png",
                         title: "Custom E-Commerce Store ",
                         subtitle: "search optimization",
-                        link: "service/custom-e-commerce-store-management-2"
+                        slug: "/custom-e-commerhgfhce-store-management-2"
                     },
                     {
                         id: 711,
                         icon: "/images/Google-logo.png",
                         title: "Amazon Store ",
                         subtitle: "search-optimization",
-                        link: "service/amazon-store-management"
+                        slug: "/amazon-stofdre-management"
                     },
                     {
                         id: 811,
                         icon: "/images/Google-logo.png",
                         title: "Ebay Store ",
                         subtitle: "engine-optimization",
-                        link: "service/ebay-store-management"
+                        slug: "/ebay-store-mahhnagement"
                     },
                     {
                         id: 911,
                         icon: "/images/Google-logo.png",
                         title: "Shopify Store ",
                         subtitle: "search-engine",
-                        link: "service/shopify-store-management"
+                        slug: "/shopify-stotretre-management"
                     },
                     {
                         id: 1011,
                         icon: "/images/Google-logo.png",
                         title: "Custom E-Commerce Store ",
                         subtitle: "search optimization",
-                        link: "service/custom-e-commerce-store-management-2"
+                        slug: "/custom-e-commeterce-store-management-2"
                     },
                 ]
             },
@@ -175,21 +175,21 @@ export const headerData = [
                         title: "Corporate",
                         icon: "/images/Google-logo.png",
                         subtitle: "search-engine",
-                        link: "service/repair-online-reputation-corporate"
+                        slug: "/repair-online-reputation-corporate"
                     },
                     {
                         id: 6,
                         title: "Personal",
                         icon: "/images/Google-logo.png",
                         subtitle: "search-engine",
-                        link: "service/repair-online-reputation-personal"
+                        slug: "/repair-online-repugtation-personal"
                     },
                     {
                         id: 61,
                         title: "Personal1",
                         icon: "/images/Google-logo.png",
                         subtitle: "search-engine",
-                        link: "service/repair-online-reputation-personal"
+                        slug: "/repair-online-reputation-personal"
                     },
                 ]
             },
