@@ -1,13 +1,3 @@
-:root {
-    --primary: #3B8AD2;
-    --secondary: #ff5042;
-    --tertiary: #51AFA7;
-    --white: #ffffff;
-    --text-color-dark: #053247;
-    --bg-color1: linear-gradient(126.85deg, #1c0547 -36.13%, #027c94 98.05%);
-    --bg-color2: #f7f7f8;
-    --bg-color3: #fff;
-}
 
 .header {
     width: 100%;
@@ -51,9 +41,6 @@
     background: linear-gradient(126.85deg, #052c47 -36.13%, #026494 98.05%);
 }
 
-.siteLogo {
-
-}
 
 .navWrap {
     .navList {
@@ -105,9 +92,15 @@
     z-index: 100;
     &.sticky {
         backdrop-filter: blur(8px);
+
+//         background: #ffffff95;
+//         padding: 10px 0px;
+//         background: rgba(0, 100, 148, .84) ;
+
     background-image: linear-gradient(126.85deg, rgba(28, 5, 71, 0.5411764706) -36.13%, rgba(2, 124, 148, 0.5176470588) 98.05%);
     padding: 15px 0px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
     }
 }
 

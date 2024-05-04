@@ -22,7 +22,7 @@ const ImageInfoWrap = ({ title, description, imageUrl, isReverse, showPrimeBtn, 
                     <h2 className='title-xl fw-bold '>
                         {title}
                     </h2>
-                    {subTitle && <p className='font_700 title-sm'>{subTitle}</p>}
+                    {subTitle && <p className='fw-bold title-sm'>{subTitle}</p>}
                     <div className='text-16' dangerouslySetInnerHTML={{ __html: description }}></div>
                     {showPrimeBtn && (
                         <div className='d-flex flex-wrap gap-3 mt-4'>

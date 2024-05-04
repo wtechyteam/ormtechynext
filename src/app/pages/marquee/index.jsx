@@ -20,7 +20,7 @@ const Marquees = ({ mapData, dataType, mSpeed, title, pauseOnHover }) => {
                             {/* *************************card-marquee*************************** */}
                             {dataType === "card" &&
                                 <div className='marquee_card'>
-                                    <h5 className='text-16 font_700'>
+                                    <h5 className='text-16 fw-bold'>
                                         <Image className='card_profile_img me-3' width={100} height={100} src={item?.profileImage} alt={item.title} title={item.title} />
                                         {item.title}
                                     </h5>

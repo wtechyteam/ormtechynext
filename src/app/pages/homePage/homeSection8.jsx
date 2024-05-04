@@ -7,7 +7,7 @@ const HomeSection8 = () => {
     return (
         <section className='sectionPadding'>
             <div className='custom_tab_design'>
-              <h2 className='title-xl text-center dark_font font_700 mb-5'>Case Studies</h2>
+              <h2 className='title-xl text-center dark_font fw-bold mb-5'>Case Studies</h2>
                 <Tabs aria-label="Basic tabs" defaultValue={0}>
                     <TabList className="tab_list item_center pt-0 pb-0">
                         <Tab className="tab_name text-18">
