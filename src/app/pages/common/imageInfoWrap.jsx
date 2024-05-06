@@ -5,11 +5,11 @@ import BorderBtn from './borderBtn'
 import { IoIosTimer } from "react-icons/io";
 import { IoClose } from "react-icons/io5";
 
-const ImageInfoWrap = ({ title, description, imageUrl, isReverse, showPrimeBtn, primeBtnName, borderBtnName, subTitle, darkButton, iconData, reviewData }) => {
+const ImageInfoWrap = ({ title, description, imageUrl, isReverse, showPrimeBtn, showBorderBtn, primeBtnName, borderBtnName, subTitle, darkButton, iconData, reviewData }) => {
     return (
         <div className="container">
             <div className={`row align-items-center ${isReverse && 'flex-row-reverse'}`}>
-                <div className="col-lg-6 mb-5 mb-md-5 text-center">
+                <div className="col-lg-6 mb-5 mb-lg-0 text-center">
                     <Image
                         width={610} height={600}
                         className='responsive_img padding_img '
@@ -24,12 +24,15 @@ const ImageInfoWrap = ({ title, description, imageUrl, isReverse, showPrimeBtn, 
                     </h2>
                     {subTitle && <p className='fw-bold title-sm'>{subTitle}</p>}
                     <div className='text-16' dangerouslySetInnerHTML={{ __html: description }}></div>
+                    <div className='d-flex flex-wrap gap-3 mt-4'>
                     {showPrimeBtn && (
-                        <div className='d-flex flex-wrap gap-3 mt-4'>
                             <PrimeBtn btnName={primeBtnName} />
+                        )}
+                        {showBorderBtn && (
                             <BorderBtn darkBtn={darkButton} btnName={borderBtnName} />
+                        )}
+                        
                         </div>
-                    )}
                     {iconData === true && (
                         <div className='mt-5 d-flex flex-wrap gap-3'>
                             <div className='d-flex '>

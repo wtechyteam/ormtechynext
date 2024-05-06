@@ -23,7 +23,7 @@ const Footer = () => {
   return (
     <footer className='siteFooter'>
       <div className="footer_top">
-        <div class="container">
+        <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-4">
               <Link className="siteLogo" href="/">
@@ -41,7 +41,7 @@ const Footer = () => {
           </div>
           <div className="row mt-5">
             <div className="col-lg-4">
-              <ul class="contactInfo">
+              <ul className="contactInfo">
                 <li>
                   <FaPhoneAlt />
                   <a href="tel:+91-6283857196" title="+91-6283857196">+91-6283857196</a><br></br>
@@ -57,7 +57,7 @@ const Footer = () => {
                 </li>
               </ul>
               <h4 className='footerTitle mt-5'>Follow us:</h4>
-              <ul class="socialMediaList">
+              <ul className="socialMediaList">
                 <li><a title="Facebook" href="https://www.facebook.com/wtechy/" target="_blank"  ><FaFacebookF /></a></li>
                 <li><a title="Linkedin" href="https://in.linkedin.com/company/wtechy" target="_blank"  ><FaLinkedinIn /></a></li>
                 <li><a title="Upwork" href="https://www.upwork.com/agencies/wtechy/" target="_blank" ><SiUpwork /></a></li>

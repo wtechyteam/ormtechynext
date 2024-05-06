@@ -204,6 +204,7 @@ export const headerData = [
     {
         id: 5,
         icon: <BsChatRightQuoteFill />,
+        target: "_blank",
         btnClass: "navButton",
         title: "Get a Quote",
         link: "/pages/getAQuote"

@@ -25,9 +25,9 @@ export default function RootLayout({ children }) {
             <link rel="canonical" href={pathname} />
             <meta name="robots" content="index, follow" />
           </Helmet>
-          <HeaderNavbar />
+          {pathname === "/pages/getAQuote" ? null : <HeaderNavbar />}
           {children}
-          <Footer />
+          {pathname === "/pages/getAQuote" ? null : <Footer />}
         </HelmetProvider>
       </body>
     </html>
