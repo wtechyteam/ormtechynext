@@ -114,7 +114,9 @@ const HeaderInner = () => {
       {/* ******************toggle-menu******************** */}
 
       <div onClick={() => toggleMenu()}><HiOutlineMenuAlt1 className="menu_toggle_btn" /></div>
-      <Drawer open={isMenuOpen} onClose={() => toggleMenu()}>
+      <Drawer open={isMenuOpen} PaperProps={{
+            sx: { width: "90%" },
+          }} onClose={() => toggleMenu()}>
         <span className="close_button"><IoClose onClick={() => toggleMenu()} /></span>
         <nav className="mobile-menu">
           <ul className="mobile-nav_list">
@@ -123,7 +125,6 @@ const HeaderInner = () => {
                 <li
                   key={item.id}
                   className={(pathname == item.link) ? "mobile-active_menu" : ""}
-
                 >
 
                   {/* ***********************hover-service-menu***************** */}
@@ -139,25 +140,24 @@ const HeaderInner = () => {
                                 <p className="text-16 ">{menuItem.info}</p>
                               </div>
                               {serviceLink === menuItem.id &&
-                                <Offcanvas className="mobile-offcanvas" placement={'top'} show={serviceMenuOpen} onHide={serviceToggleMenuClose}>
-                                  <Offcanvas.Body className="p-2 pt-0">
-                                    <div className="close_bar d-flex align-items-center justify-content-between sticky-top">
-                                      <div className="green_text" onClick={serviceToggleMenuClose}><FaArrowLeft /> Back</div>
-                                      <span className="close_button"><IoClose onClick={() => toggleMenu()} /></span>
-                                    </div>
-                                    <div className="d-flex flex-wrap gap-2 px-2 over_flow">
-                                      {menuItem.subLinks.map((item) => (
-                                        <div className="d-flex mobile-service_data_link" key={item.id}>
-                                          <Image className="me-2" width={30} height={30} title={item.title} src={item.icon} alt={item.title} />
-                                          <div className="">
-                                            <h6 className="text-16 fw-semibold m-0 max_text_200">{item.title}</h6>
-                                            <p className="text-16 mb-0 max_text_200">{item.subtitle}</p>
-                                          </div>
+                                <>
+                                  {/* <div className="close_bar d-flex align-items-center justify-content-between sticky-top">
+                                    <div className="green_text" onClick={serviceToggleMenuClose}><FaArrowLeft /> Back</div>
+                                    <span className="close_button"><IoClose onClick={() => toggleMenu()} /></span>
+                                  </div> */}
+                                  <div className="d-flex flex-wrap gap-2 px-2 over_flow">
+                                    {menuItem.subLinks.map((item) => (
+                                      <div className="d-flex mobile-service_data_link" key={item.id}>
+                                        <Image className="me-2" width={30} height={30} title={item.title} src={item.icon} alt={item.title} />
+                                        <div className="">
+                                          <h6 className="text-16 fw-semibold m-0 max_text_200">{item.title}</h6>
+                                          <p className="text-16 mb-0 max_text_200">{item.subtitle}</p>
                                         </div>
-                                      ))}
-                                    </div>
-                                  </Offcanvas.Body>
-                                </Offcanvas>
+                                      </div>
+                                    ))}
+                                  </div>
+                                </>
+
                               }
                             </div>
                           ))}

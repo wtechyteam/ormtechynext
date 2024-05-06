@@ -18,7 +18,7 @@ const ImageInfoWrap = ({ title, description, imageUrl, isReverse, showPrimeBtn, 
                         alt='side-img'
                     />
                 </div>
-                <div className="col-lg-6 hero_heading">
+                <div className="col-lg-6 contentWrap">
                     <h2 className='title-xl fw-bold '>
                         {title}
                     </h2>
