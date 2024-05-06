@@ -9,6 +9,7 @@ const HomeSection7 = () => {
                 subTitle={'At ORM Techies, we pride ourselves on offering complete Online Reputation Management services that go beyond mere monitoring.'}
                 imageUrl={"/images/side-img-2.webp"}
                 showPrimeBtn={true}
+                showBorderBtn={true}
                 primeBtnName={"about us"}
                 borderBtnName={"faq"}
                 darkButton="dark_btn"
