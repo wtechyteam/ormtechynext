@@ -62,7 +62,7 @@ const HeaderInner = () => {
                 onMouseEnter={() => handleParentNavHover(index)}
                 onMouseLeave={handleParentNavLeave}
               >
-                <Link className={item.btnClass ? item.btnClass : "navLink"} href={item.link} replace scroll={true}>
+                <Link className={item.btnClass ? item.btnClass : "navLink"} href={item.link} target={item.target ? item.target : null} replace scroll={true}>
                   {item.title}{item.menuType ? <IoIosArrowDown className="ms-1" /> : null}
                 </Link>
 
@@ -115,7 +115,10 @@ const HeaderInner = () => {
 
       <div onClick={() => toggleMenu()}><HiOutlineMenuAlt1 className="menu_toggle_btn" /></div>
       <Drawer open={isMenuOpen} onClose={() => toggleMenu()}>
-        <span className="close_button"><IoClose onClick={() => toggleMenu()} /></span>
+        <div className="d-flex justify-content-between mb-3">
+          <Image className="responsive_img p-2" width={70} height={50} src={"/images/ormLogo.svg"} />
+          <span className="close_button"><IoClose onClick={() => toggleMenu()} /></span>
+        </div>
         <nav className="mobile-menu">
           <ul className="mobile-nav_list">
             {headerData && headerData?.map((item, index) => {
