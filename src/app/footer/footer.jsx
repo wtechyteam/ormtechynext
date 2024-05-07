@@ -71,25 +71,25 @@ const Footer = () => {
                   <h4 className='footerTitle'>We remove from</h4>
                   <ul>
                     <li>
-                      <a href="https://ormtechies.com/content-removal/google-reviews/">Google Reviews</a>
+                      <Link href="google-reviews/">Google Reviews</Link>
                     </li>
                     <li>
-                      <a href="https://ormtechies.com/content-removal/glassdoor/">Glassdoor</a>
+                      <Link href="/content-removal/glassdoor/">Glassdoor</Link>
                     </li>
                     <li>
-                      <a href="https://ormtechies.com/content-removal/ratemds/">RateMDs</a>
+                      <Link href="/content-removal/ratemds/">RateMDs</Link>
                     </li>
                     <li>
-                      <a href="https://ormtechies.com/content-removal/tripadvisor/">TripAdvisor</a>
+                      <Link href="/content-removal/tripadvisor/">TripAdvisor</Link>
                     </li>
                     <li>
-                      <a href="https://ormtechies.com/social-media-removal/facebook/">Facebook</a>
+                      <Link href="/social-media-removal/facebook/">Facebook</Link>
                     </li>
                     <li>
-                      <a href="https://ormtechies.com/content-removal/google-search-results/">Google Search Results</a>
+                      <Link href="/content-removal/google-search-results/">Google Search Results</Link>
                     </li>
                     <li>
-                      <a href="https://ormtechies.com/content-removal/">And More</a>
+                      <Link href="/content-removal/">And More</Link>
                     </li>
                   </ul>
 
@@ -98,30 +98,37 @@ const Footer = () => {
                   <h4 className='footerTitle'>Our Services</h4>
                   <ul>
                     <li>
-                      <a href="https://ormtechies.com/reputation-management/">Reputation Management</a>
+                      <Link href="/reputation-management/">Reputation Management</Link>
                     </li>
                     <li>
-                      <a href="https://ormtechies.com/?page_id=964">AMPLIFY Reviews</a>
+                      <Link href="/?page_id=964">AMPLIFY Reviews</Link>
                     </li>
                     <li>
-                      <a href="https://ormtechies.com/reputation-review-monitoring/">Reputation Monitoring</a>
+                      <Link href="/reputation-review-monitoring/">Reputation Monitoring</Link>
                     </li>
                     <li>
-                      <a href="https://ormtechies.com/content-removal/revenge-porn/">Revenge Porn Removal</a>
-                    </li>
-                    <li>
-                      <a href="https://ormtechies.com/fake-reviews/">Fake Review Removal</a>
+                      <Link href="/fake-reviews/">Fake Review Removal</Link>
                     </li>
                   </ul>
                 </div>
                 <div className="ste">
                   <h4 className='footerTitle'>About</h4>
                   <ul>
-                    <li><a href="https://ormtechies.com/about-us/" >About Ormtechies</a></li>
-                    <li><a href="https://ormtechies.com/contact/" >Contact</a></li>
-                    <li><a href="https://ormtechies.com/careers/" >Careers</a></li>
-                    <li><a href="https://ormtechies.com/ormtechies-in-the-media/" >In The Media</a></li>
-                    <li><a href="https://ormtechies.com/reviews/" >Ormtechies Reviews</a></li>
+                    <li>
+                      <Link href="/about-us/" >About Ormtechies</Link>
+                    </li>
+                    <li>
+                      <Link href="/contact/" >Contact</Link>
+                    </li>
+                    <li>
+                      <Link href="/careers/" >Careers</Link>
+                    </li>
+                    <li>
+                      <Link href="/ormtechies-in-the-media/" >In The Media</Link>
+                    </li>
+                    <li>
+                      <Link href="/reviews/" >Ormtechies Reviews</Link>
+                    </li>
                   </ul>
                 </div>
               </div>

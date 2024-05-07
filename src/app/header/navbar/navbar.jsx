@@ -51,7 +51,7 @@ const HeaderInner = () => {
   // ----------------------------------------------------------
 
   return (
-    <div className="navWrap item_center position-relative" >
+    <div className="navWrap position-relative" >
       <nav className="nav_items">
         <ul className="navList">
           {headerData && headerData?.map((item, index) => {
@@ -69,9 +69,8 @@ const HeaderInner = () => {
                 {/* ***********************hover-service-menu***************** */}
 
                 {item.subMenu && activeLink === index && (
-                  <div className="hover_pouse_box">
-                    <div className="megaMenuWrapper position-relative">
-                      <div className="background_set"></div>
+                  <div className="megaMenuWrapper">
+                    <div className="megaMenuWrap position-relative">
                       {item.subMenu.map((menuItem, index) => (
                         <div key={menuItem.id} className="hover_box_layout">
                           <div className="tab_box_col" lg={4}>

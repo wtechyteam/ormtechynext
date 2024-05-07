@@ -173,21 +173,14 @@ export const headerData = [
                     {
                         id: 5,
                         title: "Corporate",
-                        icon: "/images/Google-logo.png",
+                        icon: "/images/header/company.png",
                         subtitle: "search-engine",
                         slug: "/repair-online-reputation-corporate"
                     },
                     {
                         id: 6,
                         title: "Personal",
-                        icon: "/images/Google-logo.png",
-                        subtitle: "search-engine",
-                        slug: "/repair-online-repugtation-personal"
-                    },
-                    {
-                        id: 61,
-                        title: "Personal1",
-                        icon: "/images/Google-logo.png",
+                        icon: "/images/header/businessman.png",
                         subtitle: "search-engine",
                         slug: "/repair-online-reputation-personal"
                     },

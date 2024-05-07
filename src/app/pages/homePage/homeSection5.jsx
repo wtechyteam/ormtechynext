@@ -14,14 +14,10 @@ const HomeSection5 = () => {
     return (
         <section className='sectionPadding bg_white'>
             <Container>
-                <Row>
-                    <Col md={12} className='center_content'>
-                        <h2>What We Do?</h2>
-                        <p>
-                            At ORM Techies, we specialize in providing exceptional online <i>reputation management services</i>. Whether {"you're'"} an individual seeking to raise <span>your personal brand or a business aiming to safeguard its online image, <br /> {"we've"} got you covered.</span>
-                        </p>
-                    </Col>
-                </Row>
+                <div className="title_section text-center">
+                    <h2 className='title-xl fw-bold '>What We Do?</h2>
+                    <p>At ORM Techies, we specialize in providing exceptional online reputation management services. Whether you're an individual seeking to raise your personal brand or a business aiming to safeguard its online image, we've got you covered. </p>
+                </div>
                 <Tabs
                     aria-label="Vertical tabs"
                     orientation="vertical"
@@ -34,27 +30,7 @@ const HomeSection5 = () => {
                                     <Image width={40} height={40} src={"/images/hp.png"} alt='icon' title='Personal Branding' />
                                     <div className='ms-2'>
                                         <h2>Personal Branding</h2>
-                                        <Tooltip
-                                            placement="top-end"
-                                            variant="outlined"
-                                            arrow
-                                            title={
-                                                <Box
-                                                    sx={{
-                                                        display: 'flex',
-                                                        flexDirection: 'column',
-                                                        maxWidth: 320,
-                                                        justifyContent: 'center',
-                                                        p: 1,
-                                                    }}
-                                                >
-                                                    Building a strong personal brand is essential in {"today's"} competitive landscape. Our experts will work closely with you to develop a personalized personal branding strategy that showcases your strengths and values, positioning you as a reputable figure in your field.
-                                                </Box>
-                                            }
-                                        >
-                                            <p>Building a strong personal brand is essential in {"today's"} competitive landscape. Our experts will work closely with you to develop a personalized personal branding strategy that showcases </p>
-                                        </Tooltip>
-
+                                        <p>Building a strong personal brand is essential in today's competitive landscape. Our experts will work closely with you to develop a personalized personal branding strategy that showcases your strengths and values, positioning you as a reputable figure in your field.</p>
                                     </div>
                                 </Tab>
                                 <Tab className="tab_btns">

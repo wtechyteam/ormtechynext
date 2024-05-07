@@ -8,7 +8,7 @@ const HomeSection6 = () => {
     <section className=' bg_dark position-relative'>
       <div className=' image_bg'>
         <div className='content_bg sectionPadding2'>
-          <div className='item_center mb-5 '>
+          <div className='d-flex flex-wrap justify-content-center align-items-center mb-5 '>
             <Image width={40} height={40} src={'/images/Google-logo.png'} alt='img' title='rating logo' />
             <h2 className='text-white mx-3 mb-0 text-24 fw-bold'>5.0</h2>
             <div className='d-flex gap-2'>
