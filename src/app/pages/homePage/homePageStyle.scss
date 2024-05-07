@@ -66,10 +66,10 @@
         font-weight: 400;
         font-size: 16px;
         margin-bottom: 0;
-        -webkit-line-clamp: 2;
-        -webkit-box-orient: vertical;
-        display: -webkit-box;
-        overflow: hidden;
+        // -webkit-line-clamp: 2;
+        // -webkit-box-orient: vertical;
+        // display: -webkit-box;
+        // overflow: hidden;
     }
 }
 
@@ -195,34 +195,6 @@
 }
 
 //   ********************************end**********************************
-.center_content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: var(--text-color-dark);
-    margin-bottom: 30px;
-
-    h2 {
-        font-size: 36px;
-        font-weight: 600;
-        max-width: 760px;
-        margin-bottom: 16px;
-    }
-
-    p {
-        font-size: 20px;
-        line-height: 26px;
-        text-align: center;
-        max-width: 760px;
-        font-weight: 400;
-        font-family: "DM Sans", "Noto Sans", helvetica, arial, sans-serif;
-
-        span {
-            font-weight: 700;
-        }
-    }
-}
 
 .add_img {
     width: 100%;

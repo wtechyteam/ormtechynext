@@ -46,6 +46,7 @@ const AboutPage = () => {
             <section className=' bg_dark position-relative'>
                 <div className=' image_bg'>
                     <div className='content_bg sectionPadding2'>
+
                         <div className='item_center mb-5 container'>
                             <Row>
                                 <Col md={6} className="item_center flex-wrap mb-md-0 mb-2">
@@ -64,6 +65,7 @@ const AboutPage = () => {
                                     <h2 className='text-white mb-0 text-24 no_wrap ms-0 ms-md-2'>Based on 240+ reviews</h2>
                                 </Col>
                             </Row>
+
                         </div>
                         <Marquees mSpeed={60} pauseOnHover={true} mapData={marqueeCardData} dataType="card" />
                     </div>

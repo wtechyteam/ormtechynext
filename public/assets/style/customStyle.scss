@@ -214,24 +214,8 @@ img{
 // *****************************end***********************************
 
 .title_section {
-  h1 {
-    font-size: 36px;
-    color: var(--text-color-dark);
-    font-weight: 600;
-    margin-bottom: 15px;
-  }
-
-  p {
-    margin-bottom: 20px;
-    font-size: 20px;
-    color: var(--text-color-dark);
-  }
-}
-
-.item_center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  max-width:800px;
+  margin: 0 auto;
 }
 
 .brand_box_container {
