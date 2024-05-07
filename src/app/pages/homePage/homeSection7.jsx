@@ -1,5 +1,6 @@
 import ImageInfoWrap from '@/app/pages/common/imageInfoWrap'
 import React from 'react'
+import banner from "../../../../public/images/homepage/Hero-Image.png";
 
 const HomeSection7 = () => {
     return (
@@ -7,7 +8,7 @@ const HomeSection7 = () => {
             <ImageInfoWrap
                 title={'What Sets ORM Techies Apart?'}
                 subTitle={'At ORM Techies, we pride ourselves on offering complete Online Reputation Management services that go beyond mere monitoring.'}
-                imageUrl={"/images/side-img-2.webp"}
+                imageUrl={banner}
                 showPrimeBtn={true}
                 showBorderBtn={true}
                 primeBtnName={"about us"}

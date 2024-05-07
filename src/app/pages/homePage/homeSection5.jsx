@@ -31,7 +31,7 @@ const HomeSection5 = () => {
                         <Col lg={6} md={12}>
                             <TabList className="tab_list">
                                 <Tab className="tab_btns">
-                                    <Image width={40} height={40} src={"/images/hp.png"} alt='icon' title='Personal Branding' />
+                                    <Image className='tab_icons' width={40} height={40} src={"/images/branding.png"} alt='icon' title='Personal Branding' />
                                     <div className='ms-2'>
                                         <h2>Personal Branding</h2>
                                         <Tooltip
@@ -58,7 +58,7 @@ const HomeSection5 = () => {
                                     </div>
                                 </Tab>
                                 <Tab className="tab_btns">
-                                    <Image width={40} height={40} src={"/images/hp.png"} alt='icon' />
+                                    <Image className='tab_icons' width={40} height={40} src={"/images/repair.png"} alt='icon' />
                                     <div className='ms-2'>
                                         <h2>Reputation Repair</h2>
                                         <Tooltip
@@ -84,7 +84,7 @@ const HomeSection5 = () => {
                                     </div>
                                 </Tab>
                                 <Tab className="tab_btns">
-                                    <Image width={40} height={40} src={"/images/hp.png"} alt='icon' />
+                                    <Image className='tab_icons' width={40} height={40} src={"/images/management.png"} alt='icon' />
                                     <div className='ms-2'>
                                         <h2>Reputation Management</h2>
                                         <Tooltip

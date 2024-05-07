@@ -2,8 +2,9 @@ import BorderBtn from '@/app/pages/common/borderBtn'
 import PrimeBtn from '@/app/pages/common/primeBtn'
 import Image from 'next/image'
 import React from 'react';
-import banner from "../../../../public/images/homepage/Hero-Image.png";
+// import banner from "../../../../public/images/homepage/Hero-Image.png";
 import addImage1 from "../../../../public/images/add-img-1.png";
+import CommonForm from '../common/form';
 
 const HomeSection1 = () => {
   return (
@@ -17,7 +18,7 @@ const HomeSection1 = () => {
             </h2>
             <p className='title-sm text-white'> Take control of your online reputation. We offer customized ORM services for individuals and businesses. Shape your digital narrative now!</p>
             <div className='d-flex flex-wrap gap-3 mt-4 pt-3'>
-              <PrimeBtn btnName="Get a free quote" />
+              {/* <PrimeBtn btnName="Get a free quote" /> */}
               <BorderBtn btnName={"Request a call"} />
             </div>
             <div className='d-flex flex-wrap gap-3 mt-4 pt-3'>
@@ -26,7 +27,7 @@ const HomeSection1 = () => {
             </div>
           </div>
           <div className="col-lg-6 text-center ">
-            <Image
+            {/* <Image
               width={640}
               height={640}
               placeholder='blur'
@@ -36,7 +37,14 @@ const HomeSection1 = () => {
               alt='Reputation Management Image'
               title='Reputation Management Image'
               style={{ width: "auto", height: "auto" }}
-            />
+            /> */}
+            <div className='ps-0 ps-xl-5'>
+              <CommonForm
+                textArea={true}
+                formBg={true}
+                policy={true}
+              />
+            </div>
           </div>
         </div>
       </div>
