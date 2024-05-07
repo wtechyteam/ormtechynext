@@ -11,32 +11,27 @@
 
 .hero_banner {
     background-image: var(--bg-color1);
-}
-
-.hero_heading {
-    h2 {
-        font-weight: 700;
-        margin-bottom: 30px;
-
-        @media (max-width: 1200px) {
-            margin-bottom: 15px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 150px 0px 100px;
+    @media (max-width: 1200px) {
+        padding: 120px 0px 80px;
+    }
+    .contentWrap {
+        h2 {
+            font-weight: 700;
+            margin-bottom: 30px;
+    
+            @media (max-width: 1200px) {
+                margin-bottom: 15px;
+            }
         }
     }
+    
 }
 
-.rotate_item {
-    animation: rotation 30s infinite linear;
-}
 
-@keyframes rotation {
-    from {
-        transform: rotate(360deg);
-    }
-
-    to {
-        transform: rotate(0deg);
-    }
-}
 
 // ********************tabs-start***************************
 .tab_list {

@@ -41,28 +41,28 @@ const Footer = () => {
           </div>
           <div className="row mt-5">
             <div className="col-lg-4">
-              <ul className="contactInfo">
-                <li>
-                  <FaPhoneAlt />
-                  <a href="tel:+91-6283857196" title="+91-6283857196">+91-6283857196</a><br></br>
-                  <a href="tel:+91-7717505073" title="+91-7717505073">+91-7717505073</a>
-                </li>
-                <li>
-                  <FaEnvelope />
-                  <a href="mailto:info@wtechy.com" title="info@wtechy.com">info@wtechy.com</a>
-                </li>
-                <li>
-                  <FaLocationDot />
-                  <p>HSIIDC IT Park, Plot No 6, 7th Floor, Behind Gurudwara Nada Sahib, Sector 22, Panchkula, Haryana 134109</p>
-                </li>
-              </ul>
-              <h4 className='footerTitle mt-5'>Follow us:</h4>
-              <ul className="socialMediaList">
+              <h4 className='footerTitle '>Follow us:</h4>
+              <ul className="socialMediaList mb-5 mb-lg-4">
                 <li><a title="Facebook" href="https://www.facebook.com/wtechy/" target="_blank"  ><FaFacebookF /></a></li>
                 <li><a title="Linkedin" href="https://in.linkedin.com/company/wtechy" target="_blank"  ><FaLinkedinIn /></a></li>
                 <li><a title="Upwork" href="https://www.upwork.com/agencies/wtechy/" target="_blank" ><SiUpwork /></a></li>
                 <li><a title="Twitter" href="https://twitter.com/w_techy" target="_blank"  ><FaTwitter /></a></li>
 
+              </ul>
+              <ul className="contactInfo">
+                {/* <li>
+                  <FaPhoneAlt />
+                  <a href="tel:+91-6283857196" title="+91-6283857196">+91-6283857196</a><br></br>
+                  <a href="tel:+91-7717505073" title="+91-7717505073">+91-7717505073</a>
+                </li> */}
+                <li>
+                  <FaEnvelope />
+                  <a href="mailto:info@ormtechies.com" title="info@wtechy.com">info@ormtechies.com</a>
+                </li>
+                {/* <li>
+                  <FaLocationDot />
+                  <p>HSIIDC IT Park, Plot No 6, 7th Floor, Behind Gurudwara Nada Sahib, Sector 22, Panchkula, Haryana 134109</p>
+                </li> */}
               </ul>
             </div>
             <div className="col-lg-8">
@@ -120,7 +120,7 @@ const Footer = () => {
                     <li><a href="https://ormtechies.com/about-us/" >About Ormtechies</a></li>
                     <li><a href="https://ormtechies.com/contact/" >Contact</a></li>
                     <li><a href="https://ormtechies.com/careers/" >Careers</a></li>
-                    <li><a href="https://ormtechies.com/ormtechies-in-the-media/" >In the Media</a></li>
+                    <li><a href="https://ormtechies.com/ormtechies-in-the-media/" >In The Media</a></li>
                     <li><a href="https://ormtechies.com/reviews/" >Ormtechies Reviews</a></li>
                   </ul>
                 </div>
