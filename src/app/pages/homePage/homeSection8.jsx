@@ -9,7 +9,7 @@ const HomeSection8 = () => {
             <div className='custom_tab_design'>
               <h2 className='title-xl text-center dark_font fw-bold mb-5'>Case Studies</h2>
                 <Tabs aria-label="Basic tabs" defaultValue={0}>
-                    <TabList className="tab_list item_center pt-0 pb-0">
+                    <TabList className="tab_list d-flex flex-wrap justify-content-center pt-0 pb-0">
                         <Tab className="tab_name text-18">
                             <Image className='tab_img' width={100} height={100} src={"/images/Google_Maps_icon_2020.png"} alt='google maps' title='google maps' />
                             <span className='text-center'>google maps</span>

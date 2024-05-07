@@ -7,7 +7,7 @@ export const brandBoxData = [
     {
         id: 22,
         logo: "/images/Google-logo.png",
-        name: "My Google"
+        name: "Google My Business "
     },
     {
         id: 23,
