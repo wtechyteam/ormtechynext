@@ -87,6 +87,100 @@
                             background-color: var(--bg-color2);
                             border-radius: 10px;
                             transition: all ease-in-out 0.5s;
+                            .menuTab {
+                                display: flex;
+                                width: 100%;
+                                align-items: center;
+                                flex-wrap: wrap;
+                                .tab_box_col {
+                                    width: 100%;
+                                    max-width: 250px;
+                                }
+                            
+                                .data_box_col {
+                                    width: 100%;
+                                    max-width: 530px;
+                                    max-height: 250px;
+                                    padding: 10px 0;
+                                    border-radius: 10px;
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    gap: 10px;
+                                    overflow: auto;
+                            
+                                }
+                            
+                                .child_hover_btn {
+                                    padding: 10px 15px;
+                                    border-radius: 10px;
+                                    cursor: pointer;
+                                    transition: all ease-in-out 0.3s;
+                            
+                                    h6 {
+                                        font-weight: 600;
+                                        color: var(--text-color-dark);
+                                        margin-bottom: 5px;
+                                    }
+                            
+                                    p {
+                                        font-weight: 400;
+                                        color: #000;
+                                        opacity: 0.6;
+                                        line-height: 20px;
+                                        margin: 0;
+                                    }
+                            
+                                    &:hover {
+                                        background-color: var(--bg-color3);
+                                        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                                    }
+                                }
+                            
+                                .active_tab {
+                                    background-color: var(--bg-color3);
+                                    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                                }
+                            
+                                .child_hover_data {
+                                    padding: 6px 10px;
+                                    width: 230px;
+                                    border-radius: 6px;
+                                    display: flex;
+                                    margin-left: 10px;
+                                    align-items: center;
+                                    text-decoration: none;
+                                    cursor: pointer;
+                                    &:hover{
+                                        background-color: var(--bg-color2);
+                                    }
+                            
+                                    h6 {
+                                        font-weight: 600;
+                                        color: var(--text-color-dark);
+                                        margin-bottom: 0px;
+                                        text-transform: capitalize;
+                                        text-overflow: ellipsis;
+                                        white-space: nowrap;
+                                        overflow: hidden;
+                                        width: 160px;
+                                    }
+                            
+                                    p {
+                                        font-weight: 400;
+                                        color: #000;
+                                        opacity: 0.6;
+                                        line-height: 20px;
+                                        margin: 0;
+                                        text-overflow: ellipsis;
+                                        white-space: nowrap;
+                                        overflow: hidden;
+                                        width: 160px;
+                                    }
+                            
+                                }
+                            
+                            }
+                            
                             .child_hover_data_position {
                                 position: absolute;
                                 top: 8px;
@@ -109,99 +203,8 @@
 
 
 
-.hover_box_layout {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    flex-wrap: wrap;
-    .tab_box_col {
-        width: 100%;
-        max-width: 250px;
-    }
 
-    .data_box_col {
-        width: 100%;
-        max-width: 530px;
-        max-height: 250px;
-        padding: 10px 0;
-        border-radius: 10px;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-        overflow: auto;
 
-    }
-
-    .child_hover_btn {
-        padding: 10px 15px;
-        border-radius: 10px;
-        cursor: pointer;
-        transition: all ease-in-out 0.3s;
-
-        h6 {
-            font-weight: 600;
-            color: var(--text-color-dark);
-            margin-bottom: 5px;
-        }
-
-        p {
-            font-weight: 400;
-            color: #000;
-            opacity: 0.6;
-            line-height: 20px;
-            margin: 0;
-        }
-
-        &:hover {
-            background-color: var(--bg-color3);
-            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-        }
-    }
-
-    .active_tab {
-        background-color: var(--bg-color3);
-        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    }
-
-    .child_hover_data {
-        padding: 6px 10px;
-        width: 230px;
-        border-radius: 6px;
-        display: flex;
-        margin-left: 10px;
-        align-items: center;
-        text-decoration: none;
-        cursor: pointer;
-        &:hover{
-            background-color: var(--bg-color2);
-        }
-
-        h6 {
-            font-weight: 600;
-            color: var(--text-color-dark);
-            margin-bottom: 0px;
-            text-transform: capitalize;
-            text-overflow: ellipsis;
-            white-space: nowrap;
-            overflow: hidden;
-            width: 160px;
-        }
-
-        p {
-            font-weight: 400;
-            color: #000;
-            opacity: 0.6;
-            line-height: 20px;
-            margin: 0;
-            text-overflow: ellipsis;
-            white-space: nowrap;
-            overflow: hidden;
-            width: 160px;
-        }
-
-    }
-
-}
 
 .mobile {
     &-menu {

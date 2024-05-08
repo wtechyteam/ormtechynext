@@ -209,6 +209,12 @@ img{
 .title_section {
   max-width:800px;
   margin: 0 auto;
+  h2,h3,h4,h5,h6{
+    span{
+      color: var(--secondary);
+      text-transform: capitalize;
+    }
+  }
 }
 
 .brand_box_container {
@@ -788,5 +794,76 @@ img{
 .hide_1000{
   @media (max-width: 1000px) {
     display: none;
+  }
+}
+
+/**************/
+
+.iconCardList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 -10px;
+  list-style: none;
+  padding: 0;
+  gap: 20px;
+  .cardWrapper{
+    width: calc(33.33% - 20px);
+    .card{
+      background-color: #fff;
+      border-radius: 5px;
+      padding: 25px;
+      height: 100%;
+      box-shadow: 0px 0px 5px 0px #00000015;
+      transition: all ease-in-out .3s;
+      cursor: pointer;
+      &:hover{
+        // transform: scale(1.02);
+        box-shadow: 0px 0px 8px 8px #00000015;
+      }
+    }
+
+
+  }
+}
+
+
+.faqWrapper {
+  grid-gap: 15px;
+  display: grid;
+
+  .faqWrap {
+    position: relative;
+    box-shadow: 0px 0px 3px 2px #00000015;
+    border-radius: 5px;
+    overflow: hidden;
+
+    .title {
+      padding: 15px 40px 15px 15px;
+      cursor: pointer;
+      transition: all ease-in-out .3s;
+      position: relative;
+      background-color: #fff;
+
+      &:hover,
+      &.active {
+        background-color: #588ec5b3;
+      }
+
+      .faqIcon {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 15px;
+        color: #000;
+        line-height: 0;
+
+      }
+    }
+
+    .description {
+      padding: 15px;
+      background-color: #fff;
+    }
   }
 }

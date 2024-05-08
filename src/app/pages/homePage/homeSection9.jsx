@@ -9,7 +9,8 @@ const HomeSection9 = () => {
         <section className='sectionPadding bg_dark_1'>
             <Container className=''>
                 <div className="title_section">
-                    <h1 className='title-xl text-white text-center fw-bold mb-4'>Join ORM Techies your<br></br>online reputation management services</h1>
+                    <h6 className='title-sm text-white text-center text-uppercase fw-semibold mb-2'>Join ORM Techies today.</h6>
+                    <h2 className='title-xl text-white text-center fw-bold mb-4'>With our online <span>reputation management services</span> achieve your digital reputation goals. Contact Us Now</h2>
                     <div className='d-flex justify-content-center gap-3 mb-5'>
                         <PrimeBtn btnName={"get a free quote"} />
                         <BorderBtn btnName={"request a call"} />

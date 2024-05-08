@@ -10,6 +10,8 @@ import HomeSection6 from './homeSection6'
 import HomeSection7 from './homeSection7'
 import HomeSection8 from './homeSection8'
 import HomeSection9 from './homeSection9'
+import HomeSection10 from './homeSection10'
+import HomeFaq from './homeFaq'
 
 const HomePage = () => {
   return (
@@ -19,10 +21,13 @@ const HomePage = () => {
       <HomeSection3 />
       <HomeSection4 />
       <HomeSection5 />
+      <HomeSection10 />
+      <HomeFaq/>
       <HomeSection6 />
       <HomeSection7 />
       <HomeSection8 />
       <HomeSection9 />
+
     </>
   )
 }

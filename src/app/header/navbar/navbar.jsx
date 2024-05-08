@@ -72,12 +72,10 @@ const HeaderInner = () => {
                   <div className="megaMenuWrapper">
                     <div className="megaMenuWrap position-relative">
                       {item.subMenu.map((menuItem, index) => (
-                        <div key={menuItem.id} className="hover_box_layout">
+                        <div key={menuItem.id} className="menuTab">
                           <div className="tab_box_col" lg={4}>
-                            <div
-                              className={activeSubHover === index ? "active_tab child_hover_btn" : "child_hover_btn "}
+                            <div className={activeSubHover === index ? "active_tab child_hover_btn" : "child_hover_btn "}
                               onMouseEnter={() => handleChildNavHover(index)}
-
                             >
                               <h6 className="text-16 fw-semibold ">{menuItem.subTitle}</h6>
                               <p className="text-16 ">{menuItem.info}</p>

@@ -7,7 +7,6 @@ import Image from 'next/image';
 import { Col, Container, Row } from 'react-bootstrap';
 import PrimeBtn from '@/app/pages/common/primeBtn';
 import BorderBtn from '@/app/pages/common/borderBtn';
-import { Tooltip } from '@mui/joy';
 import { Box } from '@mui/material';
 
 const HomeSection5 = () => {
@@ -26,91 +25,87 @@ const HomeSection5 = () => {
                     <Row>
                         <Col lg={6} md={12}>
                             <TabList className="tab_list">
-                                <Tab className="tab_btns">
-                                    <Image width={40} height={40} src={"/images/hp.png"} alt='icon' title='Personal Branding' />
-                                    <div className='ms-2'>
-                                        <h2>Personal Branding</h2>
-                                        <p>Building a strong personal brand is essential in today's competitive landscape. Our experts will work closely with you to develop a personalized personal branding strategy that showcases your strengths and values, positioning you as a reputable figure in your field.</p>
+                                <Tab className="tab_btn">
+                                    <div className="tabImage">
+                                        <Image width={60} height={60} src={"/images/homepage/personalBranding.png"} alt='icon' title='Personal Branding' />
                                     </div>
+
+                                    <h2 className="tabTitle">Personal Branding</h2>
+                                    <p className='tabInfo'>Building a strong personal brand is essential in today's competitive landscape. Our experts will work closely with you to develop a personalized personal branding strategy that showcases your strengths and values, positioning you as a reputable figure in your field.</p>
                                 </Tab>
-                                <Tab className="tab_btns">
-                                    <Image width={40} height={40} src={"/images/hp.png"} alt='icon' />
-                                    <div className='ms-2'>
-                                        <h2>Reputation Repair</h2>
-                                        <Tooltip
-                                            placement="top-end"
-                                            variant="outlined"
-                                            arrow
-                                            title={
-                                                <Box
-                                                    sx={{
-                                                        display: 'flex',
-                                                        flexDirection: 'column',
-                                                        maxWidth: 320,
-                                                        justifyContent: 'center',
-                                                        p: 1,
-                                                    }}
-                                                >
-                                                    Have negative content tarnished your online reputation? Our reputation repair services are designed to mitigate the damage caused by negative reviews, articles, or social media posts. {"We'll"} devise effective strategies to address and resolve any issues, restoring your online credibility.
-                                                </Box>
-                                            }
-                                        >
-                                            <p>Have negative content tarnished your online reputation? Our reputation repair services are designed to mitigate the damage caused by negative reviews, articles, or social media posts.</p>
-                                        </Tooltip>
+                                <Tab className="tab_btn">
+                                    <div className="tabImage">
+                                        <Image width={60} height={60} src={"/images/homepage/reputationRepair.png"} alt='icon' />
                                     </div>
+
+                                    <h2 className="tabTitle">Reputation Repair</h2>
+                                    <p className='tabInfo'>Have negative content tarnished your online reputation? Our reputation repair services are designed to mitigate the damage caused by negative reviews, articles, or social media posts.</p>
                                 </Tab>
-                                <Tab className="tab_btns">
-                                    <Image width={40} height={40} src={"/images/hp.png"} alt='icon' />
-                                    <div className='ms-2'>
-                                        <h2>Reputation Management</h2>
-                                        <Tooltip
-                                            placement="top-end"
-                                            variant="outlined"
-                                            arrow
-                                            title={
-                                                <Box
-                                                    sx={{
-                                                        display: 'flex',
-                                                        flexDirection: 'column',
-                                                        maxWidth: 320,
-                                                        justifyContent: 'center',
-                                                        p: 1,
-                                                    }}
-                                                >
-                                                    Maintaining a positive online reputation requires ongoing effort and vigilance. Our reputation management services involve monitoring your digital footprint, proactively addressing any emerging threats, and implementing strategies to bolster your online image continually.
-                                                </Box>
-                                            }
-                                        >
-                                            <p>Maintaining a positive online reputation requires ongoing effort and vigilance. Our reputation management services involve monitoring your digital footprint, proactively </p>
-                                        </Tooltip>
+                                <Tab className="tab_btn">
+                                    <div className="tabImage">
+                                        <Image width={60} height={60} src={"/images/homepage/reputation-management.png"} alt='icon' />
                                     </div>
+
+                                    <h2 className="tabTitle">Reputation Management</h2>
+                                    <p className='tabInfo'>Maintaining a positive online reputation requires ongoing effort and vigilance. Our reputation management services involve monitoring your digital footprint, proactively </p>
+                                </Tab>
+                                <Tab className="tab_btn">
+                                    <div className="tabImage">
+                                        <Image width={60} height={60} src={"/images/homepage/reviewManagement.png"} alt='icon' />
+                                    </div>
+
+                                    <h2 className="tabTitle">Review Management</h2>
+                                    <p className='tabInfo'>Online reviews can significantly impact your reputation. Our review management services cover a wide range of platforms like Glassdoor, Google My Business, Quora, and more.</p>
                                 </Tab>
                             </TabList>
                         </Col>
                         <Col lg={6} md={12} className='margin_top_992'>
                             <TabPanel className='px-0' value={0}>
                                 <div className='text-center'>
+
                                     <Image style={{ width: "auto", height: "auto" }} className='responsive_img' width={610} height={400} src={"/images/tab-image1.webp"} alt='icon' title='Personal Branding' />
-                                    <PrimeBtn btnName={"remove content"} />
+                                    <div className="tabDetails">
+                                        {/* <h2 className="tabTitle">Personal Branding</h2>
+                                        <p className='tabInfo'>Building a strong personal brand is essential in today's competitive landscape. Our experts will work closely with you to develop a personalized personal branding strategy that showcases your strengths and values, positioning you as a reputable figure in your field.</p> */}
+                                        <PrimeBtn btnName={"learn more"} />
+                                    </div>
                                 </div>
                             </TabPanel>
                             <TabPanel className='px-0' value={1}>
                                 <div className='text-center'>
                                     <Image style={{ width: "auto", height: "auto" }} className='responsive_img' width={610} height={400} src={"/images/tab-image2.webp"} alt='icon' title='Reputation Repair' />
-                                    <BorderBtn darkBtn={"dark_btn"} btnName={"about ORM Techies"} />
+                                    <div className="tabDetails">
+                                        {/* <h2 className="tabTitle">Reputation Repair</h2>
+                                    <p className='tabInfo'>Have negative content tarnished your online reputation? Our reputation repair services are designed to mitigate the damage caused by negative reviews, articles, or social media posts.</p> */}
+                                        <PrimeBtn btnName={"learn more"} />
+                                    </div>
                                 </div>
                             </TabPanel>
                             <TabPanel className='px-0' value={2}>
                                 <div className='text-center'>
                                     <Image style={{ width: "auto", height: "auto" }} className='responsive_img' width={610} height={400} src={"/images/tab-image1.webp"} alt='icon' title='Reputation Management' />
-                                    <PrimeBtn btnName={"learn more"} />
+                                    <div className="tabDetails">
+                                        {/* <h2 className="tabTitle">Reputation Management</h2>
+                                    <p className='tabInfo'>Maintaining a positive online reputation requires ongoing effort and vigilance. Our reputation management services involve monitoring your digital footprint, proactively </p> */}
+                                        <PrimeBtn btnName={"learn more"} />
+                                    </div>
+                                </div>
+                            </TabPanel>
+                            <TabPanel className='px-0' value={3}>
+                                <div className='text-center'>
+                                    <Image style={{ width: "auto", height: "auto" }} className='responsive_img' width={610} height={400} src={"/images/tab-image1.webp"} alt='icon' title='Reputation Management' />
+                                    <div className="tabDetails">
+                                        {/* <h2 className="tabTitle">Review Management</h2>
+                                    <p className='tabInfo'>Online reviews can significantly impact your reputation. Our review management services cover a wide range of platforms like Glassdoor, Google My Business, Quora, and more.</p> */}
+                                        <PrimeBtn btnName={"learn more"} />
+                                    </div>
                                 </div>
                             </TabPanel>
                         </Col>
                     </Row>
                 </Tabs>
             </Container>
-        </section>
+        </section >
     )
 }
 
