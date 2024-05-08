@@ -29,6 +29,7 @@
                 margin-bottom: 15px;
             }
         }
+
     }
 
 }
@@ -210,5 +211,17 @@
 
     @media (max-width: 1200px) {
         max-width: 180px;
+    }
+}
+
+.wrap_560 {
+    @media (max-width: 560px) {
+        flex-wrap: wrap;
+    }
+}
+
+.text_center_560 {
+    @media (max-width: 560px) {
+        text-align: center;
     }
 }

@@ -4,8 +4,9 @@ import Image from 'next/image'
 import BorderBtn from './borderBtn'
 import { IoIosTimer } from "react-icons/io";
 import { IoClose } from "react-icons/io5";
+import CommonForm from './form';
 
-const ImageInfoWrap = ({ title, description, imageUrl, isReverse, showPrimeBtn, showBorderBtn, primeBtnName, borderBtnName, subTitle, darkButton, iconData, reviewData }) => {
+const ImageInfoWrap = ({ title, description, imageUrl, isReverse, showPrimeBtn, showBorderBtn, form, primeBtnName, borderBtnName, subTitle, darkButton, iconData, reviewData }) => {
     return (
         <div className="container">
             <div className={`row align-items-center ${isReverse && 'flex-row-reverse'}`}>
@@ -13,26 +14,28 @@ const ImageInfoWrap = ({ title, description, imageUrl, isReverse, showPrimeBtn, 
                     <Image
                         width={610} height={600}
                         className='responsive_img padding_img '
+                        style={{ width: "auto", height: "auto" }}
                         src={imageUrl}
                         title={title}
                         alt='side-img'
                     />
                 </div>
                 <div className="col-lg-6 contentWrap">
-                    <h2 className='title-xl fw-bold '>
+                    <h2 className='title-xl fw-bold margin_bottom_30'>
                         {title}
                     </h2>
                     {subTitle && <p className='fw-bold title-sm'>{subTitle}</p>}
                     <div className='text-16' dangerouslySetInnerHTML={{ __html: description }}></div>
                     <div className='d-flex flex-wrap gap-3 mt-4'>
-                    {showPrimeBtn && (
+                        {form && <div className='mt-3'><CommonForm /></div>}
+                        {showPrimeBtn && (
                             <PrimeBtn btnName={primeBtnName} />
                         )}
                         {showBorderBtn && (
                             <BorderBtn darkBtn={darkButton} btnName={borderBtnName} />
                         )}
-                        
-                        </div>
+
+                    </div>
                     {iconData === true && (
                         <div className='mt-5 d-flex flex-wrap gap-3'>
                             <div className='d-flex '>
