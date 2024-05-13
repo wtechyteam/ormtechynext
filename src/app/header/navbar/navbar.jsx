@@ -78,7 +78,7 @@ const HeaderInner = () => {
                               onMouseEnter={() => handleChildNavHover(index)}
                             >
                               <h6 className="text-16 fw-semibold ">{menuItem.subTitle}</h6>
-                              <p className="text-16 ">{menuItem.info}</p>
+                              {/* <p className="text-16 ">{menuItem.info}</p> */}
                             </div>
                           </div>
                           <div lg={8} className="child_hover_data_position data_box_col">
@@ -89,7 +89,7 @@ const HeaderInner = () => {
                                     <Image className="me-2" width={40} height={40} src={item.icon} title={item.title} alt={item.title} />
                                     <div>
                                       <h6 className="text-16 fw-semibold ">{item.title}</h6>
-                                      <p className="text-16 mb-0">{item.subtitle}</p>
+                                      {/* <p className="text-16 mb-0">{item.subtitle}</p> */}
                                     </div>
                                   </Link>
                                 ))}
@@ -113,7 +113,7 @@ const HeaderInner = () => {
       <div onClick={() => toggleMenu()}><HiOutlineMenuAlt1 className="menu_toggle_btn" /></div>
       <Drawer open={isMenuOpen} onClose={() => toggleMenu()} PaperProps={{ sx: { width: "90%" }, }}>
         <div className="d-flex justify-content-between mb-3">
-          <Image className="responsive_img p-2" width={70} height={50} src={"/images/ormLogo.svg"} />
+          <Image className="responsive_img p-2" width={70} height={50} src={"/images/ormLogo.svg"} alt="ORM Techies" />
           <span className="close_button"><IoClose onClick={() => toggleMenu()} /></span>
         </div>
         <nav className="mobile-menu">

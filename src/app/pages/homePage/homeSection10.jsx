@@ -51,7 +51,7 @@ const HomeSection10 = () => {
                     {whoServeList.map((item) => (
                     <li className="cardWrapper" key={item.index}>
                         <div className='card text-center'>
-                            <Image className='mx-auto' src={`./images/homepage/${item.icon}`} width={"80"} height={"80"} alt={item.title} ></Image>
+                            <Image className='mx-auto' src={`./images/header/${item.icon}`} width={"80"} height={"80"} alt={item.title} ></Image>
                             <h2 className='mt-3 text-black title-md fw-bold'>{item.title}</h2>
                             <p className='mb-0'>{item.info}</p>
                         </div>

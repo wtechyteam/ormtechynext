@@ -15,7 +15,7 @@ const HomeSection5 = () => {
             <Container>
                 <div className="title_section text-center">
                     <h2 className='title-xl fw-bold '>What We Do?</h2>
-                    <p>At ORM Techies, we specialize in providing exceptional online reputation management services. Whether you're an individual seeking to raise your personal brand or a business aiming to safeguard its online image, we've got you covered. </p>
+                    <p>At ORM Techies, we specialize in providing exceptional online reputation management services. Whether you&apos;re an individual seeking to raise your personal brand or a business aiming to safeguard its online image, we&apos;ve got you covered. </p>
                 </div>
                 <Tabs
                     aria-label="Vertical tabs"
@@ -27,15 +27,15 @@ const HomeSection5 = () => {
                             <TabList className="tab_list">
                                 <Tab className="tab_btn">
                                     <div className="tabImage">
-                                        <Image width={60} height={60} src={"/images/homepage/personalBranding.png"} alt='icon' title='Personal Branding' />
+                                        <Image width={60} height={60} src={"/images/header/personalBranding.png"} alt='icon' title='Personal Branding' />
                                     </div>
 
                                     <h2 className="tabTitle">Personal Branding</h2>
-                                    <p className='tabInfo'>Building a strong personal brand is essential in today's competitive landscape. Our experts will work closely with you to develop a personalized personal branding strategy that showcases your strengths and values, positioning you as a reputable figure in your field.</p>
+                                    <p className='tabInfo'>Building a strong personal brand is essential in today&apos;s competitive landscape. Our experts will work closely with you to develop a personalized personal branding strategy that showcases your strengths and values, positioning you as a reputable figure in your field.</p>
                                 </Tab>
                                 <Tab className="tab_btn">
                                     <div className="tabImage">
-                                        <Image width={60} height={60} src={"/images/homepage/reputationRepair.png"} alt='icon' />
+                                        <Image width={60} height={60} src={"/images/header/reputationRepair.png"} alt='icon' />
                                     </div>
 
                                     <h2 className="tabTitle">Reputation Repair</h2>
@@ -43,7 +43,7 @@ const HomeSection5 = () => {
                                 </Tab>
                                 <Tab className="tab_btn">
                                     <div className="tabImage">
-                                        <Image width={60} height={60} src={"/images/homepage/reputation-management.png"} alt='icon' />
+                                        <Image width={60} height={60} src={"/images/header/reputation-management.png"} alt='icon' />
                                     </div>
 
                                     <h2 className="tabTitle">Reputation Management</h2>
@@ -51,7 +51,7 @@ const HomeSection5 = () => {
                                 </Tab>
                                 <Tab className="tab_btn">
                                     <div className="tabImage">
-                                        <Image width={60} height={60} src={"/images/homepage/reviewManagement.png"} alt='icon' />
+                                        <Image width={60} height={60} src={"/images/header/reviewManagement.png"} alt='icon' />
                                     </div>
 
                                     <h2 className="tabTitle">Review Management</h2>
