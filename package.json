@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && mkdir out && cp -r .next out && cp -r public out/public",
+    "build": "next build",
     "start": "NODE_ENV=production node server.js",
     "lint": "next lint"
   },
