@@ -44,8 +44,8 @@ const HomeSection10 = () => {
     return (
         <section className='sectionPadding bg_gray'>
             <Container>
-            <div class="title_section text-center">
-                <h2 class="title-xl fw-bold ">Who We Serve?</h2>
+            <div className="title_section text-center">
+                <h2 className="title-xl fw-bold ">Who We Serve?</h2>
                 <p>At ORM Techies, we cater to a diverse clientele across various industries, including:</p></div>
                 <ul className='iconCardList mt-5'>
                     {whoServeList.map((item) => (

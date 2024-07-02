@@ -29,7 +29,7 @@ const HomeSection3 = () => {
                         </div>
                         <p className='text-22 mt-4 fw-bold'>Upgrade your online reputation today! </p>
                         <div className='d-flex flex-wrap gap-3 mt-5 justify-content-center'>
-                            <PrimeBtn btnName="get a quate" />
+                            <PrimeBtn btnName="Get a Quote" />
                             <BorderBtn darkBtn="dark_btn" btnName={"Talk to us"} />
                         </div>
                     </Col>
