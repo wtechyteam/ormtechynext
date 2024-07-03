@@ -34,6 +34,7 @@ export const headerData = [
             {
                 id: 31,
                 subTitle: "Reputation Repair ",
+                link: "pages/reputation-repair",
                 info: "Remove & suppress negative search results",
                 subLinks: [
                     {
@@ -77,6 +78,7 @@ export const headerData = [
                 id: 32,
                 subTitle: "Personal Branding",
                 info: "Remove & suppress negative results",
+                link: "pages/service/personal-branding",
                 subLinks: [
                     {
                         id: 321,
@@ -139,6 +141,7 @@ export const headerData = [
             {
                 id: 33,
                 subTitle: "Review Management",
+                link: "pages/review-management",
                 info: "Remove & suppress negative search",
                 subLinks: [
                     {
@@ -204,6 +207,7 @@ export const headerData = [
             {
                 id: 34,
                 subTitle: "Reputation Management",
+                link: "pages/reputation-management",
                 info: "Remove & suppress negative search",
                 subLinks: [
                     {
