@@ -9,7 +9,6 @@ import InnerTopBanner from "../../common/innerTopBanner";
 import ImageInfoWrap from "../../common/imageInfoWrap";
 import HomeSection9 from "./homeSection9";
 import StatisticsSection from "./statisticsSection";
-import AnimatedNumber from './../../../common/numanimation';
 
 const ReputationRepairPage = () => {
   return (

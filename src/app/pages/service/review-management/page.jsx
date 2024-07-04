@@ -1,17 +1,15 @@
+'use client'
 import * as React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import ContactForm from "../../contact/contactForm/page";
-import { MdLocationPin } from "react-icons/md";
-import { MdLocalPhone } from "react-icons/md";
+import { MdLocationPin, MdLocalPhone, MdEmail } from "react-icons/md";
 import HomeSection2 from './homeSection2';
 import HomeSection6 from './homeSection6';
-import HomeSection9 from './homeSection9';
-import { MdEmail } from "react-icons/md";
 import InnerTopBanner from "../../common/innerTopBanner";
 import ImageInfoWrap from "../../common/imageInfoWrap";
+import HomeSection9 from "./homeSection9";
 import StatisticsSection from "./statisticsSection";
 import ReviewManagementFaq from "./ReviewManagementFaq";
-import AnimatedNumber from './../../../common/numanimation';
+
 
 const ReviewManagementPage = () => {
   return (

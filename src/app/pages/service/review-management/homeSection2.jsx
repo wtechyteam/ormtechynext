@@ -1,6 +1,6 @@
 import React from 'react'
 import Marquees from '../../marquee/index'
-import { marqueeImages } from '@/app/data/marqueeData'
+import { marqueeImages } from './../../../data/marqueeData'
 
 const HomeSection2 = () => {
   return (

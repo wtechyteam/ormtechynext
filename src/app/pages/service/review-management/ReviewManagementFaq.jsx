@@ -1,5 +1,5 @@
 'use client'
-import FAQSection from '@/app/common/Faq';
+import FAQSection from './../../../common/Faq';
 import React from 'react';
 
 function ReviewManagementFaq() {
