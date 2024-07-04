@@ -1,7 +1,7 @@
 import React from 'react';
 import Marquees from '../../marquee/index';
 import Image from 'next/image';
-import { marqueeCardData } from '@/app/data/marqueeData';
+import { marqueeCardData } from './../../../data/marqueeData';
 import { Col, Row } from 'react-bootstrap';
 
 const HomeSection6 = () => {

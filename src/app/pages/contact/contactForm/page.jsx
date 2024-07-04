@@ -1,10 +1,10 @@
-"use client"
-import emailjs from '@emailjs/browser';
-import { useRef } from 'react';
-import { Col, Row } from 'react-bootstrap';
-
+"use client";
+// import emailjs from '@emailjs/browser';
+import { useRef } from "react";
+import { Col, Row } from "react-bootstrap";
+import HubspotForm from "react-hubspot-form";
 const ContactForm = () => {
-    const form = useRef();
+  /*  const form = useRef();
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -20,10 +20,17 @@ const ContactForm = () => {
                     alert('FAILED...', error.text);
                 },
             );
-    };
+    }; */
   return (
     <div>
-         <form className="customForm rounded-2" ref={form} onSubmit={sendEmail}>
+      <HubspotForm
+        portalId="46372694"
+        formId="7313c509-f9ca-45e7-9dbe-a09987fd8c53"
+        onSubmit={() => console.log("Submit!")}
+        onReady={(form) => console.log("Form ready!")}
+        loading={<div>Loading...</div>}
+      />
+      {/* <form className="customForm rounded-2" ref={form} onSubmit={sendEmail}>
                 <Row className="mx-0">
                     <h3 className='title-lg dark_font fw-bold '>Get in touch for a chat</h3>
                     <p className='policy_text margin_bottom_40'>All communication is strictly confidential.</p>
@@ -43,9 +50,9 @@ const ContactForm = () => {
                         <button className='w-100 py-2 formButton' type="submit" >Contact</button>
                     </Col>
                 </Row>
-            </form>
+            </form> */}
     </div>
-  )
-}
+  );
+};
 
-export default ContactForm
+export default ContactForm;

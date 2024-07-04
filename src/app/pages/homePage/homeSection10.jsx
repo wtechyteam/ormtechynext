@@ -49,6 +49,7 @@ const HomeSection10 = () => {
                 <p>At ORM Techies, we cater to a diverse clientele across various industries, including:</p></div>
                 <ul className='iconCardList mt-5'>
                     {whoServeList.map((item) => (
+                        
                     <li className="cardWrapper" key={item.index}>
                         <div className='card text-center'>
                             <Image className='mx-auto' src={`./images/header/${item.icon}`} width={"80"} height={"80"} alt={item.title} ></Image>

@@ -1,10 +1,11 @@
-import BorderBtn from '@/app/pages/common/borderBtn'
-import PrimeBtn from '@/app/pages/common/primeBtn'
+import BorderBtn from './../common/borderBtn'
+ 
 import Image from 'next/image'
 import React from 'react';
+import HubspotForm from 'react-hubspot-form';
 // import banner from "../../../../public/images/homepage/Hero-Image.png";
 import addImage1 from "../../../../public/images/add-img-1.png";
-import CommonForm from '../common/form';
+
 
 const HomeSection1 = () => {
   return (
@@ -27,7 +28,7 @@ const HomeSection1 = () => {
             </div>
           </div>
           <div className="col-lg-6 text-center ">
-            {/* <Image
+           {/*   <Image
               width={640}
               height={640}
               placeholder='blur'
@@ -37,13 +38,15 @@ const HomeSection1 = () => {
               alt='Reputation Management Image'
               title='Reputation Management Image'
               style={{ width: "auto", height: "auto" }}
-            /> */}
+            />  */}
             <div className='ps-0 ps-xl-5'>
-              <CommonForm
-                textArea={true}
-                formBg={true}
-                policy={true}
-              />
+            <HubspotForm 
+                portalId='46372694'
+                formId='4470d94d-3abb-4cb6-8c90-e94916d164b6'
+                onSubmit={() => console.log('Submit!')}
+                onReady={(form) => console.log('Form ready!')}
+                loading={<div>Loading...</div>}
+            />
             </div>
           </div>
         </div>

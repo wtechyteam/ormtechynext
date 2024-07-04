@@ -1,4 +1,4 @@
-import ImageInfoWrap from '@/app/pages/common/imageInfoWrap'
+import ImageInfoWrap from './../common/imageInfoWrap'
 import { Tab, TabList, TabPanel, Tabs } from '@mui/joy'
 import Image from 'next/image'
 import React from 'react'

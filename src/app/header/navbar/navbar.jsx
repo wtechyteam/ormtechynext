@@ -6,7 +6,7 @@ import { Drawer } from "@mui/material";
 import { IoIosArrowDown } from "react-icons/io";
 import { HiOutlineMenuAlt1 } from "react-icons/hi";
 import Image from "next/image";
-import { headerData } from "@/app/data/headerData";
+import { headerData } from "../../data/headerData";
 import { IoClose } from "react-icons/io5";
 import { Accordion, Offcanvas } from "react-bootstrap";
 import { FaArrowLeft } from "react-icons/fa6";

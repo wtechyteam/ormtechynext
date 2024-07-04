@@ -1,5 +1,5 @@
-import BorderBtn from '@/app/pages/common/borderBtn'
-import PrimeBtn from '@/app/pages/common/primeBtn'
+import BorderBtn from './../../common/borderBtn'
+import PrimeBtn from './../../common/primeBtn'
 import React from 'react'
 import { Container } from 'react-bootstrap'
 

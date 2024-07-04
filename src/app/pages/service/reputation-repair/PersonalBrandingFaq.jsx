@@ -1,10 +1,10 @@
 'use client'
-import FAQSection from './../../../common/Faq';
+import FAQSection from '@/app/common/Faq';
 import React from 'react';
 
 function PersonalBrandingFaq() {
     // Define your FAQ data as an array of objects with 'question' and 'answer' properties
-    const personalBrandingFaqs = [
+    const ReputationRepairFaqs = [
         {
             question: 'How long does it take to see results from personal branding efforts?',
             answer: 'Results vary depending on various factors such as your industry, target audience, and the strategies employed. However, with consistent effort and strategic planning, you can start seeing noticeable results within a few months.',
@@ -35,7 +35,7 @@ function PersonalBrandingFaq() {
                     <h2 className="title-xl fw-bold mb-5">FAQs</h2>
                     {/* <p>At ORM Techies, we cater to a diverse clientele across various industries, including:</p> */}
                 </div>
-                <FAQSection faqs={personalBrandingFaqs} />
+                <FAQSection faqs={ReputationRepairFaqs} />
             </div>
         </section>
     );

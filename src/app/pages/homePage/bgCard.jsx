@@ -1,4 +1,4 @@
-import { bgCardData } from '@/app/data/bgCardData';
+import { bgCardData } from './../../data/bgCardData';
 import { Card, CardContent, CardCover, Typography } from '@mui/joy'
 import React from 'react'
 import { Image } from 'react-bootstrap'

@@ -1,21 +1,23 @@
-"use client";
 import * as React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { MdLocationPin, MdLocalPhone, MdEmail } from "react-icons/md";
-import HomeSection2 from "./homeSection2";
-import HomeSection6 from "./homeSection6";
-import PersonalBrandingFaq from "./PersonalBrandingFaq";
+import ContactForm from "../../contact/contactForm/page";
+import { MdLocationPin } from "react-icons/md";
+import { MdLocalPhone } from "react-icons/md";
+import HomeSection2 from './homeSection2';
+import HomeSection6 from './homeSection6';
+import HomeSection9 from './homeSection9';
+import { MdEmail } from "react-icons/md";
 import InnerTopBanner from "../../common/innerTopBanner";
 import ImageInfoWrap from "../../common/imageInfoWrap";
-import HomeSection9 from "./homeSection9";
 import StatisticsSection from "./statisticsSection";
+import ReviewManagementFaq from "./ReviewManagementFaq";
+import AnimatedNumber from './../../../common/numanimation';
 
-
-const PersonalBrandingPage = () => {
+const ReviewManagementPage = () => {
   return (
     <>
       <InnerTopBanner
-        title="Level Up Your Online Presence With Personal Branding Experts"
+        title="Review-Management"
         info="Boost your online presence with ORM Techies. Specializing in personal branding, we help professionals, influencers, and entrepreneurs craft compelling digital identities. Unlock success with customized strategies and expert guidance"
       />
       <HomeSection2 />
@@ -62,11 +64,13 @@ const PersonalBrandingPage = () => {
           }
         />
       </section>
-      <PersonalBrandingFaq />
+      <ReviewManagementFaq />
       <HomeSection6 />
       <HomeSection9 />
+      
     </>
   );
+ 
 };
 
-export default PersonalBrandingPage;
+export default ReviewManagementPage;

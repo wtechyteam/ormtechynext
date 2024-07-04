@@ -1,4 +1,4 @@
-import ImageInfoWrap from '@/app/pages/common/imageInfoWrap'
+import ImageInfoWrap from './../common/imageInfoWrap'
 import React from 'react'
 import banner from "../../../../public/images/homepage/Hero-Image.png";
 

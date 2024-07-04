@@ -3,7 +3,7 @@ import ImageInfoWrap from "../common/imageInfoWrap"
 import Image from "next/image"
 import PrimeBtn from "../common/primeBtn"
 // import Marquees from "../marquee"
-import { marqueeCardData } from "@/app/data/marqueeData"
+import { marqueeCardData } from "./../../data/marqueeData"
 import { Col, Container, Row } from "react-bootstrap"
 
 const AboutPage = () => {
