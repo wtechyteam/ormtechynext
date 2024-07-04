@@ -1,11 +1,9 @@
+'use client'
 import * as React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import ContactForm from "../../contact/contactForm/page";
-import { MdLocationPin } from "react-icons/md";
-import { MdLocalPhone } from "react-icons/md";
-import { MdEmail } from "react-icons/md";
+import { MdLocationPin, MdLocalPhone, MdEmail } from "react-icons/md";
 import HomeSection2 from './homeSection2';
-import HomeSection6 from './homeSection6'
+import HomeSection6 from './homeSection6';
 import PersonalBrandingFaq from "./PersonalBrandingFaq";
 import InnerTopBanner from "../../common/innerTopBanner";
 import ImageInfoWrap from "../../common/imageInfoWrap";
@@ -14,10 +12,10 @@ const PersonalBrandingPage = () => {
   return (
     <>
       <InnerTopBanner
-        title="  Level Up Your Online Presence With Personal Branding Experts"
+        title="Level Up Your Online Presence With Personal Branding Experts"
         info="Boost your online presence with ORM Techies. Specializing in personal branding, we help professionals, influencers, and entrepreneurs craft compelling digital identities. Unlock success with customized strategies and expert guidance"
       />
-  <HomeSection2 />
+      <HomeSection2 />
 
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
@@ -37,7 +35,6 @@ const PersonalBrandingPage = () => {
         <ImageInfoWrap
           title={"Stay One Step Ahead"}
           imageUrl={"/images/image670.png"}
-    
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -124,7 +121,7 @@ const PersonalBrandingPage = () => {
               </div>
             </Col>
             <Col lg={7}>
-              <ContactForm />
+              {/* <ContactForm /> */}
             </Col>
           </Row>
         </Container>
