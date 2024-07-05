@@ -3,8 +3,9 @@ import ImageInfoWrap from "../common/imageInfoWrap"
 import Image from "next/image"
 import PrimeBtn from "../common/primeBtn"
 // import Marquees from "../marquee"
-import { marqueeCardData } from "./../../data/marqueeData"
+import { marqueeCardData } from "../../data/marqueeData"
 import { Col, Container, Row } from "react-bootstrap"
+import HomeSection6 from './homeSection6'
 
 const AboutPage = () => {
     return (
@@ -15,13 +16,14 @@ const AboutPage = () => {
                     <div className="about_col item_center" lg={6}>
                         <div className="hero_heading about_banner_padding">
                             <h2 className='title-xl fw-bold text-white'>
-                                An Expert Team
-                                Fighting For Fairness
+                            We Build Your Online Success
                             </h2>
                             <p className='text-16 text-white'>
-                                We believe in freedom of speech. What we don’t believe in is the disproportionate and often unfair damage that can be done to a reputation by someone hiding behind a screen and a keyboard.
+                            At ORM Techies, we are the reputation experts and guardians of your online narrative. Driven by a passion for fairness and fueled by the best expertise, our mission is to help you take control of your online reputation.
+
+
                                 <br /><br />
-                                We’re here to level the playing field – to fight back against the trolls and haters, the unreasonable customers, the fake reviews and unscrupulous competitors.
+                                Whether you’re an individual or a business, we have the tools and know-how to boost your brand and safeguard your image.
                             </p>
                             <PrimeBtn btnName={"get a quote"} />
                         </div>
@@ -32,18 +34,19 @@ const AboutPage = () => {
             {/* -----------------------------------------------------image-content-section---------------------------------------------- */}
             <section className='sectionPadding bg_gray'>
                 <ImageInfoWrap
-                    title={'We Exist To Fight Trolls'}
+                    title={' Empowering Your Online Image: Meet ORM Techies'}
+                        
                     imageUrl={"/images/orm-about.webp"}
                     showPrimeBtn={true}
                     primeBtnName={"get a free quote"}
                     borderBtnName={"faq"}
                     darkButton="dark_btn"
-                    description={"<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p><p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney the word in classical literature, discovered the undoubtable source. </p>"}
+                    description={"<p>We're more than just a reputation management company; we're your partners in success. Our dedication to excellence has earned us recognition within the industry, including great reputation management consultants reviews, we constantly pushing the boundaries of ORM to deliver real results. Trust our expertise and technology to positively impact your online reputation, always working in your best interests.</p>"}
                 />
             </section>
 
             {/* -----------------------------------------------------marquee-card section------------------------------------------------- */}
-            <section className=' bg_dark position-relative'>
+            {/* <section className=' bg_dark position-relative'>
                 <div className=' image_bg'>
                     <div className='content_bg sectionPadding2'>
 
@@ -67,10 +70,24 @@ const AboutPage = () => {
                             </Row>
 
                         </div>
-                        {/* <Marquees mSpeed={60} pauseOnHover={true} mapData={marqueeCardData} dataType="card" /> */}
+                        {/* <Marquees mSpeed={60} pauseOnHover={true} mapData={marqueeCardData} dataType="card" /> 
                     </div>
                 </div>
+            </section> */}
+             <section className='sectionPadding bg_gray'>
+                <ImageInfoWrap
+                    title={'We Exist To Fight Trolls'}
+                    imageUrl={"/images/orm-about.webp"}
+                    showPrimeBtn={true}
+                    primeBtnName={"get a free quote"}
+                    isReverse={true}
+                    borderBtnName={"faq"}
+                    darkButton="dark_btn"
+                    description={"<p>Your online reputation matters. Trust ORM Techies, your reputation experts, to shape your digital narrative. Ready to upgrade? Contact us for a free consultation and achieve your digital goals. Join us and let's build a better online future together. </p>"}
+                />
             </section>
+
+            <HomeSection6 />
         </div>
     )
 }

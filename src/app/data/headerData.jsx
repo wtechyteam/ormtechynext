@@ -17,7 +17,7 @@ export const headerData = [
         id: 2,
         icon: <AiFillInfoCircle />,
         title: "About",
-        link: "/pages/aboutPage",
+        link: "/about-us",
         metaTitle: 'About Agency - WTechy',
         metaDescription: 'We maximize your business potential'
     },
@@ -25,7 +25,7 @@ export const headerData = [
         id: 3,
         icon: <MdHomeRepairService />,
         title: "Services",
-        link: "/pages/service",
+        link: "/service",
         ServiceClass: "active_service",
         menuType: "submenu",
         metaTitle: 'service df',
@@ -34,7 +34,7 @@ export const headerData = [
             {
                 id: 31,
                 subTitle: "Reputation Repair ",
-                link: "pages/reputation-repair",
+                link: "/service/reputation-repair",
                 info: "Remove & suppress negative search results",
                 subLinks: [
                     {
@@ -78,7 +78,7 @@ export const headerData = [
                 id: 32,
                 subTitle: "Personal Branding",
                 info: "Remove & suppress negative results",
-                link: "pages/service/personal-branding",
+                link: "/service/personal-branding",
                 subLinks: [
                     {
                         id: 321,
@@ -141,7 +141,7 @@ export const headerData = [
             {
                 id: 33,
                 subTitle: "Review Management",
-                link: "pages/review-management",
+                link: "/service/review-management",
                 info: "Remove & suppress negative search",
                 subLinks: [
                     {
@@ -207,7 +207,7 @@ export const headerData = [
             {
                 id: 34,
                 subTitle: "Reputation Management",
-                link: "pages/reputation-management",
+                link: "/service/reputation-management",
                 info: "Remove & suppress negative search",
                 subLinks: [
                     {
@@ -240,7 +240,7 @@ export const headerData = [
         id: 4,
         icon: <BiSolidContact />,
         title: "Contact",
-        link: "/pages/contact",
+        link: "/contact",
     },
     {
         id: 5,
@@ -248,6 +248,6 @@ export const headerData = [
         target: "_blank",
         btnClass: "navButton",
         title: "Get a Quote",
-        link: "/pages/getAQuote"
+        link: "/getAQuote"
     }
 ];

@@ -26,7 +26,7 @@ const HomePage = () => {
       <HomeSection6 />
       <HomeSection7 />
       <HomeSection8 />
-      <HomeSection9 />
+       <HomeSection9 />
 
     </>
   )

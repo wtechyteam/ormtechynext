@@ -98,7 +98,7 @@ const Footer = () => {
                   <h4 className='footerTitle'>Our Services</h4>
                   <ul>
                     <li>
-                      <Link href="/reputation-management/">Reputation Management</Link>
+                      <Link href="/service/reputation-management/">Reputation Management</Link>
                     </li>
                     <li>
                       <Link href="/?page_id=964">AMPLIFY Reviews</Link>

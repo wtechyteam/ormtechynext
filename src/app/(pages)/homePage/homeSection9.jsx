@@ -2,7 +2,7 @@ import BorderBtn from './../common/borderBtn'
 import PrimeBtn from './../common/primeBtn'
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import BgCard from './bgCard'
+// import BgCard from './bgCard'
 
 const HomeSection9 = () => {
     return (
@@ -17,7 +17,7 @@ const HomeSection9 = () => {
                     </div>
                 </div>
             </Container>
-            <BgCard />
+            {/* <BgCard /> */}
         </section>
     )
 }

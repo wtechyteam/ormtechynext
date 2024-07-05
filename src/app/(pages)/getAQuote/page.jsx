@@ -1,9 +1,10 @@
-import React from 'react'
-import InnerTopBanner from '../common/innerTopBanner'
-import QuoteForm from './quoteForm/page'
-import { Col, Container, Row } from 'react-bootstrap'
-import Image from 'next/image'
-import Link from 'next/link'
+'use client'
+import React from 'react';
+import InnerTopBanner from '../common/innerTopBanner';
+import QuoteForm from './quoteForm/page';
+import { Col, Container, Row } from 'react-bootstrap';
+import Image from 'next/image';
+import Link from 'next/link';
 import siteLogo from "../../../../public/images/ORMLogoNew.svg";
 
 const GetAQuote = () => {
@@ -30,8 +31,8 @@ const GetAQuote = () => {
             {/* ----------------------------------------------------right-card-section----------------------------------------------------- */}
             <Col lg={4}>
               <div className='item_center flex-column mt-5 mt-lg-0'>
-                <Image className='card_profile_img' width={100} height={100} src="/images/card-profile.jpg" alt="profile" title="profile" />
-                <p className='w-75 text-center'>
+                <Image className='card_profile_img mb-4' width={100} height={100} src="/images/card-profile.jpg" alt="profile" title="profile" />
+                <p className='w-75 text-center mb-4'>
                   {"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. "}
                 </p>
               </div>
@@ -39,8 +40,13 @@ const GetAQuote = () => {
           </Row>
         </Container>
       </section>
+      <style jsx>{`
+        .item_center > * {
+          margin-bottom: 1.5rem; /* Adjust the value as needed */
+        }
+      `}</style>
     </>
-  )
+  );
 }
 
-export default GetAQuote
+export default GetAQuote;

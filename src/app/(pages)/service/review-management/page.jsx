@@ -16,7 +16,7 @@ const ReviewManagementPage = () => {
     <>
       <InnerTopBanner
         title="Review-Management"
-        info="Boost your online presence with ORM Techies. Specializing in personal branding, we help professionals, influencers, and entrepreneurs craft compelling digital identities. Unlock success with customized strategies and expert guidance"
+        info="Are you looking to boost your online presence and reputation? At ORMTechies, we specialize in advanced online review management that can significantly enhance your business's image. "
       />
       <HomeSection2 />
 
