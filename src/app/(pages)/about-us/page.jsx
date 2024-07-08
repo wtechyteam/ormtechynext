@@ -96,3 +96,10 @@ const AboutUsPage = () => {
 };
 
 export default AboutUsPage;
+
+export function generateMetadata(){
+  return{
+    title:"About Us Page",
+    description:"About - us content"
+  }
+}

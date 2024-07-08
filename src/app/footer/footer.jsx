@@ -50,19 +50,12 @@ const Footer = () => {
 
               </ul>
               <ul className="contactInfo">
-                {/* <li>
-                  <FaPhoneAlt />
-                  <a href="tel:+91-6283857196" title="+91-6283857196">+91-6283857196</a><br></br>
-                  <a href="tel:+91-7717505073" title="+91-7717505073">+91-7717505073</a>
-                </li> */}
+                
                 <li>
                   <FaEnvelope />
                   <a href="mailto:info@ormtechies.com" title="info@wtechy.com">info@ormtechies.com</a>
                 </li>
-                {/* <li>
-                  <FaLocationDot />
-                  <p>HSIIDC IT Park, Plot No 6, 7th Floor, Behind Gurudwara Nada Sahib, Sector 22, Panchkula, Haryana 134109</p>
-                </li> */}
+                
               </ul>
             </div>
             <div className="col-lg-8">
@@ -74,7 +67,7 @@ const Footer = () => {
                       <Link href="google-reviews/">Google Reviews</Link>
                     </li>
                     <li>
-                      <Link href="#">Glassdoor</Link>
+                      <Link href="/content-removal/glassdoor/">Glassdoor</Link>
                     </li>
                     <li>
                       <Link href="/content-removal/ratemds/">RateMDs</Link>
@@ -120,9 +113,7 @@ const Footer = () => {
                     <li>
                       <Link href="/contact/" >Contact</Link>
                     </li>
-                    <li>
-                      <Link href="/careers/" >Careers</Link>
-                    </li>
+
                     <li>
                       <Link href="/ormtechies-in-the-media/" >In The Media</Link>
                     </li>
