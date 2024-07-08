@@ -244,6 +244,13 @@ export const headerData = [
     },
     {
         id: 5,
+        icon: <BiSolidContact />,
+        title: "Pricing",
+        link: "/pricing",
+    },
+
+    {
+        id: 6,
         icon: <BsChatRightQuoteFill />,
         target: "_blank",
         btnClass: "navButton",
