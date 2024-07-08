@@ -1,7 +1,7 @@
 'use client'
 import * as React from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import { MdLocationPin, MdLocalPhone, MdEmail } from "react-icons/md";
+import {repiarMetaData} from "./repiarMetaData";
+
 import HomeSection2 from './homeSection2';
 import HomeSection6 from './homeSection6';
 import PersonalBrandingFaq from "./PersonalBrandingFaq";
@@ -69,3 +69,7 @@ const ReputationRepairPage = () => {
 };
 
 export default ReputationRepairPage;
+
+
+
+<repiarMetaData />

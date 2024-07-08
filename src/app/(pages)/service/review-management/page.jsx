@@ -1,7 +1,6 @@
 'use client'
 import * as React from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import { MdLocationPin, MdLocalPhone, MdEmail } from "react-icons/md";
+import {reviewMetaData} from './reviewMetaData';
 import HomeSection2 from './homeSection2';
 import HomeSection6 from './homeSection6';
 import InnerTopBanner from "../../common/innerTopBanner";
@@ -72,3 +71,5 @@ const ReviewManagementPage = () => {
 };
 
 export default ReviewManagementPage;
+
+<reviewMetaData />

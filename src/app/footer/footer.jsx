@@ -94,7 +94,7 @@ const Footer = () => {
                       <Link href="/service/reputation-management/">Reputation Management</Link>
                     </li>
                     <li>
-                      <Link href="/?page_id=964">AMPLIFY Reviews</Link>
+                      <Link href="/amplify-reviews">AMPLIFY Reviews</Link>
                     </li>
                     <li>
                       <Link href="/reputation-review-monitoring/">Reputation Monitoring</Link>

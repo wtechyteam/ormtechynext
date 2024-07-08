@@ -1,4 +1,4 @@
-'use client'
+
 import * as React from "react";
 import InnerTopBanner from "../common/innerTopBanner";
 import ImageInfoWrap from "../common/imageInfoWrap";
@@ -89,3 +89,10 @@ const ServicePage = () => {
 };
 
 export default ServicePage;
+
+ function generateMetadata(){
+  return{
+    title:"Social Media Reputation MGMT, Marketing and Repair Services",
+    description:"Repair your digital reputation with our agency specializes in comprehensive reputation management services, from social media to online reviews. Call us!"
+  }
+}

@@ -1,11 +1,18 @@
 'use client'
+import {useMounted} from "./../../common/unmounted";
 import React from "react";
 import ImageInfoWrap from "./../common/imageInfoWrap";
 import PrimeBtn from "./../common/primeBtn";
 import HomeSection6 from "./homeSection6";
+import {aboutMetaData} from "./aboutMetaData"
 
 const AboutUsPage = () => {
+  const mounted = useMounted();
+  if (!mounted) return null
   return (
+
+
+    
     <div>
       {/* about-image-banner */}
       <div className="about_banner">
@@ -25,6 +32,7 @@ const AboutUsPage = () => {
                 Whether you’re an individual or a business, we have the tools
                 and know-how to boost your brand and safeguard your image.
               </p>
+              
               <PrimeBtn btnName={"get a quote"} />
             </div>
           </div>
@@ -92,14 +100,10 @@ const AboutUsPage = () => {
 
       <HomeSection6 />
     </div>
+        
   );
+
 };
 
 export default AboutUsPage;
-
-export function generateMetadata(){
-  return{
-    title:"About Us Page",
-    description:"About - us content"
-  }
-}
+<aboutMetaData />

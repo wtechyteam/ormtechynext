@@ -1,5 +1,6 @@
+'use client'
 import BorderBtn from './../common/borderBtn'
- 
+ import {BrowserRouter} from 'react-router-dom'
 import Image from 'next/image'
 import React from 'react';
 import HubspotForm from 'react-hubspot-form';
@@ -9,6 +10,7 @@ import addImage1 from "../../../../public/images/add-img-1.png";
 
 const HomeSection1 = () => {
   return (
+    <BrowserRouter>  
     <section className={`sectionPadding  hero_banner`}>
       <div className="container top_padding">
         <div className={`row align-items-center`}>
@@ -52,6 +54,7 @@ const HomeSection1 = () => {
         </div>
       </div>
     </section>
+    </BrowserRouter>
   )
 }
 
