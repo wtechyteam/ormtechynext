@@ -74,7 +74,7 @@ const Footer = () => {
                       <Link href="google-reviews/">Google Reviews</Link>
                     </li>
                     <li>
-                      <Link href="/content-removal/glassdoor/">Glassdoor</Link>
+                      <Link href="#">Glassdoor</Link>
                     </li>
                     <li>
                       <Link href="/content-removal/ratemds/">RateMDs</Link>

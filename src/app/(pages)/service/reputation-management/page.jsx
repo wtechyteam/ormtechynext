@@ -16,7 +16,7 @@ const ReputationConsultantPage = () => {
     <>
       <InnerTopBanner
         title="Reputation-Management"
-        info="Boost your online presence with ORM Techies. Specializing in personal branding, we help professionals, influencers, and entrepreneurs craft compelling digital identities. Unlock success with customized strategies and expert guidance"
+        info="Through advanced reputation marketing, your trusted partner will unlock the full potential of your business. As a reputation marketing agency, we specialize in delivering tailored solutions that enhance your online presence, build trust, and drive growth."
       />
       <HomeSection2 />
 

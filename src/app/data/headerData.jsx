@@ -42,7 +42,7 @@ export const headerData = [
                         icon: "/images/header/pushDown.png",
                         title: "Push Down Results",
                         subtitle: "search optimization",
-                        slug: "/push-down-results"
+                        slug: "/service/push-down-results"
                     },
                     {
                         id: 312,

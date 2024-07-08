@@ -1,13 +1,15 @@
 'use client'
 import React from "react";
-import InnerTopBanner from "./../common/innerTopBanner";
+
+import InnerTopBanner from "../../common/innerTopBanner";
 import SubMenu1 from "./submenu1";
 import Image from "next/image";
 import styled from "styled-components";
-import ImageInfoWrap from '../common/imageInfoWrap';
+import ImageInfoWrap from '../../common/imageInfoWrap';
 import StatisticsSection from "./statisticsSection";
 import HomeSection9 from "./homeSection9";
 import HomeSection6 from "./homeSection6";
+
 
 // Styled components
 const Container = styled.div`
@@ -20,13 +22,13 @@ const Title = styled.h2`
   font-size: 2rem;
   color: #002A4C;
   text-align: center;
-  margin-bottom: 20px; /* Optional: add margin bottom for spacing */
+  margin-bottom: 20px; 
 `;
 
 const CardsContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
-  gap: 10px; /* Adjust gap between cards */
+  gap: 10px; 
   justify-content: center;
 `;
 
@@ -59,6 +61,7 @@ const cardsData = [
 ];
 
 const SubMenuPage = () => {
+ 
   return (
     <>
       <InnerTopBanner

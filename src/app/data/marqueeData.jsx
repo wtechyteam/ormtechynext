@@ -83,25 +83,25 @@ export const marqueeCardData = [
     },
     {
         title: "Nina T",
-        profileImage: "/images/card-profile.jpg",
+        profileImage: "/images/image8.png",
         textContent: "Working with ORM Techies has been a reliable and trustworthy experience. Their team is honest, transparent, and committed to delivering results. Our online reputation has significantly improved since partnering with them.",
         rating: "/images/star-rating.svg"
     },
     {
         title: "Karen",
-        profileImage: "/images/card-profile.jpg",
+        profileImage: "/images/image7.png",
         textContent: "The strategic approach of ORM Techies is both effective and innovative. They have a deep understanding of online reputation management and have helped us navigate complex challenges with ease." ,
         rating: "/images/star-rating.svg"
     },
     {
         title: "Jessica",
-        profileImage: "/images/card-profile.jpg",
+        profileImage: "/images/image9.png",
         textContent: "The positive impact ORM Techies has had on our business is undeniable. Their services have led to increased customer trust and a stronger online presence. We are grateful for their expertise and support.",
         rating: "/images/star-rating.svg"
     },
     {
         title: "Robert H",
-        profileImage: "/images/card-profile.jpg",
+        profileImage: "/images/image10.png",
         textContent: "ORM Techies offers expert guidance that has been invaluable to our online reputation strategy. Their team is knowledgeable, approachable, and always ready to assist. We've seen a substantial improvement in our online image thanks to their efforts.",
         rating: "/images/star-rating.svg"
     },

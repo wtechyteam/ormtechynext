@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import AnimatedNumber from './../../common/numanimation';
+import AnimatedNumber from '../../../common/numanimation';
 
 const StatisticsSection = () => {
   return (
