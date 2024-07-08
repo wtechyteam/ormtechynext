@@ -65,10 +65,12 @@
   <changefreq>always</changefreq>
   <lastmod>2024-07-08</lastmod>
 </url>
-<url>
-  <loc>http://www.ormtechies.com/?page_id=964</loc>
+
+  <url>
+  <loc>http://www.ormtechies.com/amplify-reviews</loc>
   <changefreq>always</changefreq>
   <lastmod>2024-07-08</lastmod>
+
 </url>
 <url>
   <loc>http://www.ormtechies.com/reputation-review-monitoring</loc>
@@ -90,19 +92,5 @@
   <changefreq>always</changefreq>
   <lastmod>2024-07-08</lastmod>
 </url>
-<url>
-  <loc>http://www.ormtechies.com/reviews</loc>
-  <changefreq>always</changefreq>
-  <lastmod>2024-07-08</lastmod>
-</url>
-<url>
-  <loc>http://www.ormtechies.com/tel:+91-6283857196</loc>
-  <changefreq>always</changefreq>
-  <lastmod>2024-07-08</lastmod>
-</url>
-<url>
-  <loc>http://www.ormtechies.com/tel:+91-7717505073</loc>
-  <changefreq>always</changefreq>
-  <lastmod>2024-07-08</lastmod>
-</url>
+
 </urlset>
