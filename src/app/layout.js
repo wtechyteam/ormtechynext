@@ -5,11 +5,21 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "./../../public/assets/style/customStyle.scss";
 import HeaderNavbar from "./header/header";
 import Footer from "./footer/footer";
+import Head from 'next/head';
+
 
 export default function RootLayout({ children }) {
   return (
-    <html>
+    <html lang="en">
       <head>
+        
+        <meta title="Online Reputation Management Services | ORM Techies" />
+        <meta name="description" content="Trusted Online Reputation Management Services by ORM Techies. Specializing in personal branding, reputation repair, and proactive management. Contact us now!" />
+        {/* Canonical Tag */}
+        <link rel="canonical" href="https://www.ormtechies.com/" />
+        
+        {/* Meta Robots Tag */}
+        <meta name="robots" content="index, follow" />
         {/* Google Site Verification */}
         <meta name="google-site-verification" content="WRnUipEdUORvYwjBMoasRBifV44oaePJxnUK-WFmies" />
         
@@ -33,11 +43,4 @@ export default function RootLayout({ children }) {
       </body>
     </html>
   );
-}
-
-export function generateMetadata() {
-  return {
-    title: "Online Reputation Management Services | ORM Techies",
-    description: "Trusted Online Reputation Management Services by ORM Techies. Specializing in personal branding, reputation repair, and proactive management. Contact us now!"
-  }
 }

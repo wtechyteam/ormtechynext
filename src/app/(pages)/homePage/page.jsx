@@ -1,6 +1,8 @@
-"use client";
+'use client'
 import React from "react";
+import { Helmet } from "react-helmet";
 import "./homePageStyle.scss";
+import { homepageMetaData } from './homepageMetaData';
 import { useMounted } from "./../../common/unmounted";
 import HomeSection1 from "./homeSection1";
 import HomeSection2 from "./homeSection2";
@@ -16,9 +18,16 @@ import HomeFaq from "./homeFaq";
 
 const HomePage = () => {
   const mounted = useMounted();
+  const metadata = homepageMetaData();
+
   if (!mounted) return null;
+
   return (
     <>
+      <Helmet>
+        <title>Home Page </title>
+        <meta name="description" content="hello i am homepage" />
+      </Helmet>
       <HomeSection1 />
       <HomeSection2 />
       <HomeSection3 />

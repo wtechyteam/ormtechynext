@@ -13,6 +13,12 @@ import ReviewManagementFaq from "./ReviewManagementFaq";
 const ReviewManagementPage = () => {
   return (
     <>
+     <head>
+        <title>Online Reputation: Review Management Services & Software</title>
+        <meta name="description" content="Upgrade your online presence with expert review management services. Gain control over customer feedback and improve your reputation on Google. Contact us!" />
+        <link rel="canonical" href="https://www.ormtechies.com/service/review-management" />
+        <meta name="robots" content="index, follow" />
+      </head>
       <InnerTopBanner
         title="Review-Management"
         info="Are you looking to boost your online presence and reputation? At ORMTechies, we specialize in advanced online review management that can significantly enhance your business's image. "

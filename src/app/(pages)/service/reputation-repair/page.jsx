@@ -13,6 +13,12 @@ import StatisticsSection from "./statisticsSection";
 const ReputationRepairPage = () => {
   return (
     <>
+     <head>
+        <title>Brand Reputation Marketing Agency: Boost Online Presence</title>
+        <meta name="description" content="Struggling with online reviews? We're a reputation marketing agency specializing in online brand reputation management. We help improve ratings and build trust." />
+        <link rel="canonical" href="https://www.ormtechies.com/service/reputation-repair" />
+        <meta name="robots" content="index, follow" />
+      </head>
       <InnerTopBanner
         title="Reputation-Repair"
         info="Boost your online presence with ORM Techies. Specializing in personal branding, we help professionals, influencers, and entrepreneurs craft compelling digital identities. Unlock success with customized strategies and expert guidance"
