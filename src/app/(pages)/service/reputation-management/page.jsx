@@ -1,6 +1,5 @@
 'use client'
 import * as React from "react";
-import {repuMetaData} from "./repuMetaData";
 import HomeSection2 from './homeSection2';
 import HomeSection6 from './homeSection6';
 import ReviewManagementFaq from "./ReviewManagementFaq";
@@ -15,7 +14,7 @@ const ReputationConsultantPage = () => {
     <>
       <head>
         <title>Brand Reputation Management Firm | Online Service Providers </title>
-        <meta name="description" content="Looking for reputation management companies to boost your online presence? We repair negative reviews, build positive brand image and improve customer trust." />
+        <meta name="description" content="Expert Personal Branding Agency to enhance your online reputation. Our consulting services craft compelling digital identities for professionals and businesses." />
         <link rel="canonical" href="https://www.ormtechies.com/service/reputation-management" />
         <meta name="robots" content="index, follow" />
       </head>
@@ -77,4 +76,3 @@ const ReputationConsultantPage = () => {
 
 export default ReputationConsultantPage;
 
-<repuMetaData />

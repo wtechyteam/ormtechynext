@@ -5,8 +5,9 @@ import Tab from '@mui/joy/Tab';
 import TabPanel from '@mui/joy/TabPanel';
 import Image from 'next/image';
 import { Col, Container, Row } from 'react-bootstrap';
-import BorderBtn from './../common/borderBtn'
-import PrimeBtn from './../common/primeBtn'
+import BorderBtn from './../common/borderBtn';
+import PrimeBtn from './../common/primeBtn';
+import Link from 'next/link';
 import { Box } from '@mui/material';
 
 const HomeSection5 = () => {
@@ -29,31 +30,27 @@ const HomeSection5 = () => {
                                     <div className="tabImage">
                                         <Image width={60} height={60} src={"/images/header/personalBranding.png"} alt='icon' title='Personal Branding' />
                                     </div>
-
                                     <h2 className="tabTitle">Personal Branding</h2>
                                     <p className='tabInfo'>Building a strong personal brand is essential in today&apos;s competitive landscape. Our experts will work closely with you to develop a personalized personal branding strategy that showcases your strengths and values, positioning you as a reputable figure in your field.</p>
                                 </Tab>
                                 <Tab className="tab_btn">
                                     <div className="tabImage">
-                                        <Image width={60} height={60} src={"/images/header/reputationRepair.png"} alt='icon' />
+                                        <Image width={60} height={60} src={"/images/header/reputationRepair.png"} alt='icon' title='Reputation Repair' />
                                     </div>
-
                                     <h2 className="tabTitle">Reputation Repair</h2>
                                     <p className='tabInfo'>Have negative content tarnished your online reputation? Our reputation repair services are designed to mitigate the damage caused by negative reviews, articles, or social media posts.</p>
                                 </Tab>
                                 <Tab className="tab_btn">
                                     <div className="tabImage">
-                                        <Image width={60} height={60} src={"/images/header/reputation-management.png"} alt='icon' />
+                                        <Image width={60} height={60} src={"/images/header/reputation-management.png"} alt='icon' title='Reputation Management' />
                                     </div>
-
                                     <h2 className="tabTitle">Reputation Management</h2>
-                                    <p className='tabInfo'>Maintaining a positive online reputation requires ongoing effort and vigilance. Our reputation management services involve monitoring your digital footprint, proactively </p>
+                                    <p className='tabInfo'>Maintaining a positive online reputation requires ongoing effort and vigilance. Our reputation management services involve monitoring your digital footprint, proactively.</p>
                                 </Tab>
                                 <Tab className="tab_btn">
                                     <div className="tabImage">
-                                        <Image width={60} height={60} src={"/images/header/reviewManagement.png"} alt='icon' />
+                                        <Image width={60} height={60} src={"/images/header/reviewManagement.png"} alt='icon' title='Review Management' />
                                     </div>
-
                                     <h2 className="tabTitle">Review Management</h2>
                                     <p className='tabInfo'>Online reviews can significantly impact your reputation. Our review management services cover a wide range of platforms like Glassdoor, Google My Business, Quora, and more.</p>
                                 </Tab>
@@ -62,12 +59,9 @@ const HomeSection5 = () => {
                         <Col lg={6} md={12} className='margin_top_992'>
                             <TabPanel className='px-0' value={0}>
                                 <div className='text-center'>
-
                                     <Image style={{ width: "auto", height: "auto" }} className='responsive_img' width={610} height={400} src={"/images/tab-image1.webp"} alt='icon' title='Personal Branding' />
                                     <div className="tabDetails">
-                                        {/* <h2 className="tabTitle">Personal Branding</h2>
-                                        <p className='tabInfo'>Building a strong personal brand is essential in today's competitive landscape. Our experts will work closely with you to develop a personalized personal branding strategy that showcases your strengths and values, positioning you as a reputable figure in your field.</p> */}
-                                        <PrimeBtn btnName={"learn more"} />
+                                        <Link href="/about-us"><PrimeBtn btnName="Learn More" /></Link>
                                     </div>
                                 </div>
                             </TabPanel>
@@ -75,9 +69,7 @@ const HomeSection5 = () => {
                                 <div className='text-center'>
                                     <Image style={{ width: "auto", height: "auto" }} className='responsive_img' width={610} height={400} src={"/images/tab-image2.webp"} alt='icon' title='Reputation Repair' />
                                     <div className="tabDetails">
-                                        {/* <h2 className="tabTitle">Reputation Repair</h2>
-                                    <p className='tabInfo'>Have negative content tarnished your online reputation? Our reputation repair services are designed to mitigate the damage caused by negative reviews, articles, or social media posts.</p> */}
-                                        <PrimeBtn btnName={"learn more"} />
+                                        <Link href="/about-us"><PrimeBtn btnName="Learn More" /></Link>
                                     </div>
                                 </div>
                             </TabPanel>
@@ -85,19 +77,15 @@ const HomeSection5 = () => {
                                 <div className='text-center'>
                                     <Image style={{ width: "auto", height: "auto" }} className='responsive_img' width={610} height={400} src={"/images/tab-image1.webp"} alt='icon' title='Reputation Management' />
                                     <div className="tabDetails">
-                                        {/* <h2 className="tabTitle">Reputation Management</h2>
-                                    <p className='tabInfo'>Maintaining a positive online reputation requires ongoing effort and vigilance. Our reputation management services involve monitoring your digital footprint, proactively </p> */}
-                                        <PrimeBtn btnName={"learn more"} />
+                                        <Link href="/about-us"><PrimeBtn btnName="Learn More" /></Link>
                                     </div>
                                 </div>
                             </TabPanel>
                             <TabPanel className='px-0' value={3}>
                                 <div className='text-center'>
-                                    <Image style={{ width: "auto", height: "auto" }} className='responsive_img' width={610} height={400} src={"/images/tab-image1.webp"} alt='icon' title='Reputation Management' />
+                                    <Image style={{ width: "auto", height: "auto" }} className='responsive_img' width={610} height={400} src={"/images/tab-image1.webp"} alt='icon' title='Review Management' />
                                     <div className="tabDetails">
-                                        {/* <h2 className="tabTitle">Review Management</h2>
-                                    <p className='tabInfo'>Online reviews can significantly impact your reputation. Our review management services cover a wide range of platforms like Glassdoor, Google My Business, Quora, and more.</p> */}
-                                        <PrimeBtn btnName={"learn more"} />
+                                        <Link href="/about-us"><PrimeBtn btnName="Learn More" /></Link>
                                     </div>
                                 </div>
                             </TabPanel>
@@ -105,8 +93,8 @@ const HomeSection5 = () => {
                     </Row>
                 </Tabs>
             </Container>
-        </section >
+        </section>
     )
 }
 
-export default HomeSection5
+export default HomeSection5;

@@ -95,7 +95,7 @@ const HeaderInner = () => {
                           {menuItem.subLinks && activeSubHover === index &&
                             <>
                               {menuItem.subLinks.map((item) => (
-                                <Link href={`service/${item.slug}`} className="child_hover_data" key={item.id}>
+                                <Link href={`${item.slug}`} className="child_hover_data" key={item.id}>
                                   <Image className="me-2" width={40} height={40} src={item.icon} title={item.title} alt={item.title} />
                                   <div>
                                     <h6 className="text-16 fw-semibold ">{item.title}</h6>

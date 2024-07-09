@@ -22,7 +22,7 @@ const HomeSection1 = () => {
             <p className='title-sm text-white'> Take control of your online reputation. We offer customized ORM services for individuals and businesses. Shape your digital narrative now!</p>
             <div className='d-flex flex-wrap gap-3 mt-4 pt-3'>
               {/* <PrimeBtn btnName="Get a free quote" /> */}
-              <BorderBtn btnName={"Request a call"} />
+              {/* <BorderBtn btnName={"Request a call"} /> */}
             </div>
             <div className='d-flex flex-wrap gap-3 mt-4 pt-3'>
               <Image placeholder='blur' quality={100} width={1000} height={1000} className='add_img' src={addImage1} alt='add' title='trending company' />

@@ -2,42 +2,50 @@ export const brandBoxData = [
     {
         id: 21,
         logo: "/images/glassdoor-icon.svg",
-        name: "Glassdoor"
+        name: "Glassdoor",
+        link: "/glassdoor"
     },
     {
         id: 22,
         logo: "/images/Google-logo.png",
-        name: "Google My Business "
+        name: "Google My Business ",
+        link: "/google-my-business"
     },
     {
         id: 23,
         logo: "/images/mouthshut-logo.png",
-        name: "Mouthshut"
+        name: "Mouthshut",
+        link: "/mouthshut"
     },
     {
         id: 24,
         logo: "/images/trustpilot-2.svg",
-        name: "Trustpilot"
+        name: "Trustpilot",
+        link: "/trustpilot"
     },
     {
         id: 25,
         logo: "/images/quora-icon.svg",
-        name: "Quora"
+        name: "Quora",
+        link: "/quora"
     },
     {
         id: 26,
         logo: "/images/indeed.svg",
-        name: "Indeed"
+        name: "Indeed",
+        link: "/indeed"
     },
     {
         id: 27,
         logo: "/images/ab-brand.svg",
-        name: "AmbitionBox"
+        name: "AmbitionBox",
+        link: "/ambitionbox"
     },
     {
         id: 28,
         logo: "/images/tj.png",
-        name: "TimesJob"
+        name: "TimesJob",
+        link: "/timesjob"
     },
 
 ]
