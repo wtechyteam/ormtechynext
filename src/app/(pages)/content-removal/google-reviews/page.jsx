@@ -1,7 +1,8 @@
+'use client'
 import * as React from "react";
-import InnerTopBanner from "./../common/innerTopBanner";
+import InnerTopBanner from "./../../common/innerTopBanner";
 import GoogleReviewsFaq from "./GoogleReviewsFaq";
-import ImageInfoWrap from "../common/imageInfoWrap";
+import ImageInfoWrap from "./../../common/imageInfoWrap";
 import HomeSection9 from "./homeSection9";
 
 const GoogleReviews = () => {
