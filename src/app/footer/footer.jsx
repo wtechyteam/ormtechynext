@@ -64,7 +64,7 @@ const Footer = () => {
                   <h4 className='footerTitle'>We remove from</h4>
                   <ul>
                     <li>
-                      <Link href="google-reviews/">Google Reviews</Link>
+                      <Link href="/content-removal/google-reviews">Google Reviews</Link>
                     </li>
                     <li>
                       <Link href="/content-removal/glassdoor/">Glassdoor</Link>

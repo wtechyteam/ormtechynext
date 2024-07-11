@@ -1,3 +1,4 @@
+'use client'
 import { bgCardData } from './../../data/bgCardData';
 import { Card, CardContent, CardCover, Typography } from '@mui/joy'
 import React from 'react'
