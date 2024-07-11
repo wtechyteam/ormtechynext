@@ -42,35 +42,35 @@ export const headerData = [
                         icon: "/images/header/pushDown.png",
                         title: "Push Down Results",
                         subtitle: "search optimization",
-                        slug: "/push-down-results"
+                        slug: "/service/reputation-repair/push-down-results"
                     },
                     {
                         id: 312,
                         icon: "/images/header/reviewManagement.png",
                         title: "Improve Reviews",
                         subtitle: "engine-optimization",
-                        slug: "/improve-reviews"
+                        slug: "/service/reputation-repair/improve-reviews"
                     },
                     {
                         id: 313,
                         icon: "/images/header/correctInfoOnline.png",
                         title: "Correct Information Online",
                         subtitle: "search-engine",
-                        slug: "/correct-information-online"
+                        slug: "/service/reputation-repair/correct-information-online"
                     },
                     {
                         id: 314,
                         icon: "/images/header/improveResults.png",
                         title: "Remove Results ",
                         subtitle: "search-optimization",
-                        slug: "/remove-results"
+                        slug: "/service/reputation-repair/remove-results"
                     },
                     {
                         id: 315,
                         icon: "/images/header/knowlagePanel.png",
                         title: "Knowledge Panel",
                         subtitle: "search-optimization",
-                        slug: "/knowledge-panel"
+                        slug: "/service/reputation-repair/knowledge-panel"
                     }
                 ]
             },
@@ -85,56 +85,56 @@ export const headerData = [
                         icon: "/images/header/feature1.png",
                         title: "Legal",
                         subtitle: "search-optimization",
-                        slug: "/legal-reputation-management"
+                        slug: "/service/personal-branding/legal-reputation-management"
                     },
                     {
                         id: 322,
                         icon: "/images/header/architect.png",
                         title: "Construction",
                         subtitle: "engine-optimization",
-                        slug: "/construction-reputation-management"
+                        slug: "/service/personal-branding/construction-reputation-management"
                     },
                     {
                         id: 323,
                         icon: "/images/header/storefront.png",
                         title: "Retail",
                         subtitle: "search optimization",
-                        slug: "/retail-reputation-management"
+                        slug: "/service/personal-branding/retail-reputation-management"
                     },
                     {
                         id: 324,
                         icon: "/images/header/retail-store.png",
                         title: "Automotive",
                         subtitle: "search-optimization",
-                        slug: "/automotive-reputation-management"
+                        slug: "/service/personal-branding/automotive-reputation-management"
                     },
                     {
                         id: 325,
                         icon: "/images/header/vip.png",
                         title: "VIPs",
                         subtitle: "engine-optimization",
-                        slug: "/vip-reputation-management"
+                        slug: "/service/personal-branding/vip-reputation-management"
                     },
                     {
                         id: 326,
                         icon: "/images/header/actor.png",
                         title: "Celebrities",
                         subtitle: "engine-optimization",
-                        slug: "/celebrities-reputation-management"
+                        slug: "/service/personal-branding/celebrities-reputation-management"
                     },
                     {
                         id: 327,
                         icon: "/images/header/healthcare.png",
                         title: "Healthcare",
                         subtitle: "search-engine",
-                        slug: "/healthcare-reputation-management"
+                        slug: "/service/personal-branding/healthcare-reputation-management"
                     },
                     {
                         id: 328,
                         icon: "/images/header/bitcoin.png",
                         title: "Cryptocurrency",
                         subtitle: "search optimization",
-                        slug: "/cryptocurrency-reputation-management"
+                        slug: "/service/personal-branding/cryptocurrency-reputation-management"
                     }
                 ]
             },
@@ -149,56 +149,56 @@ export const headerData = [
                         title: "Glassdoor",
                         icon: "/images/header/glassdoor.svg",
                         subtitle: "search-engine",
-                        slug: "/remove-glassdoor-reviews"
+                        slug: "/service/review-management/remove-glassdoor-reviews"
                     },
                     {
                         id: 332,
                         title: "Google My Business",
                         icon: "/images/header/googleBusiness.png",
                         subtitle: "search-engine",
-                        slug: "/remove-google-my-business-review"
+                        slug: "/service/review-management/remove-google-my-business-review"
                     },
                     {
                         id: 333,
                         title: "Mouthshut",
                         icon: "/images/header/mouthshut.svg",
                         subtitle: "search-engine",
-                        slug: "/mouthshut-review-management"
+                        slug: "/service/review-management/mouthshut-review-management"
                     },
                     {
                         id: 334,
                         title: "Trustpilot",
                         icon: "/images/header/trustpilot.svg",
                         subtitle: "search-engine",
-                        slug: "/trustpilot-review-removal"
+                        slug: "/service/review-management/trustpilot-review-removal"
                     },
                     {
                         id: 335,
                         title: "Quora",
                         icon: "/images/header/quora.png",
                         subtitle: "search-engine",
-                        slug: "/quora-negative-content-management"
+                        slug: "/service/review-management/quora-negative-content-management"
                     },
                     {
                         id: 336,
                         title: "Indeed",
                         icon: "/images/header/indeed.svg",
                         subtitle: "search-engine",
-                        slug: "/indeed-review-removal"
+                        slug: "/service/review-management/indeed-review-removal"
                     },
                     {
                         id: 337,
                         title: "Ambititon Box",
                         icon: "/images/header/ambitionbox.svg",
                         subtitle: "search-engine",
-                        slug: "/ambititon-box-reviews-removal"
+                        slug: "/service/review-management/ambititon-box-reviews-removal"
                     },
                     {
                         id: 338,
                         title: "TimesJob",
                         icon: "/images/header/timesjob.svg",
                         subtitle: "search-engine",
-                        slug: "/timesJob-review-management"
+                        slug: "/service/review-management/timesJob-review-management"
                     },
                     
                     // Add more subLinks as needed
@@ -215,21 +215,21 @@ export const headerData = [
                         title: "Corporate Reputation Management",
                         icon: "/images/header/company.png",
                         subtitle: "search-engine",
-                        slug: "/corporate-branding-services"
+                        slug: "/service/reputation-management/corporate-branding-services"
                     },
                     {
                         id: 342,
                         title: "Individuals Reputation Management",
                         icon: "/images/header/businessman.png",
                         subtitle: "search-engine",
-                        slug: "/reputation-management-for-individuals"
+                        slug: "/service/reputation-management/reputation-management-for-individuals"
                     },
                     {
                         id: 343,
                         title: "Business Reputation Management",
                         icon: "/images/header/business.png",
                         subtitle: "search-engine",
-                        slug: "/reputation-management-for-business"
+                        slug: "/service/reputation-management/reputation-management-for-business"
                     },
                     // Add more subLinks as needed
                 ]

@@ -1,7 +1,7 @@
 import React from 'react'
 import Marquees from '../marquee'
 import Image from 'next/image'
-import { marqueeCardData } from './../../data/marqueeData'
+import { marqueeCardData } from '../../data/marqueeData'
 
 
 

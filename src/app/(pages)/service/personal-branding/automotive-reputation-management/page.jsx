@@ -1,6 +1,6 @@
 import * as React from "react";
-import InnerTopBanner from "./../common/innerTopBanner";
-import ImageInfoWrap from "../common/imageInfoWrap";
+import InnerTopBanner from "../../../common/innerTopBanner";
+import ImageInfoWrap from "../../../common/imageInfoWrap";
 import LegalFaq from "./legalFaq";
 import HomeSection9 from "./homeSection9";
 const LegalReputationManagement = () => {

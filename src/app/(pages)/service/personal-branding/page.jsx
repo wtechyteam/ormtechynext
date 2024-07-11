@@ -7,22 +7,20 @@ import PersonalBrandingFaq from "./PersonalBrandingFaq";
 import InnerTopBanner from "../../common/innerTopBanner";
 import ImageInfoWrap from "../../common/imageInfoWrap";
 import HomeSection9 from "./homeSection9";
-import {personalbrandingMetaData} from "./personalbrandingMetaData";
 import StatisticsSection from "./statisticsSection";
 
 
 const PersonalBrandingPage = () => {
   const mounted = useMounted();
-  if (!mounted) return null;
-
+  if (!mounted) return null; 
   return (
     <>
-    <head>
+   <head>
         <title>Personal Branding Agency and Expert Consulting Services</title>
         <meta name="description" content="Expert Personal Branding Agency to enhance your online reputation. Our consulting services craft compelling digital identities for professionals and businesses." />
         <link rel="canonical" href="https://www.ormtechies.com/service/personal-branding" />
         <meta name="robots" content="index, follow" />
-      </head>
+      </head> 
       <InnerTopBanner
         title="Level Up Your Online Presence With Personal Branding Experts"
         info="Boost your online presence with ORM Techies. Specializing in personal branding, we help professionals, influencers, and entrepreneurs craft compelling digital identities. Unlock success with customized strategies and expert guidance"
@@ -80,4 +78,3 @@ const PersonalBrandingPage = () => {
 
 export default PersonalBrandingPage;
 
-<personalbrandingMetaData />
