@@ -1,11 +1,11 @@
 'use client'
 import React from 'react';
 import InnerTopBanner from "./../common/innerTopBanner";
-import GlassdoorFaq from "./glassdoorFaq";
+// import GlassdoorFaq from "./glassdoorFaq";
 import ImageInfoWrap from "./../common/imageInfoWrap";
 import HomeSection9 from "./homeSection9";
 
-const Glassdoor = () => {
+const AmplifyReviewsPage = () => {
   return (
     <>
     <head>
@@ -16,24 +16,24 @@ const Glassdoor = () => {
        </head>
        <InnerTopBanner
          title="Amplify Reviews "
-         info="They provide a window into your company's workplace culture and employee satisfaction, making them an invaluable tool for attracting top talent and maintaining a positive reputation.  "
+         info="Let your happy customers drive your marketing for you with AMPLIFY and manage it all from our Review Optimization Platform "
        />
        <section className="sectionPadding bg_gray">
          <ImageInfoWrap
-           title={"Amplify your reviews "}
+           title={"Reviews Build Reputation "}
            imageUrl={"/images/orm-about.webp"}
            showPrimeBtn={true}
            primeBtnName={"get a free quote"}
            borderBtnName={"faq"}
            darkButton="dark_btn"
            description={
-             "<p>Online reviews have seeped into the workplace, reaching beyond products and services. Employees can share their thoughts and feelings about their jobs on Glassdoor. The culture, management, and overall environment are all reflected in these reviews. Positive reviews can enhance a company's reputation, but negative reviews can have significant adverse effects. </p> <p>  Positive and negative reviews harm a company's reputation, employee morale, and recruitment efforts. False information and defamation are some of the criteria for review removal in the guide. The success of ORMTechies in removing a damaging review demonstrates their expertise in review management. Best practices are provided for responding to and leveraging reviews to drive positive change. Best practices are provided for leveraging reviews to drive positive change.   </p>"
+             `<p>Positive customer reviews are the crucial "social proof" you need for a winning online reputation. With AMPLIFY, collecting positive reviews has never been easier.</p><p>AMPLIFY provides a streamlined platform to efficiently generate and manage authentic customer reviews. Customized to fit your business, it automates feedback requests, making the review process simple and user-friendly for your customers.</p>`
            }
          />
        </section>
        <section className="sectionPadding bg_white">
          <ImageInfoWrap
-           title={"Navigating Constructive Critique on Glassdoor "}
+           title={"Drive More Growth Through 5-Star Ratings "}
            imageUrl={"/images/orm-about.webp"}
            showPrimeBtn={true}
            isReverse={true}
@@ -41,27 +41,27 @@ const Glassdoor = () => {
            borderBtnName={"faq"}
            darkButton="dark_btn"
            description={
-             "<p>Negative feedback on Glassdoor poses challenges for organizations, affecting their image and capacity to recruit top talent. The way organizations respond and improve can change if they see these critiques as learning opportunities. Negative feedback can be used by businesses to pinpoint areas for improvement and show concern for staff.   </p><p> A proactive and strategic approach is needed to address negative feedback on Glassdoor. Companies should prioritize transparency and authenticity in their responses, acknowledging the feedback and offering constructive solutions where applicable. Companies should also prioritize transparency and authenticity in their responses. This boosted the company's credibility and trustworthiness and showed a commitment to improvement. </p>"
+             "<p>With AMPLIFY, you can enhance your business’s reputation and attract more customers while proactively managing online reviews.<ul><li>93% of local consumers rely on reviews for evaluating a businesses.<li>AMPLIFY facilitates customer review prompts.<li>White-labeled monthly report for brand perception insights.<li>The data supports the development of a tailored business strategy.<li>AMPLIFY enables consistent review collection.</ul> </p>"
            }
          />
        </section>
        <section className="sectionPadding bg_gray">
          <ImageInfoWrap
-           title={"Professional Help for Removing Glassdoor Reviews  "}
+           title={"Tailored to Your Preferences "}
            imageUrl={"/images/orm-about.webp"}
            showPrimeBtn={true}
            primeBtnName={"get a free quote"}
            borderBtnName={"faq"}
            darkButton="dark_btn"
            description={
-             "<p>Managing and removing Glassdoor feedback is essential for preserving a stellar online profile and securing top talent. It is important to handle negative reviews on Glassdoor with care and expertise because they can have a significant impact on a company's image. We offer expert services to assist businesses in navigating and managing their online reputation, including the removal of inappropriate or harmful reviews.  </p><p>Eliminating Glassdoor critiques requires precise preparation. Watching reviews in real-time helps ORMTechies spot any that don't conform to Glassdoor's guidelines or contain erroneous info. After assessing each review thoroughly, we gather evidence and prepare a thorough document to support the removal request. We handle the entire process with professionalism and transparency, ensuring that our client's online presence remains positive and credible. </p>"
+             "<p>Customising the AMPLIFY platform to your business needs is vital for success. Statistics shows the importance of tailored messaging for enhancing online reputation.<ul><li>Modify branding, SMS and email messages, email templates, timing, review rating thresholds, and review platforms.<li>Tailoring your review campaign can lead to increased results and usually achieve more positive reviews from satisfied customers.<li>A customised approach can strengthen customer loyalty and engagement.<li>Concentrate on review platforms most pertinent to your industry for improved campaign effectiveness.</ul></p>"
            }
          />
        </section>
-       <GlassdoorFaq />
+       {/* <GlassdoorFaq /> */}
        <HomeSection9 />
      </>
   )
 }
 
-export default Glassdoor
+export default AmplifyReviewsPage

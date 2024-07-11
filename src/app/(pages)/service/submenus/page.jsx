@@ -1,6 +1,5 @@
 'use client'
 import React from "react";
-
 import InnerTopBanner from "../../common/innerTopBanner";
 import SubMenu1 from "./submenu1";
 import Image from "next/image";

@@ -15,25 +15,25 @@ const GoogleReviews = () => {
         <meta name="robots" content="index, follow" />
       </head>
       <InnerTopBanner
-        title="Google-search Results  "
-        info="Understanding how to remove bad reviews from Google My Business and maintaining a positive online presence is essential for attracting customers and building trust. "
+        title="Expert Removal Of Google Search Results "
+        info="Unwanted Google results can turn innocent searches into reputation disasters. "
       />
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
-          title={"Is Your Business Leveraging the Power of Google Reviews? "}
+          title={"Google’s long memory causes lasting damage"}
           imageUrl={"/images/orm-about.webp"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
           darkButton="dark_btn"
           description={
-            "<p>Online reviews hold immense power, particularly Google Reviews, particularly when it comes to online reviews.  Consumers consult online reviews before making a purchase decision, according to studies. Positive feedback can have a significant impact on your customer base, whereas negative feedback can be detrimental.  The importance of managing your online reputation is emphasized by the fact that just one bad review can cause businesses to lose up to 22% of potential customers.</p> <p>  Google Reviews impact goes beyond influencing consumer behavior, it goes beyond influencing consumer behavior.  Search engine positions also depend on these evaluations. Businesses with higher average ratings and larger numbers of positive reviews are more likely to appear at the top of search results. Your business will be more easily discoverable by potential customers if you have greater online visibility.  Positive reviews build trust with users and encourage them to choose their business over competitors. </p>"
+            "<p>“The internet never forgets” wouldn’t cause so much misery if it wasn’t for Google being so good at reminding everyone.</p><p>Google’s stated mission is to “to organize the world’s information and make it universally accessible and useful”. What it hasn’t yet reconciled is how unfair and damaging that can be when the “information” being returned starts souring new relationships. Ruining business opportunities. Pausing careers. Stopping the flow of new business.</p><p>Whether you’re a business or an individual, unsavory results in a Google search for your name are an instant poison to your reputation that needs to be dealt with as soon as possible.</p>"
           }
         />
       </section>
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
-          title={"Decoding Negative Feedback "}
+          title={"You can defend your reputation with ORMTechies "}
           imageUrl={"/images/orm-about.webp"}
           showPrimeBtn={true}
           isReverse={true}
@@ -41,20 +41,20 @@ const GoogleReviews = () => {
           borderBtnName={"faq"}
           darkButton="dark_btn"
           description={
-            "<p> Even companies with top-notch offerings can be hit hard by negative feedback. These reviews can arise from a variety of factors, including genuine misunderstandings between the customer and business, malicious intent from competitors or trolls, or even lingering dissatisfaction from past issues. Negative reviews have the power to damage a business's reputation and discourage potential customers. </p><p>Negative feedback needs to be dealt with promptly and professionally. However, a new challenge arises when the review appears unfair, inaccurate, or even fabricated. Navigating the online reputation landscape becomes incredibly challenging. ORM Techies comes in to help with online reputation management. We understand the delicate dance of responding to negative reviews, and we offer guidance on how to address legitimate concerns while also mitigating the impact of unjust criticism. </p>"
+            "<p> Google is a complex beast, but sometimes the solutions are simple – you just need to know how. Since every search result is different, the first step is always to reach out and get a free consultation. At worst, you’ll at least find out the situation and possible solutions, which may not be immediately obvious to you otherwise.</p><p>You’ll be contacting a team with enormous experience and resources in this field, including our own custom-built technology platform. Whether it is complete and permanent removal, or suppressing the content away from Page 1 of Google, you can rely on ORMTechies to free you from the burden of an unwanted Google search result.</p>"
           }
         />
       </section>
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
-          title={"Google Reviews Unleashed: Boost Your Brand  "}
+          title={"The impact of negative search results"}
           imageUrl={"/images/orm-about.webp"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
           darkButton="dark_btn"
           description={
-            "<p>This is how we do it: <ul><li>New reviews left on your Google My Business profile are monitored by us. We can address any concerns raised by customers, demonstrating your commitment to transparency and responsiveness. <li>We encourage positive reviews, not just wait for them to happen. We help you develop strategies to encourage satisfied customers to leave positive feedback. We can help you develop these strategies. This could involve giving them easy ways to leave reviews, reminding them of the option, or even offering loyalty programs for reviews  <li>We help you craft professional and appropriate responses when feedback hits, whether it's positive or negative. This will foster trust with potential customers by demonstrating how you value feedback and prioritize customer satisfaction. </ul> Google review management empowers your business to maintain a positive online reputation by implementing these proactive measures. Increased trust from potential customers who see your commitment to exceptional service through the lens of genuine customer experiences is achieved. </p>"
+            "<h4>For Businesses</h4><p>When negative results pop up beside your company name, it can stop people in their tracks before you’ve had a chance to interact. Online, your reputation is everything: a negative review, unpleasant article, or aggressive discussions about your business could all have a massive impact on performance.</p><h4>For Individuals</h4><p>Like any brand, a personal brand can be enormously tarnished by unwanted Google search results. Prospective employers, clients, or investors are all liable to look you up on Google. This goes double for jobs built on reputation: doctors, lawyers, and many other professionals rely on us to defend their online presence.</p><p>Often it’s not even something you’ve done: simple association with a negative event or disreputable company can cause long lasting damage.</p><p>Whatever your situation, unfortunately these are problems that rarely go away by themselves. Dealing with them immediately is the only way to limit the cost and damage. </p>"
           }
         />
       </section>

@@ -18,6 +18,7 @@
     "@vercel/speed-insights": "^1.0.12",
     "bootstrap": "^5.3.3",
     "clsx": "^2.1.1",
+    "contentful": "^10.12.8",
     "framer-motion": "^11.2.12",
     "gsap": "^3.12.5",
     "hubspot": "^2.3.14",
