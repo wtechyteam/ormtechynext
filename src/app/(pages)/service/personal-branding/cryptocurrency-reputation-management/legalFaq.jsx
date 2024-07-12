@@ -4,31 +4,28 @@ import React from 'react';
 
 function LegalFaq() {
     // Define your FAQ data as an array of objects with 'question' and 'answer' properties
-    const LegalFaqs = [
+    const CryptoFaqs = [
         {
-            question: ' Why is law firm reputation management important? ',
-            answer: 'Law reputation management is crucial for attracting clients, maintaining credibility, and staying competitive in the legal industry. ',
+            question: ' How does blockchain impact cryptocurrency reputation management? ',
+            answer: 'Blockchain ensures transparency and accuracy, which are critical for maintaining a trustworthy reputation in the cryptocurrency space. It allows for the verification of transactions and information, which builds confidence among users and investors. ',
         },
         {
-            question: 'How can ORMTechies help with law firm reputation management?  ',
-            answer: `ORMTechies specializes in legal reputation management, offering customized solutions to monitor, manage, and improve your firm's online presence.`,
+            question: 'What are ICO Marketing Services in the context of cryptocurrency reputation management?  ',
+            answer: `ICO Marketing Services involve promoting and managing the initial coin offering (ICO) to build a positive perception and attract investors. ORMTechies uses social media marketing, PPC ads, influencer marketing, and community engagement to create awareness and credibility for the ICO. `,
         },
         {
-            question: 'What are the benefits of law firm reputation management?   ',
-            answer: 'Benefits include enhanced client trust, improved search engine rankings, effective crisis management, and a competitive advantage. ',
+            question: 'How does ORMTechies handle negative comments about cryptocurrencies?   ',
+            answer: 'ORMTechies quickly identifies negative comments and responds strategically. They address concerns, correct misinformation, and engage with users to resolve issues promptly. This proactive approach helps to maintain a positive reputation. ',
         },
         {
-            question: 'How does ORMTechies monitor online reviews for law firms?     ',
-            answer: 'ORMTechies monitors online reviews across platforms like Google, Yelp, and legal directories, responding promptly to maintain a positive reputation.',
+            question: 'How does ORMTechies ensure the security of cryptocurrency reputations?      ',
+            answer: `ORMTechies uses secure systems and protocols to safeguard cryptocurrencies' online reputations from cyber threats. They implement encryption, secure access controls, and regular security audits to protect sensitive information.`,
         },
         {
-            question: 'What should I do if my law firm faces a reputation crisis?    ',
-            answer: `ORMTechies provides crisis management strategies to minimize damage and restore your firm's reputation quickly and effectively.  `,
+            question: 'How does ORMTechies use ICO Marketing Services to promote a new cryptocurrency?    ',
+            answer: `ORMTechies utilizes social media marketing, PPC ads (Google & Facebook Ads), influencer marketing, and community engagement to promote ICOs effectively. They create targeted campaigns to reach potential investors and build credibility for the new cryptocurrency.  `,
         },
-        {
-            question: `How does ORMTechies ensure my law firm's online reputation remains positive?      `,
-            answer: `ORMTechies uses advanced tools and strategies to proactively manage your firm's online presence, responding to feedback and optimizing content.  `,
-        },
+       
         // Add more FAQs as needed
     ];
 
@@ -39,7 +36,7 @@ function LegalFaq() {
                     <h2 className="title-xl fw-bold mb-5">FAQs</h2>
                     {/* <p>At ORM Techies, we cater to a diverse clientele across various industries, including:</p> */}
                 </div>
-                <FAQSection faqs={LegalFaqs} />
+                <FAQSection faqs={CryptoFaqs} />
             </div>
         </section>
     );

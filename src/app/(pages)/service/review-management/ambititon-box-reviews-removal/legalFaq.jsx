@@ -4,31 +4,28 @@ import React from 'react';
 
 function LegalFaq() {
     // Define your FAQ data as an array of objects with 'question' and 'answer' properties
-    const LegalFaqs = [
+    const AmbitionFaqs = [
         {
-            question: ' Why is law firm reputation management important? ',
-            answer: 'Law reputation management is crucial for attracting clients, maintaining credibility, and staying competitive in the legal industry. ',
+            question: ' What is Ambition Box review removal?  ',
+            answer: 'Ambition Box review removal refers to the process of identifying and removing unjust or harmful reviews from the platform to maintain a positive company image. ',
         },
         {
-            question: 'How can ORMTechies help with law firm reputation management?  ',
-            answer: `ORMTechies specializes in legal reputation management, offering customized solutions to monitor, manage, and improve your firm's online presence.`,
+            question: 'Why is it important to manage Ambition Box reviews?   ',
+            answer: `Ambition Box reviews can significantly impact a company's reputation and ability to attract talent. Managing these reviews ensures a positive online presence. `,
         },
         {
-            question: 'What are the benefits of law firm reputation management?   ',
-            answer: 'Benefits include enhanced client trust, improved search engine rankings, effective crisis management, and a competitive advantage. ',
+            question: 'How quickly can ORMTechies remove negative reviews from Ambition Box?     ',
+            answer: 'The timeframe for removing negative reviews from Ambition Box varies depending on the situation and platform policies. ORMTechies works efficiently to resolve issues as quickly as possible.  ',
         },
         {
-            question: 'How does ORMTechies monitor online reviews for law firms?     ',
-            answer: 'ORMTechies monitors online reviews across platforms like Google, Yelp, and legal directories, responding promptly to maintain a positive reputation.',
+            question: ` Can ORMTechies help improve our company's overall rating on Ambition Box?  `,
+            answer: 'Yes, ORMTechies offers strategies to improve overall ratings on Ambition Box by encouraging positive reviews and addressing negative feedback effectively. ',
         },
         {
-            question: 'What should I do if my law firm faces a reputation crisis?    ',
-            answer: `ORMTechies provides crisis management strategies to minimize damage and restore your firm's reputation quickly and effectively.  `,
+            question: 'Is it possible to remove all negative reviews from Ambition Box?     ',
+            answer: `While it's not always possible to remove all negative reviews, ORMTechies works to minimize the impact of negative feedback and promote a positive online reputation.  `,
         },
-        {
-            question: `How does ORMTechies ensure my law firm's online reputation remains positive?      `,
-            answer: `ORMTechies uses advanced tools and strategies to proactively manage your firm's online presence, responding to feedback and optimizing content.  `,
-        },
+       
         // Add more FAQs as needed
     ];
 
@@ -39,7 +36,7 @@ function LegalFaq() {
                     <h2 className="title-xl fw-bold mb-5">FAQs</h2>
                     {/* <p>At ORM Techies, we cater to a diverse clientele across various industries, including:</p> */}
                 </div>
-                <FAQSection faqs={LegalFaqs} />
+                <FAQSection faqs={AmbitionFaqs} />
             </div>
         </section>
     );

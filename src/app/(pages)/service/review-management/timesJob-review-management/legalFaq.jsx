@@ -4,31 +4,28 @@ import React from 'react';
 
 function LegalFaq() {
     // Define your FAQ data as an array of objects with 'question' and 'answer' properties
-    const LegalFaqs = [
+    const TimesJobsFaqs = [
         {
-            question: ' Why is law firm reputation management important? ',
-            answer: 'Law reputation management is crucial for attracting clients, maintaining credibility, and staying competitive in the legal industry. ',
+            question: ' What are the benefits of using Timejob Resume Services?  ',
+            answer: 'Timejob resume services help job seekers create professional resumes that increase their chances of attracting employers.  ',
         },
         {
-            question: 'How can ORMTechies help with law firm reputation management?  ',
-            answer: `ORMTechies specializes in legal reputation management, offering customized solutions to monitor, manage, and improve your firm's online presence.`,
+            question: 'How can ORMTechies help with Timejob Review Management?  ',
+            answer: `ORMTechies specializes in review management, helping you monitor, analyze, and respond to reviews effectively. `,
         },
         {
-            question: 'What are the benefits of law firm reputation management?   ',
-            answer: 'Benefits include enhanced client trust, improved search engine rankings, effective crisis management, and a competitive advantage. ',
+            question: 'How does ORMTechies optimize Timejob Resume Services?  ',
+            answer: 'ORMTechies optimizes Timejob resume services by crafting resumes that highlight your skills and experiences effectively.  ',
         },
         {
-            question: 'How does ORMTechies monitor online reviews for law firms?     ',
-            answer: 'ORMTechies monitors online reviews across platforms like Google, Yelp, and legal directories, responding promptly to maintain a positive reputation.',
+            question: 'How can I improve my Timesjobs profile to attract more employees?   ',
+            answer: 'ORMTechies can help optimize your Timesjobs profile with relevant keywords and a professional presentation to attract more employers. ',
         },
         {
-            question: 'What should I do if my law firm faces a reputation crisis?    ',
-            answer: `ORMTechies provides crisis management strategies to minimize damage and restore your firm's reputation quickly and effectively.  `,
+            question: 'What strategies does ORMTechies use for Timejob management?     ',
+            answer: `ORMTechies uses advanced tools and strategies to monitor, analyze, and respond to reviews professionally and promptly.   `,
         },
-        {
-            question: `How does ORMTechies ensure my law firm's online reputation remains positive?      `,
-            answer: `ORMTechies uses advanced tools and strategies to proactively manage your firm's online presence, responding to feedback and optimizing content.  `,
-        },
+      
         // Add more FAQs as needed
     ];
 
@@ -39,7 +36,7 @@ function LegalFaq() {
                     <h2 className="title-xl fw-bold mb-5">FAQs</h2>
                     {/* <p>At ORM Techies, we cater to a diverse clientele across various industries, including:</p> */}
                 </div>
-                <FAQSection faqs={LegalFaqs} />
+                <FAQSection faqs={TimesJobsFaqs} />
             </div>
         </section>
     );

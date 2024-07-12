@@ -4,31 +4,28 @@ import React from 'react';
 
 function LegalFaq() {
     // Define your FAQ data as an array of objects with 'question' and 'answer' properties
-    const LegalFaqs = [
+    const ConstructionFaqs = [
         {
-            question: ' Why is law firm reputation management important? ',
-            answer: 'Law reputation management is crucial for attracting clients, maintaining credibility, and staying competitive in the legal industry. ',
+            question: ' Why are online reviews important for construction companies? ',
+            answer: `Online reviews are crucial for construction companies because they influence potential clients' decisions. Positive reviews can attract new business, while negative reviews can deter potential clients. Managing these reviews effectively is essential for maintaining a good reputation. `,
         },
         {
-            question: 'How can ORMTechies help with law firm reputation management?  ',
-            answer: `ORMTechies specializes in legal reputation management, offering customized solutions to monitor, manage, and improve your firm's online presence.`,
+            question: 'How does ORMTechies help with Construction Reputation Management?   ',
+            answer: `ORMTechies uses advanced strategies to enhance your online reputation. We offer services like review management, social media management, and content development to ensure your construction company maintains a positive online presence. `,
         },
         {
-            question: 'What are the benefits of law firm reputation management?   ',
-            answer: 'Benefits include enhanced client trust, improved search engine rankings, effective crisis management, and a competitive advantage. ',
+            question: 'How can ORMTechies assist with Builder Review Management?    ',
+            answer: 'ORMTechies helps by monitoring reviews, responding promptly to feedback, and encouraging satisfied clients to leave positive reviews. This proactive approach helps manage and improve your online reputation. ',
         },
         {
-            question: 'How does ORMTechies monitor online reviews for law firms?     ',
-            answer: 'ORMTechies monitors online reviews across platforms like Google, Yelp, and legal directories, responding promptly to maintain a positive reputation.',
+            question: 'How can we measure the success of our Construction Reputation Management efforts?   ',
+            answer: 'Success can be measured by monitoring changes in your online reviews, tracking engagement on social media, and analyzing website traffic. ORMTechies uses advanced analytics tools to provide detailed reports on these metrics. ',
         },
         {
-            question: 'What should I do if my law firm faces a reputation crisis?    ',
-            answer: `ORMTechies provides crisis management strategies to minimize damage and restore your firm's reputation quickly and effectively.  `,
+            question: 'What should we do if we receive a negative review? ',
+            answer: `Respond to negative reviews promptly and professionally. Acknowledge the client's concerns, offer a solution if possible, and take the conversation offline to resolve the issue. This shows potential clients that you are committed to customer satisfaction.  `,
         },
-        {
-            question: `How does ORMTechies ensure my law firm's online reputation remains positive?      `,
-            answer: `ORMTechies uses advanced tools and strategies to proactively manage your firm's online presence, responding to feedback and optimizing content.  `,
-        },
+     
         // Add more FAQs as needed
     ];
 
@@ -39,7 +36,7 @@ function LegalFaq() {
                     <h2 className="title-xl fw-bold mb-5">FAQs</h2>
                     {/* <p>At ORM Techies, we cater to a diverse clientele across various industries, including:</p> */}
                 </div>
-                <FAQSection faqs={LegalFaqs} />
+                <FAQSection faqs={ConstructionFaqs} />
             </div>
         </section>
     );

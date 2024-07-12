@@ -4,31 +4,28 @@ import React from 'react';
 
 function LegalFaq() {
     // Define your FAQ data as an array of objects with 'question' and 'answer' properties
-    const LegalFaqs = [
+    const IndeedFaqs = [
         {
-            question: ' Why is law firm reputation management important? ',
-            answer: 'Law reputation management is crucial for attracting clients, maintaining credibility, and staying competitive in the legal industry. ',
+            question: ' How can a negative Indeed review impact my business?  ',
+            answer: 'Negative reviews can deter potential candidates, harm your brand reputation, and affect employee morale. ',
         },
         {
-            question: 'How can ORMTechies help with law firm reputation management?  ',
-            answer: `ORMTechies specializes in legal reputation management, offering customized solutions to monitor, manage, and improve your firm's online presence.`,
+            question: 'What services does ORM Techies offer for negative review removal? ',
+            answer: `ORM Techies provides monitoring, analysis, and removal of reviews that violate Indeed's policies. `,
         },
         {
-            question: 'What are the benefits of law firm reputation management?   ',
-            answer: 'Benefits include enhanced client trust, improved search engine rankings, effective crisis management, and a competitive advantage. ',
+            question: 'How does ORM Techies identify negative Indeed Review?    ',
+            answer: 'We use advanced tools to continuously monitor your Indeed profile for any new reviews.  ',
         },
         {
-            question: 'How does ORMTechies monitor online reviews for law firms?     ',
-            answer: 'ORMTechies monitors online reviews across platforms like Google, Yelp, and legal directories, responding promptly to maintain a positive reputation.',
+            question: 'What is the process for removing a negative Indeed review?     ',
+            answer: 'We analyze the review for policy violations and submit a removal request to Indeed. ',
         },
         {
-            question: 'What should I do if my law firm faces a reputation crisis?    ',
-            answer: `ORMTechies provides crisis management strategies to minimize damage and restore your firm's reputation quickly and effectively.  `,
+            question: 'How can ORM Techies assist in maintaining a positive online reputation?    ',
+            answer: `We provide comprehensive review handling services, including monitoring, analysis, response management, and review removal to ensure a positive and professional online presence.  `,
         },
-        {
-            question: `How does ORMTechies ensure my law firm's online reputation remains positive?      `,
-            answer: `ORMTechies uses advanced tools and strategies to proactively manage your firm's online presence, responding to feedback and optimizing content.  `,
-        },
+      
         // Add more FAQs as needed
     ];
 
@@ -39,7 +36,7 @@ function LegalFaq() {
                     <h2 className="title-xl fw-bold mb-5">FAQs</h2>
                     {/* <p>At ORM Techies, we cater to a diverse clientele across various industries, including:</p> */}
                 </div>
-                <FAQSection faqs={LegalFaqs} />
+                <FAQSection faqs={IndeedFaqs} />
             </div>
         </section>
     );

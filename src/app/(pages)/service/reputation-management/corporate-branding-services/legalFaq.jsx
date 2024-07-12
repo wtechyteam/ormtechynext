@@ -4,30 +4,30 @@ import React from 'react';
 
 function LegalFaq() {
     // Define your FAQ data as an array of objects with 'question' and 'answer' properties
-    const LegalFaqs = [
+    const CorporateFaqs = [
         {
-            question: ' Why is law firm reputation management important? ',
-            answer: 'Law reputation management is crucial for attracting clients, maintaining credibility, and staying competitive in the legal industry. ',
+            question: ' Why is corporate reputation management important? ',
+            answer: 'Corporate reputation management is crucial because a positive reputation builds customer trust, attracts investors, and enhances business success. They provide comprehensive services to protect and enhance your corporate image. ',
         },
         {
-            question: 'How can ORMTechies help with law firm reputation management?  ',
-            answer: `ORMTechies specializes in legal reputation management, offering customized solutions to monitor, manage, and improve your firm's online presence.`,
+            question: 'How is corporate online reputation monitored?  ',
+            answer: `Corporate online reputation is monitored by using tools which track online mentions, reviews, and social media activity, allowing for prompt and positive responses to any issues. `,
         },
         {
-            question: 'What are the benefits of law firm reputation management?   ',
-            answer: 'Benefits include enhanced client trust, improved search engine rankings, effective crisis management, and a competitive advantage. ',
+            question: 'How can a company’s online presence be improved?  ',
+            answer: 'A company’s online presence can be improved by creating and managing content that reflects brand values, engaging with the audience, and ensuring positive visibility across all online platforms. ',
         },
         {
-            question: 'How does ORMTechies monitor online reviews for law firms?     ',
-            answer: 'ORMTechies monitors online reviews across platforms like Google, Yelp, and legal directories, responding promptly to maintain a positive reputation.',
+            question: 'What benefits can be expected from corporate reputation management services? ',
+            answer: 'Benefits include improved customer trust, enhanced brand image, effective crisis management, and increased positive online visibility, all contributing to a stronger corporate reputation. ',
         },
         {
-            question: 'What should I do if my law firm faces a reputation crisis?    ',
-            answer: `ORMTechies provides crisis management strategies to minimize damage and restore your firm's reputation quickly and effectively.  `,
+            question: 'What is the role of employee advocacy in reputation management?   ',
+            answer: `Employee advocacy helps boost a company’s reputation as employees act as brand ambassadors. We provide training and strategies to empower your employees to positively represent your brand online.  `,
         },
         {
-            question: `How does ORMTechies ensure my law firm's online reputation remains positive?      `,
-            answer: `ORMTechies uses advanced tools and strategies to proactively manage your firm's online presence, responding to feedback and optimizing content.  `,
+            question: `Can ORMTechies help with negative reviews?  `,
+            answer: `Yes, ORMTechies specializes in online review management by responding to negative reviews professionally and resolving customer concerns, turning potential negatives into positives.   `,
         },
         // Add more FAQs as needed
     ];
@@ -39,7 +39,7 @@ function LegalFaq() {
                     <h2 className="title-xl fw-bold mb-5">FAQs</h2>
                     {/* <p>At ORM Techies, we cater to a diverse clientele across various industries, including:</p> */}
                 </div>
-                <FAQSection faqs={LegalFaqs} />
+                <FAQSection faqs={CorporateFaqs} />
             </div>
         </section>
     );

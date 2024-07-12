@@ -1,4 +1,3 @@
-'use client'
 import * as React from "react";
 import InnerTopBanner from "./../../common/innerTopBanner";
 import GoogleReviewsFaq from "./GoogleReviewsFaq";

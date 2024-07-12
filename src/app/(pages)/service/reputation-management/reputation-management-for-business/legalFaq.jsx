@@ -4,31 +4,28 @@ import React from 'react';
 
 function LegalFaq() {
     // Define your FAQ data as an array of objects with 'question' and 'answer' properties
-    const LegalFaqs = [
+    const BusinessFaqs = [
         {
-            question: ' Why is law firm reputation management important? ',
-            answer: 'Law reputation management is crucial for attracting clients, maintaining credibility, and staying competitive in the legal industry. ',
+            question: ' What are online reputation management services for small businesses?  ',
+            answer: 'Online reputation management services for small businesses involve monitoring and managing online reviews and mentions to improve brand reputation. ',
         },
         {
-            question: 'How can ORMTechies help with law firm reputation management?  ',
-            answer: `ORMTechies specializes in legal reputation management, offering customized solutions to monitor, manage, and improve your firm's online presence.`,
+            question: 'Why is small business online reputation management important?  ',
+            answer: `Small business online reputation management is crucial for attracting customers and building trust, which we help achieve through effective strategies. `,
         },
         {
-            question: 'What are the benefits of law firm reputation management?   ',
-            answer: 'Benefits include enhanced client trust, improved search engine rankings, effective crisis management, and a competitive advantage. ',
+            question: 'What is the role of reputation management in small business growth?   ',
+            answer: 'Reputation management plays a key role in small business growth by enhancing credibility and attracting new customers, areas are where we excel.  ',
         },
         {
-            question: 'How does ORMTechies monitor online reviews for law firms?     ',
-            answer: 'ORMTechies monitors online reviews across platforms like Google, Yelp, and legal directories, responding promptly to maintain a positive reputation.',
+            question: 'How can ORMTechies help with reputation management for small businesses?    ',
+            answer: 'We specialize in reputation management for small businesses, offering tailored solutions to enhance online presence and customer trust. ',
         },
         {
-            question: 'What should I do if my law firm faces a reputation crisis?    ',
-            answer: `ORMTechies provides crisis management strategies to minimize damage and restore your firm's reputation quickly and effectively.  `,
+            question: `How can small businesses benefit from ORMTechies' online reputation management service? `,
+            answer: `Small businesses benefit from ORMTechies' expertise in online reputation management, which helps them maintain a positive brand image and grow their customer base.  `,
         },
-        {
-            question: `How does ORMTechies ensure my law firm's online reputation remains positive?      `,
-            answer: `ORMTechies uses advanced tools and strategies to proactively manage your firm's online presence, responding to feedback and optimizing content.  `,
-        },
+        
         // Add more FAQs as needed
     ];
 
@@ -39,7 +36,7 @@ function LegalFaq() {
                     <h2 className="title-xl fw-bold mb-5">FAQs</h2>
                     {/* <p>At ORM Techies, we cater to a diverse clientele across various industries, including:</p> */}
                 </div>
-                <FAQSection faqs={LegalFaqs} />
+                <FAQSection faqs={BusinessFaqs} />
             </div>
         </section>
     );

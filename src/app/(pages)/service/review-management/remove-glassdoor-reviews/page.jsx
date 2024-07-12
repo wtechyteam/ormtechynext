@@ -1,67 +1,67 @@
-import * as React from "react";
-import InnerTopBanner from "../../../common/innerTopBanner";
-import ImageInfoWrap from "../../../common/imageInfoWrap";
-import LegalFaq from "./legalFaq";
+'use client'
+import React from 'react';
+import InnerTopBanner from "./../../../common/innerTopBanner";
+import GlassdoorFaq from "./glassdoorFaq";
+import ImageInfoWrap from "./../../../common/imageInfoWrap";
 import HomeSection9 from "./homeSection9";
-const LegalReputationManagement = () => {
+
+const Glassdoor = () => {
   return (
     <>
-     <head>
-         <title>Enhance Your Legal Firms Online Image - ORMTechies   </title>
-         <meta name="description" content="Discover how ORMTechies can enhance your legal firm's online image with expert law firm reputation management services. Boost your firm's reputation today!  "/>
+    <head>
+         <title>From Reviews to Results: Get Insightful Glassdoor Reviews  </title>
+         <meta name="description" content="Discover how we can help you transform Glassdoor reviews into actionable insights. Learn strategies to manage, respond, and remove negative reviews effectively. "/>
          <link rel="canonical" href="https://www.ormtechies.com/content-removal/glassdoor" />
          <meta name="robots" content="index, follow" />
        </head>
-      <InnerTopBanner
-        title="Enhance Your Legal Firm's Online Image "
-        info="Maintaining a positive online image is crucial for legal firms. ORMTechies offers specialized law firm reputation services designed to enhance your legal firm's online presence and protect its reputation.  "
-      />
-      <section className="sectionPadding bg_gray">
-        <ImageInfoWrap
-          title={"Expert Law Firm Reputation Solutions "}
-          imageUrl={"/images/orm-about.webp"}
-          showPrimeBtn={true}
-          primeBtnName={"get a free quote"}
-          borderBtnName={"faq"}
-          darkButton="dark_btn"
-          description={
-            "<p>Law firms need a positive online reputation to maintain credibility and directly impact client acquisition and retention. Online research of law firms is common for potential clients in today's digital world. Negative reviews, misleading information, or outdated content can significantly deter potential clients from choosing your firm, leading to lost business opportunities.</p><p>Another important aspect of our services is content optimization. Our goal is to ensure that your firm's online content accurately reflects its expertise and values. Content that ranks well in search engine results and presents your firm in the best possible light is what this involves. Optimized content boosts your firm's online visibility, making it easier for potential clients to find and select your offerings. </p>"
-          }
-        />
-      </section>
-      <section className="sectionPadding bg_white">
-        <ImageInfoWrap
-          title={
-            "Why Law Firm Reputation Management is Essential for Success  "
-          }
-          imageUrl={"/images/orm-about.webp"}
-          showPrimeBtn={true}
-          isReverse={true}
-          primeBtnName={"get a free quote"}
-          borderBtnName={"faq"}
-          darkButton="dark_btn"
-          description={
-            "The benefits of the law firm's reputation are manifold and can significantly impact the success and growth of your legal practice. Here’s a detailed look at these benefits:<ul><li>Enhanced Client Trust: A positive online reputation is a powerful asset for any law firm. It builds trust and credibility with potential clients, who often rely on online reviews and information to make informed decisions.<li>Improved Search Engine Rankings: Law firm reputation relies heavily on content enhancement. Ensure that your firm's online content is well-optimized and accompanied by positive reviews to improve your visibility in search engine results.<li>Effective Crisis Management: Reputation crises can arise unexpectedly, and how they are managed can have long-term implications for your firm.<li>Competitive Advantage: In the competitive legal industry, a strong online reputation can set your firm apart from others. Positive reviews and well-managed online content make potential clients more likely to choose your firm over competitors.  </ul></p>"
-          }
-        />
-      </section>
-      <section className="sectionPadding bg_gray">
-        <ImageInfoWrap
-          title={"Proven Techniques for Attorney Reputation Management  "}
-          imageUrl={"/images/orm-about.webp"}
-          showPrimeBtn={true}
-          primeBtnName={"get a free quote"}
-          borderBtnName={"faq"}
-          darkButton="dark_btn"
-          description={
-            "<p>Effective legal reputation management is essential for preserving a professional glow and securing new clients. Active monitoring and management of online reviews is one key technique for this. Potential clients' perceptions are significantly influenced by reviews on platforms such as Google and legal directories. We keep a positive online presence and show professionalism by responding to reviews promptly. </p><p>Social media management is also a critical role. Keeping up with their online presence, lawyers can reach out to their target market, impart valuable insights, and build a solid professional network. Rapid and strategic crisis management is essential in cases of negative publicity or crises. ORMTechies provides effective strategies to mitigate the impact of negative incidents.</p>"
-          }
-        />
-      </section>
-      <LegalFaq />
-      <HomeSection9 />
-    </>
-  );
-};
+       <InnerTopBanner
+         title="From Reviews to Results: Get Insightful Glassdoor Reviews  "
+         info="They provide a window into your company's workplace culture and employee satisfaction, making them an invaluable tool for attracting top talent and maintaining a positive reputation.  "
+       />
+       <section className="sectionPadding bg_gray">
+         <ImageInfoWrap
+           title={"Repair Your Glassdoor Image "}
+           imageUrl={"/images/orm-about.webp"}
+           showPrimeBtn={true}
+           primeBtnName={"get a free quote"}
+           borderBtnName={"faq"}
+           darkButton="dark_btn"
+           description={
+             "<p>Online reviews have seeped into the workplace, reaching beyond products and services. Employees can share their thoughts and feelings about their jobs on Glassdoor. The culture, management, and overall environment are all reflected in these reviews. Positive reviews can enhance a company's reputation, but negative reviews can have significant adverse effects. </p> <p>  Positive and negative reviews harm a company's reputation, employee morale, and recruitment efforts. False information and defamation are some of the criteria for review removal in the guide. The success of ORMTechies in removing a damaging review demonstrates their expertise in review management. Best practices are provided for responding to and leveraging reviews to drive positive change. Best practices are provided for leveraging reviews to drive positive change.   </p>"
+           }
+         />
+       </section>
+       <section className="sectionPadding bg_white">
+         <ImageInfoWrap
+           title={"Navigating Constructive Critique on Glassdoor "}
+           imageUrl={"/images/orm-about.webp"}
+           showPrimeBtn={true}
+           isReverse={true}
+           primeBtnName={"get a free quote"}
+           borderBtnName={"faq"}
+           darkButton="dark_btn"
+           description={
+             "<p>Negative feedback on Glassdoor poses challenges for organizations, affecting their image and capacity to recruit top talent. The way organizations respond and improve can change if they see these critiques as learning opportunities. Negative feedback can be used by businesses to pinpoint areas for improvement and show concern for staff.   </p><p> A proactive and strategic approach is needed to address negative feedback on Glassdoor. Companies should prioritize transparency and authenticity in their responses, acknowledging the feedback and offering constructive solutions where applicable. Companies should also prioritize transparency and authenticity in their responses. This boosted the company's credibility and trustworthiness and showed a commitment to improvement. </p>"
+           }
+         />
+       </section>
+       <section className="sectionPadding bg_gray">
+         <ImageInfoWrap
+           title={"Professional Help for Removing Glassdoor Reviews  "}
+           imageUrl={"/images/orm-about.webp"}
+           showPrimeBtn={true}
+           primeBtnName={"get a free quote"}
+           borderBtnName={"faq"}
+           darkButton="dark_btn"
+           description={
+             "<p>Managing and removing Glassdoor feedback is essential for preserving a stellar online profile and securing top talent. It is important to handle negative reviews on Glassdoor with care and expertise because they can have a significant impact on a company's image. We offer expert services to assist businesses in navigating and managing their online reputation, including the removal of inappropriate or harmful reviews.  </p><p>Eliminating Glassdoor critiques requires precise preparation. Watching reviews in real-time helps ORMTechies spot any that don't conform to Glassdoor's guidelines or contain erroneous info. After assessing each review thoroughly, we gather evidence and prepare a thorough document to support the removal request. We handle the entire process with professionalism and transparency, ensuring that our client's online presence remains positive and credible. </p>"
+           }
+         />
+       </section>
+       <GlassdoorFaq />
+       <HomeSection9 />
+     </>
+  )
+}
 
-export default LegalReputationManagement;
+export default Glassdoor

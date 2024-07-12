@@ -4,31 +4,28 @@ import React from 'react';
 
 function LegalFaq() {
     // Define your FAQ data as an array of objects with 'question' and 'answer' properties
-    const LegalFaqs = [
+    const QuoraFaqs = [
         {
-            question: ' Why is law firm reputation management important? ',
-            answer: 'Law reputation management is crucial for attracting clients, maintaining credibility, and staying competitive in the legal industry. ',
+            question: ' Can ORMTechies remove negative comments completely from Quora?  ',
+            answer: `We strive to remove negative comments from Quora, although complete removal is subject to Quora's policies and guidelines. `,
         },
         {
-            question: 'How can ORMTechies help with law firm reputation management?  ',
-            answer: `ORMTechies specializes in legal reputation management, offering customized solutions to monitor, manage, and improve your firm's online presence.`,
+            question: 'Why is Quora negative content management important? ',
+            answer: `It's important because negative content on Quora can harm your online reputation and influence how others perceive you or your brand. `,
         },
         {
-            question: 'What are the benefits of law firm reputation management?   ',
-            answer: 'Benefits include enhanced client trust, improved search engine rankings, effective crisis management, and a competitive advantage. ',
+            question: 'How does ORMTechies manage negative content on Quora?  ',
+            answer: 'ORMTechies monitors Quora profiles, removes negative comments using advanced techniques, and repairs any damage to your online reputation.  ',
         },
         {
-            question: 'How does ORMTechies monitor online reviews for law firms?     ',
-            answer: 'ORMTechies monitors online reviews across platforms like Google, Yelp, and legal directories, responding promptly to maintain a positive reputation.',
+            question: 'What types of negative content does ORMTechies handle on Quora?  ',
+            answer: 'ORMTechies handles negative comments, reviews, and posts on Quora that may affect your online reputation. ',
         },
         {
-            question: 'What should I do if my law firm faces a reputation crisis?    ',
-            answer: `ORMTechies provides crisis management strategies to minimize damage and restore your firm's reputation quickly and effectively.  `,
+            question: 'How does ORMTechies handle false or misleading negative content on Quora?    ',
+            answer: `ORMTechies works to identify false or misleading negative content and takes appropriate actions to address it.   `,
         },
-        {
-            question: `How does ORMTechies ensure my law firm's online reputation remains positive?      `,
-            answer: `ORMTechies uses advanced tools and strategies to proactively manage your firm's online presence, responding to feedback and optimizing content.  `,
-        },
+        
         // Add more FAQs as needed
     ];
 
@@ -39,7 +36,7 @@ function LegalFaq() {
                     <h2 className="title-xl fw-bold mb-5">FAQs</h2>
                     {/* <p>At ORM Techies, we cater to a diverse clientele across various industries, including:</p> */}
                 </div>
-                <FAQSection faqs={LegalFaqs} />
+                <FAQSection faqs={QuoraFaqs} />
             </div>
         </section>
     );

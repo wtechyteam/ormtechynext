@@ -4,31 +4,28 @@ import React from 'react';
 
 function LegalFaq() {
     // Define your FAQ data as an array of objects with 'question' and 'answer' properties
-    const LegalFaqs = [
+    const TrustFaqs = [
         {
-            question: ' Why is law firm reputation management important? ',
-            answer: 'Law reputation management is crucial for attracting clients, maintaining credibility, and staying competitive in the legal industry. ',
+            question: ' Why should I consider removing Trustpilot reviews?  ',
+            answer: `Removing negative reviews can improve your overall rating and enhance your business's reputation, making it more attractive to potential customers. `,
         },
         {
-            question: 'How can ORMTechies help with law firm reputation management?  ',
-            answer: `ORMTechies specializes in legal reputation management, offering customized solutions to monitor, manage, and improve your firm's online presence.`,
+            question: 'Can you remove all types of reviews from Trustpilot?  ',
+            answer: `We can help with the removal of reviews that violate Trustpilot's guidelines, such as fake reviews or those containing inappropriate content. `,
         },
         {
-            question: 'What are the benefits of law firm reputation management?   ',
-            answer: 'Benefits include enhanced client trust, improved search engine rankings, effective crisis management, and a competitive advantage. ',
+            question: 'Is it legal to remove Trustpilot reviews? ',
+            answer: `Yes, it is legal to remove reviews that violate Trustpilot's terms and conditions, such as fake reviews or those that are defamatory.   `,
         },
         {
-            question: 'How does ORMTechies monitor online reviews for law firms?     ',
-            answer: 'ORMTechies monitors online reviews across platforms like Google, Yelp, and legal directories, responding promptly to maintain a positive reputation.',
+            question: 'What are the benefits of removing Trustpilot reviews?      ',
+            answer: `Removing negative or false reviews can improve your business's online reputation, increase customer trust, and potentially boost revenue.`,
         },
         {
-            question: 'What should I do if my law firm faces a reputation crisis?    ',
-            answer: `ORMTechies provides crisis management strategies to minimize damage and restore your firm's reputation quickly and effectively.  `,
+            question: 'How does ORMTechies help with review removal?   ',
+            answer: `ORMTechies offers professional services to manage and remove negative Trustpilot reviews, ensuring your online reputation remains positive.  `,
         },
-        {
-            question: `How does ORMTechies ensure my law firm's online reputation remains positive?      `,
-            answer: `ORMTechies uses advanced tools and strategies to proactively manage your firm's online presence, responding to feedback and optimizing content.  `,
-        },
+      
         // Add more FAQs as needed
     ];
 
@@ -39,7 +36,7 @@ function LegalFaq() {
                     <h2 className="title-xl fw-bold mb-5">FAQs</h2>
                     {/* <p>At ORM Techies, we cater to a diverse clientele across various industries, including:</p> */}
                 </div>
-                <FAQSection faqs={LegalFaqs} />
+                <FAQSection faqs={TrustFaqs} />
             </div>
         </section>
     );

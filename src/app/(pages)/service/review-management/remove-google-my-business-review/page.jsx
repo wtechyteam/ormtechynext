@@ -1,39 +1,39 @@
+'use client'
 import * as React from "react";
-import InnerTopBanner from "../../../common/innerTopBanner";
-import ImageInfoWrap from "../../../common/imageInfoWrap";
-import LegalFaq from "./legalFaq";
+import InnerTopBanner from "./../../../common/innerTopBanner";
+import GoogleReviewsFaq from "./GoogleReviewsFaq";
+import ImageInfoWrap from "./../../../common/imageInfoWrap";
 import HomeSection9 from "./homeSection9";
-const LegalReputationManagement = () => {
+
+const GoogleReviewsInner = () => {
   return (
     <>
-     <head>
-         <title>Enhance Your Legal Firms Online Image - ORMTechies   </title>
-         <meta name="description" content="Discover how ORMTechies can enhance your legal firm's online image with expert law firm reputation management services. Boost your firm's reputation today!  "/>
-         <link rel="canonical" href="https://www.ormtechies.com/content-removal/glassdoor" />
-         <meta name="robots" content="index, follow" />
-       </head>
+   <head>
+        <title>Review Rewind: Undoing Unwanted Google Feedback </title>
+        <meta name="description" content="Learn how ORM Techies helps businesses remove negative Google reviews and improve their online reputation. Expert strategies, ethical approaches, and personalized solutions."/>
+        <link rel="canonical" href="https://www.ormtechies.com/google-reviews" />
+        <meta name="robots" content="index, follow" />
+      </head>
       <InnerTopBanner
-        title="Enhance Your Legal Firm's Online Image "
-        info="Maintaining a positive online image is crucial for legal firms. ORMTechies offers specialized law firm reputation services designed to enhance your legal firm's online presence and protect its reputation.  "
+        title="Expert Removal Of Google Search Results "
+        info="Unwanted Google results can turn innocent searches into reputation disasters. "
       />
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
-          title={"Expert Law Firm Reputation Solutions "}
+          title={"Google’s long memory causes lasting damage"}
           imageUrl={"/images/orm-about.webp"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
           darkButton="dark_btn"
           description={
-            "<p>Law firms need a positive online reputation to maintain credibility and directly impact client acquisition and retention. Online research of law firms is common for potential clients in today's digital world. Negative reviews, misleading information, or outdated content can significantly deter potential clients from choosing your firm, leading to lost business opportunities.</p><p>Another important aspect of our services is content optimization. Our goal is to ensure that your firm's online content accurately reflects its expertise and values. Content that ranks well in search engine results and presents your firm in the best possible light is what this involves. Optimized content boosts your firm's online visibility, making it easier for potential clients to find and select your offerings. </p>"
+            "<p>“The internet never forgets” wouldn’t cause so much misery if it wasn’t for Google being so good at reminding everyone.</p><p>Google’s stated mission is to “to organize the world’s information and make it universally accessible and useful”. What it hasn’t yet reconciled is how unfair and damaging that can be when the “information” being returned starts souring new relationships. Ruining business opportunities. Pausing careers. Stopping the flow of new business.</p><p>Whether you’re a business or an individual, unsavory results in a Google search for your name are an instant poison to your reputation that needs to be dealt with as soon as possible.</p>"
           }
         />
       </section>
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
-          title={
-            "Why Law Firm Reputation Management is Essential for Success  "
-          }
+          title={"You can defend your reputation with ORMTechies "}
           imageUrl={"/images/orm-about.webp"}
           showPrimeBtn={true}
           isReverse={true}
@@ -41,27 +41,27 @@ const LegalReputationManagement = () => {
           borderBtnName={"faq"}
           darkButton="dark_btn"
           description={
-            "The benefits of the law firm's reputation are manifold and can significantly impact the success and growth of your legal practice. Here’s a detailed look at these benefits:<ul><li>Enhanced Client Trust: A positive online reputation is a powerful asset for any law firm. It builds trust and credibility with potential clients, who often rely on online reviews and information to make informed decisions.<li>Improved Search Engine Rankings: Law firm reputation relies heavily on content enhancement. Ensure that your firm's online content is well-optimized and accompanied by positive reviews to improve your visibility in search engine results.<li>Effective Crisis Management: Reputation crises can arise unexpectedly, and how they are managed can have long-term implications for your firm.<li>Competitive Advantage: In the competitive legal industry, a strong online reputation can set your firm apart from others. Positive reviews and well-managed online content make potential clients more likely to choose your firm over competitors.  </ul></p>"
+            "<p> Google is a complex beast, but sometimes the solutions are simple – you just need to know how. Since every search result is different, the first step is always to reach out and get a free consultation. At worst, you’ll at least find out the situation and possible solutions, which may not be immediately obvious to you otherwise.</p><p>You’ll be contacting a team with enormous experience and resources in this field, including our own custom-built technology platform. Whether it is complete and permanent removal, or suppressing the content away from Page 1 of Google, you can rely on ORMTechies to free you from the burden of an unwanted Google search result.</p>"
           }
         />
       </section>
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
-          title={"Proven Techniques for Attorney Reputation Management  "}
+          title={"The impact of negative search results"}
           imageUrl={"/images/orm-about.webp"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
           darkButton="dark_btn"
           description={
-            "<p>Effective legal reputation management is essential for preserving a professional glow and securing new clients. Active monitoring and management of online reviews is one key technique for this. Potential clients' perceptions are significantly influenced by reviews on platforms such as Google and legal directories. We keep a positive online presence and show professionalism by responding to reviews promptly. </p><p>Social media management is also a critical role. Keeping up with their online presence, lawyers can reach out to their target market, impart valuable insights, and build a solid professional network. Rapid and strategic crisis management is essential in cases of negative publicity or crises. ORMTechies provides effective strategies to mitigate the impact of negative incidents.</p>"
+            "<h4>For Businesses</h4><p>When negative results pop up beside your company name, it can stop people in their tracks before you’ve had a chance to interact. Online, your reputation is everything: a negative review, unpleasant article, or aggressive discussions about your business could all have a massive impact on performance.</p><h4>For Individuals</h4><p>Like any brand, a personal brand can be enormously tarnished by unwanted Google search results. Prospective employers, clients, or investors are all liable to look you up on Google. This goes double for jobs built on reputation: doctors, lawyers, and many other professionals rely on us to defend their online presence.</p><p>Often it’s not even something you’ve done: simple association with a negative event or disreputable company can cause long lasting damage.</p><p>Whatever your situation, unfortunately these are problems that rarely go away by themselves. Dealing with them immediately is the only way to limit the cost and damage. </p>"
           }
         />
       </section>
-      <LegalFaq />
+      <GoogleReviewsFaq />
       <HomeSection9 />
     </>
   );
 };
 
-export default LegalReputationManagement;
+export default GoogleReviewsInner;
