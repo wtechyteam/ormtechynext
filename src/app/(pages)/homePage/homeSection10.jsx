@@ -9,43 +9,43 @@ const HomeSection10 = () => {
             icon: "feature1.png",
             title: "Legal",
             info: "Protecting the reputation of law firms and legal professionals.",
-            href: "/legal-reputation-management"
+            href: "/service/personal-branding/legal-reputation-management"
         },
         {
             icon: "architect.png",
             title: "Construction",
             info: "Ensuring positive online perception for construction companies.",
-            href: "/construction"
+            href: "/service/personal-branding/construction-reputation-management"
         },
         {
             icon: "storefront.png",
             title: "Retail",
             info: "Enhancing the online presence of retail brands to attract more customers.",
-            href: "/retail"
+            href: "/service/personal-branding/retail-reputation-management"
         },
         {
             icon: "retail-store.png",
             title: "Automotive",
             info: "Safeguarding the reputation of automotive businesses in the competitive market.",
-            href: "/automotive"
+            href: "/service/personal-branding/automotive-reputation-management"
         },
         {
             icon: "vip.png",
             title: "VIPs",
             info: "Providing discreet and effective reputation management services for high-profile individuals.",
-            href: "/vips"
+            href: "/service/personal-branding/vip-reputation-management"
         },
         {
             icon: "healthcare.png",
             title: "Healthcare",
             info: "Building trust and credibility for healthcare providers and organizations.",
-            href: "/healthcare"
+            href: "/service/personal-branding/healthcare-reputation-management"
         },
         {
             icon: "bitcoin.png",
             title: "Cryptocurrency",
             info: "Managing the online reputation of cryptocurrency projects and entities in the digital realm.",
-            href: "/cryptocurrency"
+            href: "/service/personal-branding/cryptocurrency-reputation-management"
         }
     ];
 
