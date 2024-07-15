@@ -6,28 +6,28 @@ function LegalFaq() {
     // Define your FAQ data as an array of objects with 'question' and 'answer' properties
     const LegalFaqs = [
         {
-            question: ' Why is law firm reputation management important? ',
-            answer: 'Law reputation management is crucial for attracting clients, maintaining credibility, and staying competitive in the legal industry. ',
+            question: ' What is a Knowledge Panel?  ',
+            answer: 'A Knowledge Panel is an information box that appears on search engine result pages, summarizing key details about a business, person, or entity. ',
         },
         {
-            question: 'How can ORMTechies help with law firm reputation management?  ',
-            answer: `ORMTechies specializes in legal reputation management, offering customized solutions to monitor, manage, and improve your firm's online presence.`,
+            question: 'Why is a Knowledge Panel important for my business?   ',
+            answer: `It provides a concise and authoritative snapshot of your brand, enhancing visibility and credibility online.`,
         },
         {
-            question: 'What are the benefits of law firm reputation management?   ',
-            answer: 'Benefits include enhanced client trust, improved search engine rankings, effective crisis management, and a competitive advantage. ',
+            question: 'How can ORM Techies improve my Knowledge Panel?   ',
+            answer: 'We optimize and update your panel with accurate, comprehensive information, positive reviews, and high-quality visuals. ',
         },
         {
-            question: 'How does ORMTechies monitor online reviews for law firms?     ',
-            answer: 'ORMTechies monitors online reviews across platforms like Google, Yelp, and legal directories, responding promptly to maintain a positive reputation.',
+            question: 'How does a Knowledge Panel affect SEO?     ',
+            answer: `It improves your brand's search visibility and ranking by providing relevant and structured information to search engines.`,
         },
         {
-            question: 'What should I do if my law firm faces a reputation crisis?    ',
-            answer: `ORMTechies provides crisis management strategies to minimize damage and restore your firm's reputation quickly and effectively.  `,
+            question: 'What is structured data, and why is it important?     ',
+            answer: `Structured data helps search engines understand your content, improving how your Knowledge Panel is displayed.  `,
         },
         {
-            question: `How does ORMTechies ensure my law firm's online reputation remains positive?      `,
-            answer: `ORMTechies uses advanced tools and strategies to proactively manage your firm's online presence, responding to feedback and optimizing content.  `,
+            question: `What makes ORM Techies different from other ORM services?   `,
+            answer: `Our personalized approach, continuous monitoring, and expertise in digital marketing set us apart.  `,
         },
         // Add more FAQs as needed
     ];

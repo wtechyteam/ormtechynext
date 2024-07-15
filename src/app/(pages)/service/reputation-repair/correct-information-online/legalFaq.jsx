@@ -6,28 +6,28 @@ function LegalFaq() {
     // Define your FAQ data as an array of objects with 'question' and 'answer' properties
     const LegalFaqs = [
         {
-            question: ' Why is law firm reputation management important? ',
-            answer: 'Law reputation management is crucial for attracting clients, maintaining credibility, and staying competitive in the legal industry. ',
+            question: ' What is online reputation management?  ',
+            answer: ' Online reputation management involves monitoring, addressing, and enhancing the information available about you or your business online to ensure a positive image.  ',
         },
         {
-            question: 'How can ORMTechies help with law firm reputation management?  ',
-            answer: `ORMTechies specializes in legal reputation management, offering customized solutions to monitor, manage, and improve your firm's online presence.`,
+            question: 'Why is online reputation important? ',
+            answer: `A positive online reputation builds trust, and credibility, and can significantly impact personal and professional opportunities. `,
         },
         {
-            question: 'What are the benefits of law firm reputation management?   ',
-            answer: 'Benefits include enhanced client trust, improved search engine rankings, effective crisis management, and a competitive advantage. ',
+            question: 'How does Correct Information Online work?    ',
+            answer: 'We start with a comprehensive assessment, develop a tailored strategy, create and optimize content, continuously monitor your online presence, and engage with your audience.  ',
         },
         {
-            question: 'How does ORMTechies monitor online reviews for law firms?     ',
-            answer: 'ORMTechies monitors online reviews across platforms like Google, Yelp, and legal directories, responding promptly to maintain a positive reputation.',
+            question: 'How do you ensure the accuracy of the information?    ',
+            answer: 'We conduct thorough research and verification to ensure that the information we promote is accurate and factual. ',
         },
         {
-            question: 'What should I do if my law firm faces a reputation crisis?    ',
-            answer: `ORMTechies provides crisis management strategies to minimize damage and restore your firm's reputation quickly and effectively.  `,
+            question: 'What is the cost of your services? ',
+            answer: ` The cost varies based on the scope of services required. We offer customized packages to fit different budgets.`,
         },
         {
-            question: `How does ORMTechies ensure my law firm's online reputation remains positive?      `,
-            answer: `ORMTechies uses advanced tools and strategies to proactively manage your firm's online presence, responding to feedback and optimizing content.  `,
+            question: `How can I get started with ORM Techies?   `,
+            answer: ` Simply contact us through our website or phone, and our team will be happy to discuss your needs and develop a customized plan. `,
         },
         // Add more FAQs as needed
     ];

@@ -6,28 +6,28 @@ function LegalFaq() {
     // Define your FAQ data as an array of objects with 'question' and 'answer' properties
     const LegalFaqs = [
         {
-            question: ' Why is law firm reputation management important? ',
-            answer: 'Law reputation management is crucial for attracting clients, maintaining credibility, and staying competitive in the legal industry. ',
+            question: ' How can negative content impact my business?  ',
+            answer: `Negative content can deter potential customers, reduce sales, and damage your brand's credibility. It can also affect partnerships and business opportunities.`,
         },
         {
-            question: 'How can ORMTechies help with law firm reputation management?  ',
-            answer: `ORMTechies specializes in legal reputation management, offering customized solutions to monitor, manage, and improve your firm's online presence.`,
+            question: 'Can negative reviews be removed?   ',
+            answer: `While complete removal isn't always possible, we work to suppress negative content by promoting positive information and optimizing search results.`,
         },
         {
-            question: 'What are the benefits of law firm reputation management?   ',
-            answer: 'Benefits include enhanced client trust, improved search engine rankings, effective crisis management, and a competitive advantage. ',
+            question: 'How long does it take to improve my online reputation?    ',
+            answer: ' Results can vary, but significant improvements typically occur within 3 to 6 months, depending on the severity of the negative content and the strategies implemented. ',
         },
         {
-            question: 'How does ORMTechies monitor online reviews for law firms?     ',
-            answer: 'ORMTechies monitors online reviews across platforms like Google, Yelp, and legal directories, responding promptly to maintain a positive reputation.',
+            question: 'What methods do you use to manage online reputation?    ',
+            answer: 'We use a combination of search engine optimization (SEO), high-quality content creation, digital public relations, and continuous monitoring to manage and improve your online reputation. ',
         },
         {
-            question: 'What should I do if my law firm faces a reputation crisis?    ',
-            answer: `ORMTechies provides crisis management strategies to minimize damage and restore your firm's reputation quickly and effectively.  `,
+            question: 'Can you help with social media management?     ',
+            answer: `Yes, we provide comprehensive social media management services to enhance your online presence across various platforms.  `,
         },
         {
-            question: `How does ORMTechies ensure my law firm's online reputation remains positive?      `,
-            answer: `ORMTechies uses advanced tools and strategies to proactively manage your firm's online presence, responding to feedback and optimizing content.  `,
+            question: `How do I get started with ORM Techies?      `,
+            answer: `Contact us through our website to schedule a consultation. We will discuss your specific needs and develop a customized strategy to improve your online reputation.  `,
         },
         // Add more FAQs as needed
     ];

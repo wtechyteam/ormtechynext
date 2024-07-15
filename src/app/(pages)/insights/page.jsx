@@ -6,53 +6,53 @@ import { Container, Card, Button } from "react-bootstrap";
 import { client, urlFor } from "../../../../utils/configSanity";
 import Link from 'next/link';
 
-async function getData() {
-  const query = `*[_type == 'inMedia']`;
-  try {
-    const data = await client.fetch(query);
-    console.log('Fetched data:', data);
-    return data;
-  } catch (error) {
-    console.error('Error fetching data:', error);
-    throw error;
-  }
-}
+// async function getData() {
+//   const query = `*[_type == 'inMedia']`;
+//   try {
+//     const data = await client.fetch(query);
+//     console.log('Fetched data:', data);
+//     return data;
+//   } catch (error) {
+//     console.error('Error fetching data:', error);
+//     throw error;
+//   }
+// }
 
 const OrmTechiesInMediaPage = () => {
-  const [data, setData] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+//   const [data, setData] = useState([]);
+//   const [loading, setLoading] = useState(true);
+//   const [error, setError] = useState(null);
 
-  useEffect(() => {
-    async function fetchData() {
-      try {
-        const result = await getData();
-        setData(result);
-      } catch (error) {
-        setError(error);
-      } finally {
-        setLoading(false);
-      }
-    }
-    fetchData();
-  }, []);
+//   useEffect(() => {
+//     async function fetchData() {
+//       try {
+//         const result = await getData();
+//         setData(result);
+//       } catch (error) {
+//         setError(error);
+//       } finally {
+//         setLoading(false);
+//       }
+//     }
+//     fetchData();
+//   }, []);
 
-  if (loading) {
-    return <div>Loading...</div>;
-  }
+//   if (loading) {
+//     return <div>Loading...</div>;
+//   }
 
-  if (error) {
-    return <div>Error: {error.message}</div>;
-  }
+//   if (error) {
+//     return <div>Error: {error.message}</div>;
+//   }
 
   return (
     <>
-      <InnerTopBanner
+       <InnerTopBanner
         title="ORMTechies Insights"
         info="Are you looking to boost your online presence and reputation? At ORMTechies, we specialize in advanced online review management that can significantly enhance your business's image."
         imageSrc="./images/contact.png"
-      />
-      <Container>
+      /> 
+     {/*  <Container>
         <div className="my-4 text-center">
           <h2 className='title-xl fw-bold margin_bottom_30'>Our Latest Insights</h2>
         </div>
@@ -79,8 +79,8 @@ const OrmTechiesInMediaPage = () => {
             </div>
           ))}
         </div>
-      </Container>
-    </>
+      </Container>  */}
+    </> 
   );
 };
 

@@ -1,4 +1,4 @@
-import { useRouter } from 'next/router';
+/* import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 import { client, urlFor } from '../../utils/configSanity';
 import InnerTopBanner from '../../components/common/InnerTopBanner';
@@ -85,3 +85,4 @@ const MediaDetailPage = () => {
 };
 
 export default MediaDetailPage;
+ */

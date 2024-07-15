@@ -6,28 +6,28 @@ function LegalFaq() {
     // Define your FAQ data as an array of objects with 'question' and 'answer' properties
     const LegalFaqs = [
         {
-            question: ' Why is law firm reputation management important? ',
-            answer: 'Law reputation management is crucial for attracting clients, maintaining credibility, and staying competitive in the legal industry. ',
+            question: ' What are Push Down Results?  ',
+            answer: 'Push Down Results is a strategy used in online reputation management to demote negative search engine results by promoting positive, relevant content.  ',
         },
         {
-            question: 'How can ORMTechies help with law firm reputation management?  ',
-            answer: `ORMTechies specializes in legal reputation management, offering customized solutions to monitor, manage, and improve your firm's online presence.`,
+            question: 'How long does it take to see results?  ',
+            answer: `The timeline for seeing results can vary depending on the extent of the negative content and the effectiveness of the strategies employed. Generally, clients start seeing improvements within a few months. `,
         },
         {
-            question: 'What are the benefits of law firm reputation management?   ',
-            answer: 'Benefits include enhanced client trust, improved search engine rankings, effective crisis management, and a competitive advantage. ',
+            question: 'Is Push Down Results a permanent solution?   ',
+            answer: 'While Push Down Results can provide long-term benefits, it requires ongoing effort to maintain a positive online presence and mitigate future negative content.  ',
         },
         {
-            question: 'How does ORMTechies monitor online reviews for law firms?     ',
-            answer: 'ORMTechies monitors online reviews across platforms like Google, Yelp, and legal directories, responding promptly to maintain a positive reputation.',
+            question: 'Do you use black-hat SEO techniques?     ',
+            answer: 'No, we strictly adhere to ethical, white-hat SEO techniques to ensure long-term success without risking your online reputation. ',
         },
         {
-            question: 'What should I do if my law firm faces a reputation crisis?    ',
-            answer: `ORMTechies provides crisis management strategies to minimize damage and restore your firm's reputation quickly and effectively.  `,
+            question: 'How do you measure the success of your Push Down Results strategy?  ',
+            answer: `We use advanced analytics tools to monitor search engine rankings and measure the impact of our strategies. Regular reports are provided to keep clients informed of progress.  `,
         },
         {
-            question: `How does ORMTechies ensure my law firm's online reputation remains positive?      `,
-            answer: `ORMTechies uses advanced tools and strategies to proactively manage your firm's online presence, responding to feedback and optimizing content.  `,
+            question: ` Why should I choose ORM Techies for Push Down Results?     `,
+            answer: `ORM Techies offers a team of experienced professionals, customized solutions, proven results, and a commitment to ethical practices and client satisfaction.   `,
         },
         // Add more FAQs as needed
     ];
