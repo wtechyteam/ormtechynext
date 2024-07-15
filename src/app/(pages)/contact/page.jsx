@@ -10,6 +10,7 @@ const ContactPage = () => {
       <InnerTopBanner
         title="There’s No Harm In Asking – And No Fees For Trying"
         info="If you have any questions about content removal, online reputation management or any services we provide, please feel free to get in touch. Removal services are risk-free, as we only charge for successful removals."
+        imageSrc="./images/contact.png"
       />
       <section className="sectionPadding bg_gray">
         <Container className="d-flex justify-content-center align-items-center">

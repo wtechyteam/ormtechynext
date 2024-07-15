@@ -1,13 +1,12 @@
 'use client'
-import React from 'react'
-import { Col, Row } from 'react-bootstrap'
+import React from 'react';
+import { Col, Row } from 'react-bootstrap';
 
-const InnerTopBanner = ({ title, info }) => {
+const InnerTopBanner = ({ title, info, imageSrc }) => {
   return (
-
     <section className='banner-parent position-relative'>
       <div className='container'>
-        <div className='banner-img_box'></div>
+        <div className='banner-img_box' style={{ backgroundImage: `url(${imageSrc})` }}></div>
         <Row>
           <Col xl={3} lg={0}></Col>
           <Col xl={9} lg={12}>
@@ -17,10 +16,9 @@ const InnerTopBanner = ({ title, info }) => {
             </div>
           </Col>
         </Row>
-
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default InnerTopBanner
+export default InnerTopBanner;

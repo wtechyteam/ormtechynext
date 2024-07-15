@@ -50,14 +50,14 @@ const AboutUsPage = () => {
                 <PrimeBtn btnName={"get a quote"} />
               </div>
             </div>
-            <div className="about_banner about_col hide_1000"></div>
+            <div className="about_banner about_col hide_1000" ></div>
           </div>
         </div>
         {/* image-content-section */}
         <section className="sectionPadding bg_gray">
           <ImageInfoWrap
             title={"Empowering Your Online Image: Meet ORM Techies"}
-            imageUrl={"/images/orm-about.webp"}
+            imageUrl={"./images/aboutSection2.png"}
             showPrimeBtn={true}
             primeBtnName={"get a free quote"}
             borderBtnName={"faq"}
@@ -71,7 +71,7 @@ const AboutUsPage = () => {
         <section className="sectionPadding bg_gray">
           <ImageInfoWrap
             title={"We Build Your Online Success"}
-            imageUrl={"/images/orm-about.webp"}
+            imageUrl={"./images/aboutsection3.png"}
             showPrimeBtn={true}
             primeBtnName={"get a free quote"}
             isReverse={true}

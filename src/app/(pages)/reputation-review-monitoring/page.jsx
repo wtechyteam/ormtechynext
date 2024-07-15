@@ -1,4 +1,4 @@
-'use client'
+
 import * as React from "react";
 import InnerTopBanner from "./../common/innerTopBanner";
 import ImageInfoWrap from "../common/imageInfoWrap";
@@ -63,3 +63,13 @@ const ReputationAndReviewMonitoring = () => {
 };
 
 export default ReputationAndReviewMonitoring;
+
+
+export function generateMetadata(){
+  return{
+    title:"Reputation Management Services and Reviews",
+    description:"Are you looking for a review service? Find out how our internet reputation management solutions can help you maintain a positive online image. Contact now!",
+    canonical: 'https://www.ormtechies.com/reputation-review-monitoring',
+    robots: 'index,follow'
+  }
+} 

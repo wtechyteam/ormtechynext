@@ -9,6 +9,7 @@ const PricingPage = () => {
       <InnerTopBanner
         title="Pricing"
         info="Are you looking to boost your online presence and reputation? At ORMTechies, we specialize in advanced online review management that can significantly enhance your business's image."
+        imageSrc="./images/pricing.png"
       />
       <section className="sectionPadding pt-0 bg_gray height_100">
         <Container className="d-flex justify-content-center align-items-center" style={{ minHeight: '100vh' }}>

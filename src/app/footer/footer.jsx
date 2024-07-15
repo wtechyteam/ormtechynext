@@ -115,7 +115,7 @@ const Footer = () => {
                     </li>
 
                     <li>
-                      <Link href="/ormtechies-in-the-media/" >In The Media</Link>
+                      <Link href="/insights/" >Insights</Link>
                     </li>
                     <li>
                       <Link href="/reviews/" >Ormtechies Reviews</Link>
