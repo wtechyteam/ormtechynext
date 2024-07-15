@@ -49,6 +49,7 @@ const OrmTechiesInMediaPage = () => {
       <InnerTopBanner
         title="ORMTechies Insights"
         info="Are you looking to boost your online presence and reputation? At ORMTechies, we specialize in advanced online review management that can significantly enhance your business's image."
+        imageSrc="./images/contact.png"
       />
       <Container>
         <div className="my-4 text-center">
