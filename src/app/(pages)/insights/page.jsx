@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import InnerTopBanner from "../common/innerTopBanner";
 import { Container, Card, Button } from "react-bootstrap";
 import { client, urlFor } from "../../../../utils/configSanity";
+import Link from 'next/link';
 
 async function getData() {
   const query = `*[_type == 'inMedia']`;
@@ -70,7 +71,9 @@ const OrmTechiesInMediaPage = () => {
                 <Card.Body>
                   <Card.Title>{item.title}</Card.Title>
                   <Card.Text>{item.shortDescription}</Card.Text>
-                  <Button variant="primary">Read more</Button>
+                  <Link href={`/media/${encodeURIComponent(item.title)}`} passHref>
+                    <Button variant="primary">Read more</Button>
+                  </Link>
                 </Card.Body>
               </Card>
             </div>
