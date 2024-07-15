@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react";
 import InnerTopBanner from "../common/innerTopBanner";
 import { Container, Card, Button } from "react-bootstrap";
-import { client, urlFor } from "../../../../configSanity";
+import { client, urlFor } from "../../../../utils/configSanity";
 
 async function getData() {
   const query = `*[_type == 'inMedia']`;
