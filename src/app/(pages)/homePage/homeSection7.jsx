@@ -1,6 +1,6 @@
 import ImageInfoWrap from './../common/imageInfoWrap'
 import React from 'react'
-import banner from "../../../../public/images/homepage/Hero-Image.png";
+import banner from "../../../../public/images/homepage/apart.png";
 import PrimeBtn from '../common/primeBtn';
 
 const HomeSection7 = () => {

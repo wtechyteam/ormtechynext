@@ -1,10 +1,16 @@
-'use client'
-import React from 'react'
+// components/BorderBtn.js
 
-const BorderBtn = ({btnName, darkBtn}) => {
+import React from 'react';
+import Link from 'next/link';
+
+const BorderBtn = ({ btnName, darkBtn, href = '/getAQuote' }) => {
   return (
-    <button className={`border_btn text-18 ${darkBtn}`}>{btnName}</button>
-  )
-}
+    <Link href={href}>
+      <div className={`border_btn text-18 ${darkBtn}`}>
+        {btnName}
+      </div>
+    </Link>
+  );
+};
 
-export default BorderBtn
+export default BorderBtn;

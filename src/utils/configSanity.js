@@ -14,10 +14,4 @@ export function urlFor(source) {
   return builder.image(source);
 }
 
-// Fetch blog titles function
-export async function fetchBlogTitles() {
-  const query = '*[_type == "blogPost"]{slug}';
-  const titles = await client.fetch(query);
-  return titles.map(post => post.slug.current);
-}
- */
+  */
