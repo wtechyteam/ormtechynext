@@ -41,7 +41,7 @@ const AmplifyReviewsPage = () => {
            borderBtnName={"faq"}
            darkButton="dark_btn"
            description={
-             "<p>With AMPLIFY, you can enhance your business’s reputation and attract more customers while proactively managing online reviews.<ul><li>93% of local consumers rely on reviews for evaluating a businesses.<li>AMPLIFY facilitates customer review prompts.<li>White-labeled monthly report for brand perception insights.<li>The data supports the development of a tailored business strategy.<li>AMPLIFY enables consistent review collection.</ul> </p>"
+             "<p>With AMPLIFY, you can enhance your business reputation and attract more customers while proactively managing online reviews.<ul><li>93% of local consumers rely on reviews for evaluating a businesses.<li>AMPLIFY facilitates customer review prompts.<li>White-labeled monthly report for brand perception insights.<li>The data supports the development of a tailored business strategy.<li>AMPLIFY enables consistent review collection.</ul> </p>"
            }
          />
        </section>
