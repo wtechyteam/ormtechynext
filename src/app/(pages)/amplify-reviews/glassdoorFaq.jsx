@@ -11,7 +11,7 @@ function GlassdoorFaq() {
         },
         {
             question: 'How long does it take to remove a Glassdoor review? ',
-            answer: 'The time it takes to remove a Glassdoor review varies. Once a report is filed, Glassdoor reviews the evidence and decides, which can take several days to weeks. ',
+            answer: 'The time it takes to remove a Glassdoor revew varies. Once a report is filed, Glassdoor reviews the evidence and decides, which can take several days to weeks. ',
         },
         {
             question: 'Can Glassdoor reviews be removed if they contain personal attacks?  ',
