@@ -57,7 +57,7 @@ const AboutUsPage = () => {
         <section className="sectionPadding bg_gray">
           <ImageInfoWrap
             title={"Empowering Your Online Image: Meet ORM Techies"}
-            imageUrl={"./images/aboutSection2.png"}
+            imageUrl={"./images/about1.png"}
             showPrimeBtn={true}
             primeBtnName={"get a free quote"}
             borderBtnName={"faq"}
@@ -71,7 +71,7 @@ const AboutUsPage = () => {
         <section className="sectionPadding bg_gray">
           <ImageInfoWrap
             title={"We Build Your Online Success"}
-            imageUrl={"./images/aboutsection3.png"}
+            imageUrl={"./images/about2.png"}
             showPrimeBtn={true}
             primeBtnName={"get a free quote"}
             isReverse={true}

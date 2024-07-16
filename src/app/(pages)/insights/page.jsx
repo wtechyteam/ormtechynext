@@ -1,76 +1,69 @@
 /* eslint-disable @next/next/no-img-element */
-'use client'
-import React, { useEffect, useState } from "react";
+import React from "react";
 import InnerTopBanner from "../common/innerTopBanner";
 import { Container, Card, Button } from "react-bootstrap";
 import { client, urlFor } from "./../../../utils/configSanity";
 import Link from 'next/link';
 
-const OrmTechiesInMediaPage = () => {
- /*  const [data, setData] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+const OrmTechiesInMediaPage = ({ posts }) => {
+  // console.log("Posts:", posts); // Ensure console.log is placed correctly
 
-  useEffect(() => {
-    async function fetchData() {
-      const query = `*[_type == 'insights']`;
-      try {
-        const result = await client.fetch(query);
-        setData(result);
-      } catch (error) {
-        setError(error);
-      } finally {
-        setLoading(false);
-      }
-    }
-    fetchData();
-  }, []);
-
-  if (loading) {
-    return <div>Loading...</div>;
-  }
-
-  if (error) {
-    return <div>Error: {error.message}</div>;
-  } 
- */
   return (
     <>
       <InnerTopBanner
         title="ORMTechies Insights"
         info="Are you looking to boost your online presence and reputation? At ORMTechies, we specialize in advanced online review management that can significantly enhance your business's image."
         imageSrc="./images/contact.png"
-      /> 
-     {/*  <Container>
-        <div className="my-4 text-center">
-          <h2 className='title-xl fw-bold margin_bottom_30'>Our Latest Insights</h2>
-        </div>
-        <div className="row row-cols-1 row-cols-md-3 g-4">
-          {data.map((item) => (
-            <div key={item._id} className="col mb-4">
-              <Card style={{ height: "100%" }}>
-                {item.image && (
-                  <Card.Img
-                    style={{ height: "300px", objectFit: "cover" }}
-                    variant="top"
-                    src={urlFor(item.image).url()}
-                    alt={item.title}
-                  />
-                )}
-                <Card.Body>
-                  <Card.Title>{item.title}</Card.Title>
-                  <Card.Text>{item.shortDescription}</Card.Text>
-                  <Link href={`/media/${item.title.replace(/ /g, '-')}`} passHref>
-                    <Button variant="primary">Read more</Button>
-                  </Link>
-                </Card.Body>
-              </Card>
+      />
+      {/* <Container className="mt-5">
+        <div className="row">
+          {posts && posts.length > 0 ? (
+            posts.map((post) => (
+              <div className="col-md-4 mb-4" key={post._id}>
+                <Card style={{ width: "100%" }}>
+                  {post.mainImage && (
+                    <Card.Img
+                      variant="top"
+                      src={urlFor(post.mainImage).width(300).url()}
+                      alt={post.title}
+                    />
+                  )}
+                  <Card.Body>
+                    <Card.Title>{post.title}</Card.Title>
+                    <Card.Text>{post.shortDescription}</Card.Text>
+                    <Link href={`/insights/${post.slug.current}`} passHref>
+                      <Button variant="primary">Read More</Button>
+                    </Link>
+                  </Card.Body>
+                </Card>
+              </div>
+            ))
+          ) : (
+            <div className="col-12 text-center">
+              <p>No posts found.</p>
             </div>
-          ))}
+          )}
         </div>
-      </Container>  */}
+      </Container> */}
     </>
   );
 };
+
+/* OrmTechiesInMediaPage.getInitialProps = async () => {
+  let posts = [];
+
+  try {
+    posts = await client.fetch(`
+      *[_type == 'insights'] {
+           `);
+    
+    console.log("Fetched posts:", posts);
+  } catch (error) {
+    console.error("Error fetching data:", error);
+  }
+  
+  return { posts };
+}; */
+
 
 export default OrmTechiesInMediaPage;

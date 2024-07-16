@@ -85,4 +85,9 @@ const MediaDetailPage = () => {
 };
 
 export default MediaDetailPage;
- */
+
+
+
+export default async function BlogPost({ params }) {
+  const post = await getData(params.slug);
+} */
