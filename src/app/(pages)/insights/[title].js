@@ -6,7 +6,7 @@ import { Container, Card } from 'react-bootstrap';
 import BlockContent from '@sanity/block-content-to-react';
 
 async function fetchMediaDetails(title) {
-  const query = `*[_type == 'inMedia' && title == $title][0]`;
+  const query = `*[_type == 'insights' && title == $title][0]`;
   const params = { title: decodeURIComponent(title) };
   console.log(`Fetching data for title: ${params.title}`); // Added log for title
   try {
