@@ -1,4 +1,4 @@
-import { createClient } from 'next-sanity';
+/* import { createClient } from 'next-sanity';
 import imageUrlBuilder from '@sanity/image-url';
 
 export const client = createClient({
@@ -20,3 +20,4 @@ export async function fetchBlogTitles() {
   const titles = await client.fetch(query);
   return titles.map(post => post.slug.current);
 }
+ */
