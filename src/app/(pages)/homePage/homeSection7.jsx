@@ -12,7 +12,7 @@ const HomeSection7 = () => {
                 imageUrl={banner}
                 showPrimeBtn={true}
                 showBorderBtn={true}
-                primeBtnName={"about us"}
+                primeBtnName={"about us"} 
                 borderBtnName={"faq"}
                 isReverse={true}
                 darkButton="dark_btn"
