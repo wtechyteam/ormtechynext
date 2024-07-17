@@ -73,8 +73,8 @@ const styles = {
     textAlign: 'center',
   },
   image: {
-    maxWidth: '100%',
-    height: 'auto',
+    width: '870px',
+    height: '519px',
   },
   description: {
     textAlign: 'center',
