@@ -1,4 +1,4 @@
-'use client'
+
 import React from 'react'
 import PrimeBtn from './primeBtn'
 import Image from 'next/image'

@@ -9,8 +9,8 @@ const Card = ({ title, image, description, slug }) => {
     <div style={styles.content}>
       <h3 style={styles.title}>{title}</h3>
       <p style={styles.description}>{description}</p>
-      <Link href={`/insights/${slug}`} legacyBehavior>
-        <a style={styles.button}>Read More</a>
+      <Link href={`/insights/${slug}`} >
+        Read More
       </Link>
     </div>
   </div>
