@@ -25,7 +25,7 @@ function ReviewManagementFaq() {
             question: 'Why choose ORMTechies for review management service? ',
             answer: 'We offer comprehensive, professional, and tailored review management services to enhance your online reputation and business success. ',
         },
-        // Add more FAQs as needed
+       
     ];
 
     return (

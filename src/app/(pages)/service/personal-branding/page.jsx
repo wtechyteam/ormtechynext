@@ -29,7 +29,7 @@ const PersonalBrandingPage = () => {
 
 <section className="sectionPadding bg_white">
   <ImageInfoWrap
-    title={"Online Reputation Management"}
+    title={" Level Up Your Online Presence With Personal Branding Experts"}
     imageUrl={"/images/online-reputation.webp"}
     isReverse={true}
     showPrimeBtn={true}
@@ -37,27 +37,27 @@ const PersonalBrandingPage = () => {
     borderBtnName={"faq"}
     darkButton="dark_btn"
     description={
-      "<p>A good reputation is among the most valuable assets for any business. The internet has magnified the effects of brand perception, for better or for worse – and that’s fantastic when consumer sentiment is positive. For companies experiencing a reputation crisis, the effects are even more pronounced.</p><p>That’s why we provide a full suite of services to help manage your online reputation effectively. When a business discovers negative, misleading or false content regarding their operation online, the ideal course of action is to remove it – but this is not always feasible. That’s where Online Reputation Management (ORM) comes in.</p>"
+      "<p>Personal branding is like a digital business card for YOU. It's about crafting a strong online presence that showcases your skills, experience, and values. But building a powerful personal brand can be tricky. That's where ORM Techies comes in. Whether you're an entrepreneur, influencer, or professional, how you present yourself online can make or break your success.</p><p><b>Why Personal Branding Matters </b>Your brand acts as your digital calling card, a concise yet impactful introduction that tells the world who you are, what you value, and why you deserve attention. A strong personal brand isn't just about vanity; it's about establishing yourself as a trusted authority in your field. By crafting a compelling online persona, you build confidence, influence, and trust with your audience, allowing you to stand out from the competition.</p>"
     }
   />
 </section>
 <StatisticsSection />
 <section className="sectionPadding bg_gray">
   <ImageInfoWrap
-    title={"Stay One Step Ahead"}
+    title={"The Services We Offer"}
     imageUrl={"/images/image670.png"}
     showPrimeBtn={true}
     primeBtnName={"get a free quote"}
     borderBtnName={"faq"}
     darkButton="dark_btn"
     description={
-      "<p>Some websites will stop at nothing to ensure their content is left untouched. In these cases, the problem can still be significantly mitigated through our skilful reputation management services. This involves the strategic promotion of positive content and the suppression of negative content.</p><p>75% of searchers don’t go past the first page of Google results. If the first two pages of your search results are with positive content, any negative material’s impact will be decimated. ORM allows you to be proactive with your reputation, rather than simply reacting and going into damage control if something harmful pops up.</p>"
+      "<p>We at ORM Techies understand the details of building a personal brand in today's dynamic environment. Our personalized approach to personal branding consulting services makes sure that your brand reflects your unique identity while resonating with your target audience. <ul><li>Strategic Brand Positioning: We'll work with you to create a strong web presence. Through a collaborative process, we'll help you identify your ideal audience – the people you want to connect with most.<li>Online Reputation Management: We understand the importance of a strong online presence in today's digital world. That's why our team of personal brand consultants manages your online reputation, ensuring your digital footprint reflects your expertise. Confidently showcase your skills, attract opportunities, and build trust with your target audience.<li>Social Media Management: Social media is a powerful tool for building a strong personal brand. At ORM Techies, we harness the power of social media to strengthen your brand. From creating engaging content to managing your profiles, we guide you to make a lasting impact and forge deeper connections with your audience.<li>Brand Identity Development: Establishing a solid online presence matters, whether you're experienced or new. Our personal branding experts work with you to build a convincing brand identity. <li>Content Creation and Optimization: We don't just talk about personal branding, we build it. Our team customizes compelling content to highlight your skills and expertise and position you as a leader in the tech field. </ul></p>"
     }
   />
 </section>
 <section className="sectionPadding bg_white">
   <ImageInfoWrap
-    title={"Proactive Protection"}
+    title={"Why Choose ORM Techies?"}
     imageUrl={"/images/imageproactive.png"}
     isReverse={true}
     showPrimeBtn={true}
@@ -65,7 +65,7 @@ const PersonalBrandingPage = () => {
     borderBtnName={"faq"}
     darkButton="dark_btn"
     description={
-      "<p>Here at ORMTechies, our team knows digital like the back of our hand. We possess deep, extensive experience in digital marketing, SEO and social media. This gives us the expertise to create powerfully positive content that overrides the rest.</p><p>ORM can protect individuals just as much as businesses. 80% of employers now search job applicants on Google before bringing them in for an interview. How would you fare if you were assessed on your Google results right now? If an unsavoury result pops up, it could compromise your chances of scoring your dream job. Is it worth the risk?</p>"
+      "<p>When it comes to individual branding, trust the experts at ORM Techies to deliver results that exceed your expectations:<ul><li>Expertise: Our team of personal branding consultants brings years of experience and industry knowledge to every project, ensuring that your personal brand reflects your unique personality and professional goals.<li>Customized Solutions: We understand that every personal brand is different, which is why we offer customized solutions personalized tailored to your specific needs, goals, and budget.<li>Proven Results: With a track record of success and satisfied clients, ORM Techies is your trusted partner for all your individual branding needs.</ul></p>"
     }
   />
 </section>

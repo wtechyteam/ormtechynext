@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
-
-import { client,urlFor} from "../../../../utils/configSanity";
- import React from 'react';
+import { client, urlFor } from "../../../../utils/configSanity";
+import React from 'react';
 import { PortableText } from '@portabletext/react';
 import InnerTopBanner from "../../common/innerTopBanner";
 
@@ -16,35 +15,35 @@ async function getData(slug) {
 export async function generateStaticParams() {
   const query = `*[_type=="insights"]{ "slug": slug.current }`;
   const posts = await client.fetch(query);
-
+  console.log(posts)
   return posts.map(post => ({
-    slug: post.slug,
+    params: {
+      slug: post.slug,
+    },
   }));
 }
- 
-export default async function BlogPost({ params }) {
-   const post = await getData(params.slug); 
 
+export default async function BlogPost({ params }) {
+  const post = await getData(params.slug);
   return (
     <>
       <InnerTopBanner
         title={post.title}
         info={post.shortDescription}
-        imageSrc="./images/contact.png"
       />
-       <div style={styles.container}>
+      <div style={styles.container}>
         <h1 style={styles.title}>{post.title}</h1>
-         <img src={urlFor(post.image).url()} alt={post.title} style={styles.image} /> 
+        <img src={urlFor(post.image).url()} alt={post.title} style={styles.image} />
         <p style={styles.description}>{post.shortDescription}</p>
         <div style={styles.body}>
           <PortableText value={post.body} />
         </div>
-      </div> 
+      </div>
     </>
   );
-} 
+}
 
- const styles = {
+const styles = {
   container: {
     display: 'flex',
     flexDirection: 'column',
@@ -68,4 +67,3 @@ export default async function BlogPost({ params }) {
     width: '100%',
   },
 };
- 

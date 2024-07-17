@@ -13,20 +13,20 @@ const ReputationConsultantPage = () => {
   return (
     <>
       <head>
-        <title>Brand Reputation Management Firm | Online Service Providers </title>
-        <meta name="description" content="Expert Personal Branding Agency to enhance your online reputation. Our consulting services craft compelling digital identities for professionals and businesses." />
+        <title>Redefine Your Online Identity with Innovative online Reputation Management </title>
+        <meta name="description" content="Discover how ORMTechies can help you redefine your online identity with our innovative online reputation management services. Learn more about our comprehensive solutions for businesses and individuals." />
         <link rel="canonical" href="https://www.ormtechies.com/service/reputation-management" />
         <meta name="robots" content="index, follow" />
       </head>
       <InnerTopBanner
-        title="Reputation-Management"
-        info="Through advanced reputation marketing, your trusted partner will unlock the full potential of your business. As a reputation marketing agency, we specialize in delivering tailored solutions that enhance your online presence, build trust, and drive growth."
+        title="Reputation Management "
+        info="Reputation management is essential in the modern digital era for people and companies to keep a favorable online presence. ORM Techies is an expert in creating and safeguarding your online reputation through strategic management and excellent content generation."
       />
       <HomeSection2 />
 
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
-          title={"Online Reputation Management"}
+          title={"Redefine Your Online Identity with Innovative Reputation Management "}
           imageUrl={"/images/online-reputation.webp"}
           isReverse={true}
           showPrimeBtn={true}
@@ -34,27 +34,27 @@ const ReputationConsultantPage = () => {
           borderBtnName={"faq"}
           darkButton="dark_btn"
           description={
-            "<p>A good reputation is among the most valuable assets for any business. The internet has magnified the effects of brand perception, for better or for worse – and that’s fantastic when consumer sentiment is positive. For companies experiencing a reputation crisis, the effects are even more pronounced.</p><p>That’s why we provide a full suite of services to help manage your online reputation effectively. When a business discovers negative, misleading or false content regarding their operation online, the ideal course of action is to remove it – but this is not always feasible. That’s where Online Reputation Management (ORM) comes in.</p>"
+            "<p>Here we focus on redefining your online identity through progressive popularity control. In a state-of-the-art virtual age, retaining a superb online presence is important for businesses and individuals alike. Our comprehensive reputation management services are designed to enhance and protect your emblem, ensuring you stand out in a competitive online landscape.  </p><p>Reputation control entails tracking, influencing, and preserving the public notion of an individual or organization. In an era wherein online opinions and social media could make or ruin a reputation, having a robust recognition control approach is essential. Consumers believe online reviews as an awful lot of non-public hints.  </p>"
           }
         />
       </section>
       <StatisticsSection />
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
-          title={"Stay One Step Ahead"}
+          title={"Professional Brand Reputation Management Solutions for Your Business"}
           imageUrl={"/images/image670.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
           darkButton="dark_btn"
           description={
-            "<p>Some websites will stop at nothing to ensure their content is left untouched. In these cases, the problem can still be significantly mitigated through our skilful reputation management services. This involves the strategic promotion of positive content and the suppression of negative content.</p><p>75% of searchers don’t go past the first page of Google results. If the first two pages of your search results are with positive content, any negative material’s impact will be decimated. ORM allows you to be proactive with your reputation, rather than simply reacting and going into damage control if something harmful pops up.</p>"
+            "<p>A positive brand image is built and maintained with comprehensive brand reputation management services. We start by examining your brand's online presence, considering client feedback and online content. A customized strategic plan to enhance your reputation focuses on proactive engagement with your audience. High-quality content that highlights your brand's strengths is created and promoted by our team, while continuous monitoring allows us to respond promptly to any developments.  </p><p>We employ effective crisis management tactics to minimize the impact and reestablish your good name in the event of a bad reputation. Our strategies are data-driven and results-oriented thanks to advanced tools and technologies. You can rely on us  to handle every aspect of your brand's image, ensuring a steadfast and uplifting presence in the digital realm. </p>"
           }
         />
       </section>
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
-          title={"Proactive Protection"}
+          title={"Innovative Reputation Management Program Solutions"}
           imageUrl={"/images/imageproactive.png"}
           isReverse={true}
           showPrimeBtn={true}
@@ -62,7 +62,7 @@ const ReputationConsultantPage = () => {
           borderBtnName={"faq"}
           darkButton="dark_btn"
           description={
-            "<p>Here at ORMTechies, our team knows digital like the back of our hand. We possess deep, extensive experience in digital marketing, SEO and social media. This gives us the expertise to create powerfully positive content that overrides the rest.</p><p>ORM can protect individuals just as much as businesses. 80% of employers now search job applicants on Google before bringing them in for an interview. How would you fare if you were assessed on your Google results right now? If an unsavoury result pops up, it could compromise your chances of scoring your dream job. Is it worth the risk?</p>"
+            "<p>Our reputation management program offers comprehensive and innovative solutions tailored to your unique needs. We collaborate closely with you to develop a personalized plan aligned with your objectives. This includes real-time monitoring of mentions and reviews, thorough analysis of online sentiment, and prompt responses to manage feedback.  </p><p>Our proactive engagement aims to enhance satisfaction and foster positive interactions. Continuous monitoring ensures your online reputation remains strong. With advanced technology and expertise, we stay ahead of trends to effectively manage our reputation.  </p><p>We offer comprehensive reputation solutions tailored to enhance your brand's online presence and credibility. Our proactive approach includes real-time monitoring, strategic response, and continuous improvement to ensure positive sentiment and customer satisfaction. With advanced tools and expertise, we help businesses across various industries navigate and optimize their online reputation effectively. Whether you're looking to build trust, mitigate negative feedback, or differentiate your brand, we provide the tailored strategies and proven results needed to achieve your reputation management goals. Trust us to safeguard and enhance your brand's digital reputation with dedication and innovation. </p>"
           }
         />
       </section>

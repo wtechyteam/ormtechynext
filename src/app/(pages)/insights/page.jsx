@@ -7,9 +7,12 @@ import Card from './Card';
 
 const OrmTechiesInMediaPage = async () => {
   const query = `*[_type=="insights"] | order(_createdAt desc) {
-    title, image, "slug": slug.current, shortDescription
-  }`;
+    title, image, "slug": slug.current, shortDescription}
+
+`;
+
   const posts = await client.fetch(query);
+  console.log(posts);
   
 
   return (

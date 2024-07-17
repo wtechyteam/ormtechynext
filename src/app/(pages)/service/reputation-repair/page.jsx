@@ -14,20 +14,20 @@ const ReputationRepairPage = () => {
   return (
     <>
      <head>
-        <title>Brand Reputation Marketing Agency: Boost Online Presence</title>
-        <meta name="description" content="Struggling with online reviews? We're a reputation marketing agency specializing in online brand reputation management. We help improve ratings and build trust." />
+        <title>Professional Reputation Repair Services</title>
+        <meta name="description" content="Restore your online image with ORM Techies' expert reputation repair services. Our personalized strategies and proven results ensure a positive and trustworthy online presence. Contact us today for a free consultation! " />
         <link rel="canonical" href="https://www.ormtechies.com/service/reputation-repair" />
         <meta name="robots" content="index, follow" />
       </head>
       <InnerTopBanner
-        title="Reputation-Repair"
-        info="Boost your online presence with ORM Techies. Specializing in personal branding, we help professionals, influencers, and entrepreneurs craft compelling digital identities. Unlock success with customized strategies and expert guidance"
+        title="Reputation Repair "
+        info="Reputation repair is important for individuals and businesses facing negative online feedback or damaging content. We manage online reviews and address negative content to rebuild your reputation. Advanced techniques and industry expertise are used to ensure that your online presence accurately reflects your true value."
       />
       <HomeSection2 />
 
 <section className="sectionPadding bg_white">
   <ImageInfoWrap
-    title={"Online Reputation Management"}
+    title={"Rebuild and Shine: The Ultimate Guide to Reputation Repair "}
     imageUrl={"/images/online-reputation.webp"}
     isReverse={true}
     showPrimeBtn={true}
@@ -35,27 +35,27 @@ const ReputationRepairPage = () => {
     borderBtnName={"faq"}
     darkButton="dark_btn"
     description={
-      "<p>A good reputation is among the most valuable assets for any business. The internet has magnified the effects of brand perception, for better or for worse – and that’s fantastic when consumer sentiment is positive. For companies experiencing a reputation crisis, the effects are even more pronounced.</p><p>That’s why we provide a full suite of services to help manage your online reputation effectively. When a business discovers negative, misleading or false content regarding their operation online, the ideal course of action is to remove it – but this is not always feasible. That’s where Online Reputation Management (ORM) comes in.</p>"
+      "<p>Today's digital world places a premium on your online standing. The internet is a global stage. Millions can scrutinize your personal or business image there. Bad feedback, lies, or mean content can harm your image. One bad comment can spread fast. It creates a ripple effect. It hurts your credibility, customer trust, and, in the end, your profits. One bad comment can wreck your reputation, lose customers' trust, and hurt your profits. </p><p>At ORM Techies, we fix reputations. We offer custom solutions. They will restore your image and rebuild trust with your audience. Our staff knows many things. They use cutting-edge techniques and resources. They use them to remove bad content, boost good exposure, and ensure a strong online presence. We know the details of many online platforms. We also know the complexities of search engine algorithms. So, we can manage and restore your online presence well. </p>"
     }
   />
 </section>
 <StatisticsSection />
 <section className="sectionPadding bg_gray">
   <ImageInfoWrap
-    title={"Stay One Step Ahead"}
+    title={"Why Your Online Reputation is Your Greatest Asset "}
     imageUrl={"/images/image670.png"}
     showPrimeBtn={true}
     primeBtnName={"get a free quote"}
     borderBtnName={"faq"}
     darkButton="dark_btn"
     description={
-      "<p>Some websites will stop at nothing to ensure their content is left untouched. In these cases, the problem can still be significantly mitigated through our skilful reputation management services. This involves the strategic promotion of positive content and the suppression of negative content.</p><p>75% of searchers don’t go past the first page of Google results. If the first two pages of your search results are with positive content, any negative material’s impact will be decimated. ORM allows you to be proactive with your reputation, rather than simply reacting and going into damage control if something harmful pops up.</p>"
+      "<p>Your online reputation significantly influences how others perceive you or your business. People often form opinions based on what they see online. This happens in a time when information is easily accessible. A damaged internet reputation might turn off customers and decrease sales. But the effects go far beyond short-term money problems. </p><p>Negative reviews can discourage potential customers and weaken brand loyalty for businesses. A bad internet reputation can have an impact on a person's ability to succeed in life, find love, and get a job. Partners, employers, and even friends will likely look you up online. They will make assumptions based on what they find. To reduce these dangers, and show who you are, invest in fixing your reputation.  </p><p>ORM Techies is dedicated to helping you. They want to help you achieve and keep an excellent online reputation. We keep your online image positive. This boosts your business. Our staff uses cutting-edge methods to watch, maintain, and fix your online presence. This gives you confidence and a strong digital imprint. Allow us to help you turn bad perceptions into good ones. Then, your reputation will support your goals. </p>"
     }
   />
 </section>
 <section className="sectionPadding bg_white">
   <ImageInfoWrap
-    title={"Proactive Protection"}
+    title={"Crafting Success: Our Unique Approach to Reputation Repair "}
     imageUrl={"/images/imageproactive.png"}
     isReverse={true}
     showPrimeBtn={true}
@@ -63,7 +63,7 @@ const ReputationRepairPage = () => {
     borderBtnName={"faq"}
     darkButton="dark_btn"
     description={
-      "<p>Here at ORMTechies, our team knows digital like the back of our hand. We possess deep, extensive experience in digital marketing, SEO and social media. This gives us the expertise to create powerfully positive content that overrides the rest.</p><p>ORM can protect individuals just as much as businesses. 80% of employers now search job applicants on Google before bringing them in for an interview. How would you fare if you were assessed on your Google results right now? If an unsavoury result pops up, it could compromise your chances of scoring your dream job. Is it worth the risk?</p>"
+      "<p>At ORM Techies, we adopt a comprehensive and personalized approach to reputation repair. We start our procedure by thoroughly examining your existing web presence. We find bad reviews, harmful content, and other things hurting your reputation. </p><p>We work hard to remove offensive material from social media. We also remove it from review websites and search results. We make sure that your audience can't see hazardous info. We do this by using ethical and legal ways.  </p><p>We create great, positive content. It showcases your accomplishments and skills. This content combats bad views. This includes press announcements, blog posts, articles, and social media updates. They will highlight your best qualities.  </p><p>Our SEO specialists raise your website's search engine rank. They do this by optimizing it. Negative material is pushed farther down in search results. This lessens its impact. Positive content is actively promoted to ensure it ranks higher. </p><p>We watch for new things. We watch your online presence. We quickly react to any concerns. We keep you up to date on our efforts and your internet reputation. We do this through regular updates and reports. </p>"
     }
   />
 </section>

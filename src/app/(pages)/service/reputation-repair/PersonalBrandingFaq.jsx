@@ -6,24 +6,28 @@ function PersonalBrandingFaq() {
     // Define your FAQ data as an array of objects with 'question' and 'answer' properties
     const ReputationRepairFaqs = [
         {
-            question: 'How long does it take to see results from personal branding efforts?',
-            answer: 'Results vary depending on various factors such as your industry, target audience, and the strategies employed. However, with consistent effort and strategic planning, you can start seeing noticeable results within a few months.',
+            question: 'What is reputation repair?  ',
+            answer: `Reputation repair involves strategies and actions aimed at restoring and improving an individual's or business's online image. This includes removing or suppressing negative content, promoting positive information, and ensuring a favorable online presence.`,
         },
         {
-            question: 'Can branding for oneself benefit businesses as well?',
-            answer: 'Absolutely! A personal brand is not limited to individuals; companies may also benefit from it by increasing their exposure and reputation. A strong personal brand can humanize your company and make it more relatable to your target audience.',
+            question: 'How long does it take to repair a reputation?  ',
+            answer: 'The timeframe for reputation repair varies depending on the severity of the damage and the specific strategies employed. While minor issues may be resolved within a few months, more significant damage can take six months to over a year to fully address. ',
         },
         {
-            question: 'Do I need to be active on all social media platforms for effective individual branding?',
-            answer: 'Not necessarily. It\'s more important to focus on the platforms where your target audience is most active. We can help you identify the right platforms and develop strategies to maximize your presence on them.',
+            question: 'Can negative reviews be removed?  ',
+            answer: 'Yes, negative reviews can often be removed or suppressed using a combination of legal, ethical, and strategic methods. This may include negotiating with review sites, addressing the concerns of the reviewers, and generating positive content to overshadow negative reviews. ',
         },
         {
-            question: 'How much do personal branding services cost?',
-            answer: 'The cost of branding services varies depending on the scope of work and the level of customization required. We offer flexible pricing options to suit your budget and needs.',
+            question: 'What sets ORM Techies apart from other reputation repair services?  ',
+            answer: 'ORM Techies stands out due to our personalized approach, advanced strategies, and extensive industry experience. Our team of experts uses the latest tools and techniques to deliver customized solutions that effectively restore and enhance your online reputation. ',
         },
         {
-            question: 'Is individual branding a one-time effort, or does it require ongoing maintenance?',
-            answer: 'It is an ongoing process that requires continuous effort and adaptation. We offer ongoing support and maintenance services to ensure that your personal brand remains relevant and impactful over time.',
+            question: 'How does ORM Techies approach reputation repair?  ',
+            answer: 'Our approach involves a comprehensive analysis of your current online presence, identification of negative content, and the development of a tailored strategy. We focus on content removal, positive content creation, SEO optimization, and continuous monitoring to ensure lasting results. ',
+        },
+        {
+            question: 'What kind of results can I expect from ORM Techies? ',
+            answer: 'While results vary depending on the severity of the situation, our clients typically see significant improvements in their online reputation. This includes increased positive visibility, suppressed negative content, and enhanced overall online presence.  ',
         },
         // Add more FAQs as needed
     ];

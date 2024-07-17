@@ -20,14 +20,14 @@ const ReviewManagementPage = () => {
         <meta name="robots" content="index, follow" />
       </head>
       <InnerTopBanner
-        title="Review-Management"
-        info="Are you looking to boost your online presence and reputation? At ORMTechies, we specialize in advanced online review management that can significantly enhance your business's image. "
+        title="Online Review Management "
+        info="Are you looking to boost your online presence and reputation? At ORMTechies, we specialize in advanced online review management that can significantly enhance your business's image. Which involves strategically handling customer feedback across various platforms to maintain a positive online reputation. "
       />
       <HomeSection2 />
 
 <section className="sectionPadding bg_white">
   <ImageInfoWrap
-    title={"Online Reputation Management"}
+    title={"Transform Your Brand by Customized Review Management Services"}
     imageUrl={"/images/online-reputation.webp"}
     isReverse={true}
     showPrimeBtn={true}
@@ -35,27 +35,27 @@ const ReviewManagementPage = () => {
     borderBtnName={"faq"}
     darkButton="dark_btn"
     description={
-      "<p>A good reputation is among the most valuable assets for any business. The internet has magnified the effects of brand perception, for better or for worse – and that’s fantastic when consumer sentiment is positive. For companies experiencing a reputation crisis, the effects are even more pronounced.</p><p>That’s why we provide a full suite of services to help manage your online reputation effectively. When a business discovers negative, misleading or false content regarding their operation online, the ideal course of action is to remove it – but this is not always feasible. That’s where Online Reputation Management (ORM) comes in.</p>"
+      "<p>Our comprehensive approach includes customized strategies to encourage satisfied customers to leave positive reviews. We also address negative feedback promptly and professionally, turning potential crises into opportunities for improvement. By leveraging our review management expertise, you can attract more customers and increase revenue.  <ul><li>Monitoring and Tracking: Regularly monitor review platforms to stay informed about what customers are saying about your business. <li>Prompt Response: Respond promptly to both positive and negative reviews. Acknowledge positive feedback with gratitude and address negative feedback with a solution-oriented approach.<p>Encouraging Positive Reviews: Implement strategies to encourage satisfied customers to leave reviews. This could include follow-up emails, in-store signage, or incentives for leaving feedback. <li>Addressing Negative Reviews: Develop a protocol for addressing negative reviews professionally and promptly. Offer solutions, apologize for any negative experiences, and demonstrate a willingness to make things right. <li>Generating Positive Publicity: Encourage satisfied customers to share their positive experiences on social media or other public platforms to increase your brand's positive visibility.  </ul></p>"
     }
   />
 </section>
 <StatisticsSection />
 <section className="sectionPadding bg_gray">
   <ImageInfoWrap
-    title={"Stay One Step Ahead"}
+    title={"Boost Your Online Reputation with Expert Review Management Tools  "}
     imageUrl={"/images/image670.png"}
     showPrimeBtn={true}
     primeBtnName={"get a free quote"}
     borderBtnName={"faq"}
     darkButton="dark_btn"
     description={
-      "<p>Some websites will stop at nothing to ensure their content is left untouched. In these cases, the problem can still be significantly mitigated through our skilful reputation management services. This involves the strategic promotion of positive content and the suppression of negative content.</p><p>75% of searchers don’t go past the first page of Google results. If the first two pages of your search results are with positive content, any negative material’s impact will be decimated. ORM allows you to be proactive with your reputation, rather than simply reacting and going into damage control if something harmful pops up.</p>"
+      "<p><ol><li>Glassdoor: A platform where employees and former employees can anonymously review companies. We monitor Glassdoor to manage your company's reputation, respond to feedback, and improve employee satisfaction. <li>Google My Business: Essential for managing your business’s presence on Google Search and Maps. We use this tool to update business information, respond to reviews, and engage with customers to enhance your online reputation. <li>MouthShut: A consumer review website where users can review products and services. We manage your presence on MouthShut by monitoring reviews, addressing customer feedback, and ensuring your brand maintains a positive image. <li>MouthShut: A consumer review website where users can review products and services. We manage your presence on MouthShut by monitoring reviews, addressing customer feedback, and ensuring your brand maintains a positive image. <li>Trustpilot: A leading review platform that helps collect and respond to customer reviews. We utilize Trustpilot to gather valuable customer feedback, respond to reviews, and leverage positive testimonials to build trust and credibility. </ol></p>"
     }
   />
 </section>
 <section className="sectionPadding bg_white">
   <ImageInfoWrap
-    title={"Proactive Protection"}
+    title={"How Can ORMTechies Can Help: "}
     imageUrl={"/images/imageproactive.png"}
     isReverse={true}
     showPrimeBtn={true}
@@ -63,7 +63,7 @@ const ReviewManagementPage = () => {
     borderBtnName={"faq"}
     darkButton="dark_btn"
     description={
-      "<p>Here at ORMTechies, our team knows digital like the back of our hand. We possess deep, extensive experience in digital marketing, SEO and social media. This gives us the expertise to create powerfully positive content that overrides the rest.</p><p>ORM can protect individuals just as much as businesses. 80% of employers now search job applicants on Google before bringing them in for an interview. How would you fare if you were assessed on your Google results right now? If an unsavoury result pops up, it could compromise your chances of scoring your dream job. Is it worth the risk?</p>"
+      "<p>ORMTechies excels in transforming businesses through strategic online review services. Their comprehensive services cover online review management, Google review management, and customer review management. ORMTechies' advanced review management system automates monitoring and responding to reviews across platforms. </p><p>They specialize in enhancing online reputation, boosting local SEO, and increasing customer trust. With proven strategies and expert guidance, ORMTechies helps businesses maintain a positive brand image and attract more customers. There we tailor solutions and experienced team ensure effective management of online reviews, delivering measurable results and a competitive advantage in today's digital marketplace. </p>"
     }
   />
 </section>
