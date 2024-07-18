@@ -19,7 +19,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Revolutionizing Your Knowledge Panel Experience "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/choice-worker-theme.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -34,7 +34,7 @@ const LegalReputationManagement = () => {
           title={
             "Unlocking Potential: The Critical Role of Knowledge Panels  "
           }
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/5385948.jpg"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -48,7 +48,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Unmatched Benefits of Choosing ORM Techies  "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/man-woman-touching-each-other-when-work-is-done.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}

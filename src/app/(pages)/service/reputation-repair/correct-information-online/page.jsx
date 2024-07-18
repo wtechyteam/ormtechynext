@@ -19,7 +19,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Correct Information Online: Your Digital Truth  "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/online-education-concept.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -34,7 +34,7 @@ const LegalReputationManagement = () => {
           title={
             "Why ORM Techies is the Smart Choice for Your Reputation Needs "
           }
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/technical-support-seeks-customer-feedback-improve-service-quality.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -47,8 +47,8 @@ const LegalReputationManagement = () => {
       </section>
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
-          title={"Transforming Reputations: How Our Clients  "}
-          imageUrl={"/images/orm-about.webp"}
+          title={"Transforming Reputations: How Our Clients Benefit "}
+          imageUrl={"/images/modern-indian-rupee-composition.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
