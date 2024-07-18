@@ -31,7 +31,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={
-            "Rapid Negative Indeed Review Removal    "
+            "Rapid Negative Indeed Review Removal"
           }
           imageUrl={"/images/orm-about.webp"}
           showPrimeBtn={true}
