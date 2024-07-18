@@ -19,7 +19,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"ORMTechies: Your Partner in Corporate Reputation Management  "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/partnership-concept-illustration.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -34,7 +34,7 @@ const LegalReputationManagement = () => {
           title={
             "Ultimate Guide to Corporate Online Reputation Management "
           }
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/4630062.jpg"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -48,7 +48,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Why Choose ORMTechies? "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/flat-people-asking-questions-illustration.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}

@@ -21,6 +21,7 @@ const ReputationConsultantPage = () => {
       <InnerTopBanner
         title="Reputation Management "
         info="Reputation management is essential in the modern digital era for people and companies to keep a favorable online presence. ORM Techies is an expert in creating and safeguarding your online reputation through strategic management and excellent content generation."
+        imageSrc="/images/standard-quality-control-concept-m.jpg"
       />
       <HomeSection2 />
 

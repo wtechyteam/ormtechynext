@@ -19,7 +19,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Transform Your Business Image with Our Reputation Management Strategies "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/globalization-concept-illustration.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -34,7 +34,7 @@ const LegalReputationManagement = () => {
           title={
             "Your trusted partner for managing online business reputation  "
           }
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/hand-drawn-business-communication-concept.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -48,7 +48,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Explore Effective Business Reputation Software  "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/business-vision-concept-illustration.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}

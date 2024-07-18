@@ -22,7 +22,7 @@ const ReputationRepairPage = () => {
       <InnerTopBanner
         title="Reputation Repair "
         info="Reputation repair is important for individuals and businesses facing negative online feedback or damaging content. We manage online reviews and address negative content to rebuild your reputation. Advanced techniques and industry expertise are used to ensure that your online presence accurately reflects your true value."
-        
+        imageSrc="/images/5-star-rating-rating-concept-hand-work-gloves-holds-hammer-screwdriver-near-smartphone-wooden-wall-top-view.jpg"
       />
       <HomeSection2 />
 

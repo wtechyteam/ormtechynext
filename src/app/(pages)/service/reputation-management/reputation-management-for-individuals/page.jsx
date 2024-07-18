@@ -18,8 +18,8 @@ const LegalReputationManagement = () => {
       />
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
-          title={"Why Individual Reputation Management Should Be a Priority:  "}
-          imageUrl={"/images/orm-about.webp"}
+          title={"Why Individual Reputation Management Should Be a Priority  "}
+          imageUrl={"/images/business-team-planning-work-making-list-working-together-discussing-progress.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -32,23 +32,23 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={
-            "Why Law Firm Reputation Management is Essential for Success  "
+            "Secure Your Digital Footprint: Individual Reputation Management   "
           }
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/Hotel-Review.jpg"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
           darkButton="dark_btn"
           description={
-            "The benefits of the law firm's reputation are manifold and can significantly impact the success and growth of your legal practice. Here’s a detailed look at these benefits:<ul><li>Enhanced Client Trust: A positive online reputation is a powerful asset for any law firm. It builds trust and credibility with potential clients, who often rely on online reviews and information to make informed decisions.<li>Improved Search Engine Rankings: Law firm reputation relies heavily on content enhancement. Ensure that your firm's online content is well-optimized and accompanied by positive reviews to improve your visibility in search engine results.<li>Effective Crisis Management: Reputation crises can arise unexpectedly, and how they are managed can have long-term implications for your firm.<li>Competitive Advantage: In the competitive legal industry, a strong online reputation can set your firm apart from others. Positive reviews and well-managed online content make potential clients more likely to choose your firm over competitors.  </ul></p>"
+            "<p>We understand the importance of maintaining a positive digital footprint. Our tailored reputation management services for individuals ensure that your online presence accurately reflects your personal brand. Whether you're a professional, entrepreneur, or public figure, managing your online reputation is crucial in today's digital age. </p><p>With our expertise in individual reputation, we offer comprehensive solutions to safeguard and enhance your online image. Our strategies are designed to suppress negative content, promote positive reviews, and monitor your online presence proactively. </p><p>We specialize in providing the best online reputation management services for individuals, offering personalized strategies that meet your specific needs. Our services not only help you maintain a positive online image but also ensure that you are well-represented across various digital platforms. Secure your reputation and build trust with your audience. Let ORMTechies protect your online reputation while you focus on what matters most. </p>"
           }
         />
       </section>
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Effective Reputation Management Services for Individuals "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/process-optimization-concept-illustration.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -57,11 +57,12 @@ const LegalReputationManagement = () => {
             "<p>Services for individuals Reputation Management<ul><li>Online Review Management:Online reviews can play a crucial role in shaping your online reputation. We can help you to manage and respond to online reviews effectively. <li>Social Media Management:Social media is a powerful tool for personal branding. We optimize your social media profiles to reflect your personal brand and engage your audience effectively.<li>Content Creation: High-quality content is essential for a strong online reputation. We create positive, compelling content that showcases your expertise, achievements, and values.<li>Negative Content Suppression: Negative content can harm your online reputation. We employ advanced techniques to suppress negative content in search results.<li>Monitoring and Reporting:Maintaining a positive online reputation requires continuous monitoring. We monitor your online presence, tracking mentions and reviews across various platforms. </ul></p>" }
         />
       </section>
-      <section className="sectionPadding bg_gray">
+      <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Benefits of Choosing ORMTechies for Your Individual Reputation Management "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/Businessman with Growth arrow and Achievement- Entrepreneurs Flying to business Success with Dollar Coin.jpg"}
           showPrimeBtn={true}
+          isReverse={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
           darkButton="dark_btn"
