@@ -19,7 +19,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Quora Content Control  "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/DeWatermark.ai_1721304034927.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -34,7 +34,7 @@ const LegalReputationManagement = () => {
           title={
             "Unveiling Quora's Negative Impact "
           }
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/Reputation-Management-2.jpg"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -48,7 +48,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Innovative Quora Solutions by ORMTechies  "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/image 62.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -61,7 +61,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"ORMTechies: The Right Choice "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/problem-solving-creative-decision-difficult-task-lateral-thinking-man-assembling-puzzle-cartoon-character-right-choice-missing-item-vector.jpg"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}

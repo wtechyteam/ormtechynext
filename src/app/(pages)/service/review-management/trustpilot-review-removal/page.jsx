@@ -43,12 +43,12 @@ const LegalReputationManagement = () => {
           }
         />
       </section>
-      <section className="sectionPadding bg_gray">
+      <section className="sectionPadding bg_WHITE">
         <ImageInfoWrap
           title={
             "Boost Trustpilot Trust with ORMTechies "
           }
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/istockphoto-1262582736-612x612.jpg"}
           showPrimeBtn={true}
          
           primeBtnName={"get a free quote"}
@@ -62,7 +62,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Secure Your Reputation with ORMTechies   "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/Flat-Character-2D-Cyber-Security-Vector-Illustration-700.webp"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
