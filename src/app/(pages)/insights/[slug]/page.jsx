@@ -73,6 +73,7 @@ const styles = {
     textAlign: 'center',
   },
   image: {
+    marginTop:'1rem',
     width: '870px',
     height: '519px',
   },
@@ -82,6 +83,7 @@ const styles = {
   body: {
     textAlign: 'left',
     maxWidth: '800px',
+    marginTop:'1rem',
     width: '100%',
   },
 };
