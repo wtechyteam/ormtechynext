@@ -19,7 +19,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Quick Indeed Review Removal  "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/image52.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
