@@ -21,7 +21,7 @@ const GoogleReviewsInner = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Google’s long memory causes lasting damage"}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/tiny-people-examining-operating-system-error-warning-web-page-isolated-flat-illustration.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -34,7 +34,7 @@ const GoogleReviewsInner = () => {
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"You can defend your reputation with ORMTechies "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/5002461.jpg"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -48,7 +48,7 @@ const GoogleReviewsInner = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"The impact of negative search results"}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/complain-concept-with-one-star-review.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
