@@ -27,7 +27,7 @@ const ReputationConsultantPage = () => {
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Redefine Your Online Identity with Innovative Reputation Management "}
-          imageUrl={"/images/online-reputation.webp"}
+          imageUrl={"/images/face-recognition-personal-identification-secure-access-profile-entry-data-storage-opening-female-account-holder-cartoon-character-vector-isolated-concept-metaphor-illustration_335657-2852.avif"}
           isReverse={true}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
@@ -42,7 +42,7 @@ const ReputationConsultantPage = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Professional Brand Reputation Management Solutions for Your Business"}
-          imageUrl={"/images/image670.png"}
+          imageUrl={"/images/Untitled design (13).png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -55,7 +55,7 @@ const ReputationConsultantPage = () => {
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Innovative Reputation Management Program Solutions"}
-          imageUrl={"/images/imageproactive.png"}
+          imageUrl={"/images/hand-drawn-innovation-concept-with-lightbulb.png"}
           isReverse={true}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}

@@ -19,7 +19,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Redefine Your Digital Presence "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/reviews-concept-landing-page.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -34,7 +34,7 @@ const LegalReputationManagement = () => {
           title={
             "Advanced Tactics for Outstanding Reviews  "
           }
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/business-direction-abstract-concept-illustration.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -48,7 +48,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Commitment to Excellence in Reputation "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/businesswoman-with-coins-cup-prize-with-gears.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}

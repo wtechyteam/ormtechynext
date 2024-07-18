@@ -22,13 +22,14 @@ const ReputationRepairPage = () => {
       <InnerTopBanner
         title="Reputation Repair "
         info="Reputation repair is important for individuals and businesses facing negative online feedback or damaging content. We manage online reviews and address negative content to rebuild your reputation. Advanced techniques and industry expertise are used to ensure that your online presence accurately reflects your true value."
+        
       />
       <HomeSection2 />
 
 <section className="sectionPadding bg_white">
   <ImageInfoWrap
     title={"Rebuild and Shine: The Ultimate Guide to Reputation Repair "}
-    imageUrl={"/images/online-reputation.webp"}
+    imageUrl={"/images/repurepair1.png"}
     isReverse={true}
     showPrimeBtn={true}
     primeBtnName={"get a free quote"}
@@ -43,7 +44,7 @@ const ReputationRepairPage = () => {
 <section className="sectionPadding bg_gray">
   <ImageInfoWrap
     title={"Why Your Online Reputation is Your Greatest Asset "}
-    imageUrl={"/images/image670.png"}
+    imageUrl={"/images/repurapirasset.png"}
     showPrimeBtn={true}
     primeBtnName={"get a free quote"}
     borderBtnName={"faq"}
@@ -56,7 +57,7 @@ const ReputationRepairPage = () => {
 <section className="sectionPadding bg_white">
   <ImageInfoWrap
     title={"Crafting Success: Our Unique Approach to Reputation Repair "}
-    imageUrl={"/images/imageproactive.png"}
+    imageUrl={"/images/repurepair2.png"}
     isReverse={true}
     showPrimeBtn={true}
     primeBtnName={"get a free quote"}

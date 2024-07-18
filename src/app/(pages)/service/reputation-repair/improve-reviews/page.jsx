@@ -16,10 +16,10 @@ const LegalReputationManagement = () => {
         title="Improve Review "
         info="ORM Techies specializes in enhancing your online reviews to bolster your digital reputation. We take a comprehensive approach, beginning with a thorough evaluation of your existing web presence. "
       />
-      <section className="sectionPadding bg_gray">
+      <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Transform Your Digital Footprint with ORM Techies "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/grunge_color_shoes.jpg"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -34,7 +34,7 @@ const LegalReputationManagement = () => {
           title={
             "How Our Clients Benefit from Our Services "
           }
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/6099984.jpg"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -45,10 +45,10 @@ const LegalReputationManagement = () => {
           }
         />
       </section>
-      <section className="sectionPadding bg_gray">
+      <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Commitment to Excellence in Reputation  "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/5995357.jpg"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}

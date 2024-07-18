@@ -19,7 +19,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Mastering Online Reputation: ORM Techies’ Push Down Results Strategy "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/set-informational-banner-education-career.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -34,7 +34,7 @@ const LegalReputationManagement = () => {
           title={
             "Why Push Down Results Matters "
           }
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/work-team-checking-giant-check-list-background.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -48,7 +48,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Benefits of Choosing ORM Techies for Push Down Results  "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/flat-design-data-driven-illustration.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -61,7 +61,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Our Commitment to Excellence   "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/113532-OOQNV1-132.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}

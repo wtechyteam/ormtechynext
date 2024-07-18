@@ -30,7 +30,7 @@ const PersonalBrandingPage = () => {
 <section className="sectionPadding bg_white">
   <ImageInfoWrap
     title={" Level Up Your Online Presence With Personal Branding Experts"}
-    imageUrl={"/images/online-reputation.webp"}
+    imageUrl={"/images/experts.avif"}
     isReverse={true}
     showPrimeBtn={true}
     primeBtnName={"get a free quote"}
@@ -42,10 +42,10 @@ const PersonalBrandingPage = () => {
   />
 </section>
 <StatisticsSection />
-<section className="sectionPadding bg_gray">
+<section className="sectionPadding bg_white">
   <ImageInfoWrap
     title={"The Services We Offer"}
-    imageUrl={"/images/image670.png"}
+    imageUrl={"/images/servicespp.avif"}
     showPrimeBtn={true}
     primeBtnName={"get a free quote"}
     borderBtnName={"faq"}
@@ -55,10 +55,10 @@ const PersonalBrandingPage = () => {
     }
   />
 </section>
-<section className="sectionPadding bg_white">
+<section className="sectionPadding bg_gray">
   <ImageInfoWrap
     title={"Why Choose ORM Techies?"}
-    imageUrl={"/images/imageproactive.png"}
+    imageUrl={"/images/imagenew.png"}
     isReverse={true}
     showPrimeBtn={true}
     primeBtnName={"get a free quote"}
