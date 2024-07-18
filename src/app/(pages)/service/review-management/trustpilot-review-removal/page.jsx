@@ -19,7 +19,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Trustpilot Review Removal "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/reviewtrust.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -29,10 +29,10 @@ const LegalReputationManagement = () => {
           }
         />
       </section>
-      <section className="sectionPadding bg_gray">
+      <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Boost Your Trustpilot Reputation  "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/rocket_exponential_growth.jpg"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -43,7 +43,7 @@ const LegalReputationManagement = () => {
           }
         />
       </section>
-      <section className="sectionPadding bg_white">
+      <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={
             "Boost Trustpilot Trust with ORMTechies "
@@ -59,7 +59,7 @@ const LegalReputationManagement = () => {
           }
         />
       </section>
-      <section className="sectionPadding bg_gray">
+      <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Secure Your Reputation with ORMTechies   "}
           imageUrl={"/images/orm-about.webp"}

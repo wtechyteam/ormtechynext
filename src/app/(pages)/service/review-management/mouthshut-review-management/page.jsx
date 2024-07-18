@@ -16,10 +16,10 @@ const LegalReputationManagement = () => {
         title="Review Craft: Shaping MouthShut Negative Reviews  "
         info="Online reviews have immense power in shaping consumer decisions. Among the numerous review platforms, MouthShut stands out as a prominent platform where consumers share their candid experiences, influencing others' purchasing choices.  "
       />
-      <section className="sectionPadding bg_gray">
+      <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Building Your Brand with Mouthshut Review Management   "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/organic-flat-design-feedback-concept.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -29,12 +29,12 @@ const LegalReputationManagement = () => {
           }
         />
       </section>
-      <section className="sectionPadding bg_white">
+      <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={
             "Review Radiance: Amplifying Your Impact   "
           }
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/O9IY1J0.jpg"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -45,10 +45,10 @@ const LegalReputationManagement = () => {
           }
         />
       </section>
-      <section className="sectionPadding bg_gray">
+      <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"ORMTechies: Your MouthShut Review Management Partner  "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/businessmen-shaking-hands-through-display-video-call-smart-phone-internet-business-concept-cartoon-character-vector-illustration.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
