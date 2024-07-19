@@ -19,7 +19,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Innovative Strategies"}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/flat-tiny-people-innovation-concept-business-partner-generating-idea-projects.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -34,7 +34,7 @@ const LegalReputationManagement = () => {
           title={
             "Cutting-Edge Retail Reputation Strategies    "
           }
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/hand-drawn-flat-our-mission-concept.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -48,7 +48,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Revolutionize Your Retail Reviews    "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/hand-drawn-innovation-concept-with-vr-glasses.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}

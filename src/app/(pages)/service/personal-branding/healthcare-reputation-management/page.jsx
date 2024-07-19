@@ -16,10 +16,10 @@ const LegalReputationManagement = () => {
         title="Healing Your Image: Expert Strategies for Healthcare Reputation   "
         info="Managing healthcare reputation is essential. It helps attract new patients and build trust. It also ensures long-term success. ORMTechies provides expert strategies. They also offer complete services. These help healthcare providers keep a good online image.  "
       />
-      <section className="sectionPadding bg_gray">
+      <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Patient Trust Redefined: Healthcare Reputation Experts   "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/law-firm-concept-illustration_114360-8586.avif"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -29,12 +29,12 @@ const LegalReputationManagement = () => {
           }
         />
       </section>
-      <section className="sectionPadding bg_white">
+      <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={
             "Guarding Your Practice: Why Medical Reputation is Essential    "
           }
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/bodyguard-concept-illustration.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -45,10 +45,10 @@ const LegalReputationManagement = () => {
           }
         />
       </section>
-      <section className="sectionPadding bg_gray">
+      <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Boost Your Healthcare Image with ORMTechies "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/6736639.jpg"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}

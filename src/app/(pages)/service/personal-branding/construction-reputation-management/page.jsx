@@ -19,7 +19,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"The Significance of Construction Reputation Management   "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/construction-quality-control-illustration.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -34,7 +34,7 @@ const LegalReputationManagement = () => {
           title={
             "Achieve Success with Expert Builder Review Management   "
           }
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/people-celebrating-goal-achievement-holding-trophy.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -48,7 +48,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"ORMTechies Uses Cutting-Edge Strategies to Boost Your Online Presence "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/strategic-planning-concept-illustration.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}

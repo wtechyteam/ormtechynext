@@ -16,10 +16,10 @@ const LegalReputationManagement = () => {
         title="Automotive Reputation Management: Why It Matters for Your Business "
         info="Maintaining a positive reputation online is crucial for automotive businesses. At ORMTechies, we specialize in enhancing and safeguarding the reputation of auto dealerships and automotive businesses through strategic reputation management solutions."
       />
-      <section className="sectionPadding bg_gray">
+      <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Boost Sales with Pro Dealer Reputation Management "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/business-growth-concept-illustration.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -34,7 +34,7 @@ const LegalReputationManagement = () => {
           title={
             "Secure Your Auto Brand's Future: Reputation Solutions"
           }
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/decentralized-application-abstract-concept-illustration_335657-3888.avif"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -45,10 +45,10 @@ const LegalReputationManagement = () => {
           }
         />
       </section>
-      <section className="sectionPadding bg_gray">
+      <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Why ORMTechies for Automotive Reputation Management  "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/3872899.jpg"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}

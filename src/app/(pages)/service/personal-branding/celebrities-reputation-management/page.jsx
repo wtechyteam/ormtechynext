@@ -16,10 +16,10 @@ const LegalReputationManagement = () => {
         title="   Online Celebrity Reputation Specialists"
         info="Control your digital legacy with ORM Techies, the celebrity reputation experts."
       />
-      <section className="sectionPadding bg_gray">
+      <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Own Your Digital Legacy With Our Reputation Management Agency For Celebrities "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/3054281.jpg"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -29,12 +29,12 @@ const LegalReputationManagement = () => {
           }
         />
       </section>
-      <section className="sectionPadding bg_white">
+      <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={
             "Shaping Positive Online Narratives With Personal Reputation Services "
           }
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/flat-design-person-making-complain.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -45,10 +45,10 @@ const LegalReputationManagement = () => {
           }
         />
       </section>
-      <section className="sectionPadding bg_gray">
+      <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Protect Your Celebrity Status with Personalized Reputation Management "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/280723 1_1-18.jpg"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}

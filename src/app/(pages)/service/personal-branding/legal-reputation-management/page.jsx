@@ -19,7 +19,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Expert Law Firm Reputation Solutions "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/new-idea-concept-illustration.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -34,7 +34,7 @@ const LegalReputationManagement = () => {
           title={
             "Why Law Firm Reputation Management is Essential for Success  "
           }
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/runs_to_award.jpg"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -48,7 +48,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Proven Techniques for Attorney Reputation Management  "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/Untitled-1 1 1.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}

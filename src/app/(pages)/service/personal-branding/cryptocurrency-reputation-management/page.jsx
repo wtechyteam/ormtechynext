@@ -16,10 +16,10 @@ const LegalReputationManagement = () => {
         title="Innovative Blockchain Reputation Management for a digital world. "
         info="Use our innovative solutions to embrace the future of reputation management. They'll take your business to new heights.  "
       />
-      <section className="sectionPadding bg_gray">
+      <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Why Your Crypto's Reputation Matters  "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/bitcoin-concept-illustration_114360-26739.avif"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -29,12 +29,12 @@ const LegalReputationManagement = () => {
           }
         />
       </section>
-      <section className="sectionPadding bg_white">
+      <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={
             "Blockchain: Shaping the Future of Reputation Management  "
           }
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/flat-design-cryptocurrency-concept-with-coin.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -45,10 +45,10 @@ const LegalReputationManagement = () => {
           }
         />
       </section>
-      <section className="sectionPadding bg_gray">
+      <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Why ORMTechies excels in cryptocurrency reputation "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/6217481.jpg"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
