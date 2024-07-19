@@ -59,7 +59,7 @@ const HomeSection5 = () => {
                         <Col lg={6} md={12} className='margin_top_992'>
                             <TabPanel className='px-0' value={0}>
                                 <div className='text-center'>
-                                    <Image style={{ width: "400px", height: "400px" }} className='responsive_img' width={610} height={400} src={"./images/pp3.png"} alt='icon' title='Personal Branding' />
+                                    <Image style={{ width: "470px", height: "400px" }} className='responsive_img' width={610} height={400} src={"/images/8001997.jpg"} alt='icon' title='Personal Branding' />
                                     <div  style={{ marginTop: "20px" }} className="tabDetails">
                                         <Link href="/service/personal-branding"><PrimeBtn btnName="Learn More" href="/service/personal-branding"/></Link>
                                     </div>
@@ -67,7 +67,7 @@ const HomeSection5 = () => {
                             </TabPanel>
                             <TabPanel className='px-0' value={1}>
                                 <div className='text-center'>
-                                    <Image style={{ width: "400px", height: "400px" }} className='responsive_img' width={610} height={400} src={"/images/rr.png"} alt='icon' title='Reputation Repair' />
+                                    <Image style={{ width: "470px", height: "400px"  }} className='responsive_img' width={610} height={400} src={"/images/19197200.jpg"} alt='icon' title='Reputation Repair' />
                                     <div style={{ marginTop: "20px" }} className="tabDetails">
                                         <Link href="/service/reputation-repair"><PrimeBtn btnName="Learn More" href="/service/reputation-repair" /></Link>
                                     </div>
@@ -75,7 +75,7 @@ const HomeSection5 = () => {
                             </TabPanel>
                             <TabPanel className='px-0' value={2}>
                                 <div className='text-center'>
-                                    <Image style={{ width: "550px", height: "400px" }} className='responsive_img' width={610} height={400} src={"/images/rm2.png"} alt='icon' title='Reputation Management' />
+                                    <Image style={{width: "470px", height: "400px"}} className='responsive_img' width={610} height={400} src={"/images/feedback-loop-concept-illustration_114360-21826.avif"} alt='icon' title='Reputation Management' />
                                     <div style={{ marginTop: "20px" }} className="tabDetails">
                                         <Link href="/service/reputation-management"><PrimeBtn btnName="Learn More"  href="/service/reputation-management"/></Link>
                                     </div>
@@ -83,7 +83,7 @@ const HomeSection5 = () => {
                             </TabPanel>
                             <TabPanel className='px-0' value={3}>
                                 <div className='text-center'>
-                                    <Image style={{ width: "400px", height: "400px" }} className='responsive_img' width={610} height={400} src={"/images/rem.png"} alt='icon' title='Review Management' />
+                                    <Image style={{ width: "470px", height: "400px"}} className='responsive_img' width={610} height={400} src={"/images/image45.png"} alt='icon' title='Review Management' />
                                     <div style={{ marginTop: "20px" }} className="tabDetails">
                                         <Link href="/service/review-management"><PrimeBtn btnName="Learn More" href="/service/review-management" /></Link>
                                     </div>
