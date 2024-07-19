@@ -1,7 +1,7 @@
 'use client'
 import React from 'react';
 import InnerTopBanner from "./../common/innerTopBanner";
-// import GlassdoorFaq from "./glassdoorFaq";
+import GlassdoorFaq from "./glassdoorFaq";
 import ImageInfoWrap from "./../common/imageInfoWrap";
 import HomeSection9 from "./homeSection9";
 
@@ -58,7 +58,7 @@ const AmplifyReviewsPage = () => {
            }
          />
        </section>
-       {/* <GlassdoorFaq /> */}
+       <GlassdoorFaq /> 
        <HomeSection9 />
      </>
   )

@@ -6,24 +6,28 @@ function GoogleReviewsFaq() {
     // Define your FAQ data as an array of objects with 'question' and 'answer' properties
     const GoogleReviewsFaqs = [
         {
-            question: 'Can I remove a Google review ? ',
-            answer: 'Unfortunately, you cannot directly remove a Google review from your business profile. However, you can flag it for review by Google if it violates their content guidelines. ',
+            question: 'How can negative content in Google search results impact my business? ',
+            answer: 'Negative content can damage your reputation, reduce customer trust, and affect sales. ORM Techies mitigate this by using SEO strategies to push negative content down in search results and highlighting positive content.',
         },
         {
-            question: 'What happens after I flag a Google review? ',
-            answer: 'Google will review your report and decide whether to remove the review. You may receive an update notification from Google.',
+            question: 'Can ORM Techies remove negative content from Google search results?   ',
+            answer: 'Direct removal is challenging, but ORM Techies can define content through legal means and SEO techniques, making it less visible and reducing its impact on your reputation. ',
         },
         {
-            question: 'Is it guaranteed that an ORM service can remove a negative Google review? ',
-            answer: 'No, there is no guarantee that an ORM service can remove a negative review. Google has the final say on whether a review violates their policies.  ',
+            question: 'How does ORM Techies improve my Google search results?  ',
+            answer: 'ORM Techies employs strategies such as creating high-quality content, optimizing SEO, and managing backlinks to enhance your online presence and ensure positive content ranks higher in search results. ',
         },
         {
-            question: 'What if a negative Google review is fake or fabricated? ',
-            answer: 'If you believe a review is fake, you can flag it for removal as mentioned earlier. Additionally, you can respond to the review, clarifying that the information is incorrect. ',
+            question: ' How long does it take ORM Techies to improve my Google search results?  ',
+            answer: 'The timeframe varies based on the complexity of the issue, but ORM Techies typically begins to see improvements within a few weeks through consistent and strategic reputation management efforts.  ',
         },
         {
-            question: 'Can I pay someone to write positive Google reviews for my business? ',
-            answer: `No, Google strictly prohibits fake reviews. Paying for positive reviews can violate Google's policies and harm your business's reputation in the long run. `,
+            question: 'Can ORM Techies help with local SEO to improve my search results? ',
+            answer: `Yes, ORM Techies offers local SEO services, optimizing your business for local searches by improving your Google My Business profile, managing local citations, and generating positive local reviews. `,
+        },
+        {
+            question: 'How does ORM Techies handle negative media articles in search results? ',
+            answer: `ORM Techies can reach out to publishers for corrections or retractions and use SEO techniques to push negative articles down in search results while promoting positive content to improve your online image.  `,
         },
         // Add more FAQs as needed
     ];

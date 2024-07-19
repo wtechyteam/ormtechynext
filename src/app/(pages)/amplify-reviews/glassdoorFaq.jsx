@@ -6,24 +6,28 @@ function GlassdoorFaq() {
     // Define your FAQ data as an array of objects with 'question' and 'answer' properties
     const GlassdoorFaqs = [
         {
-            question: 'What steps can I take to remove Glassdoor reviews? ',
-            answer: 'To remove Glassdoor reviews, identify the reviews violating Glassdoor’s guidelines, gather evidence, and file a detailed report with Glassdoor. We can assist with this process to ensure success.  ',
+            question: 'What does it mean to amplify reviews?  ',
+            answer: `Amplifying reviews involves promoting positive customer reviews to enhance your brand's reputation. ORM Techies uses various strategies to highlight these reviews across different platforms, increasing their visibility. `,
         },
         {
-            question: 'How long does it take to remove a Glassdoor review? ',
-            answer: 'The time it takes to remove a Glassdoor revew varies. Once a report is filed, Glassdoor reviews the evidence and decides, which can take several days to weeks. ',
+            question: 'How can ORM Techies help in amplifying my positive reviews?  ',
+            answer: 'ORM Techies promotes positive reviews through SEO, social media, and other digital marketing strategies, ensuring they reach a wider audience and contribute to a positive online reputation. ',
         },
         {
-            question: 'Can Glassdoor reviews be removed if they contain personal attacks?  ',
-            answer: 'Yes, reviews containing personal attacks or defamatory content can be reported and potentially removed if they violate Glassdoor’s guidelines. ',
+            question: 'How do ORM techies ensure the authenticity of amplified reviews? ',
+            answer: 'ORM Techies encourages genuine customer feedback and strictly adheres to ethical practices, ensuring that all amplified reviews are authentic and reflect true customer experiences.  ',
         },
         {
-            question: 'How can ORMTechies help with removing Glassdoor reviews?   ',
-            answer: 'ORMTechies offers expert services to monitor, assess, and report reviews that violate guidelines, ensuring a higher chance of successful removal. ',
+            question: 'How do ORM Techies handle negative reviews during the amplification process?    ',
+            answer: 'ORM Techies addresses negative reviews promptly and professionally, working to resolve issues and encourage positive follow-up reviews, which are then amplified to improve overall perception.  ',
         },
         {
-            question: 'Can I remove a review from Glassdoor if it affects my business reputation?  ',
-            answer: `Reviews impacting your business reputation can be removed if they violate Glassdoor’s policies. ORMTechies can assist in identifying and reporting such reviews. `,
+            question: 'Can ORM Techies help generate more positive reviews?',
+            answer: `Yes, ORM Techies implements strategies such as follow-up emails, feedback forms, and in-service reminders to encourage satisfied customers to leave positive reviews. `,
+        },
+        {
+            question: 'How does amplifying reviews affect my SEO?  ',
+            answer: `Amplifying positive reviews can enhance your SEO by increasing user-generated content and engagement, which search engines favor. ORM Techies uses these reviews to boost your search rankings.  `,
         },
         // Add more FAQs as needed
     ];

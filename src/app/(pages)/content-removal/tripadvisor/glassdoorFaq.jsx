@@ -6,24 +6,28 @@ function GlassdoorFaq() {
     // Define your FAQ data as an array of objects with 'question' and 'answer' properties
     const GlassdoorFaqs = [
         {
-            question: 'What steps can I take to remove Glassdoor reviews? ',
-            answer: 'To remove Glassdoor reviews, identify the reviews violating Glassdoor’s guidelines, gather evidence, and file a detailed report with Glassdoor. We can assist with this process to ensure success.  ',
+            question: 'Why is maintaining a good reputation on TripAdvisor important? ',
+            answer: 'TripAdvisor is a key platform for travelers making decisions. A good reputation can attract more visitors. ORM Techies ensures your profile showcases positive reviews and high ratings to enhance your credibility.  ',
         },
         {
-            question: 'How long does it take to remove a Glassdoor review? ',
-            answer: 'The time it takes to remove a Glassdoor review varies. Once a report is filed, Glassdoor reviews the evidence and decides, which can take several days to weeks. ',
+            question: 'Can ORM Techies remove negative reviews from TripAdvisor?  ',
+            answer: 'Direct removal is often not possible, but ORM Techies can manage the impact by reporting fake reviews, responding professionally to negative feedback, and encouraging satisfied customers to leave positive reviews.  ',
         },
         {
-            question: 'Can Glassdoor reviews be removed if they contain personal attacks?  ',
-            answer: 'Yes, reviews containing personal attacks or defamatory content can be reported and potentially removed if they violate Glassdoor’s guidelines. ',
+            question: 'How does ORM Techies improve my TripAdvisor rating?   ',
+            answer: ' ORM Techies employs strategies such as soliciting reviews from happy customers, optimizing profile content, and responding to reviews effectively to improve your overall rating on TripAdvisor.  ',
         },
         {
-            question: 'How can ORMTechies help with removing Glassdoor reviews?   ',
-            answer: 'ORMTechies offers expert services to monitor, assess, and report reviews that violate guidelines, ensuring a higher chance of successful removal. ',
+            question: 'How does ORM Techies handle negative feedback on TripAdvisor?   ',
+            answer: 'ORM Techies responds to negative feedback professionally and constructively, addressing concerns and demonstrating a commitment to customer satisfaction, which can help mitigate the impact of negative reviews. ',
         },
         {
-            question: 'Can I remove a review from Glassdoor if it affects my business reputation?  ',
-            answer: `Reviews impacting your business reputation can be removed if they violate Glassdoor’s policies. ORMTechies can assist in identifying and reporting such reviews. `,
+            question: 'How quickly can ORM Techies improve my TripAdvisor profile?   ',
+            answer: `The timeframe varies, but ORM Techies typically starts seeing improvements within a few weeks through consistent reputation management efforts and strategic content promotion.  `,
+        },
+        {
+            question: 'What kind of content does ORM Techies create for TripAdvisor profiles?    ',
+            answer: `ORM Techies creates engaging and informative content, including detailed business descriptions, high-quality photos, and engaging responses to reviews, to enhance your TripAdvisor profile. `,
         },
         // Add more FAQs as needed
     ];
