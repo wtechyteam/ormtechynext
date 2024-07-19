@@ -19,7 +19,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Timejob Review Insights "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/user-experience-concept-woman-near-computer-monitor-front-end-developer-with-mobile-application.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -34,7 +34,7 @@ const LegalReputationManagement = () => {
           title={
             "Maximize Opportunities with Timesjob Resume Services  "
           }
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/Businessman_in_superhero_landing_pose_with_growth_arrow_in_background.jpg"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -48,7 +48,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"The ORMTechies Advantage"}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/advantages-concept-illustration.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}

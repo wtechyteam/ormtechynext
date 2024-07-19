@@ -19,7 +19,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Mastering Ambition Box Review Removal"}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/feedback-concept-illustration.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -34,7 +34,7 @@ const LegalReputationManagement = () => {
           title={
             "Navigating Negative Reviews "
           }
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/1b4b6b12-fa82-414a-ad66-fec5b872e75c.jpg"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -48,7 +48,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Transform Your Image with Ambition Box Reviews "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/illustration-vector-graphic-cartoon-character-sharing-file.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -61,7 +61,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"ORMTechies: Leading in Review Management  "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/6198276.jpg"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}

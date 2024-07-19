@@ -33,7 +33,7 @@ const LegalReputationManagement = () => {
           title={
             "Rapid Negative Indeed Review Removal"
           }
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/8447107.jpg"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -47,7 +47,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Review Handling Made Easy by ORMTechies  "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/organic-flat-feedback-concept.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
