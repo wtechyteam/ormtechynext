@@ -21,7 +21,7 @@ const RateMDs = () => {
        <section className="sectionPadding bg_gray">
          <ImageInfoWrap
            title={"False RateMDs reviews can cripple your reputation"}
-           imageUrl={"/images/orm-about.webp"}
+           imageUrl={"/images/hands-holding-signs-with-cross-checkmark-wrong-right-cancel-approved-vote-person-flat-vector-illustration-exam-survey-answer-concept-banner-website-design-landing-web-page.png"}
            showPrimeBtn={true}
            primeBtnName={"get a free quote"}
            borderBtnName={"faq"}
@@ -34,7 +34,7 @@ const RateMDs = () => {
        <section className="sectionPadding bg_white">
          <ImageInfoWrap
            title={"Fast and permanent review removal "}
-           imageUrl={"/images/orm-about.webp"}
+           imageUrl={"/images/6575782.jpg"}
            showPrimeBtn={true}
            isReverse={true}
            primeBtnName={"get a free quote"}
@@ -48,7 +48,7 @@ const RateMDs = () => {
        <section className="sectionPadding bg_gray">
          <ImageInfoWrap
            title={"Maintain your hard-earned reputation  "}
-           imageUrl={"/images/orm-about.webp"}
+           imageUrl={"/images/3115.jpg"}
            showPrimeBtn={true}
            primeBtnName={"get a free quote"}
            borderBtnName={"faq"}

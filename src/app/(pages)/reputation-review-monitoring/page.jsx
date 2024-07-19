@@ -18,7 +18,7 @@ const ReputationAndReviewMonitoring = () => {
        <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"How much could a single reputation incident cost you in lost sales? "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/hand-drawn-style-bankruptcy-concept.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -31,7 +31,7 @@ const ReputationAndReviewMonitoring = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"So What’s Included?"}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/choice-concept-illustration.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -45,7 +45,7 @@ const ReputationAndReviewMonitoring = () => {
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Reputation Monitoring &  Insurance All In One"}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/20944573.jpg"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}

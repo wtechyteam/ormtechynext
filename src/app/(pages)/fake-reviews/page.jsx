@@ -16,7 +16,7 @@ const FakeReviewRemovalPage = () => {
         <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"What You’re Going Through"}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/business-decisions-concept-illustration.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -30,7 +30,7 @@ const FakeReviewRemovalPage = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Types of Fake Reviews"}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/illustrated-bad-review-concept.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -44,7 +44,7 @@ const FakeReviewRemovalPage = () => {
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"How ORMTechies Fights Back For You"}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/stand-out-concept-illustration.png"}
           showPrimeBtn={true}
          
           primeBtnName={"get a free quote"}
@@ -58,7 +58,7 @@ const FakeReviewRemovalPage = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Our Commitment to Fairness"}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/vector-businessman-with-puzzle-teamwork-partnership-concept-illustration.png"}
           showPrimeBtn={true}
          isReverse={true}
           primeBtnName={"get a free quote"}

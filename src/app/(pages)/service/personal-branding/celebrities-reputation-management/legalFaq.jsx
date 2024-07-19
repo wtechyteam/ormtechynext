@@ -6,28 +6,28 @@ function LegalFaq() {
     // Define your FAQ data as an array of objects with 'question' and 'answer' properties
     const LegalFaqs = [
         {
-            question: ' Why is law firm reputation management important? ',
-            answer: 'Law reputation management is crucial for attracting clients, maintaining credibility, and staying competitive in the legal industry. ',
+            question: ' What is Celebrity Reputation Management?  ',
+            answer: 'Celebrity Reputation Management involves monitoring, influencing, and maintaining a positive online image for public figures. ORM Techies employs advanced tools and strategies to ensure celebrities are presented favorably across digital platforms.  ',
         },
         {
-            question: 'How can ORMTechies help with law firm reputation management?  ',
-            answer: `ORMTechies specializes in legal reputation management, offering customized solutions to monitor, manage, and improve your firm's online presence.`,
+            question: 'Why do celebrities need Reputation Management?   ',
+            answer: `Celebrities are constantly under public scrutiny, and a single negative incident can tarnish their image. ORM Techies help mitigate negative publicity and promote positive content to safeguard their reputation. `,
         },
         {
-            question: 'What are the benefits of law firm reputation management?   ',
-            answer: 'Benefits include enhanced client trust, improved search engine rankings, effective crisis management, and a competitive advantage. ',
+            question: 'Can ORM Techies remove negative content about a celebrity?    ',
+            answer: 'Yes, ORM Techies can often remove or suppress negative content through legal requests, negotiations with webmasters, and strategic SEO techniques, ensuring a cleaner online presence for the celebrity.  ',
         },
         {
-            question: 'How does ORMTechies monitor online reviews for law firms?     ',
-            answer: 'ORMTechies monitors online reviews across platforms like Google, Yelp, and legal directories, responding promptly to maintain a positive reputation.',
+            question: 'What kind of positive content does ORM Techies create for celebrities?      ',
+            answer: 'ORM Techies creates press releases, blog posts, social media content, and news articles highlighting the celebrity’s achievements, philanthropic efforts, and positive public appearances to build a favorable image. ',
         },
         {
-            question: 'What should I do if my law firm faces a reputation crisis?    ',
-            answer: `ORMTechies provides crisis management strategies to minimize damage and restore your firm's reputation quickly and effectively.  `,
+            question: 'Can ORM Techies manage a celebrity’s social media accounts?    ',
+            answer: `Yes, ORM Techies offers comprehensive social media management, including content creation, audience engagement, and crisis management to ensure the celebrity’s social media presence is positive and engaging.   `,
         },
         {
-            question: `How does ORMTechies ensure my law firm's online reputation remains positive?      `,
-            answer: `ORMTechies uses advanced tools and strategies to proactively manage your firm's online presence, responding to feedback and optimizing content.  `,
+            question: ` How do ORM Techies handle online trolls and negative comments?     `,
+            answer: `ORM Techies actively monitors social media and other platforms for negative comments and trolls, responding appropriately and using strategies to minimize their impact while promoting positive interactions.  `,
         },
         // Add more FAQs as needed
     ];

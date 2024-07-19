@@ -20,7 +20,7 @@ const Glassdoor = () => {
        <section className="sectionPadding bg_gray">
          <ImageInfoWrap
            title={"TripAdvisor Review Removal"}
-           imageUrl={"/images/orm-about.webp"}
+           imageUrl={"/images/image2206.png"}
            showPrimeBtn={true}
            primeBtnName={"get a free quote"}
            borderBtnName={"faq"}
@@ -33,7 +33,7 @@ const Glassdoor = () => {
        <section className="sectionPadding bg_white">
          <ImageInfoWrap
            title={"A Chance To Fight Back "}
-           imageUrl={"/images/orm-about.webp"}
+           imageUrl={"/images/Guys playing knights and fighting.jpg"}
            showPrimeBtn={true}
            isReverse={true}
            primeBtnName={"get a free quote"}
@@ -47,7 +47,7 @@ const Glassdoor = () => {
        <section className="sectionPadding bg_gray">
          <ImageInfoWrap
            title={"Own Your Reputation  "}
-           imageUrl={"/images/orm-about.webp"}
+           imageUrl={"/images/credit-assessment-concept-illustration.png"}
            showPrimeBtn={true}
            primeBtnName={"get a free quote"}
            borderBtnName={"faq"}
@@ -57,10 +57,10 @@ const Glassdoor = () => {
            }
          />
        </section>
-       <section className="sectionPadding bg_gray">
+       <section className="sectionPadding bg_white">
          <ImageInfoWrap
            title={"Win Over Your Target Market  "}
-           imageUrl={"/images/orm-about.webp"}
+           imageUrl={"/images/red-dart-arrow-hitting-target-center-dartboard.png"}
            showPrimeBtn={true}
            primeBtnName={"get a free quote"}
            borderBtnName={"faq"}

@@ -17,10 +17,10 @@ const Facebook = () => {
          title="Remove Harmful Facebook Content"
          info="Defend yourself against aggressive trolls and misleading content on Facebook. "
        />
-       <section className="sectionPadding bg_gray">
+       <section className="sectionPadding bg_white">
          <ImageInfoWrap
            title={"Absent regulation leaves you vulnerable to attack"}
-           imageUrl={"/images/orm-about.webp"}
+           imageUrl={"/images/5462318.jpg"}
            showPrimeBtn={true}
            primeBtnName={"get a free quote"}
            borderBtnName={"faq"}
@@ -33,7 +33,7 @@ const Facebook = () => {
        <section className="sectionPadding bg_white">
          <ImageInfoWrap
            title={"How can Facebook users hurt you?"}
-           imageUrl={"/images/orm-about.webp"}
+           imageUrl={"/images/4384222.jpg"}
            showPrimeBtn={true}
            isReverse={true}
            primeBtnName={"get a free quote"}
@@ -44,10 +44,10 @@ const Facebook = () => {
            }
          />
        </section>
-       <section className="sectionPadding bg_gray">
+       <section className="sectionPadding bg_white">
          <ImageInfoWrap
            title={"Take the fight to Facebook with ORMTechies "}
-           imageUrl={"/images/orm-about.webp"}
+           imageUrl={"/images/athlete-man-fencing-duel-competition-sportsman-battle-with-sword-fighting-blue-pink-color.png"}
            showPrimeBtn={true}
            primeBtnName={"get a free quote"}
            borderBtnName={"faq"}

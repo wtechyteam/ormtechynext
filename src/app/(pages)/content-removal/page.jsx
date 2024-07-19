@@ -17,7 +17,7 @@ const ContentRemoval = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Negative Content Removal "}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/5358810.jpg"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -32,7 +32,7 @@ const ContentRemoval = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Why Do We Remove Negative Online Content?"}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/9214777.jpg"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -45,7 +45,7 @@ const ContentRemoval = () => {
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Why The Team At ORMTechies Are The Content Removal Experts"}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/vector-professional-icon-business-illustration-line-symbol-people-management-set-concept.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}

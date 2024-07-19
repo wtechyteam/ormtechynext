@@ -11,7 +11,7 @@ const AmplifyReviewsPage = () => {
     <head>
          <title>From Reviews to Results: Get Insightful Glassdoor Reviews  </title>
          <meta name="description" content="Discover how we can help you transform Glassdoor reviews into actionable insights. Learn strategies to manage, respond, and remove negative reviews effectively. "/>
-         <link rel="canonical" href="https://www.ormtechies.com/content-removal/glassdoor" />
+         <link rel="canonical" href="https://www.ormtechies.com/content-removal/amplify-reviews" />
          <meta name="robots" content="index, follow" />
        </head>
        <InnerTopBanner
@@ -21,7 +21,7 @@ const AmplifyReviewsPage = () => {
        <section className="sectionPadding bg_gray">
          <ImageInfoWrap
            title={"Reviews Build Reputation "}
-           imageUrl={"/images/orm-about.webp"}
+           imageUrl={"/images/concept-joint-teamwork-oal-achievement-moving-toward-goal-together.png"}
            showPrimeBtn={true}
            primeBtnName={"get a free quote"}
            borderBtnName={"faq"}
@@ -34,7 +34,7 @@ const AmplifyReviewsPage = () => {
        <section className="sectionPadding bg_white">
          <ImageInfoWrap
            title={"Drive More Growth Through 5-Star Ratings "}
-           imageUrl={"/images/orm-about.webp"}
+           imageUrl={"/images/3d-hand-adding-golden-rating-star-png-icon.png"}
            showPrimeBtn={true}
            isReverse={true}
            primeBtnName={"get a free quote"}
@@ -48,7 +48,7 @@ const AmplifyReviewsPage = () => {
        <section className="sectionPadding bg_gray">
          <ImageInfoWrap
            title={"Tailored to Your Preferences "}
-           imageUrl={"/images/orm-about.webp"}
+           imageUrl={"/images/personal-settings-concept-illustration.png"}
            showPrimeBtn={true}
            primeBtnName={"get a free quote"}
            borderBtnName={"faq"}

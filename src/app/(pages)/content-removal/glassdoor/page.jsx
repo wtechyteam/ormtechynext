@@ -20,7 +20,7 @@ const Glassdoor = () => {
        <section className="sectionPadding bg_gray">
          <ImageInfoWrap
            title={"Repair Your Glassdoor Image "}
-           imageUrl={"/images/orm-about.webp"}
+           imageUrl={"/images/maintenance-concept-illustration.png"}
            showPrimeBtn={true}
            primeBtnName={"get a free quote"}
            borderBtnName={"faq"}
@@ -33,7 +33,7 @@ const Glassdoor = () => {
        <section className="sectionPadding bg_white">
          <ImageInfoWrap
            title={"Navigating Constructive Critique on Glassdoor "}
-           imageUrl={"/images/orm-about.webp"}
+           imageUrl={"/images/6812205.jpg"}
            showPrimeBtn={true}
            isReverse={true}
            primeBtnName={"get a free quote"}
@@ -47,7 +47,7 @@ const Glassdoor = () => {
        <section className="sectionPadding bg_gray">
          <ImageInfoWrap
            title={"Professional Help for Removing Glassdoor Reviews  "}
-           imageUrl={"/images/orm-about.webp"}
+           imageUrl={"/images/feedback-customer-review-rating-concept-people-give-review-rating-feedback-customer-choice.png"}
            showPrimeBtn={true}
            primeBtnName={"get a free quote"}
            borderBtnName={"faq"}
