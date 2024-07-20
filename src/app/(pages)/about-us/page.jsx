@@ -5,29 +5,20 @@ import ImageInfoWrap from "../common/imageInfoWrap";
 import { useMounted } from "../../common/unmounted";
 import PrimeBtn from "../common/primeBtn";
 import HomeSection6 from "./homeSection6";
-import { metadata } from '../../data/metaData';
 
 const AboutUsPage = () => {
   const mounted = useMounted();
   if (!mounted) return null; 
-/*   const metadata = {
-    title: "Reputation Experts & Reputation Management Consultants",
-    description:
-      "Trusted Online Reputation Management Services by ORM Techies. Specializing in personal branding, reputation repair, and proactive management. Contact us now!",
-    canonical: "https://www.ormtechies.com/",
-    robots: "index,follow",
-  }; */
 
   return (
     <>
-       <head>
+      <head>
         <title>Reputation Experts & Reputation Management Consultants</title>
         <meta name="description" content="Trusted reputation management consultants offer tailored services for businesses and individuals, from review management to complaint resolution. Call now!" />
         <link rel="canonical" href="https://www.ormtechies.com/about-us" />
         <meta name="robots" content="index, follow" />
       </head> 
-    
-      
+
       <div>
         {/* about-image-banner */}
         <div className="about_banner">
@@ -90,4 +81,3 @@ const AboutUsPage = () => {
 };
 
 export default AboutUsPage;
-
