@@ -51,7 +51,7 @@ const HomeSection10 = () => {
     ];
 
     return (
-        <AnimatedComponent >
+   
         <section className='sectionPadding bg_gray'>
             <Container>
                 <div className="title_section text-center">
@@ -73,7 +73,7 @@ const HomeSection10 = () => {
                 </ul>
             </Container>
         </section>
-        </AnimatedComponent>
+       
     );
 }
 

@@ -13,7 +13,7 @@ import AnimatedComponent from '../common/animatedComponent';
 
 const HomeSection5 = () => {
     return (
-        <AnimatedComponent >
+   
         <section className='sectionPadding bg_white'>
             <Container>
                 <div className="title_section text-center">
@@ -96,7 +96,7 @@ const HomeSection5 = () => {
                 </Tabs>
             </Container>
         </section>
-        </AnimatedComponent>
+       
     )
 }
 

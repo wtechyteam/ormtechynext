@@ -9,7 +9,7 @@ import AnimatedComponent from '../common/animatedComponent';
 
 const HomeSection3 = () => {
     return (
-        <AnimatedComponent>
+  
         <section className='sectionPadding bg_white'>
             <Container>
                 <Row>
@@ -43,7 +43,7 @@ const HomeSection3 = () => {
                 </Row>
             </Container>
         </section>
-        </AnimatedComponent>
+     
     );
 }
 

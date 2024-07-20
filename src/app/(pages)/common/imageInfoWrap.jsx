@@ -9,7 +9,7 @@ import AnimatedComponent from './animatedComponent';
 
 const ImageInfoWrap = ({ title, description, imageUrl, isReverse, showPrimeBtn, showBorderBtn, form, primeBtnName, borderBtnName, subTitle, darkButton, iconData, reviewData }) => {
     return (
-        <AnimatedComponent>
+        
             <div className="container">
                 <div className={`row align-items-center ${isReverse && 'flex-row-reverse'}`}>
                     <div className="col-lg-6 mb-5 mb-lg-0 text-center">
@@ -61,7 +61,7 @@ const ImageInfoWrap = ({ title, description, imageUrl, isReverse, showPrimeBtn, 
                     </div>
                 </div>
             </div>
-        </AnimatedComponent>
+ 
     );
 }
 
