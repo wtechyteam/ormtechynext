@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Container } from 'react-bootstrap';
 import Link from 'next/link';
 import Image from 'next/image';
+import AnimatedComponent from '../common/animatedComponent';
 
 const HomeSection10 = () => {
     const whoServeList = [
@@ -50,6 +51,7 @@ const HomeSection10 = () => {
     ];
 
     return (
+        <AnimatedComponent >
         <section className='sectionPadding bg_gray'>
             <Container>
                 <div className="title_section text-center">
@@ -71,6 +73,7 @@ const HomeSection10 = () => {
                 </ul>
             </Container>
         </section>
+        </AnimatedComponent>
     );
 }
 

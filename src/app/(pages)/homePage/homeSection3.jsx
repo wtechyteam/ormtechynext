@@ -5,9 +5,11 @@ import Link from 'next/link';
 import PrimeBtn from './../common/primeBtn';
 import BorderBtn from './../common/borderBtn';
 import { brandBoxData } from './../../data/brandBox';
+import AnimatedComponent from '../common/animatedComponent';
 
 const HomeSection3 = () => {
     return (
+        <AnimatedComponent>
         <section className='sectionPadding bg_white'>
             <Container>
                 <Row>
@@ -41,6 +43,7 @@ const HomeSection3 = () => {
                 </Row>
             </Container>
         </section>
+        </AnimatedComponent>
     );
 }
 
