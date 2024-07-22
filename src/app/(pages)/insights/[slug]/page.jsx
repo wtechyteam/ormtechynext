@@ -105,10 +105,10 @@ const styles = {
     fontFamily: '"Arial", sans-serif',
     maxWidth: '1200px',
     margin: '0 auto',
-    gap:'50px'
+    gap: '50px'
   },
   mainContent: {
-    flex: 3, 
+    flex: 3,
     marginRight: '20px',
   },
   title: {
@@ -134,10 +134,11 @@ const styles = {
     color: '#555',
   },
   sidebar: {
-    flex: 1.5, // Increase the width of the sidebar
+    flex: 1.5,
     padding: '20px',
     marginTop: '20px',
-    
+    position: 'sticky',
+    top: '100px', // This will make the sidebar sticky and it will stay 20px from the top of the viewport
   },
   suggestionsTitle: {
     fontSize: '1.5rem',
@@ -152,7 +153,7 @@ const styles = {
     display: 'flex',
     alignItems: 'center',
     marginBottom: '20px',
-    gap: '20px', // Increase gap between image and text
+    gap: '20px',
   },
   suggestionLink: {
     textDecoration: 'none',
@@ -161,7 +162,7 @@ const styles = {
     alignItems: 'center',
   },
   suggestionImage: {
-    width: '140px', // Increase image size
+    width: '140px',
     height: '120px',
     borderRadius: '8px',
     marginRight: '10px',
@@ -173,10 +174,10 @@ const styles = {
   suggestionDescription: {
     fontSize: '1rem',
     color: '#555',
-    whiteSpace: 'nowrap', // Prevent wrapping to multiple lines
-    overflow: 'hidden', // Hide overflow
-    textOverflow: 'ellipsis', // Show ellipsis when text overflows
-    maxWidth: '300px', // Adjust the max width of the description
+    whiteSpace: 'nowrap',
+    overflow: 'hidden',
+    textOverflow: 'ellipsis',
+    maxWidth: '300px',
   },
   error: {
     color: 'red',
