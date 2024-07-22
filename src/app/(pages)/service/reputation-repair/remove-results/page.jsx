@@ -9,7 +9,7 @@ const LegalReputationManagement = () => {
      <head>
          <title>Remove Negative Online Content | ORM Techies </title>
          <meta name="description" content="ORM Techies provides expert review management services to amplify positive feedback and minimize negative impressions. Transform your brand's online reputation with us today! "/>
-         <link rel="canonical" href="https://www.ormtechies.com/content-removal/glassdoor" />
+         <link rel="canonical" href="https://www.ormtechies.com/service/reputation-repair/remove-results" />
          <meta name="robots" content="index, follow" />
        </head>
       <InnerTopBanner

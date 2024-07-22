@@ -11,7 +11,7 @@ const Glassdoor = () => {
     <head>
          <title>From Reviews to Results: Get Insightful Glassdoor Reviews  </title>
          <meta name="description" content="Discover how we can help you transform Glassdoor reviews into actionable insights. Learn strategies to manage, respond, and remove negative reviews effectively. "/>
-         <link rel="canonical" href="https://www.ormtechies.com/content-removal/glassdoor" />
+         <link rel="canonical" href="https://www.ormtechies.com/service/review-management/remove-glassdoor-reviews" />
          <meta name="robots" content="index, follow" />
        </head>
        <InnerTopBanner

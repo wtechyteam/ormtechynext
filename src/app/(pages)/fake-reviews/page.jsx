@@ -9,6 +9,12 @@ import HomeSection6 from "../homePage/homeSection6";
 const FakeReviewRemovalPage = () => {
   return (
     <>
+    <head>
+         <title>Content-Removal  </title>
+         <meta name="description" content="Discover how we can help you transform Glassdoor reviews into actionable insights. Learn strategies to manage, respond, and remove negative reviews effectively. "/>
+         <link rel="canonical" href="https://www.ormtechies.com/fake-reviews" />
+         <meta name="robots" content="index, follow" />
+       </head>
       <InnerTopBanner
         title="Fast Fake Review Removal Or You Don’t Pay."
         info="Suffering from fake, defamatory online reviews? Now you can defend your business and reclaim the reputation you’ve worked so hard for. "

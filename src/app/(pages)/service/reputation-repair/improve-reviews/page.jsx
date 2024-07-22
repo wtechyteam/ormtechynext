@@ -9,7 +9,7 @@ const LegalReputationManagement = () => {
      <head>
          <title>Achieve Review Excellence with ORM Techies </title>
          <meta name="description" content="ORM Techies provides expert review management services to amplify positive feedback and minimize negative impressions. Transform your brand's online reputation with us today!          "/>
-         <link rel="canonical" href="https://www.ormtechies.com/service/reputation-repair/correct-information-online" />
+         <link rel="canonical" href="https://www.ormtechies.com/service/reputation-repair/improve-reviews" />
          <meta name="robots" content="index, follow" />
        </head>
       <InnerTopBanner

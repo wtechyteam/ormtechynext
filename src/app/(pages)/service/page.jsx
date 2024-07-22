@@ -9,6 +9,12 @@ import HomeSection4 from "../homePage/homeSection4";
 const ServicePage = () => {
   return (
     <>
+     <head>
+         <title>Service </title>
+         <meta name="description" content="Discover how we can help you transform Glassdoor reviews into actionable insights. Learn strategies to manage, respond, and remove negative reviews effectively. "/>
+         <link rel="canonical" href="https://www.ormtechies.com/service" />
+         <meta name="robots" content="index, follow" />
+       </head>
       <InnerTopBanner
         title="Our Services"
         info="If you have any questions about content removal, online reputation management or any services we provide, please feel free to get in touch. Removal services are risk-free, as we only charge for successful removals."

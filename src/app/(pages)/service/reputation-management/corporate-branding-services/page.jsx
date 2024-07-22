@@ -9,7 +9,7 @@ const LegalReputationManagement = () => {
      <head>
          <title>Secure Your Brands Reputation with ORMTechies   </title>
          <meta name="description" content="Protect your corporate reputation with ORMTechies' corporate reputation management. Enhance your brand's credibility online. "/>
-         <link rel="canonical" href="https://www.ormtechies.com/ service/reputation-management/corporate-branding-services" />
+         <link rel="canonical" href="https://www.ormtechies.com/service/reputation-management/corporate-branding-services" />
          <meta name="robots" content="index, follow" />
        </head>
       <InnerTopBanner
