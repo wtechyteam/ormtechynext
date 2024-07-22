@@ -138,7 +138,7 @@ const styles = {
     padding: '20px',
     marginTop: '20px',
     position: 'sticky',
-    top: '100px', // This will make the sidebar sticky and it will stay 20px from the top of the viewport
+    top: '120px', 
   },
   suggestionsTitle: {
     fontSize: '1.5rem',
