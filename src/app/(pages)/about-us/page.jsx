@@ -25,10 +25,10 @@ const AboutUsPage = () => {
           <div className="blur_bg about_row">
             <div className="about_col item_center" lg={6}>
               <div className="hero_heading about_banner_padding">
-                <h2 className="title-xl fw-bold text-white">
+                <h2 className="title-xl fw-bold text-white mt-5">
                   We Build Your Online Success
                 </h2>
-                <p className="text-16 text-white">
+                <p className="text-16 text-white mt-4">
                   At ORM Techies, we are the reputation experts and guardians of
                   your online narrative. Driven by a passion for fairness and
                   fueled by the best expertise, our mission is to help you take
