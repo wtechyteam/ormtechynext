@@ -105,6 +105,7 @@ const styles = {
     fontFamily: '"Arial", sans-serif',
     maxWidth: '1200px',
     margin: '0 auto',
+    gap:'50px'
   },
   mainContent: {
     flex: 3, 
@@ -151,7 +152,7 @@ const styles = {
     display: 'flex',
     alignItems: 'center',
     marginBottom: '20px',
-    gap: '15px', // Increase gap between image and text
+    gap: '20px', // Increase gap between image and text
   },
   suggestionLink: {
     textDecoration: 'none',
@@ -160,7 +161,7 @@ const styles = {
     alignItems: 'center',
   },
   suggestionImage: {
-    width: '120px', // Increase image size
+    width: '140px', // Increase image size
     height: '120px',
     borderRadius: '8px',
     marginRight: '10px',
