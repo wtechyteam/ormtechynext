@@ -1,4 +1,4 @@
-'use client'
+
 import * as React from "react";
 import HomeSection2 from './homeSection2';
 import HomeSection6 from './homeSection6';

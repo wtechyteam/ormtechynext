@@ -1,14 +1,14 @@
-'use client'
+
 import React from "react";
 import Head from 'next/head';
 import ImageInfoWrap from "../common/imageInfoWrap";
-import { useMounted } from "../../common/unmounted";
+// import { useMounted } from "../../common/unmounted";
 import PrimeBtn from "../common/primeBtn";
 import HomeSection6 from "./homeSection6";
 
 const AboutUsPage = () => {
-  const mounted = useMounted();
-  if (!mounted) return null; 
+  // const mounted = useMounted();
+  // if (!mounted) return null; 
 
   return (
     <>

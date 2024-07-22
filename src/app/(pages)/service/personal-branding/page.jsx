@@ -1,6 +1,6 @@
-'use client'
+
 import * as React from "react";
-import { useMounted } from "./../../../common/unmounted";
+// import { useMounted } from "./../../../common/unmounted";
 import HomeSection2 from "./homeSection2";
 import HomeSection6 from "./homeSection6";
 import PersonalBrandingFaq from "./PersonalBrandingFaq";
@@ -11,8 +11,8 @@ import StatisticsSection from "./statisticsSection";
 
 
 const PersonalBrandingPage = () => {
-  const mounted = useMounted();
-  if (!mounted) return null; 
+  // const mounted = useMounted();
+  // if (!mounted) return null; 
   return (
     <>
    <head>

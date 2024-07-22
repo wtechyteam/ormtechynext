@@ -1,4 +1,4 @@
-'use client'
+
 import React from 'react';
 import InnerTopBanner from "./../common/innerTopBanner";
 import GlassdoorFaq from "./glassdoorFaq";
