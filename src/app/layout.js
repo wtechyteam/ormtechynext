@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
           name="description"
           content="Trusted Online Reputation Management Services by ORM Techies. Specializing in personal branding, reputation repair, and proactive management. Contact us now!"
         />
-        <link rel="canonical" href="https://www.ormtechies.com/" />
+        {/* <link rel="canonical" href="https://www.ormtechies.com/" /> */}
         <meta name="robots" content="index, follow" />
         {/* Google Site Verification */}
         <meta
