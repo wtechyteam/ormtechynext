@@ -69,7 +69,7 @@ export default async function BlogPost({ params }) {
             </div>
           </div>
           <div style={styles.sidebar}>
-            <h2 style={styles.suggestionsTitle}>More Blogs</h2>
+            <h2 style={styles.suggestionsTitle}>Related Posts</h2>
             <ul style={styles.suggestionsList}>
               {suggestions.map((suggestion) => (
                 <li key={suggestion.slug.current} style={styles.suggestionItem}>
