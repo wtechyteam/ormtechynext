@@ -16,7 +16,7 @@ const ServicePage = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"We Make Individuals & Businesses Look Great On Google"}
-          imageUrl={"/images/orm-about.webp"}
+          imageUrl={"/images/group-business-people-with-thumbs-up-social-media-good-opinion-feedback-customer-review-concept.png"}
           primeBtnName={"get a free quote"}
           isReverse={true}
           form={true}
@@ -31,7 +31,7 @@ const ServicePage = () => {
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Reputation Repair Services "}
-          imageUrl={"/images/online-reputation.webp"}
+          imageUrl={"/images/website-setup-concept-landing-page.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -44,7 +44,7 @@ const ServicePage = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Digital Reputation Management "}
-          imageUrl={"/images/online-reputation.webp"}
+          imageUrl={"/images/review-concept-landing-page-illustration.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -59,7 +59,7 @@ const ServicePage = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Reputation Marketing  "}
-          imageUrl={"/images/online-reputation.webp"}
+          imageUrl={"/images/public-relations-illustration-with-spokesperson.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -72,7 +72,7 @@ const ServicePage = () => {
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Review Management  "}
-          imageUrl={"/images/online-reputation.webp"}
+          imageUrl={"/images/2968304.jpg"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
