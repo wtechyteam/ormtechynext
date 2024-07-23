@@ -65,3 +65,13 @@ const LegalReputationManagement = () => {
 };
 
 export default LegalReputationManagement;
+
+
+export function generateMetaData() {
+  return {
+    title: ' Elite VIP Reputation Management for High-Profile Individuals | ORMTechies',
+    description: "Discover ORMTechies' Elite VIP Reputation services tailored for high-profile individuals. Safeguard your public image with our bespoke solutions. Learn more!  ",
+    canonical: 'https://www.ormtechies.com/service/personal-branding/vip-reputation-management',
+    robots: 'index,follow'
+  };
+}

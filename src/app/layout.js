@@ -11,13 +11,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <title>Online Reputation Management Services | ORM Techies</title>
-        <meta
-          name="description"
-          content="Trusted Online Reputation Management Services by ORM Techies. Specializing in personal branding, reputation repair, and proactive management. Contact us now!"
-        />
-        {/* <link rel="canonical" href="https://www.ormtechies.com/" /> */}
-        <meta name="robots" content="index, follow" />
+        
+
+     
         {/* Google Site Verification */}
         <meta
           name="google-site-verification"
@@ -47,4 +43,13 @@ export default function RootLayout({ children }) {
       </body>
     </html>
   );
+}
+
+export function generateMetaData() {
+  return {
+    title: 'Online Reputation Management Services | ORM Techies',
+    description: "Trusted Online Reputation Management Services by ORM Techies. Specializing in personal branding, reputation repair, and proactive management. Contact us now!",
+    canonical: 'https://www.ormtechies.com/',
+    robots: 'index,follow'
+  };
 }
