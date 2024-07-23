@@ -12,7 +12,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         
-
+      <title>Online Reputation Management Services | ORM Techies</title>
+        <meta name="description" content="Trusted Online Reputation Management Services by ORM Techies. Specializing in personal branding, reputation repair, and proactive management. Contact us now!" />
+       
+        <meta name="robots" content="index, follow" />
      
         {/* Google Site Verification */}
         <meta
