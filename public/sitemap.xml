@@ -108,9 +108,6 @@
   <loc>http://www.ormtechies.com/service/review-management/timesJob-review-management</loc>
   <changefreq>always</changefreq>
 </url>
-<url>
-  <loc>http://www.ormtechies.com/insights</loc>
-  <changefreq>always</changefreq>
-</url>
+
 
 </urlset>
