@@ -18,7 +18,7 @@ const FooterBottom = () => {
         </div>
       </div>
     </div>
-  )
+  )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
 }
 
 export default FooterBottom
