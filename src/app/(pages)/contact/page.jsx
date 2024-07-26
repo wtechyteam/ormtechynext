@@ -8,10 +8,11 @@ const ContactPage = () => {
   return (
     <>
       <head>
-        <title>Contact Us </title>
+        <title>ORM Techies - Contact Us for Online Reputation Management</title>
+        <meta title="ORM Techies - Contact Us for Online Reputation Management"/>
         <meta
           name="description"
-          content="Discover how we can help you transform Glassdoor reviews into actionable insights. Learn strategies to manage, respond, and remove negative reviews effectively. "
+          content="Contact ORM Techies, offers a variety of services to help people manage their online reputation, including social media monitoring, and review management."
         />
         <link rel="canonical" href="https://www.ormtechies.com/contact" />
         <meta name="robots" content="index, follow" />

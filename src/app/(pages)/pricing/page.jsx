@@ -7,8 +7,9 @@ const PricingPage = () => {
   return (
     <>
      <head>
-         <title>Pricing  </title>
-         <meta name="description" content="Discover how we can help you transform Glassdoor reviews into actionable insights. Learn strategies to manage, respond, and remove negative reviews effectively. "/>
+         <title>ORMTechies Pricing: Online Reputation Management</title>
+         <meta title="ORMTechies Pricing: Online Reputation Management"/>
+         <meta name="description" content="Get Pricing plans for online reputation management services. We offers cost-effective solutions to boost your online image and protect your brand reputation. "/>
          <link rel="canonical" href="https://www.ormtechies.com/pricing" />
          <meta name="robots" content="index, follow" />
        </head>

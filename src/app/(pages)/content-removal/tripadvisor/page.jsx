@@ -8,8 +8,9 @@ const Glassdoor = () => {
   return (
     <>
     <head>
-         <title>From Reviews to Results: Get Insightful Glassdoor Reviews  </title>
-         <meta name="description" content="Discover how we can help you transform Glassdoor reviews into actionable insights. Learn strategies to manage, respond, and remove negative reviews effectively. "/>
+         <title>Remove Negative or Fake TripAdvisor Reviews </title>
+         <meta title='Remove Negative or Fake TripAdvisor Reviews'/>
+         <meta name="description" content="Restore business reputation with TripAdvisor review removal. ORMTechies remove fake and harmful reviews, boosting bookings and revenue to win back customer trust."/>
          <link rel="canonical" href="https://www.ormtechies.com/content-removal/trip-advisor" />
          <meta name="robots" content="index, follow" />
        </head>

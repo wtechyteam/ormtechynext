@@ -9,7 +9,8 @@ const ReviewsPage = () => {
   return (
     <>
      <head>
-         <title>Reviews  </title>
+         <title>See What Our Clients Say | ORMTechies Reviews</title>
+         <meta title="See What Our Clients Say | ORMTechies Reviews"/>
          <meta name="description" content="Discover how we can help you transform Glassdoor reviews into actionable insights. Learn strategies to manage, respond, and remove negative reviews effectively. "/>
          <link rel="canonical" href="https://www.ormtechies.com/reviews" />
          <meta name="robots" content="index, follow" />

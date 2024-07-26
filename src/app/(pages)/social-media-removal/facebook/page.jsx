@@ -8,8 +8,9 @@ const Facebook = () => {
   return (
     <>
     <head>
-         <title>From Reviews to Results: Get Insightful Glassdoor Reviews  </title>
-         <meta name="description" content="Discover how we can help you transform Glassdoor reviews into actionable insights. Learn strategies to manage, respond, and remove negative reviews effectively. "/>
+         <title>Remove Harmful Facebook Content | Protect Your Reputation</title>
+         <meta title='Remove Harmful Facebook Content | Protect Your Reputation'/>
+         <meta name="description" content="Defend against Facebook trolls and damaging content. Our experts specialize in removing harmful posts, fake reviews, and offensive images. Protect your brand. "/>
          <link rel="canonical" href="https://www.ormtechies.com/social-media-removal/facebook" />
          <meta name="robots" content="index, follow" />
        </head>

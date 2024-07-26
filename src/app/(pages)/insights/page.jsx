@@ -18,8 +18,9 @@ const OrmTechiesInMediaPage = async () => {
   return (
     <>
     <head>
-         <title>Insights  </title>
-         <meta name="description" content="Discover how we can help you transform Glassdoor reviews into actionable insights. Learn strategies to manage, respond, and remove negative reviews effectively. "/>
+         <title>ORMTechies Insights: Tips for Online Reputation Management</title>
+         <meta title="ORMTechies Insights: Tips for Online Reputation Management"/>
+         <meta name="description" content="Discover valuable insights and strategies for boosting your online reputation. ORMTechies offers expert advice on review management and reputation building."/>
          {/* <link rel="canonical" href="https://www.ormtechies.com/insights" /> */}
          <meta name="robots" content="index, follow" />
        </head>

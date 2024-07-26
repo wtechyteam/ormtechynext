@@ -11,8 +11,9 @@ const GetAQuote = () => {
   return (
     <>
     <head>
-         <title>Content-Removal  </title>
-         <meta name="description" content="Discover how we can help you transform Glassdoor reviews into actionable insights. Learn strategies to manage, respond, and remove negative reviews effectively. "/>
+         <title>Get a Free Quote for Online Reputation Management | ORMTechies</title>
+         <meta title='Get a Free Quote for Online Reputation Management | ORMTechies'/>
+         <meta name="description" content="Protect your online reputation with ORMTechies. We remove negative content & manage online reviews. Boost your brand image & get a quote today! "/>
          <link rel="canonical" href="https://www.ormtechies.com/getAQuote" />
          <meta name="robots" content="index, follow" />
        </head>

@@ -10,8 +10,9 @@ const ServicePage = () => {
   return (
     <>
      <head>
-         <title>Service </title>
-         <meta name="description" content="Discover how we can help you transform Glassdoor reviews into actionable insights. Learn strategies to manage, respond, and remove negative reviews effectively. "/>
+         <title>Our Services | Online Reputation Management Experts</title>
+         <meta title="Our Services | Online Reputation Management Experts"/>
+         <meta name="description" content="ORMTechies specialize in removing harmful content and managing your online image. Get expert help with online reputation management. Risk-free removal services."/>
          <link rel="canonical" href="https://www.ormtechies.com/service" />
          <meta name="robots" content="index, follow" />
        </head>
