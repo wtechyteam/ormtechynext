@@ -69,6 +69,20 @@ const PersonalBrandingPage = () => {
     }
   />
 </section>
+<section className="sectionPadding bg_white">
+  <ImageInfoWrap
+    title={"Take the Next Step with ORM Techies"}
+    imageUrl={"/images/3569284.jpg"}
+
+    showPrimeBtn={true}
+    primeBtnName={"get a free quote"}
+    borderBtnName={"faq"}
+    darkButton="dark_btn"
+    description={
+      "<p>Transform your personal brand with ORM Techies your personal branding company and unlock new opportunities for success. Contact us now to schedule your free consultation and discover how our personalized branding solutions can help you stand out from the crowd. Don't let your personal brand hold you back—partner with ORM Techies and take control of your online reputation today!</p>"
+    }
+  />
+</section>
 <PersonalBrandingFaq />
 <HomeSection6 />
 <HomeSection9 />
