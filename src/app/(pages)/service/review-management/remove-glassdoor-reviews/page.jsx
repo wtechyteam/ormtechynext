@@ -88,7 +88,7 @@ const Glassdoor = () => {
        <section className="sectionPadding bg_white">
          <ImageInfoWrap
            title={"How ORMTechies Can Help "}
-           imageUrl={"/images/feedback-customer-review-rating-concept-people-give-review-rating-feedback-customer-choice.png"}
+           imageUrl={"/images/thoughtful-woman-with-laptop-looking-big-question-mark_1150-39362.avif"}
            showPrimeBtn={true}
            isReverse={true}
            primeBtnName={"get a free quote"}
