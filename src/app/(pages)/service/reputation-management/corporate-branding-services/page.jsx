@@ -6,19 +6,27 @@ import HomeSection9 from "./homeSection9";
 const LegalReputationManagement = () => {
   return (
     <>
-     <head>
-         <title>Secure Your Brands Reputation with ORMTechies   </title>
-         <meta name="description" content="Protect your corporate reputation with ORMTechies' corporate reputation management. Enhance your brand's credibility online. "/>
-         <link rel="canonical" href="https://www.ormtechies.com/service/reputation-management/corporate-branding-services" />
-         <meta name="robots" content="index, follow" />
-       </head>
+      <head>
+        <title>Secure Your Brands Reputation with ORMTechies </title>
+        <meta
+          name="description"
+          content="Protect your corporate reputation with ORMTechies' corporate reputation management. Enhance your brand's credibility online. "
+        />
+        <link
+          rel="canonical"
+          href="https://www.ormtechies.com/service/reputation-management/corporate-branding-services"
+        />
+        <meta name="robots" content="index, follow" />
+      </head>
       <InnerTopBanner
         title="Secure Your Brand's Reputation with Corporate Management Services"
         info="Corporate reputation management involves proactive measures to manage and influence how your brand is perceived online. "
       />
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
-          title={"Secure Your Brand's Reputation with Corporate Reputation Management"}
+          title={
+            "Secure Your Brand's Reputation with Corporate Reputation Management"
+          }
           imageUrl={"/images/Untitled design (18).png"}
           showPrimeBtn={true}
           isReverse={true}
@@ -32,7 +40,9 @@ const LegalReputationManagement = () => {
       </section>
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
-          title={"ORMTechies: Your Partner in Corporate Reputation Management  "}
+          title={
+            "ORMTechies: Your Partner in Corporate Reputation Management  "
+          }
           imageUrl={"/images/partnership-concept-illustration.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
@@ -45,9 +55,7 @@ const LegalReputationManagement = () => {
       </section>
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
-          title={
-            "Ultimate Guide to Corporate Online Reputation Management "
-          }
+          title={"Ultimate Guide to Corporate Online Reputation Management "}
           imageUrl={"/images/4630062.jpg"}
           showPrimeBtn={true}
           isReverse={true}
