@@ -25,7 +25,7 @@ const LegalReputationManagement = () => {
           borderBtnName={"faq"}
           darkButton="dark_btn"
           description={
-            "<p>At ORMTechies, we understand that having a strong online reputation is crucial for boosting sales in the competitive automotive industry. The approach we take to boost sales with pro dealer reputation management is multifaceted and designed to enhance trust and credibility for your dealership.  </p><p>We start by implementing advanced review monitoring systems to keep track of feedback across various platforms. This allows us to immediately address any negative reviews and amplify positive feedback. Our social media listening tools ensure that we are aware of all online conversations about your dealership, allowing us to engage with customers in real-time and build relationships. </p><p>Furthermore, we use Search Engine Reputation Management (SERM) tools to optimize your online profiles and ensure positive content ranks higher in search results. We help forge partnerships with influencers who can positively impact the reputation of your dealership. </p>"
+            "<p>At ORMTechies, we understand that having a strong online reputation is crucial for boosting sales in the competitive automotive industry. The approach we take to boost sales with pro dealer reputation management is multifaceted and designed to enhance trust and credibility for your dealership.  </p><p>We start by implementing advanced review monitoring systems to keep track of feedback across various platforms. This allows us to immediately address any negative reviews and amplify positive feedback. Our social media listening tools ensure that we are aware of all online conversations about your dealership, allowing us to engage with customers in real-time and build relationships. </p><p>Furthermore, we use Search Engine Reputation Management (SERM) tools to optimize your online profiles and ensure positive content ranks higher in search results. We help forge partnerships with influencers who can positively impact the reputation of your dealership. </p><p>Customer feedback surveys are conducted to gather insights and identify areas for improvement. Our crisis management tools will prepare your dealership to handle any online reputation crises quickly and effectively. Competitive analysis tools also provide valuable insights into your competitor's online reputation strategies, helping us position your dealership as a leader in customer trust and satisfaction. </p>"
           }
         />
       </section>
@@ -47,9 +47,23 @@ const LegalReputationManagement = () => {
       </section>
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
+          title={"Auto Dealership Reputation Mastery: Strategic Solutions "}
+          imageUrl={"/images/social-strategy-concept-illustration.png"}
+          showPrimeBtn={true}
+          primeBtnName={"get a free quote"}
+          borderBtnName={"faq"}
+          darkButton="dark_btn"
+          description={
+            "<p>Auto dealerships face unique challenges in managing their online reputation, but you can implement effective strategies with ORMTechies to maintain a positive image and drive sales. We understand that a strong online reputation is crucial for auto dealerships. We take a comprehensive approach to managing your dealership's reputation, utilizing advanced strategies and tools to ensure your brand remains trusted and competitive in the market. </p><p>Review monitoring systems that track and analyze customer feedback are implemented by us across various platforms and industry-specific review sites. This enables us to stay informed about what customers are saying and respond promptly to both positive and negative reviews. Review monitoring systems that track and analyze customer feedback across various platforms, and industry-specific review sites, are what we employ. This enables us to keep abreast of what our clients have to say and to swiftly address both positive and negative feedback. </p><p>Our social media listening tools allow us to monitor conversations about your dealership across social media platforms. We can build strong relationships and address any concerns in real time by listening to customer feedback and engaging your audience. We provide you with online reputation dashboards that offer a clear overview of your dealership's online presence. These dashboards contain metrics and analytics that help us track performance, identify trends, and make data-driven decisions to improve our reputation.</p>"
+          }
+        />
+      </section>
+      <section className="sectionPadding bg_white">
+        <ImageInfoWrap
           title={"Why ORMTechies for Automotive Reputation Management  "}
           imageUrl={"/images/3872899.jpg"}
           showPrimeBtn={true}
+          isReverse={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
           darkButton="dark_btn"
