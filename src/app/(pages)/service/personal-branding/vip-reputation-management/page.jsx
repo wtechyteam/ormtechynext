@@ -47,9 +47,24 @@ const LegalReputationManagement = () => {
       </section>
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
+          title={"Explore Our Service Solutions   "}
+          imageUrl={"/images/OGFB400-removebg-preview.png"}
+          showPrimeBtn={true}
+          
+          primeBtnName={"get a free quote"}
+          borderBtnName={"faq"}
+          darkButton="dark_btn"
+          description={
+            "<p>At ORMTechies, we understand that VIPs need special reputation management. They need more than standard services. We specialize in dealing with the unique issues faced by high-profile individuals. We preserve their flawless reputation in the public eye. Here a detailed overview of what our services entail:<ul><li>Social Media Management: At ORMTechies, we know that well-managed social media is key. It's important for high-profile individuals. We start by creating and improving profiles on Facebook, Twitter, Instagram, and LinkedIn. Reflect your identity with them. We craft custom social media plans. They match your goals and image. We deliver interesting content. Our team plans, creates, and schedules content. This keeps up a strong online presence. <li>Content Creation and Promotion: The authenticity and quality of online content are crucial for high-profile individuals. We design our content creation and promotion services to show your achievements. They should also highlight what you've contributed. We deliver high-quality blog posts, articles, infographics, and videos. We tailor the content to your persona.<li>Brand Identity Building:Having a good reputation depends on building a strong brand. It must be consistent. ORMTechies provides comprehensive brand identity development solutions for high-profile individuals. Our brand strategy aligns with your personal values and public image. We offer to design a balanced visual identity.</ul> </p>"
+          }
+        />
+      </section>
+      <section className="sectionPadding bg_white">
+        <ImageInfoWrap
           title={"VIPs Need ORMTechies: Here’s Why  "}
           imageUrl={"/images/agree-concept-illustration.png"}
           showPrimeBtn={true}
+          isReverse={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
           darkButton="dark_btn"

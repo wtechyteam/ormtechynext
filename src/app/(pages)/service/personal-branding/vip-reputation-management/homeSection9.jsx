@@ -17,7 +17,7 @@ const HomeSection9 = () => {
                     </div>
                 </div>
             </Container>
-             <BgCard /> 
+             {/* <BgCard />  */}
         </section>
     )
 }

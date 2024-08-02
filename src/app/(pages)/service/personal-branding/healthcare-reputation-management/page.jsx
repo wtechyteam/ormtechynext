@@ -32,11 +32,27 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={
+            "Redefining Healthcare Online Reputation Management "
+          }
+          imageUrl={"/images/people-blue-clothes-giving-high-five.png"}
+          showPrimeBtn={true}
+          isReverse={true}
+          primeBtnName={"get a free quote"}
+          borderBtnName={"faq"}
+          darkButton="dark_btn"
+          description={
+            "<p>Healthcare online reputation management helps patients make good choices about their healthcare. People often search for a doctor or hospital. They often check online reviews to see what other patients say. A good reputation means patients are more likely to choose a healthcare provider.   </p><p>Healthcare reputation is about responding to patients. A doctor crafts a considerate reply to a patient's discontent. This shows that they care about their patients' concerns. This can turn a bad review into a good one. </p><p>Managing online reputation is also important to prevent harmful reviews or misinformation. Negative reviews or false information can harm the reputation of a healthcare provider. Quick responses to online reviews can fix misunderstandings. They also protect a healthcare provider's reputation.   </p><p>Many people today use the internet to find healthcare providers. It helps doctors, hospitals, and other healthcare providers. It helps them build trust, attract patients, and keep a good online reputation. Patients need to know that their provider will care for them well.  </p>"
+          }
+        />
+      </section>
+      <section className="sectionPadding bg_white">
+        <ImageInfoWrap
+          title={
             "Guarding Your Practice: Why Medical Reputation is Essential    "
           }
           imageUrl={"/images/bodyguard-concept-illustration.png"}
           showPrimeBtn={true}
-          isReverse={true}
+          
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
           darkButton="dark_btn"
@@ -45,11 +61,26 @@ const LegalReputationManagement = () => {
           }
         />
       </section>
+      <section className="sectionPadding bg_gray">
+        <ImageInfoWrap
+          title={"Healthcare Reputation Services: Elevate Trust"}
+          imageUrl={"/images/55.png"}
+          showPrimeBtn={true}
+          isReverse={true}
+          primeBtnName={"get a free quote"}
+          borderBtnName={"faq"}
+          darkButton="dark_btn"
+          description={
+            "<p>Healthcare reputation services help healthcare providers build and keep a good reputation online. These services include managing social media. They also include handling online reviews. The services involve ensuring their business information is correct online. And they involve growing their brand and business.<ul><li>Trust and it's Patient Choice:Patients often check online reviews and social media to choose a doctor. When a healthcare provider has good reviews and an online presence, it builds trust.<li>Social Media Management:Social media helps healthcare providers connect with patients. This means sharing useful information, like health tips or updates about the practice. Social media also means responding to messages from patients.<li>Online review management: Online review management is about responding to patient reviews. When patients leave reviews online, the healthcare provider should respond. They thank patients for their positive reviews and address any concerns they have.<li>Business Listing: A business listing ensures that accurate information is online. It's about the healthcare provider. The practice provides its address, phone number, and other important information. </ul> </p>"
+          }
+        />
+      </section>
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Boost Your Healthcare Image with ORMTechies "}
           imageUrl={"/images/6736639.jpg"}
           showPrimeBtn={true}
+         
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
           darkButton="dark_btn"

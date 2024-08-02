@@ -16,6 +16,7 @@ const LegalReputationManagement = () => {
         title="Innovative Blockchain Reputation Management for a digital world. "
         info="Use our innovative solutions to embrace the future of reputation management. They'll take your business to new heights.  "
       />
+      
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Why Your Crypto's Reputation Matters  "}
@@ -31,6 +32,19 @@ const LegalReputationManagement = () => {
       </section>
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
+          title={"Explore Our Comprehensive ICO Marketing Services  "}
+          imageUrl={"/images/organic-flat-creativity-illustration-with-people.png"}
+          showPrimeBtn={true}
+          primeBtnName={"get a free quote"}
+          borderBtnName={"faq"}
+          darkButton="dark_btn"
+          description={
+            "<p>ICO marketing is vital. It makes your cryptocurrency project succeed. Here are some key services and why they matter: <ul><li>Social Media Content and Management : It involves creating and sharing posts on platforms like Instagram, Twitter, and Facebook. It’s important because social media helps spread the word about your ICO to many people. <li>PPC: Google & Facebook Ads : They're online advertisements you see on Google and Facebook. These ads draw a larger crowd to your ICO in a short time frame. Think of it like placing a big, bright poster in a busy area where many people will see it.  <li>SaaS Marketing : It's about promoting software that people can use online, known as Software as a Service (SaaS). This type of marketing is crucial because it explains how your ICO's technology can be useful. It is like showing a demo of a new app to make people interested in using it.<li>Community Management: Interact with people interested in your ICO. Do this by engaging in online groups and forums. Building a community is key. It makes people feel involved. They are more likely to support your ICO. It’s like having a fan club where everyone shares ideas and excitement. <li>PR Marketing : Public Relations involves getting media coverage for your ICO. This coverage includes news articles and interviews. PR is vital because it helps build trust and credibility. When people read about your ICO in trusted news sources.<li>Influencer Promotion :They mean partnering with popular online personalities to promote your ICO. Influencers have many followers who trust their opinions, so this promotion is powerful.<li>ICO Platforms & Strategy Advisory:  You use specialized platforms to launch your ICO. You also get advice on the best strategies. These platforms help reach the right audience and ensure a smooth launch. Expert advice helps avoid mistakes.  </ul> </p>"
+          }
+        />
+      </section>
+      <section className="sectionPadding bg_white">
+        <ImageInfoWrap
           title={
             "Blockchain: Shaping the Future of Reputation Management  "
           }
@@ -41,11 +55,11 @@ const LegalReputationManagement = () => {
           borderBtnName={"faq"}
           darkButton="dark_btn"
           description={
-            "<p>Blockchain does more than keep companies safe and transparent. It helps them manage their reputation. Blockchain can help businesses keep their good name. It can also help them gain the trust of more customers. This keeps existing customers happy and brings in new ones. Here’s how it helps: <ul><li><b>Enhanced Credibility:</b> Blockchain technology ensures the accuracy of all information and allows for verification. Blockchain can prove that a company has given money to charity.<li><b>Customer Trust and Loyalty: </b> Blockchain helps make reputation management easy and safe. Customers see a business as honest and reliable. This makes them feel safer and more confident in buying from or working with it.<li><b>Competitive Advantage:   </b>Businesses that use blockchain for reputation management get an edge over other businesses. They can show that they are trustworthy and safe, which attracts more customers.</ul></p>"
+            "<p>Blockchain does more than keep companies safe and transparent. It helps them manage their reputation. Blockchain can help businesses keep their good name. It can also help them gain the trust of more customers. This keeps existing customers happy and brings in new ones. Here’s how it helps: <ul><li><b>Enhanced Credibility:</b> Blockchain technology ensures the accuracy of all information and allows for verification. Blockchain can prove that a company has given money to charity.This makes people believe that it's telling the truth. In industries like finance and healthcare, trust is key. People trust them with their money and health.  <li><b>Customer Trust and Loyalty: </b> Blockchain helps make reputation management easy and safe. Customers see a business as honest and reliable. This makes them feel safer and more confident in buying from or working with it.Customers know a business has real reviews. Blockchain verifies the reviews when they're good. <li><b>Competitive Advantage:   </b>Businesses that use blockchain for reputation management get an edge over other businesses. They can show that they are trustworthy and safe, which attracts more customers.For instance, if two companies offer the same product. But one uses blockchain to prove its good reputation.</ul></p>"
           }
         />
       </section>
-      <section className="sectionPadding bg_white">
+      <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Why ORMTechies excels in cryptocurrency reputation "}
           imageUrl={"/images/6217481.jpg"}
