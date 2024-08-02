@@ -13,14 +13,28 @@ const LegalReputationManagement = () => {
          <meta name="robots" content="index, follow" />
        </head>
       <InnerTopBanner
-        title="Review Craft: Shaping MouthShut Negative Reviews  "
-        info="Online reviews have immense power in shaping consumer decisions. Among the numerous review platforms, MouthShut stands out as a prominent platform where consumers share their candid experiences, influencing others' purchasing choices.  "
+        title="Mouthshut Negative Review Removal   "
+        info="Mouthshut is a popular review platform where customers share their experiences. Negative reviews can damage your brand reputation. To effectively manage them, respond promptly and professionally, address concerns genuinely, and offer solutions. Use the platform's guidelines to avoid being flagged. Proactive reputation management, including encouraging positive reviews, can help mitigate the impact of negative feedback.  "
       />
+       <section className="sectionPadding bg_gray">
+        <ImageInfoWrap
+          title={"Review Craft: Shaping MouthShut Negative Reviews    "}
+          imageUrl={"/images/flat-feedback-concept-illustrated.png"}
+          showPrimeBtn={true}
+          primeBtnName={"get a free quote"}
+          borderBtnName={"faq"}
+          darkButton="dark_btn"
+          description={
+            "<p>Online reviews have immense power in shaping consumer decisions. Among the numerous review platforms, MouthShut stands out as a prominent platform where consumers share their candid experiences, influencing others' purchasing choices. However, negative reviews on MouthShut can significantly impact a brand's reputation and bottom line, especially if they are negative. ORMTechies can help businesses navigate through these challenges and cultivate a positive online image by offering expert MouthShut review management solutions. </p><p>Our approach begins with a thorough analysis of the negative reviews. Each review is carefully assessed to understand the underlying issues and sentiments of reviewers. This helps us develop a response strategy that addresses the concerns raised in the reviews while reflecting your brand's commitment to customer satisfaction and improvement. </p>"
+          }
+        />
+      </section>
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Building Your Brand with Mouthshut Review Management   "}
           imageUrl={"/images/organic-flat-design-feedback-concept.png"}
           showPrimeBtn={true}
+          isReverse={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
           darkButton="dark_btn"
@@ -36,7 +50,7 @@ const LegalReputationManagement = () => {
           }
           imageUrl={"/images/O9IY1J0.jpg"}
           showPrimeBtn={true}
-          isReverse={true}
+         
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
           darkButton="dark_btn"
@@ -47,17 +61,33 @@ const LegalReputationManagement = () => {
       </section>
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
-          title={"ORMTechies: Your MouthShut Review Management Partner  "}
-          imageUrl={"/images/businessmen-shaking-hands-through-display-video-call-smart-phone-internet-business-concept-cartoon-character-vector-illustration.png"}
+          title={"Critique Compass: Navigating Bad Reviews  "}
+          imageUrl={"/images/hand-drawn-business-strategy-concept (1).png"}
           showPrimeBtn={true}
+          isReverse={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
           darkButton="dark_btn"
           description={
-            "<p>Managing your MouthShut presence can be a difficult task.  A strategic approach to cultivating a positive online reputation is required.  Your one-stop solution for MouthShut review management comes from us. Partnering with ORMTechies lets you take advantage of their knowledge and resources, letting you concentrate on your core business tasks.  A glimpse into the valuable services offered by ORMTechies. </p><p>The days of manually checking MouthShut for fresh reviews are over.  MouthShut is monitored around the clock by specialized software to ensure that no review goes unnoticed.  As we've discussed, prompt responses are crucial for minimizing the negative effects of reviews and maximizing the positive ones.  </p><p>It can be a challenge to craft well-written and professional responses to online reviews.  ORMTechies has a team of experienced reputation management professionals adept at crafting impactful responses. ORMTechies employs a team of experienced reputation management professionals adept at crafting impactful responses.  They grasp the delicate balance between acknowledging apprehensions, proposing solutions, and preserving the brand's voice.  These experts will make sure your responses aren't just friendly and professional, but also effective in resolving client concerns and building trust.  </p>"
+            "<p>Navigating bad reviews effectively is crucial for maintaining a positive online reputation, and ORMTechies specializes in guiding businesses through this process with our Critique Compass approach. We analyze the feedback to understand the underlying issues and sentiments customers express when your brand receives negative reviews. </p><p>We want to make bad times better by offering solutions and showing your dedication to ensuring client contentment. ORMTechies handles these interactions with care, ensuring that responses are empathetic and reflect your brand's values. </p><p>We employ methods to encourage glowing testimonials and constructive comments from content clients, counteracting any negative ones. Our real-time monitoring tools allow us to stay updated on new reviews as they come in, allowing us to respond quickly and effectively. Through detailed analytics and reporting, we continuously measure the impact of our strategies and make data-driven adjustments to improve your brand's online reputation over time.</p><p>ORMTechies is committed to navigating bad reviews with integrity and professionalism, ensuring that your brand maintains a positive image and continues to attract and retain customers despite occasional negative feedback. </p>"
           }
         />
       </section>
+      <section className="sectionPadding bg_gray">
+        <ImageInfoWrap
+          title={"ORMTechies: Your MouthShut Review Management Partner  "}
+          imageUrl={"/images/businessmen-shaking-hands-through-display-video-call-smart-phone-internet-business-concept-cartoon-character-vector-illustration.png"}
+          showPrimeBtn={true}
+          isReverse={true}
+          primeBtnName={"get a free quote"}
+          borderBtnName={"faq"}
+          darkButton="dark_btn"
+          description={
+            "<p>Managing your MouthShut presence can be a difficult task.  A strategic approach to cultivating a positive online reputation is required.  Your one-stop solution for MouthShut review management comes from us. Partnering with ORMTechies lets you take advantage of their knowledge and resources, letting you concentrate on your core business tasks.  A glimpse into the valuable services offered by ORMTechies.  </p><p>The days of manually checking MouthShut for fresh reviews are over.  MouthShut is monitored around the clock by specialized software to ensure that no review goes unnoticed.  As we've discussed, prompt responses are crucial for minimizing the negative effects of reviews and maximizing the positive ones.  </p><p>It can be a challenge to craft well-written and professional responses to online reviews.  ORMTechies has a team of experienced reputation management professionals adept at crafting impactful responses. ORMTechies employs a team of experienced reputation management professionals adept at crafting impactful responses.  They grasp the delicate balance between acknowledging apprehensions, proposing solutions, and preserving the brand's voice.  These experts will make sure your responses aren't just friendly and professional, but also effective in resolving client concerns and building trust.  </p>"
+          }
+        />
+      </section>
+      
       <LegalFaq />
       <HomeSection9 />
     </>

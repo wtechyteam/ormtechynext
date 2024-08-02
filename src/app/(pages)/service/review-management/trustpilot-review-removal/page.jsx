@@ -13,8 +13,8 @@ const LegalReputationManagement = () => {
          <meta name="robots" content="index, follow" />
        </head>
       <InnerTopBanner
-        title="Trustpilot Rewind: Removing Unwanted Reviews  "
-        info="But what happens when negative or fraudulent reviews damage your company's reputation? We have a specialized service called Trustpilot Rewind: Removing Unwanted Reviews. "
+        title="Trustpilot Rewind: Removing Unwanted Reviews "
+        info="But what happens when negative or fraudulent reviews damage your company's reputation? We have a specialized service called Trustpilot Rewind: Removing Unwanted Reviews. We're going to show you how we handle and remove bad Trustpilot feedback, so you can have a great online presence. "
       />
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
@@ -31,8 +31,22 @@ const LegalReputationManagement = () => {
       </section>
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
-          title={"Boost Your Trustpilot Reputation  "}
+          title={"Secure Your Reputation with ORMTechies "}
           imageUrl={"/images/rocket_exponential_growth.jpg"}
+          showPrimeBtn={true}
+          isReverse={true}
+          primeBtnName={"get a free quote"}
+          borderBtnName={"faq"}
+          darkButton="dark_btn"
+          description={
+            "<p>It is crucial to manage your online reputation on platforms like Trustpilot to maintain a positive brand image and attract customers. ORMTechies specializes in Trustpilot review removal and Trustpilot review management. We offer tailored solutions to help businesses enhance their online presence. To provide effective services, our experienced professionals understand the complexities of online reputation management. </p><p>Transparency is important to us throughout the process, ensuring our clients receive regular updates and detailed reports on their review management campaigns. Transparency builds trust and lets businesses see the tangible outcomes of our efforts. We have a proven track record of improving Trustpilot ratings by removing negative reviews and promoting positive feedback. </p>"
+          }
+        />
+      </section>
+      <section className="sectionPadding bg_gray">
+        <ImageInfoWrap
+          title={"Boost Your Trustpilot Reputation  "}
+          imageUrl={"/images/5-stars-rating-review-high-quality-good-business-reputation-customer-feedback-credit-score.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -43,7 +57,7 @@ const LegalReputationManagement = () => {
           }
         />
       </section>
-      <section className="sectionPadding bg_WHITE">
+      <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={
             "Boost Trustpilot Trust with ORMTechies "
@@ -59,7 +73,7 @@ const LegalReputationManagement = () => {
           }
         />
       </section>
-      <section className="sectionPadding bg_white">
+      <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Secure Your Reputation with ORMTechies   "}
           imageUrl={"/images/Flat-Character-2D-Cyber-Security-Vector-Illustration-700.webp"}
