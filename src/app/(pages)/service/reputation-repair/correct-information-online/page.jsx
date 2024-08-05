@@ -31,6 +31,33 @@ const LegalReputationManagement = () => {
       </section>
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
+          title={"The Power of Precision: Why Accurate Online Information Matters  "}
+          imageUrl={"/images/target-arrow-illustration-flat-style.png"}
+          showPrimeBtn={true}
+          isReverse={true}
+          primeBtnName={"get a free quote"}
+          borderBtnName={"faq"}
+          darkButton="dark_btn"
+          description={
+            "<p>The public's views and choices can be greatly influenced by the information online. This is true in today's digital age. False data can hurt a person's or company's reputation. It costs them chances and tarnishes their reputation. Accurate online information guarantees the truth is communicated, upholding credibility, transparency, and confidence.  </p><p>It's for people who want to start their own brands. It's also for companies looking to attract and keep clients. And for experts in fields where reputation is critical—like law and healthcare. All of them should take note of this. False information spreads harm. It makes people anxious for no reason. </p><p>But it's stopped by easy access to the truth on the internet. Furthermore, knowing the truth helps us make good decisions. It lets people rely on facts, not hearsay. We at ORM Techies are committed to ensuring that our client's web presences show the truth. This boosts their reputation and reliability. We recognize the significance of accurate online information. </p>"
+          }
+        />
+      </section>
+      <section className="sectionPadding bg_gray">
+        <ImageInfoWrap
+          title={"A 360-Degree Approach to Mastering Your Online Reputation "}
+          imageUrl={"/images/6628915-removebg-preview.png"}
+          showPrimeBtn={true}
+          primeBtnName={"get a free quote"}
+          borderBtnName={"faq"}
+          darkButton="dark_btn"
+          description={
+            "<p>Our approach to managing our internet reputation at Correct Information Internet is comprehensive. We take several important phases in our procedure. Initially, we begin with a comprehensive evaluation of your existing web presence. To find false or bad information, you must look through social media accounts. </p><p>You must also review review sites, search results, and other internet platforms. We provide a personalized plan based on our study suited to your requirements. This tactic focuses on improving your online positives. It also resolves negative content. It eliminates or updates inaccurate information. We then make great, captivating material.  </p><p>It will properly represent your company or personal style. This include press announcements, blog entries, and updates on social media. For optimal visibility, our content is search engine optimized. Managing your online reputation is constant. We Watch for changes to your online presence. We change our tactics as needed to keep our reputation intact. We also assist you in interacting with your audience on social media and other internet platforms. Positive interactions and fast responses to criticism can greatly improve your online reputation.</p>"
+          }
+        />
+      </section>
+      <section className="sectionPadding bg_white">
+        <ImageInfoWrap
           title={
             "Why ORM Techies is the Smart Choice for Your Reputation Needs "
           }
@@ -47,9 +74,23 @@ const LegalReputationManagement = () => {
       </section>
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
+          title={"Commitment to Excellence: Our Promise to You  "}
+          imageUrl={"/images/business-handshake-background-flat-style.png"}
+          showPrimeBtn={true}
+          primeBtnName={"get a free quote"}
+          borderBtnName={"faq"}
+          darkButton="dark_btn"
+          description={
+            "<p>We aim to deliver quality in all parts of our service. Our service is Correct Information Online's mission. Integrity, excellence, and a focus on the customer are among our key principles. So are creativity and commitment. We make sure that our clients are always informed and involved.  </p><p>We do this by conducting business with integrity and openness. Our top priorities are top-notch strategies and material. They yield real results. Everything we do is focused on meeting the needs of our clients. Our goal is to provide personalized and efficient solutions. We will go above and beyond expectations.  </p><p>We deliver the best service. We do this by staying ahead of industry trends and improving our procedures. Our staff will be by your side at every step. We will work to help you build and keep a strong internet reputation. </p>"
+          }
+        />
+      </section>
+      <section className="sectionPadding bg_white">
+        <ImageInfoWrap
           title={"Transforming Reputations: How Our Clients Benefit "}
           imageUrl={"/images/modern-indian-rupee-composition.png"}
           showPrimeBtn={true}
+          isReverse={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
           darkButton="dark_btn"
