@@ -31,6 +31,63 @@ const LegalReputationManagement = () => {
       </section>
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
+          title={"Why Online Reviews Matter: Utilizing the Influence of Customer Voices "}
+          imageUrl={"/images/11-08woman5.jpg"}
+          showPrimeBtn={true}
+          isReverse={true}
+          primeBtnName={"get a free quote"}
+          borderBtnName={"faq"}
+          darkButton="dark_btn"
+          description={
+            "<p>Online reviews play a pivotal role in shaping a business’s reputation and success. They greatly impact the decisions of potential customers by acting as contemporary word-of-mouth.   </p><p>They also boost your site's search rankings. But bad reviews can turn off customers. They also harm your business's legitimacy. Evaluations offer insight on areas for improvement and client satisfaction.</p><p>This helps companies improve. A positive reputation is built on the proper management of internet reviews. Businesses may promote loyalty, build trust, and spur growth. They do this by urging happy customers to submit good reviews and handling bad ones with skill.  </p><p>ORM Techies is an expert at helping you use online reviews. They can improve your business's reputation and prosperity. </p>"
+          }
+        />
+      </section>
+      <section className="sectionPadding bg_white">
+        <ImageInfoWrap
+          title={"Our Approach to Enhancing Your Online Reputation "}
+          imageUrl={"/images/girl-is-looking-progress-graph.png"}
+          showPrimeBtn={true}
+          primeBtnName={"get a free quote"}
+          borderBtnName={"faq"}
+          darkButton="dark_btn"
+          description={
+            "<p>Our team at ORM Techies uses a thorough approach. We aim to enhance your reputation and online reviews. We start by examining your current web presence. We look for its strong points and areas to improve. We learn more about how people perceive your brand by analyzing reviews from a variety of media.</p><p>We also address consumer issues and promote a positive image. We create and oversee content that shows your business's advantages. We closely monitor all your platform reviews. We quickly address any bad or good comments. With our method, you can trust that your answers will follow your brand's principles.</p><p>They will be kind and professional. Reputation can be greatly improved by actively interacting with consumers. We offer channels for feedback. They help us fix problems before they worsen. We also encourage happy customers to write good evaluations. ORM Techies makes sure that your internet reputation is always improved and protected. They do this by putting these procedures into practice. </p>"
+          }
+        />
+      </section>
+      <section className="sectionPadding bg_white">
+        <ImageInfoWrap
+          title={"Advanced Tactics for Outstanding Reviews  "}
+          imageUrl={" /images/6229405.jpg"}
+          showPrimeBtn={true}
+          isReverse={true}
+          primeBtnName={"get a free quote"}
+          borderBtnName={"faq"}
+          darkButton="dark_btn"
+          description={
+            "<p>Choosing ORM Techies for your online reputation management could greatly enhance your brand. They offer many benefits. We guarantee customized plans. They will meet your goals. Our staff has lots of experience in many sectors.  </p><p>We provide all-inclusive solutions. They include content creation, SEO, and proactive review management. They improve your online reputation. Our tailored approaches address specific problems and goals. They guarantee individualized solutions that provide results.  </p><p>We actively keep an eye on reviews and reply to them to sustain a constantly favorable web presence. Our data-driven techniques provide quantifiable gains, boosting client loyalty and trust.  </p><p>Choosing ORM Techies means getting a partner. They are committed to protecting and improving your online reputation. This will boost visibility, client interaction, and business expansion. To stand out in today's crowded market, let us help you make a strong and nice website. </p>"
+          }
+        />
+      </section>
+      <section className="sectionPadding bg_white">
+        <ImageInfoWrap
+          title={
+            "Boost Your Brand with ORM Experts "
+          }
+          imageUrl={"/images/2112.w039.n003.41B.p1.41.jpg"}
+          showPrimeBtn={true}
+          
+          primeBtnName={"get a free quote"}
+          borderBtnName={"faq"}
+          darkButton="dark_btn"
+          description={
+            "<p>Our clients' online presence and consumer engagement have greatly improved. This is true for a range of industries. Customers have reported increased trust. They also have more loyalty. This came from better review management.</p><p>Glowing testimonials and tactful replies to criticism have greatly boosted their credibility. Clients can now be found online more easily. They can be found by using our SEO and content methods. These methods have helped them reach higher search engine results. These rates have increased. </p><p>It is due to customers being involved and getting timely review answers. Growing a business is directly correlated with having a positive internet reputation. Clients have reported more foot traffic, higher sales, and more customers. </p>"
+          }
+        />
+      </section>
+      <section className="sectionPadding bg_white">
+        <ImageInfoWrap
           title={
             "How Our Clients Benefit from Our Services "
           }
