@@ -47,14 +47,41 @@ const LegalReputationManagement = () => {
       </section>
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
-          title={"Benefits of Choosing ORM Techies for Push Down Results  "}
+          title={"Our Approach to Push Down Results "}
           imageUrl={"/images/flat-design-data-driven-illustration.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
           darkButton="dark_btn"
           description={
-            "<p><ul><li>Expertise and Experience The staff at ORM Techies is made up of seasoned experts with a wealth of knowledge in online reputation management.<li>Customized Solutions : Every customer has different demands when it comes to reputation management, and we recognize this. We provide specialized solutions to meet your unique needs and objectives.<li>Proven Results We have a proven track record. Our strategy of promoting good material and lowering negative search results has allowed us to assist many clients in successfully enhancing their online reputations. Positive changes in our clients' online presence have resulted in a rise in trust and expansion of their businesses.  </ul> </p>"
+            "<p>At ORM Techies, we use a thorough and multifaceted Push Down Results strategy to make sure that unfavorable content is successfully hidden beneath an abundance of pertinent, helpful content. Our approach consists of the following essential elements: <ul><li><b>Content Creation and Optimization : </b>We produce excellent, captivating material that accentuates the advantages of your company. Articles, press releases, blog posts, and social media content fall under this category.<li><b>Strategic Link Building : </b>Building links is a vital part of our Push Down Results approach. We can raise the authority and ranking of your positive content and make it outrank unfavorable search results by building backlinks from reliable websites.<li><b>Online Profiles and Listings : </b>We establish and enhance profiles on a range of internet channels, including social media, industry-specific directories, and Google My Business. <li><b>Monitoring and Analysis : </b>Once the content is released, our effort is not finished. We track the success of our methods by keeping an eye on your web presence. <li><b>Reputation Management : </b>Positive material is not the only thing we produce; we also regularly monitor and address reviews and other feedback.</ul> </p>"
+          }
+        />
+      </section>
+      <section className="sectionPadding bg_white">
+        <ImageInfoWrap
+          title={"Benefits of Choosing ORM Techies for Push Down Results  "}
+          imageUrl={"/images/2919220.jpg"}
+          showPrimeBtn={true}
+          isReverse={true}
+          primeBtnName={"get a free quote"}
+          borderBtnName={"faq"}
+          darkButton="dark_btn"
+          description={
+            "<p><ul><li><b>Expertise and Experience</b>: The staff at ORM Techies is made up of seasoned experts with a wealth of knowledge in online reputation management.We make sure the right tactics are used for your campaign by keeping our professionals abreast of industry developments and best practices. <li><b>Customized Solutions :</b> Every customer has different demands when it comes to reputation management, and we recognize this. We provide specialized solutions to meet your unique needs and objectives.We make sure you obtain the most pertinent and successful tactics for your circumstances, thanks to our individualized approach. <li><b>Proven Results</b> :  We have a proven track record. Our strategy of promoting good material and lowering negative search results has allowed us to assist many clients in successfully enhancing their online reputations. Positive changes in our clients' online presence have resulted in a rise in trust and expansion of their businesses.  </ul> </p>"
+          }
+        />
+      </section>
+      <section className="sectionPadding bg_gray">
+        <ImageInfoWrap
+          title={"How Our Clients Benefit  "}
+          imageUrl={"/images/9812-removebg-preview.png"}
+          showPrimeBtn={true}
+          primeBtnName={"get a free quote"}
+          borderBtnName={"faq"}
+          darkButton="dark_btn"
+          description={
+            "<p><ul><li><b>Enhanced Online Reputation</b>: Our clients' internet reputations have greatly improved due to our efforts to lower negative search results. Prospective buyers and clients perceive a more true-to-life to life and uplifting portrayal of their brand, which boosts credibility and trust.  <li><b>Increased Customer Trust  :</b> Establishing and preserving a positive internet reputation is essential for gaining and keeping customers' trust. Potential clients are more inclined to select your goods or services over rivals when they discover positive information about your company online. <li><b>Improved Business Performance</b> : Our clients frequently witness increases in their overall business performance when they have a stronger internet reputation. Increased visitors, higher conversion rates, and eventually higher revenue can result from positive search results. <li><b>Long-Term Protection : </b>Our push down results techniques give both short-term and long-term protection from bad search results. We assist in protecting your reputation from potential bad information by building a strong internet presence. <li><b>Comprehensive Support : </b> ORM Techies offers complete assistance at every stage of the process, from the first consultation to continuing observation and modification. Our clients may relax knowing that competent individuals are handling their internet reputation.  </ul> </p>"
           }
         />
       </section>
