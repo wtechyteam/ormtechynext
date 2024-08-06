@@ -61,7 +61,7 @@ const LegalReputationManagement = () => {
      
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
-          title={"Why Choose ORM Techies?  "}
+          title={"Why Choose ORM Techies?"}
           imageUrl={"/images/cf102b13-2a73-44f3-9b10-af2d975c9721.jpg"}
           showPrimeBtn={true}
           isReverse={true}

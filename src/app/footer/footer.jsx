@@ -117,9 +117,9 @@ const Footer = () => {
                     <li>
                       <Link href="/insights/" >Insights</Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link href="/reviews/" >Ormtechies Reviews</Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
