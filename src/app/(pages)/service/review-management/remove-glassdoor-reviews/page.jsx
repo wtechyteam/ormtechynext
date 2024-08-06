@@ -27,7 +27,7 @@ const Glassdoor = () => {
            borderBtnName={"faq"}
            darkButton="dark_btn"
            description={
-             "<p>They provide a window into your company's workplace culture and employee satisfaction, making them an invaluable tool for attracting top talent and maintaining a positive reputation. </p><p>Glassdoor is often used by prospective employees to gain insight into a company's culture, management style, and overall employee satisfaction. Before applying for a job, the job seekers are likely to research company reviews and ratings before applying. Glassdoor reviews are a critical component of your company's online presence because of this. A positive online reputation is important. Your company's image remains untarnished with our comprehensive approach to managing reviews. </p>"
+             "<p>They provide a window into your company's workplace culture and employee satisfaction, making them an invaluable tool for attracting top talent and maintaining a <a style='text-decoration: none; color: #212529;' href='/about-us'>positive reputation</a>. </p><p>Glassdoor is often used by prospective employees to gain insight into a company's culture, management style, and overall employee satisfaction. Before applying for a job, the job seekers are likely to research company reviews and ratings before applying. Glassdoor reviews are a critical component of your company's online presence because of this. A positive online reputation is important. Your company's image remains untarnished with our comprehensive approach to managing reviews. </p>"
            }
          />
        </section>

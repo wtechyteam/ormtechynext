@@ -30,19 +30,23 @@ const LegalReputationManagement = () => {
         />
       </section>
       <section className="sectionPadding bg_white">
-        <ImageInfoWrap
-          title={"Why Online Reviews Matter: Utilizing the Influence of Customer Voices "}
-          imageUrl={"/images/11-08woman5.jpg"}
-          showPrimeBtn={true}
-          isReverse={true}
-          primeBtnName={"get a free quote"}
-          borderBtnName={"faq"}
-          darkButton="dark_btn"
-          description={
-            "<p>Online reviews play a pivotal role in shaping a business’s reputation and success. They greatly impact the decisions of potential customers by acting as contemporary word-of-mouth.   </p><p>They also boost your site's search rankings. But bad reviews can turn off customers. They also harm your business's legitimacy. Evaluations offer insight on areas for improvement and client satisfaction.</p><p>This helps companies improve. A positive reputation is built on the proper management of internet reviews. Businesses may promote loyalty, build trust, and spur growth. They do this by urging happy customers to submit good reviews and handling bad ones with skill.  </p><p>ORM Techies is an expert at helping you use online reviews. They can improve your business's reputation and prosperity. </p>"
-          }
-        />
-      </section>
+  <ImageInfoWrap
+    title={"Why Online Reviews Matter: Utilizing the Influence of Customer Voices"}
+    imageUrl={"/images/11-08woman5.jpg"}
+    showPrimeBtn={true}
+    isReverse={true}
+    primeBtnName={"get a free quote"}
+    borderBtnName={"faq"}
+    darkButton="dark_btn"
+    description={`
+      <p>Online reviews play a pivotal role in shaping a business reputation and success. They greatly impact the decisions of potential customers by acting as contemporary word-of-mouth.</p>
+      <p>They also boost your site's search rankings. But bad reviews can turn off customers. They also harm your business's legitimacy. Evaluations offer insight on areas for improvement and client satisfaction.</p>
+      <p>This helps companies improve. A positive reputation is built on the <a style='text-decoration: none; color: #212529;' href='/about-us'>proper management</a> of internet reviews. Businesses may promote loyalty, build trust, and spur growth. They do this by urging happy customers to submit good reviews and handling bad ones with skill.</p>
+      <p>ORM Techies is an expert at helping you use online reviews. They can improve your business's reputation and prosperity.</p>
+    `}
+  />
+</section>
+
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Our Approach to Enhancing Your Online Reputation "}

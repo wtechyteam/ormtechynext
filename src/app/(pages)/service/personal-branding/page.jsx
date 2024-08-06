@@ -50,11 +50,19 @@ const PersonalBrandingPage = () => {
     primeBtnName={"get a free quote"}
     borderBtnName={"faq"}
     darkButton="dark_btn"
-    description={
-      "<p>We at ORM Techies understand the details of building a personal brand in today's dynamic environment. Our personalized approach to personal branding consulting services makes sure that your brand reflects your unique identity while resonating with your target audience. <ul><li>Strategic Brand Positioning: We'll work with you to create a strong web presence. Through a collaborative process, we'll help you identify your ideal audience – the people you want to connect with most.<li>Online Reputation Management: We understand the importance of a strong online presence in today's digital world. That's why our team of personal brand consultants manages your online reputation, ensuring your digital footprint reflects your expertise. Confidently showcase your skills, attract opportunities, and build trust with your target audience.<li>Social Media Management: Social media is a powerful tool for building a strong personal brand. At ORM Techies, we harness the power of social media to strengthen your brand. From creating engaging content to managing your profiles, we guide you to make a lasting impact and forge deeper connections with your audience.<li>Brand Identity Development: Establishing a solid online presence matters, whether you're experienced or new. Our personal branding experts work with you to build a convincing brand identity. <li>Content Creation and Optimization: We don't just talk about personal branding, we build it. Our team customizes compelling content to highlight your skills and expertise and position you as a leader in the tech field. </ul></p>"
-    }
+    description={`
+      <p>We at ORM Techies understand the details of building a personal brand in today's dynamic environment. Our personalized approach to personal branding consulting services makes sure that your brand reflects your unique identity while resonating with your target audience.</p>
+      <ul>
+        <li>Strategic Brand Positioning: We'll work with you to create a strong web presence. Through a collaborative process, we'll help you identify your ideal audience – the people you want to connect with most.</li>
+        <li>Online Reputation Management: We understand the importance of a strong online presence in today's digital world. That's why our team of personal brand consultants manages your <a style="text-decoration: none; color: #212529;" href="/">online reputation management services</a>, ensuring your digital footprint reflects your expertise. Confidently showcase your skills, attract opportunities, and build trust with your target audience.</li>
+        <li>Social Media Management: Social media is a powerful tool for building a strong personal brand. At ORM Techies, we harness the power of social media to strengthen your brand. From creating engaging content to managing your profiles, we guide you to make a lasting impact and forge deeper connections with your audience.</li>
+        <li>Brand Identity Development: Establishing a solid online presence matters, whether you're experienced or new. Our personal branding experts work with you to build a convincing brand identity.</li>
+        <li>Content Creation and Optimization: We don't just talk about personal branding, we build it. Our team customizes compelling content to highlight your skills and expertise and position you as a leader in the tech field.</li>
+      </ul>
+    `}
   />
 </section>
+
 <section className="sectionPadding bg_gray">
   <ImageInfoWrap
     title={"Why Choose ORM Techies?"}

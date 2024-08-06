@@ -18,7 +18,7 @@ const HomeSection5 = () => {
             <Container>
                 <div className="title_section text-center">
                     <h2 className='title-xl fw-bold '>What We Do?</h2>
-                    <p>At ORM Techies, we specialize in providing exceptional online reputation management services. Whether you&apos;re an individual seeking to raise your personal brand or a business aiming to safeguard its online image, we&apos;ve got you covered. </p>
+                    <p>At ORM Techies, we specialize in providing exceptional online <Link style={{ textDecoration: 'none', color: '#212529' }} href="service/reputation-management">reputation management services </Link>. Whether you&apos;re an individual seeking to raise your personal brand or a business aiming to safeguard its online image, we&apos;ve got you covered. </p>
                 </div>
                 <Tabs
                     aria-label="Vertical tabs"
@@ -54,7 +54,7 @@ const HomeSection5 = () => {
                                         <Image width={60} height={60} src={"/images/header/reviewManagement.png"} alt='icon' title='Review Management' />
                                     </div>
                                     <h2 className="tabTitle">Review Management</h2>
-                                    <p className='tabInfo'>Online reviews can significantly impact your reputation. Our review management services cover a wide range of platforms like Glassdoor, Google My Business, Quora, and more.</p>
+                                    <p className='tabInfo'>Online reviews can significantly impact your reputation. Our<Link style={{ textDecoration: 'none', color: '#053247' }} href="service/review-management"> review management services </Link>cover a wide range of platforms like Glassdoor, Google My Business, Quora, and more.</p>
                                 </Tab>
                             </TabList>
                         </Col>

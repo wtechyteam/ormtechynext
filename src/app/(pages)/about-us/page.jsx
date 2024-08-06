@@ -46,18 +46,19 @@ const AboutUsPage = () => {
         </div>
         {/* image-content-section */}
         <section className="sectionPadding bg_gray">
-          <ImageInfoWrap
-            title={"Empowering Your Online Image: Meet ORM Techies"}
-            imageUrl={"./images/about1.png"}
-            showPrimeBtn={true}
-            primeBtnName={"get a free quote"}
-            borderBtnName={"faq"}
-            darkButton="dark_btn"
-            description={
-              "<p>We're more than just a reputation management company; we're your partners in success. Our dedication to excellence has earned us recognition within the industry, including great reputation management consultants reviews, we constantly pushing the boundaries of ORM to deliver real results. Trust our expertise and technology to positively impact your online reputation, always working in your best interests.</p><p>We understand the challenges you face online – the negative reviews, the unwarranted complaints, the malicious trolls. Our customized ORM services address your specific needs, including handling reputation management consultant complaints. We remove unfavorable posts on respected websites like Glassdoor and Trustpilot and craft personalized strategies to ensure your online reputation reflects the best of who you are.</p>"
-            }
-          />
-        </section>
+  <ImageInfoWrap
+    title={"Empowering Your Online Image: Meet ORM Techies"}
+    imageUrl={"./images/about1.png"}
+    showPrimeBtn={true}
+    primeBtnName={"get a free quote"}
+    borderBtnName={"faq"}
+    darkButton="dark_btn"
+    description={`
+      <p>We're more than just a reputation management company; we're your partners in success. Our dedication to excellence has earned us recognition within the industry, including great reputation management consultants reviews. We constantly push the boundaries of ORM to deliver real results. Trust our expertise and technology to positively impact your online reputation, always working in your best interests.</p>
+      <p>We understand the challenges you face online – the negative reviews, the unwarranted complaints, the malicious trolls. Our customized ORM services address your specific needs, including handling reputation management consultant complaints. We remove unfavorable posts on respected websites like <a style='text-decoration: none; color: #212529;' href='/service/review-management/remove-glassdoor-reviews'>Glassdoor</a> and Trustpilot and craft personalized strategies to ensure your online reputation reflects the best of who you are.</p>
+    `}
+  />
+</section>
         {/* Second ImageInfoWrap */}
         <section className="sectionPadding bg_gray">
           <ImageInfoWrap
@@ -69,7 +70,7 @@ const AboutUsPage = () => {
             borderBtnName={"faq"}
             darkButton="dark_btn"
             description={
-              "<p>We're more than just a reputation management company; we're your partners in success. Our dedication to excellence has earned us recognition within the industry, including great reputation management consultants reviews, we constantly pushing the boundaries of ORM to deliver real results. Trust our expertise and technology to positively impact your online reputation, always working in your best interests. </p><p>Your online reputation matters. Trust ORM Techies, your reputation experts, to shape your digital narrative. Ready to upgrade? Contact us for a free consultation and achieve your digital goals. Join us and let's build a better online future together.</p>"
+              "<p>We're more than just a reputation management company; we're your partners in success. Our dedication to excellence has earned us recognition within the industry, including great reputation management consultants reviews, we constantly pushing the boundaries of ORM to deliver <a style='text-decoration: none; color: #212529;' href='/service/reputation-repair/improve-reviews'>improved results</a>. Trust our expertise and technology to positively impact your online reputation, always working in your best interests. </p><p>Your online reputation matters. Trust ORM Techies, your <a style='text-decoration: none; color: #212529;' href='service/reputation-repair'>reputation repair </a>company, to shape your digital narrative. Ready to upgrade? Contact us for a free consultation and achieve your digital goals. Join us and let's build a better online future together.</p>"
             }
           />
         </section>
