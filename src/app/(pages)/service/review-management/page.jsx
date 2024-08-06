@@ -65,7 +65,7 @@ const ReviewManagementPage = () => {
           darkButton="dark_btn"
           description={`<p>
               <ol>
-                <li><b>Glassdoor</b>: A platform where employees and former employees can anonymously review companies. We monitor Glassdoor to manage your company's reputation, respond to feedback, and improve employee satisfaction.</li>
+                <li><b>Glassdoor</b>: A platform where employees and former employees can anonymously review companies. We monitor <a style="text-decoration: none; color: #212529;" href="/content-removal/glassdoor">Glassdoor</a> to manage your company's reputation, respond to feedback, and improve employee satisfaction.</li>
                 <li><b>Google My Business</b>: Essential for managing your business’s presence on Google Search and Maps. We use this tool to update business information, respond to reviews, and engage with customers to enhance your online reputation.</li>
                 <li><b>MouthShut</b>: A consumer review website where users can review products and services. We manage your presence on MouthShut by monitoring reviews, addressing customer feedback, and ensuring your brand maintains a positive image.</li>
                 <li><b>Trustpilot</b>: A leading review platform that helps collect and respond to customer reviews. We utilize Trustpilot to gather valuable customer feedback, respond to reviews, and leverage positive testimonials to build trust and credibility.</li>
