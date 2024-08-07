@@ -7,7 +7,7 @@ function PersonalBrandingFaq() {
     const ReputationRepairFaqs = [
         {
             question: "What is reputation repair?",
-            answer: `Reputation  repair involves strategies and actions aimed at restoring and improving an individual's or business's online image. This includes removing or suppressing negative content, promoting positive information, and ensuring a favorable online presence.`
+            answer: `Reputation test repair involves strategies and actions aimed at restoring and improving an individual's or business's online image. This includes removing or suppressing negative content, promoting positive information, and ensuring a favorable online presence.`
         },
         {
             question: 'How long does it take to repair a reputation?',
