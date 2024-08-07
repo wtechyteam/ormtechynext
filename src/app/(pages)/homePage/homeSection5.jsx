@@ -47,7 +47,7 @@ const HomeSection5 = () => {
                                         <Image width={60} height={60} src={"/images/header/reputation-management.png"} alt='icon' title='Reputation Management' />
                                     </div>
                                     <h2 className="tabTitle">Reputation Management</h2>
-                                    <p className='tabInfo'>Maintaining a positive online reputation requires ongoing effort and vigilance. Our <a style='text-decoration: none; color: #212529;' href='/service/reputation-repair/push-down-results'>reputation management services</a> involve monitoring your digital footprint, proactively.</p>
+                                    <p className='tabInfo'>Maintaining a positive online reputation requires ongoing effort and vigilance. Our reputation management services involve monitoring your digital footprint, proactively.</p>
                                 </Tab>
                                 <Tab className="tab_btn">
                                     <div className="tabImage">
