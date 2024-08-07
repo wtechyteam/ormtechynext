@@ -47,14 +47,14 @@ const HomeSection5 = () => {
                                         <Image width={60} height={60} src={"/images/header/reputation-management.png"} alt='icon' title='Reputation Management' />
                                     </div>
                                     <h2 className="tabTitle">Reputation Management</h2>
-                                    <p className='tabInfo'>Maintaining a positive online reputation requires ongoing effort and vigilance. Our reputation management services involve monitoring your digital footprint, proactively.</p>
+                                    <p className='tabInfo'>Maintaining a positive online reputation requires ongoing effort and vigilance. Our <a style='text-decoration: none; color: #212529;' href='/service/reputation-repair/push-down-results'>reputation management services</a> involve monitoring your digital footprint, proactively.</p>
                                 </Tab>
                                 <Tab className="tab_btn">
                                     <div className="tabImage">
                                         <Image width={60} height={60} src={"/images/header/reviewManagement.png"} alt='icon' title='Review Management' />
                                     </div>
                                     <h2 className="tabTitle">Review Management</h2>
-                                    <p className='tabInfo'>Online reviews can significantly impact your reputation. Our<Link style={{ textDecoration: 'none', color: '#053247' }} href="service/review-management"> review management services </Link>cover a wide range of platforms like Glassdoor, Google My Business, Quora, and more.</p>
+                                    <p className='tabInfo'>Online reviews can significantly impact your reputation. Our<Link style={{ textDecoration: 'none', color: '#053247' }} href="/service/review-management"> review management services </Link>cover a wide range of platforms like Glassdoor, Google My Business, Quora, and more.</p>
                                 </Tab>
                             </TabList>
                         </Col>
