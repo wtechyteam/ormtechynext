@@ -30,7 +30,7 @@ const ServicePage = () => {
           borderBtnName={"faq"}
           darkButton="dark_btn"
           description={
-            "<p>A positive online reputation can also help enhance your visibility and brand awareness. When potential customers search for your business online, what they find can have a significant impact on their perception of your brand. With internet reputation management services, you can ensure that your brand is well-represented across all digital channels, maximizing your visibility and attracting more customers to your business. </p>"
+            `<p>A <a style='text-decoration: none; color: #212529;' href="/service/reputation-repair/knowledge-panel"> positive public perception </a> reputation can also help enhance your visibility and brand awareness and in <a style='text-decoration: none; color: #212529;' href="/service/reputation-repair/remove-results"> removing harmful content.</a>  When potential customers search for your business online, what they find can have a significant impact on their perception of your brand. With internet reputation management services, you can ensure that your brand is well-represented across all digital channels, maximizing your visibility and attracting more customers to your business. </p>`
           }
         />
         

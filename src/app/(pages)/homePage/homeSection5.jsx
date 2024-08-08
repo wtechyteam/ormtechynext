@@ -33,7 +33,7 @@ const HomeSection5 = () => {
                                         <Image width={60} height={60} src={"/images/header/personalBranding.png"} alt='icon' title='Personal Branding' />
                                     </div>
                                     <h2 className="tabTitle">Personal Branding</h2>
-                                    <p className='tabInfo'>Building a strong personal brand is essential in today&apos;s competitive landscape. Our experts will work closely with you to develop a personalized personal branding strategy that showcases your strengths and values, positioning you as a reputable figure in your field.</p>
+                                    <p className='tabInfo'>Building a strong personal brand is essential in today&apos;s competitive landscape. Our experts will work closely with you to develop a personalized <a style={{ textDecoration: 'none', color: '#212529' }} href="/service/personal-branding"> personal branding strategy</a> that showcases your strengths and values, positioning you as a reputable figure in your field.</p>
                                 </Tab>
                                 <Tab className="tab_btn">
                                     <div className="tabImage">

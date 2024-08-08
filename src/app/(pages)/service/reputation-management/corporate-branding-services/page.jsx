@@ -34,7 +34,7 @@ const LegalReputationManagement = () => {
           borderBtnName={"faq"}
           darkButton="dark_btn"
           description={
-            "<p>Corporate reputation management involves proactive measures to manage and influence how your brand is perceived online. In ORMTechies offer specialized corporate reputation services designed to safeguard and enhance your brand's image. Our expert team employs strategic approaches to monitor, analyze, and improve your corporate online reputation.  </p><p>Ensure your brand's integrity and credibility with ORMTechies' corporate management services. Let us help you navigate the digital landscape and enhance your corporate online reputation. Contact us today to learn more about how we can protect and strengthen your brand. </p>"
+            `<p>Corporate reputation management involves proactive measures to manage and influence how your brand is perceived online. In ORMTechies offer specialized corporate reputation services designed to safeguard and enhance your brand's image. Our expert team employs strategic approaches to monitor, analyze, and <a style='text-decoration: none; color: #212529;' href="/service/reputation-repair/remove-results"> improve your results.</a>  </p><p>Ensure your brand's integrity and credibility with ORMTechies' corporate management services. Let us help you navigate the digital landscape and enhance your corporate online reputation. Contact us today to learn more about how we can protect and strengthen your brand. </p>`
           }
         />
       </section>

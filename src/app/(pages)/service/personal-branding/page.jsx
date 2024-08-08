@@ -23,7 +23,7 @@ const PersonalBrandingPage = () => {
       </head> 
       <InnerTopBanner
         title="Level Up Your Online Presence With Personal Branding Experts"
-        info="Boost your online presence with ORM Techies. Specializing in personal branding, we help professionals, influencers, and entrepreneurs craft compelling digital identities. Unlock success with customized strategies and expert guidance"
+        info="Boost your online presence with  ORM Techies. Specializing in personal branding, we help professionals, influencers, and entrepreneurs craft compelling digital identities. Unlock success with customized strategies and expert guidance"
       />
     <HomeSection2 />
 
@@ -34,10 +34,10 @@ const PersonalBrandingPage = () => {
     isReverse={true}
     showPrimeBtn={true}
     primeBtnName={"get a free quote"}
-    borderBtnName={"faq"}
+    borderBtnName={"faq"} 
     darkButton="dark_btn"
     description={
-      "<p>Personal branding is like a digital business card for YOU. It's about crafting a strong online presence that showcases your skills, experience, and values. But building a powerful personal brand can be tricky. That's where ORM Techies comes in. Whether you're an entrepreneur, influencer, or professional, how you present yourself online can make or break your success.</p><p><b>Why Personal Branding Matters </b>Your brand acts as your digital calling card, a concise yet impactful introduction that tells the world who you are, what you value, and why you deserve attention. A strong personal brand isn't just about vanity; it's about establishing yourself as a trusted authority in your field. By crafting a compelling online persona, you build confidence, influence, and trust with your audience, allowing you to stand out from the competition.</p>"
+      `<p>Personal branding is like a digital business card for YOU. It's about crafting a strong online presence that showcases your skills, experience, and values. But building a powerful personal brand can be tricky. That's where <a style='text-decoration: none; color: #212529;' href="/"> ORM Techies </a>comes in. Whether you're an <a style='text-decoration: none; color: #212529;' href="/service/personal-branding/retail-reputation-management">  retailer,</a> influencer, or professional, how you present yourself online can make or break your success.</p><p><b>Why Personal Branding Matters </b>Your brand acts as your digital calling card, a concise yet impactful introduction that tells the world who you are, what you value, and why you deserve attention. A strong personal brand isn't just about vanity; it's about establishing yourself as a trusted authority in your field. By crafting a compelling online persona, you build confidence, influence, and trust with your audience, allowing you to stand out from the competition.</p>`
     }
   />
 </section>
@@ -73,7 +73,7 @@ const PersonalBrandingPage = () => {
     borderBtnName={"faq"}
     darkButton="dark_btn"
     description={
-      "<p>When it comes to individual branding, trust the experts at ORM Techies to deliver results that exceed your expectations:<ul><li>Expertise: Our team of personal branding consultants brings years of experience and industry knowledge to every project, ensuring that your personal brand reflects your unique personality and professional goals.<li>Customized Solutions: We understand that every personal brand is different, which is why we offer customized solutions personalized tailored to your specific needs, goals, and budget.<li>Proven Results: With a track record of success and satisfied clients, ORM Techies is your trusted partner for all your individual branding needs.</ul></p>"
+      `<p>When it comes to <a style='text-decoration: none; color: #212529;' href="/service/personal-branding">individual branding,</a> trust the experts at ORM Techies to deliver results that exceed your expectations:<ul><li>Expertise: Our team of personal branding consultants brings years of experience and industry knowledge to every project, ensuring that your personal brand reflects your unique personality and professional goals.<li>Customized Solutions: We understand that every personal brand is different, which is why we offer customized solutions personalized tailored to your specific needs, goals, and budget.<li>Proven Results: With a track record of success and satisfied clients, ORM Techies is your trusted partner for all your individual branding needs.</ul></p>`
     }
   />
 </section>
