@@ -51,7 +51,7 @@ const PersonalBrandingPage = () => {
     borderBtnName={"faq"}
     darkButton="dark_btn"
     description={`
-      <p>We at ORM Techies understand the details of building a personal brand in today's dynamic environment. Our personalized approach to personal branding consulting services makes sure that your brand reflects your unique identity while resonating with your target audience.</p>
+      <p>We at ORM Techies understand the details of building a personal brand in today's dynamic environment. Our personalized approach to personal branding consulting services makes sure that your brand reflects your <a style='text-decoration: none; color: #212529;' href='/content-removal/google-reviews'> unique identity </a> on google while resonating with your target audience.</p>
       <ul>
         <li>Strategic Brand Positioning: We'll work with you to create a strong web presence. Through a collaborative process, we'll help you identify your ideal audience – the people you want to connect with most.</li>
         <li>Online Reputation Management: We understand the importance of a strong online presence in today's digital world. That's why our team of personal brand consultants manages your <a style="text-decoration: none; color: #212529;" href="/">online reputation management services</a>, ensuring your digital footprint reflects your expertise. Confidently showcase your skills, attract opportunities, and build trust with your target audience.</li>

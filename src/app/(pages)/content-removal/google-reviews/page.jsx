@@ -40,7 +40,7 @@ const GoogleReviews = () => {
           borderBtnName={"faq"}
           darkButton="dark_btn"
           description={
-            "<p> Google is a complex beast, but sometimes the solutions are simple – you just need to know how. Since every search result is different, the first step is always to reach out and get a free consultation. At worst, you’ll at least find out the situation and possible solutions, which may not be immediately obvious to you otherwise.</p><p>You’ll be contacting a team with enormous experience and resources in this field, including our own custom-built technology platform. Whether it is complete and permanent removal, or suppressing the content away from Page 1 of Google, you can rely on ORMTechies to free you from the burden of an unwanted Google search result.</p>"
+            `<p> Google is a complex beast, but sometimes the solutions are simple – you just need to know how. Since every search result is different, the first step is always to reach out and get a free consultation. At worst, you’ll at least find out the situation and possible solutions, which may not be immediately obvious to you otherwise.</p><p>You’ll be contacting a team with enormous experience and resources in this field, including our own custom-built technology platform. Whether it is complete and <a style='text-decoration: none; color: #212529;' href="/service/reputation-repair/remove-results">permanent removal</a> or suppressing the content away from Page 1 of Google, you can rely on ORMTechies to free you from the burden of an unwanted Google search result.</p>`
           }
         />
       </section>

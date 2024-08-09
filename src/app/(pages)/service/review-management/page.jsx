@@ -42,11 +42,11 @@ const ReviewManagementPage = () => {
           darkButton="dark_btn"
           description={`<p>Our comprehensive approach includes customized strategies to encourage satisfied customers to leave positive reviews. We also address negative feedback promptly and professionally, turning potential crises into opportunities for improvement. By leveraging our review management expertise, you can attract more customers and increase revenue.</p>
              <ul>
-               <li>Monitoring and Tracking: Regularly monitor review platforms to stay informed about what customers are saying about your business.</li>
+               <li>Monitoring and Tracking: Regularly monitor review platforms to stay informed about what customers are saying about <a style='text-decoration: none; color: #212529;' href="/service/reputation-management/reputation-management-for-business">your business.</a></li>
                <li>Prompt Response: Respond promptly to both positive and negative reviews. Acknowledge positive feedback with gratitude and address negative feedback with a solution-oriented approach.</li>
                <li>Encouraging Positive Reviews: Implement strategies to encourage satisfied customers to leave reviews. This could include follow-up emails, in-store signage, or incentives for leaving feedback.</li>
                <li>Addressing Negative Reviews: Develop a protocol for addressing negative reviews professionally and promptly. Offer solutions, apologize for any negative experiences, and demonstrate a willingness to make things right.</li>
-               <li>Generating Positive Publicity: Encourage satisfied customers to share their positive experiences on social media or other public platforms to increase your brand's positive visibility.</li>
+               <li>Generating Positive Publicity: Encourage satisfied customers to share their positive experiences on social media or other public platforms to increase your <a style='text-decoration: none; color: #212529;' href='/service/personal-branding'>personal brand's </a> positive visibility.</li>
              </ul>`}
         />
       </section>
@@ -66,12 +66,12 @@ const ReviewManagementPage = () => {
           description={`<p>
               <ol>
                 <li><b>Glassdoor</b>: A platform where employees and former employees can anonymously review companies. We monitor <a style="text-decoration: none; color: #212529;" href="/content-removal/glassdoor">Glassdoor</a> to manage your company's reputation, respond to feedback, and improve employee satisfaction.</li>
-                <li><b>Google My Business</b>: Essential for managing your business’s presence on Google Search and Maps. We use this tool to update business information, respond to reviews, and engage with customers to enhance your online reputation.</li>
-                <li><b>MouthShut</b>: A consumer review website where users can review products and services. We manage your presence on MouthShut by monitoring reviews, addressing customer feedback, and ensuring your brand maintains a positive image.</li>
+                <li><b>Google My Business</b>: Essential for managing your business’s</a> presence on Google Search and Maps. We use this tool to update business information, respond to reviews, and engage with customers to enhance your online reputation.</li>
+                <li><b>MouthShut</b>: A consumer review website where users can review products and services. We manage your presence on MouthShut by monitoring reviews<a style='text-decoration: none; color: #212529;' href='/service/personal-branding/construction-reputation-management'>, addressing </a>customer feedback, and ensuring your brand maintains a positive image.</li>
                 <li><b>Trustpilot</b>: A leading review platform that helps collect and respond to customer reviews. We utilize Trustpilot to gather valuable customer feedback, respond to reviews, and leverage positive testimonials to build trust and credibility.</li>
                 <li><b>Quora</b>: A question-and-answer platform where users share experiences and opinions. We monitor mentions of your business on Quora, provide helpful responses, and manage your brand’s reputation by addressing customer inquiries and concerns. </li>
                 <li><b>Indeed</b>: A popular job search website where employees review their employers. We manage reviews on Indeed to help attract top talent, respond to employee feedback, and improve your company’s workplace reputation. </li>
-                <li><b>AmbitionBox</b>: A platform for company reviews and salary insights. We use AmbitionBox to monitor and respond to employee reviews, ensuring your company is seen as an attractive place to work. </li>
+                <li><b>AmbitionBox</b>: A platform for company reviews and salary insights. We use AmbitionBox to monitor and respond to employee reviews, ensuring your company is seen as an attractive place to work abiding all <a style='text-decoration: none; color: #212529;' href='/service/personal-branding/legal-reputation-management'>legal aspects.</a> </li>
                 <li><b>TimesJobs</b>: Another job search and career portal where employees can review companies. We manage your presence on TimesJobs to respond to feedback and enhance your employer brand.</li>
               </ol>
             </p>`}
@@ -80,7 +80,7 @@ const ReviewManagementPage = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={
-            "Optimize Your Online Reputation with Google Review Management Services "
+            `Optimize Your Online Reputation with Google Review Management Services`
           }
           imageUrl={"/images/hand-drawn-people-analyzing-growth-charts.png"}
           isReverse={true}
@@ -88,7 +88,7 @@ const ReviewManagementPage = () => {
           primeBtnName={"Get a Free Quote"}
           borderBtnName={"FAQ"}
           darkButton="dark_btn"
-          description={`<p> Optimize your online reputation with ORMTechies' Google review management services. Let us help you build a positive online image and attract more customers. Contact us today to learn more about our comprehensive online review solutions. We specialize in assisting businesses to realize their online presence through expert Google review management services. With our extensive review management strategies, we ensure that your business shines brightly in the eyes of potential customers. </p>
+          description={`<p> Optimize your online reputation with ORMTechies' <a style='text-decoration: none; color: #212529;' href="/service"> Google review management services.</a> Let us help you build a positive online image and attract more customers. Contact us today to learn more about our comprehensive online review solutions. We specialize in assisting businesses to realize their online presence through expert Google review management services. With our extensive review management strategies, we ensure that your business shines brightly in the eyes of potential customers. </p>
              <p><h4>Key Benefits of Our Service: </h4><ul><li>Increased Customer Trust: By managing your reviews effectively, you build trust and credibility with potential customers. <li>Enhanced Online Presence: Our strategies help improve your online visibility, attracting more customers to your business. <li>Comprehensive Support: We offer a full suite of online reviews services, including monitoring, responding, and analysis. </ul></p>`}
         />
       </section>

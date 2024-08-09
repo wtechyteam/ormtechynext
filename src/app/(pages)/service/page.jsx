@@ -30,7 +30,7 @@ const ServicePage = () => {
           borderBtnName={"faq"}
           darkButton="dark_btn"
           description={
-            `<p>A <a style='text-decoration: none; color: #212529;' href="/service/reputation-repair/knowledge-panel"> positive public perception </a> reputation can also help enhance your visibility and brand awareness and in <a style='text-decoration: none; color: #212529;' href="/service/reputation-repair/remove-results"> removing harmful content.</a>  When potential customers search for your business online, what they find can have a significant impact on their perception of your brand. With internet reputation management services, you can ensure that your brand is well-represented across all digital channels, maximizing your visibility and attracting more customers to your business. </p>`
+            `<p>A <a style='text-decoration: none; color: #212529;' href="/service/reputation-repair/knowledge-panel"> positive public perception </a> reputation can also help enhance your visibility and brand awareness and in <a style='text-decoration: none; color: #212529;' href="/service/reputation-repair/remove-results"> removing harmful content.</a>  When potential<a style='text-decoration: none; color: #212529;' href='/service/personal-branding/construction-reputation-management'> customers </a> search for your business online, what they find can have a significant impact on their perception of your brand. With internet reputation management services, you can ensure that your brand is well-represented across all digital channels, maximizing your visibility and attracting more customers to your business. </p>`
           }
         />
         
@@ -44,7 +44,7 @@ const ServicePage = () => {
           borderBtnName={"faq"}
           darkButton="dark_btn"
           description={
-            "<p>If you're online, our reputation repair services can help. Our team of experts will work tirelessly to remove or suppress negative content, ensuring that your online reputation is restored to its former glory.</p>"
+            `<p>If you're online, our<a style='text-decoration: none; color: #212529;' href="/service/reputation-repair">reputation repair services </a>can help. Our team of experts will work tirelessly to remove or suppress negative content, ensuring that your online reputation is restored to its former glory.</p>`
           }
         />
       </section>
@@ -58,7 +58,7 @@ const ServicePage = () => {
           borderBtnName={"faq"}
           darkButton="dark_btn"
           description={
-            "<p>In today's digital world, your online reputation is more important than ever before. Our digital reputation management services are designed to help you monitor, manage, and enhance your online presence across all digital channels, from social media to search engines.</p>"
+            `<p>In today's digital world, your online reputation is more important than ever before. Our digital <a style='text-decoration: none; color: #212529;' href="/service/reputation-management"> reputation management services </a> are designed to help you monitor, manage, and enhance your online presence across all digital channels, from social media to search engines.</p>`
           }
         />
       </section>
@@ -86,7 +86,7 @@ const ServicePage = () => {
           borderBtnName={"faq"}
           darkButton="dark_btn"
           description={
-            "<p>Online reviews can have a significant impact on your business's reputation and bottom line. Our review management services can help you monitor and respond to reviews across all major review sites, ensuring that your brand's reputation remains intact. "
+            `<p>Online reviews can have a significant impact on your business's reputation and bottom line. Our <a style='text-decoration: none; color: #212529;' href="/service/review-management">review management services</a> can help you monitor and respond to reviews across all major review sites, ensuring that your brand's reputation remains intact. `
           }
         />
       </section>
