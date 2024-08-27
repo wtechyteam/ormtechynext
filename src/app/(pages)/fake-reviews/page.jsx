@@ -17,7 +17,7 @@ const FakeReviewRemovalPage = () => {
          <meta name="robots" content="index, follow" />
        </head>
       <InnerTopBanner
-        title="Fast Fake Review Removal Or You Don’t Pay."
+        title="Fast Fake Review Removal"
         info="Suffering from fake, defamatory online reviews? Now you can defend your business and reclaim the reputation you’ve worked so hard for. "
       />
         <section className="sectionPadding bg_white">
