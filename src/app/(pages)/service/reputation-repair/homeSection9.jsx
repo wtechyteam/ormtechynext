@@ -10,7 +10,7 @@ const HomeSection9 = () => {
             <Container className=''>
                 <div className="title_section">
                
-                    <h2 className='title-xl text-white text-center fw-bold mb-4'>We remove damaging online content. If we don’t succeed, you don’t pay.  </h2>
+                    <h2 className='title-xl text-white text-center fw-bold mb-4'>We remove damaging online content.   </h2>
                     <div className='d-flex justify-content-center gap-3 mb-5'>
                         <PrimeBtn btnName={"get a free quote"} />
                         <BorderBtn btnName={"request a call"} />
