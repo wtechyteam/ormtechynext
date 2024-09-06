@@ -231,6 +231,13 @@ export const headerData = [
                         subtitle: "search-engine",
                         slug: "/service/reputation-management/reputation-management-for-business"
                     },
+                    {
+                        id: 344,
+                        title: "Reputation Consultant",
+                        icon: "/images/header/business.png",
+                        subtitle: "search-engine",
+                        slug: "/service/reputation-management/reputation-consultant"
+                    },
                     // Add more subLinks as needed
                 ]
             },
