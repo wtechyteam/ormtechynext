@@ -11,8 +11,8 @@ const ContactForm = () => {
       <Row className="justify-content-center">
         <div className="col-md-12">
           <HubspotForm
-            portalId="46372694"
-            formId="7313c509-f9ca-45e7-9dbe-a09987fd8c53"
+            portalId="47335383"
+            formId="5da86bd8-4758-4bf7-b752-1db480fb2f9e"
             onSubmit={() => console.log("Submit!")}
             onReady={(form) => console.log("Form ready!")}
             loading={<div>Loading...</div>}
