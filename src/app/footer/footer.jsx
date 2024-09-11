@@ -31,12 +31,12 @@ const Footer = () => {
               </Link>
             </div>
             <div className="col-lg-8 d-none d-lg-block">
-              <div className="awardsList">
+              {/* <div className="awardsList">
                 <Image src={footerAward1} alt="Deloitte-global" />
                 <Image src={footerAward2} alt="2021-BIA-Awards-2" />
                 <Image src={footerAward3} alt="Pause-Awards" />
                 <Image src={footerAward4} alt="2021-BIA-Awards" />
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="row mt-5">
