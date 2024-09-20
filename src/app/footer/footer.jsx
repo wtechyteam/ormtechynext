@@ -2,10 +2,6 @@ import React from 'react'
 import "./footerStyle.scss"
 import Image from "next/image";
 import Link from 'next/link';
-import footerAward1 from "../../../public/images/footer/Deloitte-global.webp";
-import footerAward2 from "../../../public/images/footer/2021-BIA-Awards-2.webp";
-import footerAward3 from "../../../public/images/footer/Pause-Awards-new.webp";
-import footerAward4 from "../../../public/images/footer/2021-BIA-Awards.png";
 import siteLogo from "../../../public/images/ORMLogoNew.svg";
 
 import FooterBottom from './footerBottom';

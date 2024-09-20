@@ -7,10 +7,10 @@ const LegalReputationManagement = () => {
   return (
     <>
       <head>
-        <title>Secure Your Brands Reputation with ORMTechies </title>
+        <title>Innovative Corporate Branding Services for Business Excellence </title>
         <meta
           name="description"
-          content="Protect your corporate reputation with ORMTechies' corporate reputation management. Enhance your brand's credibility online. "
+          content="Discover how ORMTechies' innovative branding services can lift your business to new heights. Learn more about our customized, comprehensive, and data-driven branding solutions. "
         />
         <link
           rel="canonical"
@@ -19,8 +19,8 @@ const LegalReputationManagement = () => {
         <meta name="robots" content="index, follow" />
       </head>
       <InnerTopBanner
-        title="Secure Your Brand's Reputation with Corporate Management Services"
-        info="Corporate reputation management involves proactive measures to manage and influence how your brand is perceived online. "
+        title="Strengthen Your Corporate Identity "
+        info="ORMTechies focuses on creating a strong corporate brand. This brand makes your business stand out in the market and succeed. We've got new ideas and tested methods. They make us the best partner for all your corporate branding needs.   "
       />
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
