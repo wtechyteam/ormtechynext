@@ -27,7 +27,7 @@ const ReputationConsultant = () => {
           title={
             "The Power of a Positive Online Reputation"
           }
-          imageUrl={"/images/Untitled design (18).png"}
+          imageUrl={"/images/Hands_pointing_fingers_at_man_in_champion_cup-removebg-preview.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -43,7 +43,7 @@ const ReputationConsultant = () => {
           title={
             "Don't Let Negative Reviews Dim Your Shine"
           }
-          imageUrl={"/images/partnership-concept-illustration.png"}
+          imageUrl={"/images/lightbulb-huge-hands-as-symbol-new-idea-innovative-invention-flat-vector-illustration-innovation-startup-creativity-imagination-concept-banner-website-design-landing-web-page.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -56,7 +56,7 @@ const ReputationConsultant = () => {
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"A Suite of Services to Meet Your Needs "}
-          imageUrl={"/images/4630062.jpg"}
+          imageUrl={"/images/hand-drawn-no-data-illustration.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -70,7 +70,7 @@ const ReputationConsultant = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"The ORM Techies Advantage "}
-          imageUrl={"/images/flat-people-asking-questions-illustration.png"}
+          imageUrl={"/images/8638979-removebg-preview.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -83,7 +83,7 @@ const ReputationConsultant = () => {
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Don't Let Time or Budget Be a Barrier "}
-          imageUrl={"/images/flat-people-asking-questions-illustration.png"}
+          imageUrl={"/images/5385957.jpg"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}

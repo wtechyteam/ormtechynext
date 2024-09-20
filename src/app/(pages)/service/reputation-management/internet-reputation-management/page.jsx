@@ -27,7 +27,7 @@ const InternetReputationManagement = () => {
           title={
             "Achieve Online Excellence with ORMTechies Internet Reputation Management Expertise"
           }
-          imageUrl={"/images/Untitled design (18).png"}
+          imageUrl={"/images/social-strategy-concept-illustration.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -43,7 +43,7 @@ const InternetReputationManagement = () => {
           title={
             "Building trust and credibility with effective internet reputation services "
           }
-          imageUrl={"/images/partnership-concept-illustration.png"}
+          imageUrl={"/images/strategic-planning-concept-illustration.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -56,7 +56,7 @@ const InternetReputationManagement = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Discover Why ORMTechies Leads in Internet Reputation Reviews "}
-          imageUrl={"/images/4630062.jpg"}
+          imageUrl={"/images/reputation-crisis-management-abstract-concept.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -70,7 +70,7 @@ const InternetReputationManagement = () => {
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Key Benefits of Managing Your Internet Reputation "}
-          imageUrl={"/images/flat-people-asking-questions-illustration.png"}
+          imageUrl={"/images/business-direction-abstract-concept-illustration.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -83,7 +83,7 @@ const InternetReputationManagement = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Strategies for Effective Internet Review Management  "}
-          imageUrl={"/images/flat-people-asking-questions-illustration.png"}
+          imageUrl={"/images/image2206.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -97,7 +97,7 @@ const InternetReputationManagement = () => {
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Optimizing Your Online Presence with Internet Review Management "}
-          imageUrl={"/images/flat-people-asking-questions-illustration.png"}
+          imageUrl={"/images/order-processed-abstract-concept-illustration.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -110,7 +110,7 @@ const InternetReputationManagement = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"How ORMTechies Leverages Reviews for Your Benefit "}
-          imageUrl={"/images/flat-people-asking-questions-illustration.png"}
+          imageUrl={"/images/55.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -124,7 +124,7 @@ const InternetReputationManagement = () => {
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"ORMTechies' Comprehensive Internet Reputation Services: "}
-          imageUrl={"/images/flat-people-asking-questions-illustration.png"}
+          imageUrl={"/images/5002461.jpg"}
           showPrimeBtn={true}
           
           primeBtnName={"get a free quote"}
