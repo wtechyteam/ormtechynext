@@ -27,7 +27,7 @@ const BrandBuildingAgency = () => {
           title={
             "The Art of Brand Building: Creating Timeless Market Leaders "
           }
-          imageUrl={"/images/Untitled design (18).png"}
+          imageUrl={"/images/flat-time-management-illustration.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -43,7 +43,7 @@ const BrandBuildingAgency = () => {
           title={
             "From concept to launch services for your new brand development agency"
           }
-          imageUrl={"/images/partnership-concept-illustration.png"}
+          imageUrl={"/images/happy-woman-getting-promotion-financial-freedom-celebrating-success-work.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -56,7 +56,7 @@ const BrandBuildingAgency = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Building Your Brand with Social Media"}
-          imageUrl={"/images/4630062.jpg"}
+          imageUrl={"/images/illustration-vector-graphic-cartoon-character-sharing-file.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -70,7 +70,7 @@ const BrandBuildingAgency = () => {
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Unlocking Brand Equity Secrets "}
-          imageUrl={"/images/flat-people-asking-questions-illustration.png"}
+          imageUrl={"/images/business-team-finding-solution-together-group-with-key-unlocking-lock.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -83,7 +83,7 @@ const BrandBuildingAgency = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"ORMTechies: Innovating Brand Growth"}
-          imageUrl={"/images/flat-people-asking-questions-illustration.png"}
+          imageUrl={"/images/55.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}

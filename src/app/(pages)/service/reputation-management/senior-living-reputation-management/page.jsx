@@ -27,7 +27,7 @@ const InternetReputationManagement = () => {
           title={
             "Unparalleled Senior Living Reputation Solutions"
           }
-          imageUrl={"/images/Untitled design (18).png"}
+          imageUrl={"/images/boss-control-concept-illustration.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -43,7 +43,7 @@ const InternetReputationManagement = () => {
           title={
             "Tackling Senior Living Reputation Challenges  "
           }
-          imageUrl={"/images/partnership-concept-illustration.png"}
+          imageUrl={" /images/flag-high-graph-peak.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -56,7 +56,7 @@ const InternetReputationManagement = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Next-Gen Senior Living Reputation Management  "}
-          imageUrl={"/images/4630062.jpg"}
+          imageUrl={"/images/6628915-removebg-preview.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -70,7 +70,7 @@ const InternetReputationManagement = () => {
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Crafting a Future-Ready Reputation Approach   "}
-          imageUrl={"/images/flat-people-asking-questions-illustration.png"}
+          imageUrl={"/images/m502t0009_08jun22_spaceship_01-removebg-preview.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}

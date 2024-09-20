@@ -27,7 +27,7 @@ const BuildBrandAwareness = () => {
           title={
             "Build Your Brand: Premier Small Business Branding Agency"
           }
-          imageUrl={"/images/Untitled design (18).png"}
+          imageUrl={"/images/businessmen-shaking-hands-through-display-video-call-smart-phone-internet-business-concept-cartoon-character-vector-illustration.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -43,7 +43,7 @@ const BuildBrandAwareness = () => {
           title={
             "Discover Our Approach to Small Business Branding  "
           }
-          imageUrl={"/images/partnership-concept-illustration.png"}
+          imageUrl={"/images/business-vision-concept-illustration.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -56,7 +56,7 @@ const BuildBrandAwareness = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Why Branding Matters for Small Businesses"}
-          imageUrl={"/images/4630062.jpg"}
+          imageUrl={"/images/connect-jigsaw-pieces-into-shape-light-bulb_1150-35036.avif"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -68,12 +68,12 @@ const BuildBrandAwareness = () => {
         />
       </section>
       
-      <section className="sectionPadding bg_gray">
+      <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Our Branding Solutions for Small Businesses "}
-          imageUrl={"/images/flat-people-asking-questions-illustration.png"}
+          imageUrl={"/images/arrow-going-out-magician-hat.png"}
           showPrimeBtn={true}
-          isReverse={true}
+         
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
           darkButton="dark_btn"
@@ -82,11 +82,12 @@ const BuildBrandAwareness = () => {
           }
         />
       </section>
-      <section className="sectionPadding bg_white">
+      <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Why We are Your Best Small Business Branding Partner "}
-          imageUrl={"/images/flat-people-asking-questions-illustration.png"}
+          imageUrl={"/images/business-handshake-background-flat-style.png"}
           showPrimeBtn={true}
+          isReverse={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
           darkButton="dark_btn"

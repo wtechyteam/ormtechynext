@@ -1,6 +1,6 @@
 import * as React from "react";
-import InnerTopBanner from "../../../common/innerTopBanner";
-import ImageInfoWrap from "../../../common/imageInfoWrap";
+import InnerTopBanner from "./../common/innerTopBanner";
+import ImageInfoWrap from "./../common/imageInfoWrap";
 import LegalFaq from "./legalFaq";
 import HomeSection9 from "./homeSection9";
 const LegalReputationManagement = () => {
@@ -27,7 +27,7 @@ const LegalReputationManagement = () => {
           title={
             "Why Online Presence Matters?"
           }
-          imageUrl={"/images/Untitled design (18).png"}
+          imageUrl={"/images/hand-drawn-flat-our-mission-concept.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -56,7 +56,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Removing Negative Reviews online"}
-          imageUrl={"/images/4630062.jpg"}
+          imageUrl={"/images/4384222.jpg"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -69,8 +69,8 @@ const LegalReputationManagement = () => {
       </section>
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
-          title={"Important Is Online Reputation Management in New Zealand"}
-          imageUrl={"/images/flat-people-asking-questions-illustration.png"}
+          title={"Is Online Reputation Management Important in New Zealand"}
+          imageUrl={"/images/Wavy_Bus-22_Single-05.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -83,7 +83,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Reputation Marketing Solutions That Deliver Results"}
-          imageUrl={"/images/flat-people-asking-questions-illustration.png"}
+          imageUrl={"/images/business-management-vector.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -97,7 +97,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Your Brand's Potential with Online Reputation Marketing"}
-          imageUrl={"/images/flat-people-asking-questions-illustration.png"}
+          imageUrl={"/images/flat-design-data-driven-illustration.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}

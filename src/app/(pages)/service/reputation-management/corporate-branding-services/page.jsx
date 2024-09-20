@@ -27,7 +27,7 @@ const LegalReputationManagement = () => {
           title={
             "Secure Your Brand's Reputation with Corporate Reputation Management"
           }
-          imageUrl={"/images/Untitled design (18).png"}
+          imageUrl={"/images/people-celebrating-goal-achievement-holding-trophy.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -43,7 +43,7 @@ const LegalReputationManagement = () => {
           title={
             "ORMTechies: Your Partner in Corporate Reputation Management  "
           }
-          imageUrl={"/images/partnership-concept-illustration.png"}
+          imageUrl={"/images/maintenance-concept-illustration.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}

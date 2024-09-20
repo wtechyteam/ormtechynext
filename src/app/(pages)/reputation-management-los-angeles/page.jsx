@@ -1,6 +1,6 @@
 import * as React from "react";
-import InnerTopBanner from "../../../common/innerTopBanner";
-import ImageInfoWrap from "../../../common/imageInfoWrap";
+import InnerTopBanner from "./../common/innerTopBanner";
+import ImageInfoWrap from "./../common/imageInfoWrap";
 import LegalFaq from "./legalFaq";
 import HomeSection9 from "./homeSection9";
 const LegalReputationManagement = () => {
@@ -27,7 +27,7 @@ const LegalReputationManagement = () => {
           title={
             "Effective Online Reputation Management for Los Angeles Businesses "
           }
-          imageUrl={"/images/Untitled design (18).png"}
+          imageUrl={"/images/organic-flat-creativity-illustration-with-people.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -41,9 +41,9 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={
-            "Why Matters for Your Brand"
+            "Why it Matters for Your Brand"
           }
-          imageUrl={"/images/partnership-concept-illustration.png"}
+          imageUrl={"/images/man-woman-touching-each-other-when-work-is-done.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -56,7 +56,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Significance of Online Reputation on Business Growth"}
-          imageUrl={"/images/4630062.jpg"}
+          imageUrl={"/images/6099984.jpg"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -70,7 +70,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"ORMTechies' Approach for Online Presence"}
-          imageUrl={"/images/flat-people-asking-questions-illustration.png"}
+          imageUrl={"/images/9812-removebg-preview.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -83,7 +83,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Enhancing Business Visibility with Online Reputation Management"}
-          imageUrl={"/images/flat-people-asking-questions-illustration.png"}
+          imageUrl={"/images/hands-assembling-puzzle-concept-illustration.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}

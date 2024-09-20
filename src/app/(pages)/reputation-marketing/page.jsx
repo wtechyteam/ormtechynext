@@ -1,6 +1,6 @@
 import * as React from "react";
-import InnerTopBanner from "../../../common/innerTopBanner";
-import ImageInfoWrap from "../../../common/imageInfoWrap";
+import InnerTopBanner from "./../common/innerTopBanner";
+import ImageInfoWrap from "./../common/imageInfoWrap";
 import LegalFaq from "./legalFaq";
 import HomeSection9 from "./homeSection9";
 const LegalReputationManagement = () => {
@@ -27,7 +27,7 @@ const LegalReputationManagement = () => {
           title={
             "Explore Our Effective Reputation Marketing Solutions"
           }
-          imageUrl={"/images/Untitled design (18).png"}
+          imageUrl={"/images/flat-tiny-people-innovation-concept-business-partner-generating-idea-projects.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -43,7 +43,7 @@ const LegalReputationManagement = () => {
           title={
             "Why Your Business Needs Reputation Marketing "
           }
-          imageUrl={"/images/partnership-concept-illustration.png"}
+          imageUrl={"/images/7155157-removebg-preview.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -56,7 +56,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Empower Your Business Today with ORMTechies "}
-          imageUrl={"/images/4630062.jpg"}
+          imageUrl={"/images/business-start-up-concept-vector-illustration.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -70,7 +70,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Reasons to Trust ORMTechies for Reputation Marketing Solutions"}
-          imageUrl={"/images/flat-people-asking-questions-illustration.png"}
+          imageUrl={"/images/vector-businessman-with-puzzle-teamwork-partnership-concept-illustration.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -83,7 +83,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Reputation Marketing Solutions That Deliver Results"}
-          imageUrl={"/images/flat-people-asking-questions-illustration.png"}
+          imageUrl={" /images/modern-indian-rupee-composition.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -97,7 +97,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Your Brand's Potential with Online Reputation Marketing"}
-          imageUrl={"/images/flat-people-asking-questions-illustration.png"}
+          imageUrl={"/images/pngtree-vector-flat-mobile-phone-technology-medical-testing-png-image_6761601.jpg"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}

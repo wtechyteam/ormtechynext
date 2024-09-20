@@ -27,7 +27,7 @@ const BuildBrandAwareness = () => {
           title={
             "Crafting Influence: Building Brand Awareness Online "
           }
-          imageUrl={"/images/Untitled design (18).png"}
+          imageUrl={"/images/agree-concept-illustration.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -43,7 +43,7 @@ const BuildBrandAwareness = () => {
           title={
             "Brand Brilliance: Creative Ways to Grow Your Brand's Reach "
           }
-          imageUrl={"/images/partnership-concept-illustration.png"}
+          imageUrl={"/images/6736639.jpg"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -56,7 +56,7 @@ const BuildBrandAwareness = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"The Blueprint for Brand Identity: From Vision to Reality "}
-          imageUrl={"/images/4630062.jpg"}
+          imageUrl={"/images/hands-holding-signs-with-cross-checkmark-wrong-right-cancel-approved-vote-person-flat-vector-illustration-exam-survey-answer-concept-banner-website-design-landing-web-page.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -70,7 +70,7 @@ const BuildBrandAwareness = () => {
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Mastering Brand Visibility: Creative Marketing Strategies "}
-          imageUrl={"/images/flat-people-asking-questions-illustration.png"}
+          imageUrl={"/images/hand-drawn-innovation-concept-with-vr-glasses.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -83,7 +83,7 @@ const BuildBrandAwareness = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Unlock Your Brand's Potential with ORMTechies "}
-          imageUrl={"/images/flat-people-asking-questions-illustration.png"}
+          imageUrl={"/images/tiny-people-carrying-key-open-padlock.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -102,4 +102,4 @@ const BuildBrandAwareness = () => {
   );
 };
 
-export default BrandBuildingAgency;
+export default BuildBrandAwareness;

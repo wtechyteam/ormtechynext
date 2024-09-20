@@ -27,7 +27,7 @@ const BuildBrandAwareness = () => {
           title={
             "From Concept to Icon: Startup Branding Agency "
           }
-          imageUrl={"/images/Untitled design (18).png"}
+          imageUrl={"/images/Hotel-Review.jpg"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -43,7 +43,7 @@ const BuildBrandAwareness = () => {
           title={
             "Building Brands, Empowering Startups: Branding Agency Benefits  "
           }
-          imageUrl={"/images/partnership-concept-illustration.png"}
+          imageUrl={"/images/globalization-concept-illustration.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -53,10 +53,10 @@ const BuildBrandAwareness = () => {
           }
         />
       </section>
-      <section className="sectionPadding bg_gray">
+      <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Experience Excellence: Top-Tier Branding Solutions"}
-          imageUrl={"/images/4630062.jpg"}
+          imageUrl={"/images/group-business-people-with-thumbs-up-social-media-good-opinion-feedback-customer-review-concept.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -71,9 +71,9 @@ const BuildBrandAwareness = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Building Brands: Our Unique Approach"}
-          imageUrl={"/images/flat-people-asking-questions-illustration.png"}
+          imageUrl={"/images/management.png"}
           showPrimeBtn={true}
-          isReverse={true}
+        
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
           darkButton="dark_btn"
@@ -85,8 +85,9 @@ const BuildBrandAwareness = () => {
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Unleash Your Startup's Potential with ORMTechies  "}
-          imageUrl={"/images/flat-people-asking-questions-illustration.png"}
+          imageUrl={"/images/5385948.jpg"}
           showPrimeBtn={true}
+          isReverse={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
           darkButton="dark_btn"

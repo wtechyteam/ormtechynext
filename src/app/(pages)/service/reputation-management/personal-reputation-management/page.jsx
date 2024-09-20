@@ -27,7 +27,7 @@ const PersonalReputationManagement = () => {
           title={
             "A Practical Guide to Manage your Personal Reputation "
           }
-          imageUrl={"/images/Untitled design (18).png"}
+          imageUrl={"/images/charts-concept-illustration.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -43,7 +43,7 @@ const PersonalReputationManagement = () => {
           title={
             "Advantages of Managing Your Online Reputation Personally "
           }
-          imageUrl={"/images/partnership-concept-illustration.png"}
+          imageUrl={"/images/5995357.jpg"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -56,7 +56,7 @@ const PersonalReputationManagement = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Protect your reputation by protecting your reputation"}
-          imageUrl={"/images/4630062.jpg"}
+          imageUrl={"/images/two_businessmen_hold_a_shield_symbolizing_protection_from_dangers-removebg-preview.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -70,7 +70,7 @@ const PersonalReputationManagement = () => {
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Proven Approach to Managing Your Personal Reputation"}
-          imageUrl={"/images/flat-people-asking-questions-illustration.png"}
+          imageUrl={"/images/manipulation-concept-illustration.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -83,7 +83,7 @@ const PersonalReputationManagement = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Effective Strategies for Personal Reputation Management  "}
-          imageUrl={"/images/flat-people-asking-questions-illustration.png"}
+          imageUrl={"/images/man-who-thinks-idea-is-admired-by-thumbs-up.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -97,7 +97,7 @@ const PersonalReputationManagement = () => {
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Impact of Reputation Management on Personal Branding "}
-          imageUrl={"/images/flat-people-asking-questions-illustration.png"}
+          imageUrl={"/images/image.jpeg"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}

@@ -1,6 +1,6 @@
 import * as React from "react";
-import InnerTopBanner from "../../../common/innerTopBanner";
-import ImageInfoWrap from "../../../common/imageInfoWrap";
+import InnerTopBanner from "./../common/innerTopBanner";
+import ImageInfoWrap from "./../common/imageInfoWrap";
 import LegalFaq from "./legalFaq";
 import HomeSection9 from "./homeSection9";
 const LegalReputationManagement = () => {
@@ -27,7 +27,7 @@ const LegalReputationManagement = () => {
           title={
             "Online reputation management services for Australian businesses"
           }
-          imageUrl={"/images/Untitled design (18).png"}
+          imageUrl={"/images/new-idea-concept-illustration.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -43,7 +43,7 @@ const LegalReputationManagement = () => {
           title={
             "Why Online Reviews Matter for Your Brand "
           }
-          imageUrl={"/images/partnership-concept-illustration.png"}
+          imageUrl={"/images/2741857-removebg-preview.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -56,7 +56,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Reputation Management Strategies for Online Success"}
-          imageUrl={"/images/4630062.jpg"}
+          imageUrl={"/images/5995357.jpg"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -70,7 +70,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Reputation Management Approach for Clients"}
-          imageUrl={"/images/flat-people-asking-questions-illustration.png"}
+          imageUrl={"/images/268150-P5HM3K-446-removebg-preview.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -83,7 +83,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"How to Get Online Positive Reviews"}
-          imageUrl={"/images/flat-people-asking-questions-illustration.png"}
+          imageUrl={"/images/5-stars-rating-review-high-quality-good-business-reputation-customer-feedback-credit-score.png"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
@@ -97,7 +97,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
           title={"Risks of Ignoring Negative Feedback Online"}
-          imageUrl={"/images/flat-people-asking-questions-illustration.png"}
+          imageUrl={"/images/construction-quality-control-illustration.png"}
           showPrimeBtn={true}
           primeBtnName={"get a free quote"}
           borderBtnName={"faq"}
@@ -110,7 +110,7 @@ const LegalReputationManagement = () => {
       <section className="sectionPadding bg_white">
         <ImageInfoWrap
           title={"Safeguard Your Reputation"}
-          imageUrl={"/images/flat-people-asking-questions-illustration.png"}
+          imageUrl={"/images/Data_security_28.jpg"}
           showPrimeBtn={true}
           isReverse={true}
           primeBtnName={"get a free quote"}
