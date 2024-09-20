@@ -234,63 +234,63 @@ export const headerData = [
                     {
                         id: 344,
                         title: "Reputation Consultant",
-                        icon: "/images/header/business.png",
+                        icon: "/images/header/consultation.png",
                         subtitle: "search-engine",
                         slug: "/service/reputation-management/reputation-consultant"
                     },
                     {
                         id: 345,
                         title: "Internet Reputation Management",
-                        icon: "/images/header/business.png",
+                        icon: "/images/header/freelance.png",
                         subtitle: "search-engine",
                         slug: "/service/reputation-management/internet-reputation-management"
                     },
                     {
                         id: 346,
                         title: "Personal Reputation Management",
-                        icon: "/images/header/business.png",
+                        icon: "/images/header/reputation.png",
                         subtitle: "search-engine",
                         slug: "/service/reputation-management/personal-reputation-management"
                     },
                     {
                         id: 347,
                         title: "Senior Living Reputation Management",
-                        icon: "/images/header/business.png",
+                        icon: "/images/header/hygiene.png",
                         subtitle: "search-engine",
                         slug: "/service/reputation-management/senior-living-reputation-management"
                     },
                     {
                         id: 348,
                         title: "Brand Building Agency",
-                        icon: "/images/header/business.png",
+                        icon: "/images/header/branding.png",
                         subtitle: "search-engine",
                         slug: "/service/reputation-management/brand-building-agency"
                     },
                     {
                         id: 349,
                         title: "Brand Awareness",
-                        icon: "/images/header/business.png",
+                        icon: "/images/header/marketing.png",
                         subtitle: "search-engine",
                         slug: "/service/reputation-management/build-brand-awareness"
                     },
                     {
                         id: 350,
                         title: "Corporate Branding",
-                        icon: "/images/header/business.png",
+                        icon: "/images/header/stationery.png",
                         subtitle: "search-engine",
                         slug: "/service/reputation-management/corporate-branding-services"
                     },
                     {
                         id: 351,
                         title: "Startups Branding Services",
-                        icon: "/images/header/business.png",
+                        icon: "/images/header/startup.png",
                         subtitle: "search-engine",
                         slug: "/service/reputation-management/startups-branding-services"
                     },
                     {
                         id: 352,
                         title: "Small Business Branding Services",
-                        icon: "/images/header/business.png",
+                        icon: "/images/header/mobile-shopping.png",
                         subtitle: "search-engine",
                         slug: "/service/reputation-management/small-business-branding-services"
                     },
