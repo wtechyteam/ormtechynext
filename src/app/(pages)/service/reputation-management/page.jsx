@@ -7,7 +7,7 @@ import InnerTopBanner from "../../common/innerTopBanner";
 import ImageInfoWrap from "../../common/imageInfoWrap";
 import HomeSection9 from "./homeSection9";
 import StatisticsSection from "./statisticsSection";
-import AnimatedNumber from './../../../common/numanimation';
+
 
 const ReputationConsultantPage = () => {
   return (
@@ -17,6 +17,58 @@ const ReputationConsultantPage = () => {
         <meta name="description" content="Discover how ORMTechies can help you redefine your online identity with our innovative online reputation management services. Learn more about our comprehensive solutions for businesses and individuals." />
         <link rel="canonical" href="https://www.ormtechies.com/service/reputation-management" />
         <meta name="robots" content="index, follow" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "Why is online reputation management important?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Online reputation is crucial because it directly impacts how others perceive your brand. A positive online reputation builds trust and credibility, leading to increased customer satisfaction and loyalty. Conversely, negative or inaccurate information can damage your brand's reputation and deter potential customers."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How can reputation management benefit my business?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Effective reputation can benefit your business in several ways: Enhanced Brand Image improving and maintaining a positive perception of your brand. Increased Trust: Building trust among potential customers and partners. Higher Customer Satisfaction: Responding to feedback promptly and resolving issues. Competitive Advantage: Standing out in a crowded market with a strong online presence."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How do I measure the success of reputation management efforts?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Success in reputation management can be measured through various metrics: Positive Sentiment: Increase in positive mentions and reviews. Online Visibility: Improved search engine rankings and increased brand visibility. Customer Engagement: Higher engagement rates and positive interactions with customers. Brand Trust: Improved perception of your brand and increased trust among your audience."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How does online reputation management benefit businesses?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Online reputation management is essential for businesses as it directly impacts customer perception and trust. A positive online reputation can lead to increased customer satisfaction, improved brand loyalty, and better business opportunities."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How does ORM Techies approach reputation management differently?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "ORMTechies takes a proactive and strategic approach to reputation management. We use advanced tools and analytics to monitor your brand's online presence in real-time, allowing us to promptly respond to both positive and negative feedback. Our strategies are customized to align with your business goals, ensuring that we enhance your brand's reputation effectively."
+                  }
+                }
+              ]
+            })
+          }}
+        />
+        
       </head>
       <InnerTopBanner
         title="Defend Your Digital Footprint: Reputation Shield "

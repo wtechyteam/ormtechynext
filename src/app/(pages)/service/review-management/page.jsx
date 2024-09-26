@@ -22,6 +22,57 @@ const ReviewManagementPage = () => {
           href="https://www.ormtechies.com/service/review-management"
         />
         <meta name="robots" content="index, follow" />
+        <script 
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "How can a review management service benefit my business?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A review management service can boost your online reputation, attract more customers, and improve search engine rankings. ORMTechies offers expert review management services to help you achieve these benefits."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What do review management companies do?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Review management companies specialize in monitoring and improving your online reviews. ORMTechies collaborates with leading review management companies to offer you the best solutions."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How can a review management service benefit my business?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A review management service can help you maintain a positive online reputation, manage customer feedback, and improve customer trust. So, we offer expert review management services tailored to your business needs."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Can ORMTechies help with negative reviews?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, ORMTechies can help you address and mitigate the impact of negative reviews by responding promptly and professionally, turning negative experiences into opportunities for improvement."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Why choose ORMTechies for review management service?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We offer comprehensive, professional, and tailored review management services to enhance your online reputation and business success."
+                  }
+                }
+              ]
+            })
+          }}
+        />
       </head>
       <InnerTopBanner
         title="Online Review Management"

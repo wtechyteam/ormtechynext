@@ -11,6 +11,65 @@ const LegalReputationManagement = () => {
          <meta name="description" content="Discover how ORMTechies can enhance your legal firm's online image with expert law firm reputation management services. Boost your firm's reputation today!  "/>
          <link rel="canonical" href="https://www.ormtechies.com/service/personal-branding/legal-reputation-management" />
          <meta name="robots" content="index, follow" />
+         <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "Why is law firm reputation management important?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Law reputation management is crucial for attracting clients, maintaining credibility, and staying competitive in the legal industry."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How can ORMTechies help with law firm reputation management?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "ORMTechies specializes in legal reputation management, offering customized solutions to monitor, manage, and improve your firm's online presence."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What are the benefits of law firm reputation management?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Benefits include enhanced client trust, improved search engine rankings, effective crisis management, and a competitive advantage."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How does ORMTechies monitor online reviews for law firms?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "ORMTechies monitors online reviews across platforms like Google, Yelp, and legal directories, responding promptly to maintain a positive reputation."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What should I do if my law firm faces a reputation crisis?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "ORMTechies provides crisis management strategies to minimize damage and restore your firm's reputation quickly and effectively."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How does ORMTechies ensure my law firm's online reputation remains positive?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "ORMTechies uses advanced tools and strategies to proactively manage your firm's online presence, responding to feedback and optimizing content."
+                  }
+                }
+              ]
+            })
+          }}
+        />
        </head>
       <InnerTopBanner
         title="Enhance Your Legal Firm's Online Image "

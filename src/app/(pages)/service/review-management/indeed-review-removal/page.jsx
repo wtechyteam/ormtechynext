@@ -11,6 +11,57 @@ const LegalReputationManagement = () => {
          <meta name="description" content="Discover how ORMTechies can help you improve your Indeed reviews. This will enhance your online reputation. Learn about our many services. They include monitoring, analysis, response management, removing negative reviews, and enhancing reputation. "/>
          <link rel="canonical" href="https://www.ormtechies.com/service/review-management/indeed-review-removal" />
          <meta name="robots" content="index, follow" />
+         <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "How can a negative Indeed review impact my business?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Negative reviews can deter potential candidates, harm your brand reputation, and affect employee morale."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What services does ORM Techies offer for negative review removal?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "ORM Techies provides monitoring, analysis, and removal of reviews that violate Indeed's policies."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How does ORM Techies identify negative Indeed Review?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We use advanced tools to continuously monitor your Indeed profile for any new reviews."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What is the process for removing a negative Indeed review?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We analyze the review for policy violations and submit a removal request to Indeed."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How can ORM Techies assist in maintaining a positive online reputation?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We provide comprehensive review handling services, including monitoring, analysis, response management, and review removal to ensure a positive and professional online presence."
+                  }
+                }
+              ]
+            })
+          }}
+        />
        </head>
       <InnerTopBanner
         title="Indeed Review Optimization: Boost Your Reputation "

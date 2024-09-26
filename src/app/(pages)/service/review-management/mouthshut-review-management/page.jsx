@@ -11,6 +11,57 @@ const LegalReputationManagement = () => {
          <meta name="description" content="Unveil the secrets of MouthShut review management! Learn how to navigate negative reviews, build brand reputation, and shape positive online perception with ORMTechies. "/>
          <link rel="canonical" href="https://www.ormtechies.com//service/review-management/mouthshut-review-management" />
          <meta name="robots" content="index, follow" />
+         <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "How do negative reviews on Mouthshut affect my business?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Negative reviews can hurt your brand image and deter customers. Studies show 91% of consumers trust online reviews as much as personal recommendations."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How can I manage Mouthshut reviews effectively?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Respond promptly and professionally to both positive and negative reviews. Encourage satisfied customers to leave positive reviews. Consider partnering with a Mouthshut review management company for expert help."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What are the benefits of positive Mouthshut reviews?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Positive reviews increase brand visibility on Mouthshut, build trust and credibility, and can lead to higher conversion rates."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Is Mouthshut review management important?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes! Mouthshut is a major platform in India, and actively managing reviews shows you care about customer feedback and online reputation."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What is the difference between reputation management and Mouthshut review management?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Reputation management encompasses a broader strategy for managing your online image, including Mouthshut reviews. Mouthshut review management specifically focuses on monitoring and responding to reviews on that platform."
+                  }
+                }
+              ]
+            })
+          }}
+        />
        </head>
       <InnerTopBanner
         title="Mouthshut Negative Review Removal   "

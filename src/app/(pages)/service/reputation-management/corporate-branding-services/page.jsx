@@ -17,6 +17,65 @@ const LegalReputationManagement = () => {
           href="https://www.ormtechies.com/service/reputation-management/corporate-branding-services"
         />
         <meta name="robots" content="index, follow" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "Why is corporate reputation management important?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Corporate reputation management is crucial because a positive reputation builds customer trust, attracts investors, and enhances business success. They provide comprehensive services to protect and enhance your corporate image."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How is corporate online reputation monitored?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Corporate online reputation is monitored by using tools which track online mentions, reviews, and social media activity, allowing for prompt and positive responses to any issues."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How can a company’s online presence be improved?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A company’s online presence can be improved by creating and managing content that reflects brand values, engaging with the audience, and ensuring positive visibility across all online platforms."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What benefits can be expected from corporate reputation management services?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Benefits include improved customer trust, enhanced brand image, effective crisis management, and increased positive online visibility, all contributing to a stronger corporate reputation."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What is the role of employee advocacy in reputation management?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Employee advocacy helps boost a company’s reputation as employees act as brand ambassadors. We provide training and strategies to empower your employees to positively represent your brand online."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Can ORMTechies help with negative reviews?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, ORMTechies specializes in online review management by responding to negative reviews professionally and resolving customer concerns, turning potential negatives into positives."
+                  }
+                }
+              ]
+            })
+          }}
+        />
       </head>
       <InnerTopBanner
         title="Strengthen Your Corporate Identity "

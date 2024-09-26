@@ -11,6 +11,57 @@ const LegalReputationManagement = () => {
          <meta name="description" content="Discover how ORMTechies can help your construction business build and manage a strong online reputation. Learn about construction reputation management and builder review management strategies.  "/>
          <link rel="canonical" href="https://www.ormtechies.com/service/personal-branding/construction-reputation-management" />
          <meta name="robots" content="index, follow" />
+         <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "Why are online reviews important for construction companies?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Online reviews are crucial for construction companies because they influence potential clients' decisions. Positive reviews can attract new business, while negative reviews can deter potential clients. Managing these reviews effectively is essential for maintaining a good reputation."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How does ORMTechies help with Construction Reputation Management?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "ORMTechies uses advanced strategies to enhance your online reputation. We offer services like review management, social media management, and content development to ensure your construction company maintains a positive online presence."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How can ORMTechies assist with Builder Review Management?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "ORMTechies helps by monitoring reviews, responding promptly to feedback, and encouraging satisfied clients to leave positive reviews. This proactive approach helps manage and improve your online reputation."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How can we measure the success of our Construction Reputation Management efforts?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Success can be measured by monitoring changes in your online reviews, tracking engagement on social media, and analyzing website traffic. ORMTechies uses advanced analytics tools to provide detailed reports on these metrics."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What should we do if we receive a negative review?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Respond to negative reviews promptly and professionally. Acknowledge the client's concerns, offer a solution if possible, and take the conversation offline to resolve the issue. This shows potential clients that you are committed to customer satisfaction."
+                  }
+                }
+              ]
+            })
+          }}
+        />
        </head>
       <InnerTopBanner
         title="Building a Strong Reputation on Web "

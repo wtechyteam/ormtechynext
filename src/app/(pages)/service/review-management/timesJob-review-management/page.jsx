@@ -11,6 +11,57 @@ const LegalReputationManagement = () => {
          <meta name="description" content="Explore comprehensive insights on Timesjobs, including expert reviews, resume services, and review management. Learn how ORMTechies can enhance your online reputation on Timesjobs.  "/>
          <link rel="canonical" href="https://www.ormtechies.com/service/review-management/timesJob-review-management" />
          <meta name="robots" content="index, follow" />
+         <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "What are the benefits of using Timejob Resume Services?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Timejob resume services help job seekers create professional resumes that increase their chances of attracting employers."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How can ORMTechies help with Timejob Review Management?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "ORMTechies specializes in review management, helping you monitor, analyze, and respond to reviews effectively."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How does ORMTechies optimize Timejob Resume Services?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "ORMTechies optimizes Timejob resume services by crafting resumes that highlight your skills and experiences effectively."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How can I improve my Timesjobs profile to attract more employees?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "ORMTechies can help optimize your Timesjobs profile with relevant keywords and a professional presentation to attract more employers."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What strategies does ORMTechies use for Timejob management?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "ORMTechies uses advanced tools and strategies to monitor, analyze, and respond to reviews professionally and promptly."
+                  }
+                }
+              ]
+            })
+          }}
+        />
        </head>
       <InnerTopBanner
         title="Navigating the Career Network: Insights from Timesjobs "

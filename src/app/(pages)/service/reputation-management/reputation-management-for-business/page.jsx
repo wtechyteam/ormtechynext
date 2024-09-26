@@ -11,6 +11,57 @@ const LegalReputationManagement = () => {
          <meta name="description" content="Discover innovative business reputation services by ORMTechies. Enhance your online presence, manage reviews, and protect your reputation with our expert solutions. "/>
          <link rel="canonical" href="https://www.ormtechies.com/service/reputation-management/reputation-management-for-business" />
          <meta name="robots" content="index, follow" />
+         <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "What are online reputation management services for small businesses?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Online reputation management services for small businesses involve monitoring and managing online reviews and mentions to improve brand reputation."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Why is small business online reputation management important?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Small business online reputation management is crucial for attracting customers and building trust, which we help achieve through effective strategies."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What is the role of reputation management in small business growth?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Reputation management plays a key role in small business growth by enhancing credibility and attracting new customers, areas are where we excel."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How can ORMTechies help with reputation management for small businesses?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We specialize in reputation management for small businesses, offering tailored solutions to enhance online presence and customer trust."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How can small businesses benefit from ORMTechies' online reputation management service?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Small businesses benefit from ORMTechies' expertise in online reputation management, which helps them maintain a positive brand image and grow their customer base."
+                  }
+                }
+              ]
+            })
+          }}
+        />
        </head>
       <InnerTopBanner
         title="Innovative Business Reputation Management by ORMTechies  "

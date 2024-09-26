@@ -11,6 +11,57 @@ const LegalReputationManagement = () => {
          <meta name="description" content="Enhance your business's online reputation with ORMTechies' review removal service. Learn how to delete unwanted reviews and maintain a positive Trustpilot rating. "/>
          <link rel="canonical" href="https://www.ormtechies.com/service/review-management/trustpilot-review-removal" />
          <meta name="robots" content="index, follow" />
+         <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "Why should I consider removing Trustpilot reviews?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Removing negative reviews can improve your overall rating and enhance your business's reputation, making it more attractive to potential customers."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Can you remove all types of reviews from Trustpilot?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We can help with the removal of reviews that violate Trustpilot's guidelines, such as fake reviews or those containing inappropriate content."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Is it legal to remove Trustpilot reviews?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, it is legal to remove reviews that violate Trustpilot's terms and conditions, such as fake reviews or those that are defamatory."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What are the benefits of removing Trustpilot reviews?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Removing negative or false reviews can improve your business's online reputation, increase customer trust, and potentially boost revenue."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How does ORMTechies help with review removal?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "ORMTechies offers professional services to manage and remove negative Trustpilot reviews, ensuring your online reputation remains positive."
+                  }
+                }
+              ]
+            })
+          }}
+        />
        </head>
       <InnerTopBanner
         title="Trustpilot Rewind: Removing Unwanted Reviews "

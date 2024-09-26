@@ -11,6 +11,57 @@ const LegalReputationManagement = () => {
          <meta name="description" content="Discover why automotive reputation management is crucial for your dealership's success. Learn how ORMTechies can help enhance your online reputation and drive sales. "/>
          <link rel="canonical" href="https://www.ormtechies.com/service/personal-branding/automotive-reputation-management" />
          <meta name="robots" content="index, follow" />
+         <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "What are the benefits of auto dealership reputation management?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Benefits include improved customer trust, increased sales, enhanced brand credibility, better online visibility, and effective crisis prevention."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How can ORMTechies help with automotive reputation management?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "ORMTechies offers comprehensive solutions including review management, social media engagement, SEO optimization, and crisis management tailored for auto dealerships."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What are reputation scorecards and how do they benefit auto dealerships?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Reputation scorecards provide insights into your dealership’s online reputation performance, helping to track progress, identify trends, and make data-driven decisions."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How does ORMTechies use influencer relationships for auto dealership reputation management?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We collaborate with influencers who can positively impact your dealership’s reputation, enhancing brand credibility and reaching new audiences."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How does ORMTechies ensure continuous improvement in auto dealership reputation management?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "ORMTechies continuously monitors trends, adjusts strategies, and implements new technologies to maintain and enhance your dealership’s online reputation."
+                  }
+                }
+              ]
+            })
+          }}
+        />
        </head>
       <InnerTopBanner
         title="Automotive Reputation Management: Why It Matters for Your Business "

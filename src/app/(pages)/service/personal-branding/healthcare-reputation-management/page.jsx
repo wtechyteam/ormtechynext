@@ -11,6 +11,57 @@ const LegalReputationManagement = () => {
          <meta name="description" content="Discover expert strategies for healthcare reputation with ORMTechies. Enhance your practice's online presence and build patient trust.  "/>
          <link rel="canonical" href="https://www.ormtechies.com/service/personal-branding/healthcare-reputation-management" />
          <meta name="robots" content="index, follow" />
+         <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "How can positive online reviews benefit my healthcare practice?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Positive online reviews can enhance your practice's credibility, attract new patients, and build trust within the community. ORMTechies helps manage and highlight these positive reviews."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How does ORMTechies help with Healthcare Online Reputation Management?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "ORMTechies helps with Healthcare Online Reputation Management by monitoring online reviews, responding to feedback, managing social media profiles, and ensuring accurate business listings. We use advanced strategies to improve and maintain your online image."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What should I do about negative reviews?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Negative reviews should be addressed promptly and professionally. ORMTechies helps you respond to negative reviews, offering solutions and showing patients that their concerns are taken seriously."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How does ORMTechies monitor my healthcare reputation?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "ORMTechies uses advanced tools to monitor online mentions, reviews, and social media activity related to your healthcare practice. This helps us quickly identify and address any issues that may arise."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How does Reputation Management for Healthcare affect patient trust?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Healthcare Reputation directly affects patient trust by ensuring that potential patients see positive reviews and accurate information about your practice. This builds confidence in your services."
+                  }
+                }
+              ]
+            })
+          }}
+        />
        </head>
       <InnerTopBanner
         title="Healing Your Image: Expert Strategies for Healthcare Reputation   "
