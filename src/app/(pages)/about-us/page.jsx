@@ -1,6 +1,5 @@
-
 import React from "react";
-import Head from 'next/head';
+import Head from "next/head";
 import ImageInfoWrap from "../common/imageInfoWrap";
 // import { useMounted } from "../../common/unmounted";
 import PrimeBtn from "../common/primeBtn";
@@ -8,16 +7,19 @@ import HomeSection6 from "./homeSection6";
 
 const AboutUsPage = () => {
   // const mounted = useMounted();
-  // if (!mounted) return null; 
+  // if (!mounted) return null;
 
   return (
     <>
       <head>
         <title>Reputation Experts & Reputation Management Consultants</title>
-        <meta name="description" content="Trusted reputation management consultants offer tailored services for businesses and individuals, from review management to complaint resolution. Call now!" />
+        <meta
+          name="description"
+          content="Trusted reputation management consultants offer tailored services for businesses and individuals, from review management to complaint resolution. Call now!"
+        />
         <link rel="canonical" href="https://www.ormtechies.com/about-us" />
         <meta name="robots" content="index, follow" />
-      </head> 
+      </head>
 
       <div>
         {/* about-image-banner */}
@@ -41,25 +43,25 @@ const AboutUsPage = () => {
                 <PrimeBtn btnName={"get a quote"} />
               </div>
             </div>
-            <div className="about_banner about_col hide_1000" ></div>
+            <div className="about_banner about_col hide_1000"></div>
           </div>
         </div>
         {/* image-content-section */}
         <section className="sectionPadding bg_gray">
-  <ImageInfoWrap
-    title={"Empowering Your Online Image: Meet ORM Techies"}
-    imageUrl={"./images/about1.png"}
-    showPrimeBtn={true}
-    primeBtnName={"get a free quote"}
-    borderBtnName={"faq"}
-    darkButton="dark_btn"
-    description={`
+          <ImageInfoWrap
+            title={"Empowering Your Online Image: Meet ORM Techies"}
+            imageUrl={"./images/about1.png"}
+            showPrimeBtn={true}
+            primeBtnName={"get a free quote"}
+            borderBtnName={"faq"}
+            darkButton="dark_btn"
+            description={`
       <p>We're more than just a reputation management company; we're your partners in success. Our dedication to excellence has earned us recognition within the industry, including great reputation management consultants reviews. We constantly push the boundaries of ORM to deliver real results. Trust our expertise and technology to positively impact your online reputation, always working in your best interests.</p>
       <p>We understand the challenges you face online – the negative reviews, the unwarranted complaints, the malicious trolls. Our customized ORM services address your specific needs, including handling reputation management consultant complaints. We remove unfavorable posts on respected websites like <a style='text-decoration: none; color: #212529;' href='/service/review-management/remove-glassdoor-reviews'>Glassdoor</a> and Trustpilot and craft personalized strategies to ensure your online reputation reflects the best of who you are.</p>
     `}
-  />
-</section>
-        {/* Second ImageInfoWrap */}
+          />
+        </section>
+
         <section className="sectionPadding bg_gray">
           <ImageInfoWrap
             title={"We Build Your Online Success"}
@@ -85,10 +87,10 @@ export default AboutUsPage;
 
 export function generateMetaData() {
   return {
-    title: 'Reputation Experts & Reputation Management Consultants',
-    description: 'Trusted reputation management consultants offer tailored services for businesses and individuals, from review management to complaint resolution. Call now!',
-    canonical: 'https://www.ormtechies.com/about-us',
-    robots: 'index,follow'
+    title: "Reputation Experts & Reputation Management Consultants",
+    description:
+      "Trusted reputation management consultants offer tailored services for businesses and individuals, from review management to complaint resolution. Call now!",
+    canonical: "https://www.ormtechies.com/about-us",
+    robots: "index,follow",
   };
 }
-
