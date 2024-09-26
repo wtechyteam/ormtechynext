@@ -11,7 +11,7 @@ const Glassdoor = () => {
          <title>Remove Negative or Fake TripAdvisor Reviews </title>
          <meta title='Remove Negative or Fake TripAdvisor Reviews'/>
          <meta name="description" content="Restore business reputation with TripAdvisor review removal. ORMTechies remove fake and harmful reviews, boosting bookings and revenue to win back customer trust."/>
-         <link rel="canonical" href="https://www.ormtechies.com/content-removal/trip-advisor" />
+         <link rel="canonical" href="https://www.ormtechies.com/content-removal/tripadvisor" />
          <meta name="robots" content="index, follow" />
        </head>
        <InnerTopBanner

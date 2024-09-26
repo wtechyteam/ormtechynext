@@ -14,7 +14,7 @@ const LegalReputationManagement = () => {
         />
         <link
           rel="canonical"
-          href="https://www.ormtechies.com/service/reputation-marketing"
+          href="https://www.ormtechies.com/reputation-marketing"
         />
         <meta name="robots" content="index, follow" />
       </head>

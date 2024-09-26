@@ -10,7 +10,7 @@ const GoogleReviews = () => {
    <head>
         <title>Review Rewind: Undoing Unwanted Google Feedback </title>
         <meta name="description" content="Learn how ORM Techies helps businesses remove negative Google reviews and improve their online reputation. Expert strategies, ethical approaches, and personalized solutions."/>
-        <link rel="canonical" href="https://www.ormtechies.com/google-reviews" />
+        <link rel="canonical" href="https://www.ormtechies.com/content-removal/google-reviews" />
         <meta name="robots" content="index, follow" />
       </head>
       <InnerTopBanner

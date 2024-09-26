@@ -37,7 +37,7 @@ const ReputationAndReviewMonitoring = () => {
       </section>
       <section className="sectionPadding bg_gray">
         <ImageInfoWrap
-          title={"So What’s Included?"}
+          title={"So What is Included?"}
           imageUrl={"/images/choice-concept-illustration.png"}
           showPrimeBtn={true}
           isReverse={true}
