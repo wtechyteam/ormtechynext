@@ -19,14 +19,14 @@ const OrmTechiesInMediaPage = async () => {
     <>
     <head>
          <title>ORMTechies Insights: Tips for Online Reputation Management</title>
-         <meta title="ORMTechies Insights: Tips for Online Reputation Management"/>
-         <meta name="description" content="Discover valuable insights and strategies for boosting your online reputation. ORMTechies offers expert advice on review management and reputation building."/>
+         <meta title="ORM Techies Insights: Tips for Online Reputation Management"/>
+         <meta name="description" content="Discover valuable insights and strategies for boosting your online reputation. ORM Techies offers expert advice on review management and reputation building."/>
          {/* <link rel="canonical" href="https://www.ormtechies.com/insights" /> */}
          <meta name="robots" content="index, follow" />
        </head>
       <InnerTopBanner
-        title="ORMTechies Insights"
-        info="Are you looking to boost your online presence and reputation? At ORMTechies, we specialize in advanced online review management that can significantly enhance your business's image."
+        title="ORM Techies Insights"
+        info="Are you looking to boost your online presence and reputation? At ORM Techies, we specialize in advanced online review management that can significantly enhance your business's image."
         imageSrc="./images/contact.png  "
       />
       <Container>
