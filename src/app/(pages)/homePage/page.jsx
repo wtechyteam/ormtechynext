@@ -25,9 +25,11 @@ const HomePage = () => {
   return (
     <>
       <Helmet>
-        <title>Online Reputation Management Services | ORM Techies </title>
-        <meta name="description" content="Trusted Online Reputation Management Services by ORM Techies. Specializing in personal branding, reputation repair, and proactive management. Contact us now!" />
-      </Helmet>
+  <title>Online Reputation Management Services | ORM Techies</title>
+  <meta name="description" content="Trusted Online Reputation Management Services by ORM Techies. Specializing in personal branding, reputation repair, and proactive management. Contact us now!" />
+  <link rel="canonical" href="https://www.ormtechies.com/" />
+</Helmet>
+
       <HomeSection1 />
       <HomeSection2 />
       <HomeSection3 />
