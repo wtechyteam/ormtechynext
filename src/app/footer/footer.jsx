@@ -90,6 +90,9 @@ const Footer = () => {
                       <Link href="/service/reputation-management/">Reputation Management</Link>
                     </li>
                     <li>
+                      <Link href="/reputation-marketing/">Reputation Marketing</Link>
+                    </li>
+                    <li>
                       <Link href="/amplify-reviews">AMPLIFY Reviews</Link>
                     </li>
                     <li>
@@ -98,6 +101,16 @@ const Footer = () => {
                     <li>
                       <Link href="/fake-reviews/">Fake Review Removal</Link>
                     </li>
+                    <li>
+                      <Link href="/reputation-management-australia">Services in Australia</Link>
+                    </li>
+                    <li>
+                      <Link href="/reputation-management-los-angeles">Services in Los Angeles</Link>
+                    </li>
+                    <li>
+                      <Link href="/reputation-management-new-zealand">Services in New Zealand</Link>
+                    </li>
+
                   </ul>
                 </div>
                 <div className="ste">
